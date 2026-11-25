@@ -660,11 +660,6 @@
     });
     let rr = 0;
     new ResizeObserver(() => { cancelAnimationFrame(rr); rr = requestAnimationFrame(drawAll); }).observe(document.body);
-    if (location.hostname.endsWith("github.io")) {
-      const owner = location.hostname.split(".")[0];
-      const repo = location.pathname.split("/").filter(Boolean)[0];
-      if (repo) $("#repoLink").href = `https://github.com/${owner}/${repo}`;
-    }
   }
 
   readHash();
