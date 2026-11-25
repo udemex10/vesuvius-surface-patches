@@ -1,0 +1,149 @@
+{
+  "benchmark": "Paris4-legacy-manual-fresh-v1",
+  "frame": "global XYZ 7.91um historical Scroll 1",
+  "voxel_size_um": 7.91,
+  "area_radius_voxels": 96,
+  "excluded_seed_radius_voxels": 12,
+  "sites": [
+    {
+      "id": "fresh_01",
+      "split": "test",
+      "seed_xyz": [
+        2896.0,
+        4429.0,
+        10320.0
+      ],
+      "origin_xyz": [
+        2768,
+        4304,
+        10192
+      ],
+      "normal_xyz": [
+        -0.557654004478855,
+        0.7389184409036299,
+        -0.37818189933052854
+      ],
+      "tangent_u_xyz": [
+        0.8300734975221755,
+        0.49641487022921504,
+        -0.2540674424766277
+      ],
+      "tangent_v_xyz": [
+        5.551115123125783e-17,
+        0.45560049858166374,
+        0.890184354890682
+      ],
+      "cube_shape_zyx": [
+        256,
+        256,
+        256
+      ],
+      "algorithm_input": "semantic_foreground_centers_uint8"
+    },
+    {
+      "id": "fresh_02",
+      "split": "test",
+      "seed_xyz": [
+        2104.0,
+        2107.5,
+        2128.0
+      ],
+      "origin_xyz": [
+        2000,
+        2000,
+        2000
+      ],
+      "normal_xyz": [
+        0.62946014776201,
+        0.7695998744813255,
+        0.1072191940734336
+      ],
+      "tangent_u_xyz": [
+        0.7770327678929817,
+        -0.6234388956623239,
+        -0.08685632386829062
+      ],
+      "tangent_v_xyz": [
+        -1.3877787807814457e-17,
+        -0.1379854215983341,
+        0.9904342600225065
+      ],
+      "cube_shape_zyx": [
+        256,
+        256,
+        256
+      ],
+      "algorithm_input": "semantic_foreground_centers_uint8"
+    },
+    {
+      "id": "fresh_03",
+      "split": "test",
+      "seed_xyz": [
+        2896.0,
+        2375.0,
+        1872.0
+      ],
+      "origin_xyz": [
+        2768,
+        2256,
+        1744
+      ],
+      "normal_xyz": [
+        0.6662272491970778,
+        0.7197196904407824,
+        0.19530698814717076
+      ],
+      "tangent_u_xyz": [
+        0.7457487864068536,
+        -0.6429737175512328,
+        -0.17448079009178266
+      ],
+      "tangent_v_xyz": [
+        0.0,
+        -0.2618938062081114,
+        0.9650966968495065
+      ],
+      "cube_shape_zyx": [
+        256,
+        256,
+        256
+      ],
+      "algorithm_input": "semantic_foreground_centers_uint8"
+    },
+    {
+      "id": "fresh_04",
+      "split": "test",
+      "seed_xyz": [
+        4944.0,
+        2117.5,
+        1872.0
+      ],
+      "origin_xyz": [
+        4816,
+        2000,
+        1744
+      ],
+      "normal_xyz": [
+        -0.5930461408420369,
+        0.8044302116620218,
+        -0.03447186385679752
+      ],
+      "tangent_u_xyz": [
+        0.8051684760547739,
+        0.59250237284557,
+        -0.025390221346066638
+      ],
+      "tangent_v_xyz": [
+        0.0,
+        0.04281323087275523,
+        0.9990830932721442
+      ],
+      "cube_shape_zyx": [
+        256,
+        256,
+        256
+      ],
+      "algorithm_input": "semantic_foreground_centers_uint8"
+    }
+  ]
+}

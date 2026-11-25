@@ -1,0 +1,24 @@
+{
+ "type": "seg",
+ "format": "tifxyz",
+ "uuid": "tiled-blend.tifxyz",
+ "name": "tiled-blend.tifxyz",
+ "scale": [
+  0.5,
+  0.5
+ ],
+ "bbox": [
+  [
+   3584.054931640625,
+   3008.0087890625,
+   10176.0205078125
+  ],
+  [
+   5081.64990234375,
+   3730.32568359375,
+   11662.8544921875
+  ]
+ ],
+ "source": "growpatch tiled local blend",
+ "coordinate_units": "global XYZ in input voxels"
+}

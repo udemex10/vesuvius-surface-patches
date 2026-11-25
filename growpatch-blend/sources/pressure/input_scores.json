@@ -1,0 +1,324 @@
+{
+  "sites": [
+    {
+      "id": "pool_01",
+      "eligible_seed": true,
+      "paired": 54,
+      "gaps": 0,
+      "profiles": 169,
+      "score": 0.2076923076923077
+    },
+    {
+      "id": "pool_02",
+      "eligible_seed": true,
+      "paired": 169,
+      "gaps": 0,
+      "profiles": 169,
+      "score": 0.65
+    },
+    {
+      "id": "pool_03",
+      "eligible_seed": true,
+      "paired": 169,
+      "gaps": 0,
+      "profiles": 169,
+      "score": 0.65
+    },
+    {
+      "id": "pool_04",
+      "eligible_seed": true,
+      "paired": 162,
+      "gaps": 7,
+      "profiles": 169,
+      "score": 0.6375739644970414
+    },
+    {
+      "id": "pool_05",
+      "eligible_seed": true,
+      "paired": 147,
+      "gaps": 2,
+      "profiles": 169,
+      "score": 0.5695266272189349
+    },
+    {
+      "id": "pool_06",
+      "eligible_seed": true,
+      "paired": 169,
+      "gaps": 0,
+      "profiles": 169,
+      "score": 0.65
+    },
+    {
+      "id": "pool_07",
+      "eligible_seed": true,
+      "paired": 37,
+      "gaps": 0,
+      "profiles": 169,
+      "score": 0.1423076923076923
+    },
+    {
+      "id": "pool_08",
+      "eligible_seed": false,
+      "paired": 158,
+      "gaps": 11,
+      "profiles": 169,
+      "score": 0.6304733727810652
+    },
+    {
+      "id": "pool_09",
+      "eligible_seed": true,
+      "paired": 169,
+      "gaps": 0,
+      "profiles": 169,
+      "score": 0.65
+    },
+    {
+      "id": "pool_10",
+      "eligible_seed": true,
+      "paired": 169,
+      "gaps": 0,
+      "profiles": 169,
+      "score": 0.65
+    },
+    {
+      "id": "pool_11",
+      "eligible_seed": true,
+      "paired": 139,
+      "gaps": 5,
+      "profiles": 169,
+      "score": 0.5449704142011835
+    },
+    {
+      "id": "pool_12",
+      "eligible_seed": true,
+      "paired": 168,
+      "gaps": 0,
+      "profiles": 169,
+      "score": 0.6461538461538462
+    },
+    {
+      "id": "pool_13",
+      "eligible_seed": true,
+      "paired": 169,
+      "gaps": 0,
+      "profiles": 169,
+      "score": 0.65
+    },
+    {
+      "id": "pool_14",
+      "eligible_seed": true,
+      "paired": 117,
+      "gaps": 0,
+      "profiles": 169,
+      "score": 0.44999999999999996
+    },
+    {
+      "id": "pool_15",
+      "eligible_seed": true,
+      "paired": 169,
+      "gaps": 0,
+      "profiles": 169,
+      "score": 0.65
+    },
+    {
+      "id": "pool_16",
+      "eligible_seed": true,
+      "paired": 123,
+      "gaps": 0,
+      "profiles": 169,
+      "score": 0.4730769230769231
+    },
+    {
+      "id": "pool_17",
+      "eligible_seed": true,
+      "paired": 146,
+      "gaps": 16,
+      "profiles": 169,
+      "score": 0.5946745562130178
+    },
+    {
+      "id": "pool_18",
+      "eligible_seed": true,
+      "paired": 169,
+      "gaps": 0,
+      "profiles": 169,
+      "score": 0.65
+    },
+    {
+      "id": "pool_19",
+      "eligible_seed": true,
+      "paired": 158,
+      "gaps": 3,
+      "profiles": 169,
+      "score": 0.6139053254437871
+    },
+    {
+      "id": "pool_20",
+      "eligible_seed": true,
+      "paired": 145,
+      "gaps": 3,
+      "profiles": 169,
+      "score": 0.563905325443787
+    },
+    {
+      "id": "pool_21",
+      "eligible_seed": true,
+      "paired": 166,
+      "gaps": 0,
+      "profiles": 169,
+      "score": 0.6384615384615385
+    },
+    {
+      "id": "pool_22",
+      "eligible_seed": true,
+      "paired": 159,
+      "gaps": 2,
+      "profiles": 169,
+      "score": 0.6156804733727811
+    },
+    {
+      "id": "pool_23",
+      "eligible_seed": true,
+      "paired": 166,
+      "gaps": 0,
+      "profiles": 169,
+      "score": 0.6384615384615385
+    },
+    {
+      "id": "pool_24",
+      "eligible_seed": true,
+      "paired": 81,
+      "gaps": 10,
+      "profiles": 169,
+      "score": 0.33224852071005917
+    },
+    {
+      "id": "pool_25",
+      "eligible_seed": true,
+      "paired": 164,
+      "gaps": 0,
+      "profiles": 169,
+      "score": 0.6307692307692309
+    },
+    {
+      "id": "pool_26",
+      "eligible_seed": true,
+      "paired": 145,
+      "gaps": 0,
+      "profiles": 169,
+      "score": 0.5576923076923077
+    },
+    {
+      "id": "pool_27",
+      "eligible_seed": true,
+      "paired": 137,
+      "gaps": 0,
+      "profiles": 169,
+      "score": 0.5269230769230769
+    },
+    {
+      "id": "pool_28",
+      "eligible_seed": true,
+      "paired": 169,
+      "gaps": 0,
+      "profiles": 169,
+      "score": 0.65
+    },
+    {
+      "id": "pool_29",
+      "eligible_seed": true,
+      "paired": 169,
+      "gaps": 0,
+      "profiles": 169,
+      "score": 0.65
+    },
+    {
+      "id": "pool_30",
+      "eligible_seed": true,
+      "paired": 41,
+      "gaps": 0,
+      "profiles": 169,
+      "score": 0.15769230769230771
+    },
+    {
+      "id": "pool_31",
+      "eligible_seed": true,
+      "paired": 169,
+      "gaps": 0,
+      "profiles": 169,
+      "score": 0.65
+    },
+    {
+      "id": "pool_32",
+      "eligible_seed": true,
+      "paired": 103,
+      "gaps": 0,
+      "profiles": 169,
+      "score": 0.3961538461538462
+    },
+    {
+      "id": "pool_33",
+      "eligible_seed": true,
+      "paired": 69,
+      "gaps": 0,
+      "profiles": 169,
+      "score": 0.2653846153846154
+    },
+    {
+      "id": "pool_34",
+      "eligible_seed": true,
+      "paired": 160,
+      "gaps": 0,
+      "profiles": 169,
+      "score": 0.6153846153846154
+    },
+    {
+      "id": "pool_35",
+      "eligible_seed": true,
+      "paired": 169,
+      "gaps": 0,
+      "profiles": 169,
+      "score": 0.65
+    },
+    {
+      "id": "pool_36",
+      "eligible_seed": true,
+      "paired": 94,
+      "gaps": 0,
+      "profiles": 169,
+      "score": 0.36153846153846153
+    },
+    {
+      "id": "pool_37",
+      "eligible_seed": true,
+      "paired": 7,
+      "gaps": 29,
+      "profiles": 169,
+      "score": 0.08698224852071004
+    },
+    {
+      "id": "pool_38",
+      "eligible_seed": true,
+      "paired": 166,
+      "gaps": 3,
+      "profiles": 169,
+      "score": 0.6446745562130178
+    },
+    {
+      "id": "pool_39",
+      "eligible_seed": true,
+      "paired": 146,
+      "gaps": 0,
+      "profiles": 169,
+      "score": 0.5615384615384615
+    },
+    {
+      "id": "pool_40",
+      "eligible_seed": true,
+      "paired": 169,
+      "gaps": 0,
+      "profiles": 169,
+      "score": 0.65
+    }
+  ]
+}

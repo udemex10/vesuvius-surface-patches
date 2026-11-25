@@ -1,0 +1,50 @@
+{
+ "area_cm2": 1.8882680437438375,
+ "area_vx2": 2154399.9316268973,
+ "bbox": [
+  [
+   -9.139473915100098,
+   -16.108177185058594,
+   -8.690796852111816
+  ],
+  [
+   1497.7620849609375,
+   722.3255615234375,
+   1489.56103515625
+  ]
+ ],
+ "elapsed_time_s": 608.7340873,
+ "format": "tifxyz",
+ "grid_offset": [
+  37,
+  40
+ ],
+ "max_gen": 160,
+ "scale": [
+  0.125,
+  0.125
+ ],
+ "seed": [
+  0.0,
+  0.0,
+  0.0
+ ],
+ "seed_surface_id": "local_tangent",
+ "source": "vc_grow_seg_from_seed",
+ "target_volume": "m7.zarr",
+ "type": "seg",
+ "uuid": "f0039355-40b7-40d5-acf2-c7f22f424630",
+ "vc_gsfs_mode": "resume",
+ "vc_gsfs_params": {
+  "generations": 160,
+  "min_area_cm": 0,
+  "mode": "resume",
+  "normal_grid_path": "<your work dir>/volumes/pherc125_y3310_east/grid8",
+  "resume_opt": "skip",
+  "step_size": 8,
+  "thread_limit": 1,
+  "vis_losses": true,
+  "voxelsize": 9.362
+ },
+ "vc_gsfs_version": "dev"
+}

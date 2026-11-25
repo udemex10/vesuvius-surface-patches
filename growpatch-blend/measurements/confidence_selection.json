@@ -1,0 +1,21 @@
+{
+  "choices": {
+    "snap": {
+      "1pct": null,
+      "2pct": null,
+      "5pct": null,
+      "10pct": -1e+250,
+      "stock_dev": -1e+250
+    },
+    "agreement": {
+      "1pct": -2.0934836753916386e-05,
+      "2pct": -2.0934836753916386e-05,
+      "5pct": -0.18313905905678532,
+      "10pct": -1e+250,
+      "stock_dev": -0.5119829489918709
+    }
+  },
+  "source": "9ec2fb7a10afedbbde7bbfb59ef34b45454b5e97717a4cc964786adf173c3069",
+  "preset_record": "a3722b18849d74122adc01e00bef617100cea6ab1c101de8332b061d1087f102",
+  "protocol": "86bd896ec756c9043a928d94ca79d7eb0726ac084b0387de5d6ba48f0b2e20f3"
+}

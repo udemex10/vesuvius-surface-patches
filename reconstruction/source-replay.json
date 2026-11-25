@@ -1,0 +1,238 @@
+{
+  "method": "Direct public Zarr byte-range resampling via extracted review.py render with initially empty work/cache directories. Recomputed all ten CT and mask array SHA-256 values locally. Outputs themselves are not part of this geometry release.",
+  "source_cases": [
+    {
+      "case": "PHerc0125_y3310",
+      "pitch_um": 9.362,
+      "shape_zyx": [
+        17,
+        1360,
+        1320
+      ],
+      "supported_pixels": 1391488,
+      "ct17_sha256": "9ae5795e3f768a7f285e27292698c0715ef2796468ad68e46917a42a0505ab97",
+      "mask_sha256": "f28bfb2fb4b8f332029edcbbfa7123111d01640ed77b79470c8601206712f70d",
+      "requested_byte_ranges": 168
+    },
+    {
+      "case": "PHerc0125_y3706",
+      "pitch_um": 9.362,
+      "shape_zyx": [
+        17,
+        1344,
+        1336
+      ],
+      "supported_pixels": 1068800,
+      "ct17_sha256": "9f72dfbd2e7640e368a1ffc0c0981c8dae5efdcac6a8b7e3061beb2a83634c87",
+      "mask_sha256": "455073cb89f9eb59aa3e3374ff537db59f1841e684f85becedd174123d9b527e",
+      "requested_byte_ranges": 191
+    },
+    {
+      "case": "PHerc0268_y2991",
+      "pitch_um": 8.64,
+      "shape_zyx": [
+        17,
+        1312,
+        1448
+      ],
+      "supported_pixels": 1014144,
+      "ct17_sha256": "ceec3c27ed6a7e403b6917cba30366395bcbee1aadffc289a25eea53655e4bae",
+      "mask_sha256": "d5709e7ea98383c6de68f573eb9165b50b1303262f30d66d722f968c22609d6e",
+      "requested_byte_ranges": 196
+    },
+    {
+      "case": "PHerc0125_east",
+      "pitch_um": 9.362,
+      "shape_zyx": [
+        17,
+        1024,
+        1096
+      ],
+      "supported_pixels": 386624,
+      "ct17_sha256": "138ccace8b52d9ab204c2dccf75150f06d67f6803694607cbe9d546c1f709164",
+      "mask_sha256": "12a7bff655169e4911187f4b5a7948d1054602f4fb94b5f3d9978b9704b0495a",
+      "requested_byte_ranges": 79
+    },
+    {
+      "case": "PHerc0125_north",
+      "pitch_um": 9.362,
+      "shape_zyx": [
+        17,
+        776,
+        840
+      ],
+      "supported_pixels": 262080,
+      "ct17_sha256": "2ee156b828a6759f25e0d2fa53bb4e2766c454b7f27e7e9e4ad1b59ab8225c8f",
+      "mask_sha256": "f6bd9e2d838de28a198a32cda4da98a9bf64b984bc0d681c2dda21005d7c4207",
+      "requested_byte_ranges": 48
+    },
+    {
+      "case": "PHerc0125_south",
+      "pitch_um": 9.362,
+      "shape_zyx": [
+        17,
+        1552,
+        440
+      ],
+      "supported_pixels": 458368,
+      "ct17_sha256": "4b235aa4bf50534f9753da7ebc8edf326e045a9795ff51da2ebb97f3168e412d",
+      "mask_sha256": "6575de33cd42e7d5716615e8be6fca045c3e9cf053c27f8165fe4fd053ad35a7",
+      "requested_byte_ranges": 67
+    },
+    {
+      "case": "PHerc0125_south_2",
+      "pitch_um": 9.362,
+      "shape_zyx": [
+        17,
+        1560,
+        312
+      ],
+      "supported_pixels": 377472,
+      "ct17_sha256": "87992bd0c664daf9aaf27ba75aab469f2e6e0a9949fd21cb681de5a9c832c288",
+      "mask_sha256": "89b8da5922e0a097c820f3fbe2485aaec7ae6c7f33c451fb6c1b3fc5c5c94a8e",
+      "requested_byte_ranges": 51
+    },
+    {
+      "case": "PHerc0125_south_3",
+      "pitch_um": 9.362,
+      "shape_zyx": [
+        17,
+        1544,
+        32
+      ],
+      "supported_pixels": 12160,
+      "ct17_sha256": "e4718e6f4da89a3c77d79e1aa30ccb6c0a354e040ae8afd2e96a3963054f4fb1",
+      "mask_sha256": "4eb8d4daabb91b8a70dc2f465f6c97518615a7a2117871fd333abe17e15b2d72",
+      "requested_byte_ranges": 14
+    },
+    {
+      "case": "PHerc0125_west",
+      "pitch_um": 9.362,
+      "shape_zyx": [
+        17,
+        112,
+        400
+      ],
+      "supported_pixels": 30208,
+      "ct17_sha256": "6ca6e9ee927f4adecdd422ef9c5786b41cbe2c95403cf9146542d6d703e3851b",
+      "mask_sha256": "b72f64ffc0d48d881d18d4a9b858aee3aa92e642620e1623cd5406a8b795c2a0",
+      "requested_byte_ranges": 14
+    },
+    {
+      "case": "PHerc0125_west_2",
+      "pitch_um": 9.362,
+      "shape_zyx": [
+        17,
+        112,
+        160
+      ],
+      "supported_pixels": 12032,
+      "ct17_sha256": "b5de62a537e3c1efd6f900a821fb7f78a43f0d00d75bea28e0e133d66fd18503",
+      "mask_sha256": "7428a15d729db511a229b907a8b207ad16cca262c6063b636462dfddf2419e86",
+      "requested_byte_ranges": 4
+    }
+  ],
+  "geometry_only_verification": {
+    "mesh_count": 10,
+    "combined_triangulated_cm2": 4.25880340776676,
+    "available_curve_masks_rebuilt_matching_bytes": 7,
+    "bracketed_report_sha256": "fcd4ea7c7ce1961327c2085ef9ed8b592b1189b57563dd89baac0549c8420378",
+    "rebuilt_mask_report_matches": true
+  },
+  "directional_rebuild_from_empty_cache": {
+    "command": "python review.py rebuild PHerc0125_west_2 --work ../route_west2",
+    "Rebuilt_from": "Original public grid curves, M7 and raw native CT. No supplied starter geometry or old route files.",
+    "component_ranking_recovered_primary_and_secondary": true,
+    "cases": [
+      {
+        "id": "PHerc0125_y3310",
+        "xyz_tiff_sha256": {
+          "x": "6eee416eea22177db7bdbc3cc9d98f13c8d04750b9621c7d2cee7d6592f57869",
+          "y": "fc8b81313ea45763c312244e8f28a102047d781bde94011c9c8c13935cddd930",
+          "z": "62da1b307ed0a57e2439ee2f491ca48a477fb469deaa8151bf2eb78340432a84"
+        },
+        "ct_and_mask_match": true
+      },
+      {
+        "id": "PHerc0125_west",
+        "xyz_tiff_sha256": {
+          "x": "1b9f0eb3dce5b59f8c8322de92bddff13f6740b2e8f1bca9a3238af0c3a36263",
+          "y": "4d7d585fe551ca3b34a3f7fd4403e65d018c9d2d77a27ea00c195ade6259b9f8",
+          "z": "24b759fb896216d31c13632f1cab3366dbef54cc5d955b4285b6a2e8dcf6b001"
+        },
+        "ct_and_mask_match": true
+      },
+      {
+        "id": "PHerc0125_west_2",
+        "xyz_tiff_sha256": {
+          "x": "972f6f89503108c4933097230f236d6d5e5cffd84610d018e1c1180a1909d567",
+          "y": "59fcccab2ec2d67a28733f83ced041bb66ca5dd74a49ac5554b459d21bb7c706",
+          "z": "30bd22cdbdf177f43304daa704b5d951575ee85438e615bb84181e04f11d52ac"
+        },
+        "ct_and_mask_match": true
+      }
+    ]
+  },
+  "gpu_example_from_redownloaded_ct": {
+    "verified_cases": {
+      "east": {
+        "valid_input_windows": 31,
+        "finite_values": 317440,
+        "hash_matches": true,
+        "actual_hashes": {
+          "forward": "728f7ac7d9f42e91809a17e9d0e139d35598cf9ff78a54c8324177156c4859e2",
+          "reverse": "ae6b333b62232b06ee16ad3c191b59ea555c3ba310d8efabfc397a0c9d922cfa",
+          "scored_support": "3f97e84cc6dd124a493b1ee7a79615c3fa7c665fb764510f5e12f6ba382976cc"
+        }
+      },
+      "north": {
+        "valid_input_windows": 13,
+        "finite_values": 163840,
+        "hash_matches": true,
+        "actual_hashes": {
+          "forward": "8dd1fe3d5e0e544519f70c8cc77a804330a8d1b9ee2403779170159f95deced6",
+          "reverse": "1c12e192cfcb3da0d654d8520824e26acfb354aa6d2dce9dd843f1fa520ab042",
+          "scored_support": "6fea0934a2a50715733a5d53c83954aeb2ce3de89c45a8902ba50ce934ff07e5"
+        }
+      },
+      "south": {
+        "valid_input_windows": 31,
+        "finite_values": 366592,
+        "hash_matches": true,
+        "actual_hashes": {
+          "forward": "2e971385090e33739d2728670fbb8d029145fbf1179def8e2c1471f1c3033c8f",
+          "reverse": "71e72760961bb8e2c4c29e48c1fa75a75dbab55f071adcad3f5a550734ecae2e",
+          "scored_support": "1f5f50561465bd95dd6ae9f1f4e1e6acd4776c27fd69ca863f7336b003b52eae"
+        }
+      },
+      "south_2": {
+        "valid_input_windows": 36,
+        "finite_values": 405504,
+        "hash_matches": true,
+        "actual_hashes": {
+          "forward": "f65a625728be1a18b05eca757ba58463c53917eef5f7580509a8c00b4890930f",
+          "reverse": "0f54d4f95aa2b4b642bb92cc74301853c6c05460a68f6ef161179c34bd967add",
+          "scored_support": "2931a94039833d95b6c3f9ffd7792b437dfed6d5e933cae1c3a2b2226835030c"
+        }
+      },
+      "south_3": {
+        "valid_input_windows": 0,
+        "finite_values": 0,
+        "hash_matches": true
+      },
+      "west": {
+        "valid_input_windows": 0,
+        "finite_values": 0,
+        "hash_matches": true
+      },
+      "west_2": {
+        "valid_input_windows": 0,
+        "finite_values": 0,
+        "hash_matches": true
+      }
+    },
+    "total_finite_values": 1253376,
+    "windows": 111,
+    "all_hashes_match": true
+  }
+}

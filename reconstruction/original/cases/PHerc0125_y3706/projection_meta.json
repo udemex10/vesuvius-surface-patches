@@ -1,0 +1,66 @@
+{
+  "specimen": "PHerc0125",
+  "volume_id": "20250821151825",
+  "field": "PHerc0125_y3706",
+  "flat_origin": {
+    "x": 2760,
+    "z": 9827
+  },
+  "projection": "Y(X,Z), columns increasing native x and rows increasing native z; forward depth along (~hx,-1,~hz)",
+  "organizer_grid_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/representations/predictions/surfaces/20250821151825-surface-20260413222639-surface-m7-L0-th0.2.normal-grids",
+  "source_grids": "PHerc0125_survey/xy and yz, immutable underlying polylines",
+  "mesh": "mesh.tifxyz",
+  "surface_sha256": {
+    "x": "a2ba24bd8187aeeb0c57354c953663d9d1d5363d823c94c0e9fa7e23e6cba1a4",
+    "y": "3a975522f7f83d5d32f855a8d60f7acf12b651f5d2f88e475afceff7e173748d",
+    "z": "a48919117dd64a23a1a1329d5048be1c156842f1ea28fd0e0176b444fce3c78f"
+  },
+  "node_diagnostics": {
+    "fraction_independent_agreement": 0.6936442615454961,
+    "eligible_nodes": 5237,
+    "total_nodes": 6561,
+    "explicit_disagreements": 1170,
+    "knots_direct": 4759
+  },
+  "pitch_quantiles_xy_um": [
+    [
+      9.362561806098682,
+      9.434261629726281,
+      10.136713789810775
+    ],
+    [
+      9.362557708599612,
+      9.435635691341965,
+      10.611530319282583
+    ]
+  ],
+  "seed_native_xyz": [
+    3400,
+    3706,
+    10467
+  ],
+  "source_layers": [
+    -8,
+    8
+  ],
+  "physical_depth_um": [
+    -74.896,
+    74.896
+  ],
+  "shape": [
+    17,
+    1280,
+    1280
+  ],
+  "dtype": "uint8",
+  "pitch_um": 9.362,
+  "depth_pitch_um": 9.362,
+  "native_volume_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/volumes/20250821151825-9.362um-1.2m-113keV-masked.zarr/0",
+  "center_index": 8,
+  "depth_order": "xyz + unit normal times (depth index - 8) in native voxels",
+  "support": 1133151,
+  "all_corners_nonzero": 1132714,
+  "missing_objects": 0,
+  "ct17_sha256": "299e4484e32e8e2fe274d18feccc0b6955ade8c8ff7a2de82923f8bad1cee738",
+  "mask_sha256": "8bb0d723b3c59e086c7d4188dfe1317e9825579373b3c6190d30d3f55119ed4f"
+}

@@ -1,0 +1,39 @@
+{
+  "seed_manifest_sha256": "6117a74c03f8a76a10260dfacd03e1e0df6cd3f97854077591c38614b4745e68",
+  "grow_exe_sha256": "9fd4b818653a02986a547ef47461ae62ad008188ac0d3798220dfe357655e573",
+  "gen_normalgrids_exe_sha256": "bf0a45caaf36839bb3b05ac99b2c6648f417e334365c6d4bdf8a38b004ad68ea",
+  "cases": [
+    {
+      "id": "gap_01",
+      "split": "test",
+      "variant": "oriented8_loss",
+      "surface_sha256": "9fc1d9049face91a9081275ba854ea8245aa82f4308ba9f65482af1d14701414",
+      "input_sha256": "41fc37676fe606c565b2b8e64a896ecced1534235d65554ec94c5d4ec01503e5",
+      "valid_vertices": 2770
+    },
+    {
+      "id": "gap_02",
+      "split": "test",
+      "variant": "oriented8_loss",
+      "surface_sha256": "9bec8f85b08c58b1fdc18ca9f9fbaafba142be06fd75874f83aaf489366f6379",
+      "input_sha256": "cd2a82e968274f9cc9c9f1693b33e05fb1e9e5ed60a4018befd43a187fb8777d",
+      "valid_vertices": 2490
+    },
+    {
+      "id": "gap_03",
+      "split": "test",
+      "variant": "oriented8_loss",
+      "surface_sha256": "6092c99a9ca21bae079076e694d3652002187a16ad1b422d885458b8d4ceadd7",
+      "input_sha256": "eed3730b81aaeb485f3041ab233358d2ddbb841b5bbc8e6436c6c92821c02fbb",
+      "valid_vertices": 2724
+    },
+    {
+      "id": "gap_04",
+      "split": "test",
+      "variant": "oriented8_loss",
+      "surface_sha256": "3fc39b35a9ec0f1acb3c9fb89feea6fcce434be43d6eb74baac33fa3834bd4bb",
+      "input_sha256": "44c1236721f09952e3cdd40a066a655890e8928fccfd143a74b538ca6334fda0",
+      "valid_vertices": 2681
+    }
+  ]
+}

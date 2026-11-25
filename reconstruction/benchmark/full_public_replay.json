@@ -1,0 +1,25 @@
+{
+  "source_archive_sha256": "88c4e400ad2eee04f775031dc2dddcd0554237e90ff27ff9241de0bf567fe046",
+  "refetched_case_ids": [
+    "external_01",
+    "external_02",
+    "external_03",
+    "external_04",
+    "external_05",
+    "external_06",
+    "external_07",
+    "external_08",
+    "external_09",
+    "external_10",
+    "external_11",
+    "external_12",
+    "external_13",
+    "external_14",
+    "external_15",
+    "external_16"
+  ],
+  "source_arrays_compared": 80,
+  "case_metrics_identical": true,
+  "paired_totals_identical": true,
+  "geometry_export_totals_identical": true
+}

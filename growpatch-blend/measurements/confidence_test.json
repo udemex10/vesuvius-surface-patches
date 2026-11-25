@@ -1,0 +1,158 @@
+{
+  "1pct": {
+    "arms": {
+      "agreement": {
+        "reference": 0.21056854578980855,
+        "accepted": 7.387622041511101e-06,
+        "incorrect": 0.0,
+        "correct": 7.387622041511101e-06,
+        "connected": 0.0,
+        "out_of_reference_rays": 0,
+        "risk": 0.0
+      }
+    },
+    "paired": null
+  },
+  "2pct": {
+    "arms": {
+      "agreement": {
+        "reference": 0.21056854578980855,
+        "accepted": 7.387622041511101e-06,
+        "incorrect": 0.0,
+        "correct": 7.387622041511101e-06,
+        "connected": 0.0,
+        "out_of_reference_rays": 0,
+        "risk": 0.0
+      }
+    },
+    "paired": null
+  },
+  "5pct": {
+    "arms": {
+      "agreement": {
+        "reference": 0.21056854578980855,
+        "accepted": 0.1047044573436107,
+        "incorrect": 0.009625898973159353,
+        "correct": 0.09507855837045134,
+        "connected": 0.06842539177624035,
+        "out_of_reference_rays": 671,
+        "risk": 0.09193399419061835
+      }
+    },
+    "paired": null
+  },
+  "10pct": {
+    "arms": {
+      "snap": {
+        "reference": 0.21056854578980855,
+        "accepted": 0.21056854578980855,
+        "incorrect": 0.026647846702589763,
+        "correct": 0.18392069908721878,
+        "connected": 0.18298279989886632,
+        "out_of_reference_rays": 1658,
+        "risk": 0.1265518864778118
+      },
+      "agreement": {
+        "reference": 0.21056854578980855,
+        "accepted": 0.18515549519096236,
+        "incorrect": 0.02042967264079274,
+        "correct": 0.16472582255016963,
+        "connected": 0.16417901964942222,
+        "out_of_reference_rays": 1657,
+        "risk": 0.11033792229456842
+      }
+    },
+    "paired": {
+      "stock": {
+        "reference": 0.21056854578980855,
+        "accepted": 0.21056854578980855,
+        "incorrect": 0.026647846702589763,
+        "correct": 0.18392069908721878,
+        "connected": 0.18298279989886632,
+        "out_of_reference_rays": 1658,
+        "risk": 0.1265518864778118
+      },
+      "candidate": {
+        "reference": 0.21056854578980855,
+        "accepted": 0.18515549519096236,
+        "incorrect": 0.02042967264079274,
+        "correct": 0.16472582255016963,
+        "connected": 0.16417901964942222,
+        "out_of_reference_rays": 1657,
+        "risk": 0.11033792229456842
+      },
+      "connected_delta_cm2": -0.0188037802494441,
+      "connected_gain_percent": -10.276255615192715,
+      "risk_difference_points": -1.6213964183243377,
+      "improved": 0,
+      "same": 3,
+      "worse": 5,
+      "positive_point_estimate": false,
+      "paired_area_delta_95_cm2": [
+        -0.039232792697394804,
+        -0.002181042508050235
+      ],
+      "paired_risk_difference_95_points": [
+        -3.879091145076713,
+        0.1300360314078653
+      ]
+    }
+  },
+  "stock_dev": {
+    "arms": {
+      "snap": {
+        "reference": 0.21056854578980855,
+        "accepted": 0.21056854578980855,
+        "incorrect": 0.026647846702589763,
+        "correct": 0.18392069908721878,
+        "connected": 0.18298279989886632,
+        "out_of_reference_rays": 1658,
+        "risk": 0.1265518864778118
+      },
+      "agreement": {
+        "reference": 0.21056854578980855,
+        "accepted": 0.17723163732349193,
+        "incorrect": 0.01862576910130907,
+        "correct": 0.15860586822218284,
+        "connected": 0.15630084991624565,
+        "out_of_reference_rays": 1571,
+        "risk": 0.10509280048749083
+      }
+    },
+    "paired": {
+      "stock": {
+        "reference": 0.21056854578980855,
+        "accepted": 0.21056854578980855,
+        "incorrect": 0.026647846702589763,
+        "correct": 0.18392069908721878,
+        "connected": 0.18298279989886632,
+        "out_of_reference_rays": 1658,
+        "risk": 0.1265518864778118
+      },
+      "candidate": {
+        "reference": 0.21056854578980855,
+        "accepted": 0.17723163732349193,
+        "incorrect": 0.01862576910130907,
+        "correct": 0.15860586822218284,
+        "connected": 0.15630084991624565,
+        "out_of_reference_rays": 1571,
+        "risk": 0.10509280048749083
+      },
+      "connected_delta_cm2": -0.026681949982620662,
+      "connected_gain_percent": -14.581671062727011,
+      "risk_difference_points": -2.1459085990320967,
+      "improved": 0,
+      "same": 0,
+      "worse": 8,
+      "positive_point_estimate": false,
+      "paired_area_delta_95_cm2": [
+        -0.04643871149449552,
+        -0.009635243772291358
+      ],
+      "paired_risk_difference_95_points": [
+        -4.693091121752478,
+        0.07427509676384846
+      ]
+    }
+  }
+}

@@ -1,0 +1,1825 @@
+{
+  "split": "test",
+  "preset": "oriented8",
+  "selection": {
+    "method": "two_route",
+    "threshold": 0.0,
+    "dev_gate": true
+  },
+  "case_digests": {
+    "test_01": {
+      "reference": "4ce9a3291f642f8934f71a19cf0348d6b9cd1fad8a025330b0d6d28528fe81c5",
+      "default20": "c3eb0a1cd83494db4f72d46dca93ae96e8a2b4a3e50d329ef19c14926ab54bfd",
+      "oriented8": "b11c60c750b18b83b5951e44782a6d900ee0f4e4a2f226e1aeb8a392d035e179",
+      "two_route": "fca8cdc49d02bed337fbdca86aeee5bc8fc6f691f3765bc4c0efea6f16b50d1b",
+      "graph": "ef9f7af4ffd4cfb15f82307c5c8785e710ef96a47a2c59b1363afd8da5dfa1ed"
+    },
+    "test_02": {
+      "reference": "a3201201ffc64374db7489ba8d1b7b7840c9f918abda90bc880f21d7804d9968",
+      "default20": "7ff28d644b4cb21c51cc15772159e86dd0b8367b37fe5705fcda9926fd024ffa",
+      "oriented8": "54cc6b3822345656a7f2a424951b0f21f8d258eb6115c2accd89d4ee810122f8",
+      "two_route": "1b072e05fa1515ebec70a313cbc81864645e9713565a9f28de6b6fe3c1210fd4",
+      "graph": "a3c5f97cf65dcf7b88c411e33e4f36f12b4a330d4e14fc14cbbc60b937bc8c4c"
+    },
+    "test_03": {
+      "reference": "2ddb9471b95d1d644cdd7ec4d3641b5a0fcd6f9c4b09d2e7bb0a9eaefda81b52",
+      "default20": "c2578cf80db3e5b65868da1157d03fb299c5943ce8d967ee1db67d8e953216cb",
+      "oriented8": "e2a5f80bb39cfd3c1253837a034448b2077d0e18d476522d6f87c54af881b64b",
+      "two_route": "d90c0e26e3651f479245e745760397147c0108beac5d8a1f9d881f537df32849",
+      "graph": "f9c08509eda045a17ebda2bd6014d046d7325f7c561c9cb91dc6c38d8a0feda1"
+    },
+    "test_04": {
+      "reference": "1dfae2b11941da4bdf9f54edcdf283d22677469cda2462556a9967fa6b6184c4",
+      "default20": "c609549f57f2d9287745df2a5ba44a009058b7e8cb8fa502f614b230cb0db4fd",
+      "oriented8": "793e4294c0925d0b95c9037b9da97e6fb2e43504e0ad84be00637cb9ea1bd42a",
+      "two_route": "4679a74292852090445030f0354bb18c2fc8823b9a58af374df949b1069b4313",
+      "graph": "c29e209024b2b0211ef737d3b8135504215e1bc2d0e20dd99e4201899c49409d"
+    },
+    "test_05": {
+      "reference": "4e5e682fa02ce7fa9b695279c0d7ffd6c843213047a56a5e0b0356d20021f2f3",
+      "default20": "0541c389d7622f02b49e0bde82af0a975501ccfa092b43d1227d757cc810f508",
+      "oriented8": "6f8bfbee8c49202712d09258c188c4736b0e7e83d8ca6af8ca211acc264bf78f",
+      "two_route": "5c02f3309b35db021f6b76853e53aa6c703b35317d477267bc29cef66d251c8c",
+      "graph": "8fa97190177876a248a0b64950c4eecb6b56aac150a16b837318cd67ff1ce2ad"
+    },
+    "test_06": {
+      "reference": "1b72cc8be67eb853b6ccb52b1b8977c3c7cb91fbf356c4ee9ad4b593ddb9c3cc",
+      "default20": "6026fab36b5ed1ec34963bd8b38a9a84d4cad515bb42cee42f2b9ab5e412eb14",
+      "oriented8": "c7929998c02c27ad38a2874acdd95c3b2535e0acd0331e8ac7b5394859872955",
+      "two_route": "eba7ecd844de3783588d4f9a04f816190e340fc02e3443d33b571cf266c09876",
+      "graph": "623615caa5656a29e43b5461bc77002b4565edf98ca4d64716d6873d808c785b"
+    },
+    "test_07": {
+      "reference": "b6b57f1ca47d565ea4222dcbe8de74fe9c3948daf762d3daa64c058277bccee2",
+      "default20": "2799e2d5accbaf15fdcf8600d833a581b89afee989f0962bb355c9f67a2dfb6a",
+      "oriented8": "0ae2bcf743444597c4fafe445bcd7b8198e7ac0c83dbdfb2881d606ab3f296f7",
+      "two_route": "f3b46f382b7ab02f24d1f3824a30b6d079f67201d95006c9c13a4daa0457b031",
+      "graph": "e810546a848f89763fd10270e4071e485f81840532235e3d103b9ad4c9e6a763"
+    },
+    "test_08": {
+      "reference": "bbb2e28afb6d2318ef80b9c1433e7049aad489bc1dd7415648b446b12f51efae",
+      "default20": "546e1c169981de86905b0fa70ba5bd89e55eb075db29f56707520cf7e7ba1dfb",
+      "oriented8": "f975fdcf0f43d5fc45a880d7c3efc8a6167cc4aefdb17f682bc7057cc84e31b7",
+      "two_route": "d2bda8f8376ffaa6abe63b9757fabf0f4f46ab8474834fe83a087de4ec7b60fc",
+      "graph": "3b2873984351c745b59a9a1b55f5eef4fc1c9dcb7511680d2d89cea39b0bc69b"
+    }
+  },
+  "selection_sha256": "a3722b18849d74122adc01e00bef617100cea6ab1c101de8332b061d1087f102",
+  "by_tolerance": {
+    "1": {
+      "stock": {
+        "test_01": {
+          "reference": 0.02893667352852737,
+          "accepted": 0.02893667352852737,
+          "incorrect": 0.01108124478996055,
+          "correct": 0.01785542873856682,
+          "connected": 0.0,
+          "out_of_reference_rays": 0
+        },
+        "test_02": {
+          "reference": 0.02660146053626836,
+          "accepted": 0.026601460536268356,
+          "incorrect": 0.01090812642630198,
+          "correct": 0.01569333410996638,
+          "connected": 0.015599334957962542,
+          "out_of_reference_rays": 0
+        },
+        "test_03": {
+          "reference": 0.026472371340394426,
+          "accepted": 0.026472371340394426,
+          "incorrect": 0.018224614145149344,
+          "correct": 0.008247757195245082,
+          "connected": 0.004858778837206167,
+          "out_of_reference_rays": 0
+        },
+        "test_04": {
+          "reference": 0.026495294238968882,
+          "accepted": 0.026495294238968882,
+          "incorrect": 0.017374230967464755,
+          "correct": 0.009121063271504129,
+          "connected": 0.008652927138796233,
+          "out_of_reference_rays": 0
+        },
+        "test_05": {
+          "reference": 0.0247529037084251,
+          "accepted": 0.024752903708425096,
+          "incorrect": 0.011851324923584402,
+          "correct": 0.012901578784840696,
+          "connected": 0.0,
+          "out_of_reference_rays": 823
+        },
+        "test_06": {
+          "reference": 0.026314713236679492,
+          "accepted": 0.026314713236679492,
+          "incorrect": 0.020400330520701455,
+          "correct": 0.005914382715978038,
+          "connected": 0.005906936456807265,
+          "out_of_reference_rays": 0
+        },
+        "test_07": {
+          "reference": 0.027706826200819483,
+          "accepted": 0.027706826200819483,
+          "incorrect": 0.02115164581871442,
+          "correct": 0.006555180382105064,
+          "connected": 0.0,
+          "out_of_reference_rays": 0
+        },
+        "test_08": {
+          "reference": 0.02328830299972545,
+          "accepted": 0.02328830299972545,
+          "incorrect": 0.005353303660164281,
+          "correct": 0.017934999339561167,
+          "connected": 0.017934999339561167,
+          "out_of_reference_rays": 835
+        }
+      },
+      "arms": {
+        "primary": {
+          "rows": {
+            "test_01": {
+              "reference": 0.02893667352852737,
+              "accepted": 0.02526176953814227,
+              "incorrect": 0.008137099687227459,
+              "correct": 0.017124669850914813,
+              "connected": 0.0,
+              "out_of_reference_rays": 0
+            },
+            "test_02": {
+              "reference": 0.02660146053626836,
+              "accepted": 0.019164648027217426,
+              "incorrect": 0.00905858197496051,
+              "correct": 0.010106066052256914,
+              "connected": 0.010043245764841778,
+              "out_of_reference_rays": 0
+            },
+            "test_03": {
+              "reference": 0.026472371340394426,
+              "accepted": 0.026472371340394426,
+              "incorrect": 0.01732076342462143,
+              "correct": 0.009151607915772996,
+              "connected": 0.006756613564082583,
+              "out_of_reference_rays": 0
+            },
+            "test_04": {
+              "reference": 0.026495294238968882,
+              "accepted": 0.024418776971183012,
+              "incorrect": 0.015305271531782528,
+              "correct": 0.009113505439400486,
+              "connected": 0.00766301890959026,
+              "out_of_reference_rays": 0
+            },
+            "test_05": {
+              "reference": 0.0247529037084251,
+              "accepted": 0.024752903708425096,
+              "incorrect": 0.010475660316033388,
+              "correct": 0.01427724339239171,
+              "connected": 0.007865861187489581,
+              "out_of_reference_rays": 822
+            },
+            "test_06": {
+              "reference": 0.026314713236679492,
+              "accepted": 0.014411614587824065,
+              "incorrect": 0.011435991943860531,
+              "correct": 0.002975622643963535,
+              "connected": 0.0029607790651731405,
+              "out_of_reference_rays": 0
+            },
+            "test_07": {
+              "reference": 0.027706826200819483,
+              "accepted": 0.027385108018050622,
+              "incorrect": 0.021103856106479166,
+              "correct": 0.006281251911571458,
+              "connected": 0.0,
+              "out_of_reference_rays": 0
+            },
+            "test_08": {
+              "reference": 0.02328830299972545,
+              "accepted": 0.02328830299972545,
+              "incorrect": 0.006638394972199064,
+              "correct": 0.016649908027526382,
+              "connected": 0.01664621294187393,
+              "out_of_reference_rays": 835
+            }
+          },
+          "summary": {
+            "stock": {
+              "reference": 0.21056854578980855,
+              "accepted": 0.21056854578980855,
+              "incorrect": 0.11634482125204118,
+              "correct": 0.09422372453776737,
+              "connected": 0.052952976730333376,
+              "out_of_reference_rays": 1658,
+              "risk": 0.5525270681603968
+            },
+            "candidate": {
+              "reference": 0.21056854578980855,
+              "accepted": 0.18515549519096236,
+              "incorrect": 0.09947561995716407,
+              "correct": 0.08567987523379829,
+              "connected": 0.051935731433051274,
+              "out_of_reference_rays": 1657,
+              "risk": 0.5372544836142653
+            },
+            "connected_delta_cm2": -0.0010172452972821025,
+            "connected_gain_percent": -1.9210351524948128,
+            "risk_difference_points": -1.5272584546131451,
+            "improved": 2,
+            "same": 2,
+            "worse": 4,
+            "positive_point_estimate": false,
+            "paired_area_delta_95_cm2": [
+              -0.01972249416238282,
+              0.02057149398258745
+            ],
+            "paired_risk_difference_95_points": [
+              -4.87637285136816,
+              2.2096021610835646
+            ]
+          }
+        },
+        "two_route": {
+          "rows": {
+            "test_01": {
+              "reference": 0.02893667352852737,
+              "accepted": 0.02526176953814227,
+              "incorrect": 0.008137099687227459,
+              "correct": 0.017124669850914813,
+              "connected": 0.0,
+              "out_of_reference_rays": 0
+            },
+            "test_02": {
+              "reference": 0.02660146053626836,
+              "accepted": 0.019164648027217426,
+              "incorrect": 0.00905858197496051,
+              "correct": 0.010106066052256914,
+              "connected": 0.010043245764841778,
+              "out_of_reference_rays": 0
+            },
+            "test_03": {
+              "reference": 0.026472371340394426,
+              "accepted": 0.026472371340394426,
+              "incorrect": 0.01732076342462143,
+              "correct": 0.009151607915772996,
+              "connected": 0.006756613564082583,
+              "out_of_reference_rays": 0
+            },
+            "test_04": {
+              "reference": 0.026495294238968882,
+              "accepted": 0.024418776971183012,
+              "incorrect": 0.015305271531782528,
+              "correct": 0.009113505439400486,
+              "connected": 0.00766301890959026,
+              "out_of_reference_rays": 0
+            },
+            "test_05": {
+              "reference": 0.0247529037084251,
+              "accepted": 0.024752903708425096,
+              "incorrect": 0.010475660316033388,
+              "correct": 0.01427724339239171,
+              "connected": 0.007865861187489581,
+              "out_of_reference_rays": 822
+            },
+            "test_06": {
+              "reference": 0.026314713236679492,
+              "accepted": 0.014411614587824065,
+              "incorrect": 0.011435991943860531,
+              "correct": 0.002975622643963535,
+              "connected": 0.0029607790651731405,
+              "out_of_reference_rays": 0
+            },
+            "test_07": {
+              "reference": 0.027706826200819483,
+              "accepted": 0.027385108018050622,
+              "incorrect": 0.021103856106479166,
+              "correct": 0.006281251911571458,
+              "connected": 0.0,
+              "out_of_reference_rays": 0
+            },
+            "test_08": {
+              "reference": 0.02328830299972545,
+              "accepted": 0.02328830299972545,
+              "incorrect": 0.006638394972199064,
+              "correct": 0.016649908027526382,
+              "connected": 0.01664621294187393,
+              "out_of_reference_rays": 835
+            }
+          },
+          "summary": {
+            "stock": {
+              "reference": 0.21056854578980855,
+              "accepted": 0.21056854578980855,
+              "incorrect": 0.11634482125204118,
+              "correct": 0.09422372453776737,
+              "connected": 0.052952976730333376,
+              "out_of_reference_rays": 1658,
+              "risk": 0.5525270681603968
+            },
+            "candidate": {
+              "reference": 0.21056854578980855,
+              "accepted": 0.18515549519096236,
+              "incorrect": 0.09947561995716407,
+              "correct": 0.08567987523379829,
+              "connected": 0.051935731433051274,
+              "out_of_reference_rays": 1657,
+              "risk": 0.5372544836142653
+            },
+            "connected_delta_cm2": -0.0010172452972821025,
+            "connected_gain_percent": -1.9210351524948128,
+            "risk_difference_points": -1.5272584546131451,
+            "improved": 2,
+            "same": 2,
+            "worse": 4,
+            "positive_point_estimate": false,
+            "paired_area_delta_95_cm2": [
+              -0.01972249416238282,
+              0.02057149398258745
+            ],
+            "paired_risk_difference_95_points": [
+              -4.87637285136816,
+              2.2096021610835646
+            ]
+          }
+        },
+        "graph": {
+          "rows": {
+            "test_01": {
+              "reference": 0.02893667352852737,
+              "accepted": 0.027247040919211252,
+              "incorrect": 0.010070710949456465,
+              "correct": 0.017176329969754787,
+              "connected": 0.0,
+              "out_of_reference_rays": 0
+            },
+            "test_02": {
+              "reference": 0.02660146053626836,
+              "accepted": 0.023647754914028804,
+              "incorrect": 0.009836051967949136,
+              "correct": 0.01381170294607967,
+              "connected": 0.01374888265866453,
+              "out_of_reference_rays": 0
+            },
+            "test_03": {
+              "reference": 0.026472371340394426,
+              "accepted": 0.026472371340394426,
+              "incorrect": 0.01732076342462143,
+              "correct": 0.009151607915772996,
+              "connected": 0.006756613564082583,
+              "out_of_reference_rays": 0
+            },
+            "test_04": {
+              "reference": 0.026495294238968882,
+              "accepted": 0.02649159682099837,
+              "incorrect": 0.017227417300045476,
+              "correct": 0.009264179520952891,
+              "connected": 0.007749000502415752,
+              "out_of_reference_rays": 0
+            },
+            "test_05": {
+              "reference": 0.0247529037084251,
+              "accepted": 0.024752903708425096,
+              "incorrect": 0.010475660316033388,
+              "correct": 0.01427724339239171,
+              "connected": 0.007865861187489581,
+              "out_of_reference_rays": 822
+            },
+            "test_06": {
+              "reference": 0.026314713236679492,
+              "accepted": 0.026310987138161435,
+              "incorrect": 0.020517583614770532,
+              "correct": 0.005793403523390902,
+              "connected": 0.005678269586688114,
+              "out_of_reference_rays": 0
+            },
+            "test_07": {
+              "reference": 0.027706826200819483,
+              "accepted": 0.027385108018050622,
+              "incorrect": 0.021103856106479166,
+              "correct": 0.006281251911571458,
+              "connected": 0.0,
+              "out_of_reference_rays": 0
+            },
+            "test_08": {
+              "reference": 0.02328830299972545,
+              "accepted": 0.02328830299972545,
+              "incorrect": 0.006638394972199064,
+              "correct": 0.016649908027526382,
+              "connected": 0.01664621294187393,
+              "out_of_reference_rays": 835
+            }
+          },
+          "summary": {
+            "stock": {
+              "reference": 0.21056854578980855,
+              "accepted": 0.21056854578980855,
+              "incorrect": 0.11634482125204118,
+              "correct": 0.09422372453776737,
+              "connected": 0.052952976730333376,
+              "out_of_reference_rays": 1658,
+              "risk": 0.5525270681603968
+            },
+            "candidate": {
+              "reference": 0.21056854578980855,
+              "accepted": 0.20559606585899545,
+              "incorrect": 0.11319043865155466,
+              "correct": 0.09240562720744079,
+              "connected": 0.058444840441214486,
+              "out_of_reference_rays": 1657,
+              "risk": 0.5505476876643369
+            },
+            "connected_delta_cm2": 0.005491863710881115,
+            "connected_gain_percent": 10.371208664715496,
+            "risk_difference_points": -0.1979380496059835,
+            "improved": 2,
+            "same": 2,
+            "worse": 4,
+            "positive_point_estimate": true,
+            "paired_area_delta_95_cm2": [
+              -0.00718240403035098,
+              0.023687565016584197
+            ],
+            "paired_risk_difference_95_points": [
+              -2.2804452304155327,
+              1.7036447608538599
+            ]
+          }
+        },
+        "stock_plus_two_route": {
+          "rows": {
+            "test_01": {
+              "reference": 0.02893667352852737,
+              "accepted": 0.02893667352852737,
+              "incorrect": 0.01108124478996055,
+              "correct": 0.01785542873856682,
+              "connected": 0.0,
+              "out_of_reference_rays": 0
+            },
+            "test_02": {
+              "reference": 0.02660146053626836,
+              "accepted": 0.026601460536268356,
+              "incorrect": 0.01090812642630198,
+              "correct": 0.01569333410996638,
+              "connected": 0.015599334957962542,
+              "out_of_reference_rays": 0
+            },
+            "test_03": {
+              "reference": 0.026472371340394426,
+              "accepted": 0.026472371340394426,
+              "incorrect": 0.018224614145149344,
+              "correct": 0.008247757195245082,
+              "connected": 0.004858778837206167,
+              "out_of_reference_rays": 0
+            },
+            "test_04": {
+              "reference": 0.026495294238968882,
+              "accepted": 0.026495294238968882,
+              "incorrect": 0.017374230967464755,
+              "correct": 0.009121063271504129,
+              "connected": 0.008652927138796233,
+              "out_of_reference_rays": 0
+            },
+            "test_05": {
+              "reference": 0.0247529037084251,
+              "accepted": 0.024752903708425096,
+              "incorrect": 0.011851324923584402,
+              "correct": 0.012901578784840696,
+              "connected": 0.0,
+              "out_of_reference_rays": 823
+            },
+            "test_06": {
+              "reference": 0.026314713236679492,
+              "accepted": 0.026314713236679492,
+              "incorrect": 0.020400330520701455,
+              "correct": 0.005914382715978038,
+              "connected": 0.005906936456807265,
+              "out_of_reference_rays": 0
+            },
+            "test_07": {
+              "reference": 0.027706826200819483,
+              "accepted": 0.027706826200819483,
+              "incorrect": 0.02115164581871442,
+              "correct": 0.006555180382105064,
+              "connected": 0.0,
+              "out_of_reference_rays": 0
+            },
+            "test_08": {
+              "reference": 0.02328830299972545,
+              "accepted": 0.02328830299972545,
+              "incorrect": 0.005353303660164281,
+              "correct": 0.017934999339561167,
+              "connected": 0.017934999339561167,
+              "out_of_reference_rays": 835
+            }
+          },
+          "summary": {
+            "stock": {
+              "reference": 0.21056854578980855,
+              "accepted": 0.21056854578980855,
+              "incorrect": 0.11634482125204118,
+              "correct": 0.09422372453776737,
+              "connected": 0.052952976730333376,
+              "out_of_reference_rays": 1658,
+              "risk": 0.5525270681603968
+            },
+            "candidate": {
+              "reference": 0.21056854578980855,
+              "accepted": 0.21056854578980855,
+              "incorrect": 0.11634482125204118,
+              "correct": 0.09422372453776737,
+              "connected": 0.052952976730333376,
+              "out_of_reference_rays": 1658,
+              "risk": 0.5525270681603968
+            },
+            "connected_delta_cm2": 0.0,
+            "connected_gain_percent": 0.0,
+            "risk_difference_points": 0.0,
+            "improved": 0,
+            "same": 8,
+            "worse": 0,
+            "positive_point_estimate": false,
+            "paired_area_delta_95_cm2": [
+              0.0,
+              0.0
+            ],
+            "paired_risk_difference_95_points": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "stock_plus_graph": {
+          "rows": {
+            "test_01": {
+              "reference": 0.02893667352852737,
+              "accepted": 0.02893667352852737,
+              "incorrect": 0.01108124478996055,
+              "correct": 0.01785542873856682,
+              "connected": 0.0,
+              "out_of_reference_rays": 0
+            },
+            "test_02": {
+              "reference": 0.02660146053626836,
+              "accepted": 0.026601460536268356,
+              "incorrect": 0.01090812642630198,
+              "correct": 0.01569333410996638,
+              "connected": 0.015599334957962542,
+              "out_of_reference_rays": 0
+            },
+            "test_03": {
+              "reference": 0.026472371340394426,
+              "accepted": 0.026472371340394426,
+              "incorrect": 0.018224614145149344,
+              "correct": 0.008247757195245082,
+              "connected": 0.004858778837206167,
+              "out_of_reference_rays": 0
+            },
+            "test_04": {
+              "reference": 0.026495294238968882,
+              "accepted": 0.026495294238968882,
+              "incorrect": 0.017374230967464755,
+              "correct": 0.009121063271504129,
+              "connected": 0.008652927138796233,
+              "out_of_reference_rays": 0
+            },
+            "test_05": {
+              "reference": 0.0247529037084251,
+              "accepted": 0.024752903708425096,
+              "incorrect": 0.011851324923584402,
+              "correct": 0.012901578784840696,
+              "connected": 0.0,
+              "out_of_reference_rays": 823
+            },
+            "test_06": {
+              "reference": 0.026314713236679492,
+              "accepted": 0.026314713236679492,
+              "incorrect": 0.020400330520701455,
+              "correct": 0.005914382715978038,
+              "connected": 0.005906936456807265,
+              "out_of_reference_rays": 0
+            },
+            "test_07": {
+              "reference": 0.027706826200819483,
+              "accepted": 0.027706826200819483,
+              "incorrect": 0.02115164581871442,
+              "correct": 0.006555180382105064,
+              "connected": 0.0,
+              "out_of_reference_rays": 0
+            },
+            "test_08": {
+              "reference": 0.02328830299972545,
+              "accepted": 0.02328830299972545,
+              "incorrect": 0.005353303660164281,
+              "correct": 0.017934999339561167,
+              "connected": 0.017934999339561167,
+              "out_of_reference_rays": 835
+            }
+          },
+          "summary": {
+            "stock": {
+              "reference": 0.21056854578980855,
+              "accepted": 0.21056854578980855,
+              "incorrect": 0.11634482125204118,
+              "correct": 0.09422372453776737,
+              "connected": 0.052952976730333376,
+              "out_of_reference_rays": 1658,
+              "risk": 0.5525270681603968
+            },
+            "candidate": {
+              "reference": 0.21056854578980855,
+              "accepted": 0.21056854578980855,
+              "incorrect": 0.11634482125204118,
+              "correct": 0.09422372453776737,
+              "connected": 0.052952976730333376,
+              "out_of_reference_rays": 1658,
+              "risk": 0.5525270681603968
+            },
+            "connected_delta_cm2": 0.0,
+            "connected_gain_percent": 0.0,
+            "risk_difference_points": 0.0,
+            "improved": 0,
+            "same": 8,
+            "worse": 0,
+            "positive_point_estimate": false,
+            "paired_area_delta_95_cm2": [
+              0.0,
+              0.0
+            ],
+            "paired_risk_difference_95_points": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "2": {
+      "stock": {
+        "test_01": {
+          "reference": 0.02893667352852737,
+          "accepted": 0.02893667352852737,
+          "incorrect": 0.00446434815356307,
+          "correct": 0.0244723253749643,
+          "connected": 0.0244723253749643,
+          "out_of_reference_rays": 0
+        },
+        "test_02": {
+          "reference": 0.02660146053626836,
+          "accepted": 0.026601460536268356,
+          "incorrect": 0.000492425733822877,
+          "correct": 0.02610903480244548,
+          "connected": 0.02610903480244548,
+          "out_of_reference_rays": 0
+        },
+        "test_03": {
+          "reference": 0.026472371340394426,
+          "accepted": 0.026472371340394426,
+          "incorrect": 0.0035510187653616443,
+          "correct": 0.02292135257503278,
+          "connected": 0.02292135257503278,
+          "out_of_reference_rays": 0
+        },
+        "test_04": {
+          "reference": 0.026495294238968882,
+          "accepted": 0.026495294238968882,
+          "incorrect": 0.005004857060639488,
+          "correct": 0.021490437178329394,
+          "connected": 0.021490437178329394,
+          "out_of_reference_rays": 0
+        },
+        "test_05": {
+          "reference": 0.0247529037084251,
+          "accepted": 0.024752903708425096,
+          "incorrect": 0.0021037167548113153,
+          "correct": 0.022649186953613783,
+          "connected": 0.022634026715836107,
+          "out_of_reference_rays": 823
+        },
+        "test_06": {
+          "reference": 0.026314713236679492,
+          "accepted": 0.026314713236679492,
+          "incorrect": 0.006201084529695665,
+          "correct": 0.020113628706983827,
+          "connected": 0.01928001761229286,
+          "out_of_reference_rays": 0
+        },
+        "test_07": {
+          "reference": 0.027706826200819483,
+          "accepted": 0.027706826200819483,
+          "incorrect": 0.003688776304745847,
+          "correct": 0.024018049896073635,
+          "connected": 0.023928922040189808,
+          "out_of_reference_rays": 0
+        },
+        "test_08": {
+          "reference": 0.02328830299972545,
+          "accepted": 0.02328830299972545,
+          "incorrect": 0.0011416193999498553,
+          "correct": 0.02214668359977559,
+          "connected": 0.02214668359977559,
+          "out_of_reference_rays": 835
+        }
+      },
+      "arms": {
+        "primary": {
+          "rows": {
+            "test_01": {
+              "reference": 0.02893667352852737,
+              "accepted": 0.02526176953814227,
+              "incorrect": 0.0021058258450747207,
+              "correct": 0.023155943693067553,
+              "connected": 0.023104096239591882,
+              "out_of_reference_rays": 0
+            },
+            "test_02": {
+              "reference": 0.02660146053626836,
+              "accepted": 0.019164648027217426,
+              "incorrect": 5.229386448619014e-05,
+              "correct": 0.019112354162731236,
+              "connected": 0.019112354162731236,
+              "out_of_reference_rays": 0
+            },
+            "test_03": {
+              "reference": 0.026472371340394426,
+              "accepted": 0.026472371340394426,
+              "incorrect": 0.0031568079758409516,
+              "correct": 0.02331556336455347,
+              "connected": 0.023308180821631073,
+              "out_of_reference_rays": 0
+            },
+            "test_04": {
+              "reference": 0.026495294238968882,
+              "accepted": 0.024418776971183012,
+              "incorrect": 0.005494374173902545,
+              "correct": 0.01892440279728047,
+              "connected": 0.017954587171081567,
+              "out_of_reference_rays": 0
+            },
+            "test_05": {
+              "reference": 0.0247529037084251,
+              "accepted": 0.024752903708425096,
+              "incorrect": 0.0012756825437469465,
+              "correct": 0.02347722116467815,
+              "connected": 0.0233768613424064,
+              "out_of_reference_rays": 822
+            },
+            "test_06": {
+              "reference": 0.026314713236679492,
+              "accepted": 0.014411614587824065,
+              "incorrect": 0.0036827621540373515,
+              "correct": 0.010728852433786715,
+              "connected": 0.010374611505998235,
+              "out_of_reference_rays": 0
+            },
+            "test_07": {
+              "reference": 0.027706826200819483,
+              "accepted": 0.027385108018050622,
+              "incorrect": 0.00540908298654373,
+              "correct": 0.021976025031506894,
+              "connected": 0.01993729824598941,
+              "out_of_reference_rays": 0
+            },
+            "test_08": {
+              "reference": 0.02328830299972545,
+              "accepted": 0.02328830299972545,
+              "incorrect": 0.00161862056641286,
+              "correct": 0.021669682433312586,
+              "connected": 0.02166593908814432,
+              "out_of_reference_rays": 835
+            }
+          },
+          "summary": {
+            "stock": {
+              "reference": 0.21056854578980855,
+              "accepted": 0.21056854578980855,
+              "incorrect": 0.026647846702589763,
+              "correct": 0.18392069908721878,
+              "connected": 0.18298279989886632,
+              "out_of_reference_rays": 1658,
+              "risk": 0.1265518864778118
+            },
+            "candidate": {
+              "reference": 0.21056854578980855,
+              "accepted": 0.18515549519096236,
+              "incorrect": 0.022795450110045294,
+              "correct": 0.1623600450809171,
+              "connected": 0.1588339285775741,
+              "out_of_reference_rays": 1657,
+              "risk": 0.12311516915301342
+            },
+            "connected_delta_cm2": -0.024148871321292197,
+            "connected_gain_percent": -13.197344960640649,
+            "risk_difference_points": -0.34367173247983746,
+            "improved": 2,
+            "same": 0,
+            "worse": 6,
+            "positive_point_estimate": false,
+            "paired_area_delta_95_cm2": [
+              -0.04303621024804864,
+              -0.007046998475004699
+            ],
+            "paired_risk_difference_95_points": [
+              -3.473059629469366,
+              2.778176490611861
+            ]
+          }
+        },
+        "two_route": {
+          "rows": {
+            "test_01": {
+              "reference": 0.02893667352852737,
+              "accepted": 0.02526176953814227,
+              "incorrect": 0.0021058258450747207,
+              "correct": 0.023155943693067553,
+              "connected": 0.023104096239591882,
+              "out_of_reference_rays": 0
+            },
+            "test_02": {
+              "reference": 0.02660146053626836,
+              "accepted": 0.019164648027217426,
+              "incorrect": 5.229386448619014e-05,
+              "correct": 0.019112354162731236,
+              "connected": 0.019112354162731236,
+              "out_of_reference_rays": 0
+            },
+            "test_03": {
+              "reference": 0.026472371340394426,
+              "accepted": 0.026472371340394426,
+              "incorrect": 0.0031568079758409516,
+              "correct": 0.02331556336455347,
+              "connected": 0.023308180821631073,
+              "out_of_reference_rays": 0
+            },
+            "test_04": {
+              "reference": 0.026495294238968882,
+              "accepted": 0.024418776971183012,
+              "incorrect": 0.005494374173902545,
+              "correct": 0.01892440279728047,
+              "connected": 0.017954587171081567,
+              "out_of_reference_rays": 0
+            },
+            "test_05": {
+              "reference": 0.0247529037084251,
+              "accepted": 0.024752903708425096,
+              "incorrect": 0.0012756825437469465,
+              "correct": 0.02347722116467815,
+              "connected": 0.0233768613424064,
+              "out_of_reference_rays": 822
+            },
+            "test_06": {
+              "reference": 0.026314713236679492,
+              "accepted": 0.014411614587824065,
+              "incorrect": 0.0036827621540373515,
+              "correct": 0.010728852433786715,
+              "connected": 0.010374611505998235,
+              "out_of_reference_rays": 0
+            },
+            "test_07": {
+              "reference": 0.027706826200819483,
+              "accepted": 0.027385108018050622,
+              "incorrect": 0.00540908298654373,
+              "correct": 0.021976025031506894,
+              "connected": 0.01993729824598941,
+              "out_of_reference_rays": 0
+            },
+            "test_08": {
+              "reference": 0.02328830299972545,
+              "accepted": 0.02328830299972545,
+              "incorrect": 0.00161862056641286,
+              "correct": 0.021669682433312586,
+              "connected": 0.02166593908814432,
+              "out_of_reference_rays": 835
+            }
+          },
+          "summary": {
+            "stock": {
+              "reference": 0.21056854578980855,
+              "accepted": 0.21056854578980855,
+              "incorrect": 0.026647846702589763,
+              "correct": 0.18392069908721878,
+              "connected": 0.18298279989886632,
+              "out_of_reference_rays": 1658,
+              "risk": 0.1265518864778118
+            },
+            "candidate": {
+              "reference": 0.21056854578980855,
+              "accepted": 0.18515549519096236,
+              "incorrect": 0.022795450110045294,
+              "correct": 0.1623600450809171,
+              "connected": 0.1588339285775741,
+              "out_of_reference_rays": 1657,
+              "risk": 0.12311516915301342
+            },
+            "connected_delta_cm2": -0.024148871321292197,
+            "connected_gain_percent": -13.197344960640649,
+            "risk_difference_points": -0.34367173247983746,
+            "improved": 2,
+            "same": 0,
+            "worse": 6,
+            "positive_point_estimate": false,
+            "paired_area_delta_95_cm2": [
+              -0.04303621024804864,
+              -0.007046998475004699
+            ],
+            "paired_risk_difference_95_points": [
+              -3.473059629469366,
+              2.778176490611861
+            ]
+          }
+        },
+        "graph": {
+          "rows": {
+            "test_01": {
+              "reference": 0.02893667352852737,
+              "accepted": 0.027247040919211252,
+              "incorrect": 0.003750414072375226,
+              "correct": 0.023496626846836025,
+              "connected": 0.023174920228350285,
+              "out_of_reference_rays": 0
+            },
+            "test_02": {
+              "reference": 0.02660146053626836,
+              "accepted": 0.023647754914028804,
+              "incorrect": 7.081364921595308e-05,
+              "correct": 0.02357694126481285,
+              "connected": 0.02356955252169188,
+              "out_of_reference_rays": 0
+            },
+            "test_03": {
+              "reference": 0.026472371340394426,
+              "accepted": 0.026472371340394426,
+              "incorrect": 0.0031568079758409516,
+              "correct": 0.02331556336455347,
+              "connected": 0.023308180821631073,
+              "out_of_reference_rays": 0
+            },
+            "test_04": {
+              "reference": 0.026495294238968882,
+              "accepted": 0.02649159682099837,
+              "incorrect": 0.006618403548663129,
+              "correct": 0.01987319327233524,
+              "connected": 0.01837933153175479,
+              "out_of_reference_rays": 0
+            },
+            "test_05": {
+              "reference": 0.0247529037084251,
+              "accepted": 0.024752903708425096,
+              "incorrect": 0.0012756825437469465,
+              "correct": 0.02347722116467815,
+              "connected": 0.0233768613424064,
+              "out_of_reference_rays": 822
+            },
+            "test_06": {
+              "reference": 0.026314713236679492,
+              "accepted": 0.026310987138161435,
+              "incorrect": 0.008506571601135993,
+              "correct": 0.017804415537025445,
+              "connected": 0.01711538893816665,
+              "out_of_reference_rays": 0
+            },
+            "test_07": {
+              "reference": 0.027706826200819483,
+              "accepted": 0.027385108018050622,
+              "incorrect": 0.00540908298654373,
+              "correct": 0.021976025031506894,
+              "connected": 0.01993729824598941,
+              "out_of_reference_rays": 0
+            },
+            "test_08": {
+              "reference": 0.02328830299972545,
+              "accepted": 0.02328830299972545,
+              "incorrect": 0.00161862056641286,
+              "correct": 0.021669682433312586,
+              "connected": 0.02166593908814432,
+              "out_of_reference_rays": 835
+            }
+          },
+          "summary": {
+            "stock": {
+              "reference": 0.21056854578980855,
+              "accepted": 0.21056854578980855,
+              "incorrect": 0.026647846702589763,
+              "correct": 0.18392069908721878,
+              "connected": 0.18298279989886632,
+              "out_of_reference_rays": 1658,
+              "risk": 0.1265518864778118
+            },
+            "candidate": {
+              "reference": 0.21056854578980855,
+              "accepted": 0.20559606585899545,
+              "incorrect": 0.03040639694393479,
+              "correct": 0.17518966891506066,
+              "connected": 0.17052747271813481,
+              "out_of_reference_rays": 1657,
+              "risk": 0.1478938656578599
+            },
+            "connected_delta_cm2": -0.012455327180731508,
+            "connected_gain_percent": -6.806829487588727,
+            "risk_difference_points": 2.13419791800481,
+            "improved": 2,
+            "same": 0,
+            "worse": 6,
+            "positive_point_estimate": false,
+            "paired_area_delta_95_cm2": [
+              -0.021215315164072192,
+              -0.0037618181618787336
+            ],
+            "paired_risk_difference_95_points": [
+              -0.8734305379226883,
+              5.151159895250098
+            ]
+          }
+        },
+        "stock_plus_two_route": {
+          "rows": {
+            "test_01": {
+              "reference": 0.02893667352852737,
+              "accepted": 0.02893667352852737,
+              "incorrect": 0.00446434815356307,
+              "correct": 0.0244723253749643,
+              "connected": 0.0244723253749643,
+              "out_of_reference_rays": 0
+            },
+            "test_02": {
+              "reference": 0.02660146053626836,
+              "accepted": 0.026601460536268356,
+              "incorrect": 0.000492425733822877,
+              "correct": 0.02610903480244548,
+              "connected": 0.02610903480244548,
+              "out_of_reference_rays": 0
+            },
+            "test_03": {
+              "reference": 0.026472371340394426,
+              "accepted": 0.026472371340394426,
+              "incorrect": 0.0035510187653616443,
+              "correct": 0.02292135257503278,
+              "connected": 0.02292135257503278,
+              "out_of_reference_rays": 0
+            },
+            "test_04": {
+              "reference": 0.026495294238968882,
+              "accepted": 0.026495294238968882,
+              "incorrect": 0.005004857060639488,
+              "correct": 0.021490437178329394,
+              "connected": 0.021490437178329394,
+              "out_of_reference_rays": 0
+            },
+            "test_05": {
+              "reference": 0.0247529037084251,
+              "accepted": 0.024752903708425096,
+              "incorrect": 0.0021037167548113153,
+              "correct": 0.022649186953613783,
+              "connected": 0.022634026715836107,
+              "out_of_reference_rays": 823
+            },
+            "test_06": {
+              "reference": 0.026314713236679492,
+              "accepted": 0.026314713236679492,
+              "incorrect": 0.006201084529695665,
+              "correct": 0.020113628706983827,
+              "connected": 0.01928001761229286,
+              "out_of_reference_rays": 0
+            },
+            "test_07": {
+              "reference": 0.027706826200819483,
+              "accepted": 0.027706826200819483,
+              "incorrect": 0.003688776304745847,
+              "correct": 0.024018049896073635,
+              "connected": 0.023928922040189808,
+              "out_of_reference_rays": 0
+            },
+            "test_08": {
+              "reference": 0.02328830299972545,
+              "accepted": 0.02328830299972545,
+              "incorrect": 0.0011416193999498553,
+              "correct": 0.02214668359977559,
+              "connected": 0.02214668359977559,
+              "out_of_reference_rays": 835
+            }
+          },
+          "summary": {
+            "stock": {
+              "reference": 0.21056854578980855,
+              "accepted": 0.21056854578980855,
+              "incorrect": 0.026647846702589763,
+              "correct": 0.18392069908721878,
+              "connected": 0.18298279989886632,
+              "out_of_reference_rays": 1658,
+              "risk": 0.1265518864778118
+            },
+            "candidate": {
+              "reference": 0.21056854578980855,
+              "accepted": 0.21056854578980855,
+              "incorrect": 0.026647846702589763,
+              "correct": 0.18392069908721878,
+              "connected": 0.18298279989886632,
+              "out_of_reference_rays": 1658,
+              "risk": 0.1265518864778118
+            },
+            "connected_delta_cm2": 0.0,
+            "connected_gain_percent": 0.0,
+            "risk_difference_points": 0.0,
+            "improved": 0,
+            "same": 8,
+            "worse": 0,
+            "positive_point_estimate": false,
+            "paired_area_delta_95_cm2": [
+              0.0,
+              0.0
+            ],
+            "paired_risk_difference_95_points": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "stock_plus_graph": {
+          "rows": {
+            "test_01": {
+              "reference": 0.02893667352852737,
+              "accepted": 0.02893667352852737,
+              "incorrect": 0.00446434815356307,
+              "correct": 0.0244723253749643,
+              "connected": 0.0244723253749643,
+              "out_of_reference_rays": 0
+            },
+            "test_02": {
+              "reference": 0.02660146053626836,
+              "accepted": 0.026601460536268356,
+              "incorrect": 0.000492425733822877,
+              "correct": 0.02610903480244548,
+              "connected": 0.02610903480244548,
+              "out_of_reference_rays": 0
+            },
+            "test_03": {
+              "reference": 0.026472371340394426,
+              "accepted": 0.026472371340394426,
+              "incorrect": 0.0035510187653616443,
+              "correct": 0.02292135257503278,
+              "connected": 0.02292135257503278,
+              "out_of_reference_rays": 0
+            },
+            "test_04": {
+              "reference": 0.026495294238968882,
+              "accepted": 0.026495294238968882,
+              "incorrect": 0.005004857060639488,
+              "correct": 0.021490437178329394,
+              "connected": 0.021490437178329394,
+              "out_of_reference_rays": 0
+            },
+            "test_05": {
+              "reference": 0.0247529037084251,
+              "accepted": 0.024752903708425096,
+              "incorrect": 0.0021037167548113153,
+              "correct": 0.022649186953613783,
+              "connected": 0.022634026715836107,
+              "out_of_reference_rays": 823
+            },
+            "test_06": {
+              "reference": 0.026314713236679492,
+              "accepted": 0.026314713236679492,
+              "incorrect": 0.006201084529695665,
+              "correct": 0.020113628706983827,
+              "connected": 0.01928001761229286,
+              "out_of_reference_rays": 0
+            },
+            "test_07": {
+              "reference": 0.027706826200819483,
+              "accepted": 0.027706826200819483,
+              "incorrect": 0.003688776304745847,
+              "correct": 0.024018049896073635,
+              "connected": 0.023928922040189808,
+              "out_of_reference_rays": 0
+            },
+            "test_08": {
+              "reference": 0.02328830299972545,
+              "accepted": 0.02328830299972545,
+              "incorrect": 0.0011416193999498553,
+              "correct": 0.02214668359977559,
+              "connected": 0.02214668359977559,
+              "out_of_reference_rays": 835
+            }
+          },
+          "summary": {
+            "stock": {
+              "reference": 0.21056854578980855,
+              "accepted": 0.21056854578980855,
+              "incorrect": 0.026647846702589763,
+              "correct": 0.18392069908721878,
+              "connected": 0.18298279989886632,
+              "out_of_reference_rays": 1658,
+              "risk": 0.1265518864778118
+            },
+            "candidate": {
+              "reference": 0.21056854578980855,
+              "accepted": 0.21056854578980855,
+              "incorrect": 0.026647846702589763,
+              "correct": 0.18392069908721878,
+              "connected": 0.18298279989886632,
+              "out_of_reference_rays": 1658,
+              "risk": 0.1265518864778118
+            },
+            "connected_delta_cm2": 0.0,
+            "connected_gain_percent": 0.0,
+            "risk_difference_points": 0.0,
+            "improved": 0,
+            "same": 8,
+            "worse": 0,
+            "positive_point_estimate": false,
+            "paired_area_delta_95_cm2": [
+              0.0,
+              0.0
+            ],
+            "paired_risk_difference_95_points": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "4": {
+      "stock": {
+        "test_01": {
+          "reference": 0.02893667352852737,
+          "accepted": 0.02893667352852737,
+          "incorrect": 0.0,
+          "correct": 0.02893667352852737,
+          "connected": 0.02893667352852737,
+          "out_of_reference_rays": 0
+        },
+        "test_02": {
+          "reference": 0.02660146053626836,
+          "accepted": 0.026601460536268356,
+          "incorrect": 0.0,
+          "correct": 0.026601460536268356,
+          "connected": 0.026601460536268356,
+          "out_of_reference_rays": 0
+        },
+        "test_03": {
+          "reference": 0.026472371340394426,
+          "accepted": 0.026472371340394426,
+          "incorrect": 0.0,
+          "correct": 0.026472371340394426,
+          "connected": 0.026472371340394426,
+          "out_of_reference_rays": 0
+        },
+        "test_04": {
+          "reference": 0.026495294238968882,
+          "accepted": 0.026495294238968882,
+          "incorrect": 0.0,
+          "correct": 0.026495294238968882,
+          "connected": 0.026495294238968882,
+          "out_of_reference_rays": 0
+        },
+        "test_05": {
+          "reference": 0.0247529037084251,
+          "accepted": 0.024752903708425096,
+          "incorrect": 0.0,
+          "correct": 0.024752903708425096,
+          "connected": 0.024752903708425096,
+          "out_of_reference_rays": 823
+        },
+        "test_06": {
+          "reference": 0.026314713236679492,
+          "accepted": 0.026314713236679492,
+          "incorrect": 0.0,
+          "correct": 0.026314713236679492,
+          "connected": 0.026314713236679492,
+          "out_of_reference_rays": 0
+        },
+        "test_07": {
+          "reference": 0.027706826200819483,
+          "accepted": 0.027706826200819483,
+          "incorrect": 0.0,
+          "correct": 0.027706826200819483,
+          "connected": 0.027706826200819483,
+          "out_of_reference_rays": 0
+        },
+        "test_08": {
+          "reference": 0.02328830299972545,
+          "accepted": 0.02328830299972545,
+          "incorrect": 0.0,
+          "correct": 0.02328830299972545,
+          "connected": 0.02328830299972545,
+          "out_of_reference_rays": 835
+        }
+      },
+      "arms": {
+        "primary": {
+          "rows": {
+            "test_01": {
+              "reference": 0.02893667352852737,
+              "accepted": 0.02526176953814227,
+              "incorrect": 0.0,
+              "correct": 0.02526176953814227,
+              "connected": 0.025252387089475616,
+              "out_of_reference_rays": 0
+            },
+            "test_02": {
+              "reference": 0.02660146053626836,
+              "accepted": 0.019164648027217426,
+              "incorrect": 0.0,
+              "correct": 0.019164648027217426,
+              "connected": 0.019164648027217426,
+              "out_of_reference_rays": 0
+            },
+            "test_03": {
+              "reference": 0.026472371340394426,
+              "accepted": 0.026472371340394426,
+              "incorrect": 0.0,
+              "correct": 0.026472371340394426,
+              "connected": 0.026472371340394426,
+              "out_of_reference_rays": 0
+            },
+            "test_04": {
+              "reference": 0.026495294238968882,
+              "accepted": 0.024418776971183012,
+              "incorrect": 1.8684022737032806e-05,
+              "correct": 0.02440009294844598,
+              "connected": 0.024334039448496027,
+              "out_of_reference_rays": 0
+            },
+            "test_05": {
+              "reference": 0.0247529037084251,
+              "accepted": 0.024752903708425096,
+              "incorrect": 0.0,
+              "correct": 0.024752903708425096,
+              "connected": 0.024752903708425096,
+              "out_of_reference_rays": 822
+            },
+            "test_06": {
+              "reference": 0.026314713236679492,
+              "accepted": 0.014411614587824065,
+              "incorrect": 0.0,
+              "correct": 0.014411614587824065,
+              "connected": 0.014411614587824065,
+              "out_of_reference_rays": 0
+            },
+            "test_07": {
+              "reference": 0.027706826200819483,
+              "accepted": 0.027385108018050622,
+              "incorrect": 0.0,
+              "correct": 0.027385108018050622,
+              "connected": 0.027385108018050622,
+              "out_of_reference_rays": 0
+            },
+            "test_08": {
+              "reference": 0.02328830299972545,
+              "accepted": 0.02328830299972545,
+              "incorrect": 0.0,
+              "correct": 0.02328830299972545,
+              "connected": 0.02328830299972545,
+              "out_of_reference_rays": 835
+            }
+          },
+          "summary": {
+            "stock": {
+              "reference": 0.21056854578980855,
+              "accepted": 0.21056854578980855,
+              "incorrect": 0.0,
+              "correct": 0.21056854578980855,
+              "connected": 0.21056854578980855,
+              "out_of_reference_rays": 1658,
+              "risk": 0.0
+            },
+            "candidate": {
+              "reference": 0.21056854578980855,
+              "accepted": 0.18515549519096236,
+              "incorrect": 1.8684022737032806e-05,
+              "correct": 0.18513681116822533,
+              "connected": 0.18506137521960872,
+              "out_of_reference_rays": 1657,
+              "risk": 0.00010090990125765814
+            },
+            "connected_delta_cm2": -0.025507170570199827,
+            "connected_gain_percent": -12.113476148361359,
+            "risk_difference_points": 0.010090990125765814,
+            "improved": 0,
+            "same": 3,
+            "worse": 5,
+            "positive_point_estimate": false,
+            "paired_area_delta_95_cm2": [
+              -0.0498009212639154,
+              -0.005279751505274282
+            ],
+            "paired_risk_difference_95_points": [
+              0.0,
+              0.031324157072599834
+            ]
+          }
+        },
+        "two_route": {
+          "rows": {
+            "test_01": {
+              "reference": 0.02893667352852737,
+              "accepted": 0.02526176953814227,
+              "incorrect": 0.0,
+              "correct": 0.02526176953814227,
+              "connected": 0.025252387089475616,
+              "out_of_reference_rays": 0
+            },
+            "test_02": {
+              "reference": 0.02660146053626836,
+              "accepted": 0.019164648027217426,
+              "incorrect": 0.0,
+              "correct": 0.019164648027217426,
+              "connected": 0.019164648027217426,
+              "out_of_reference_rays": 0
+            },
+            "test_03": {
+              "reference": 0.026472371340394426,
+              "accepted": 0.026472371340394426,
+              "incorrect": 0.0,
+              "correct": 0.026472371340394426,
+              "connected": 0.026472371340394426,
+              "out_of_reference_rays": 0
+            },
+            "test_04": {
+              "reference": 0.026495294238968882,
+              "accepted": 0.024418776971183012,
+              "incorrect": 1.8684022737032806e-05,
+              "correct": 0.02440009294844598,
+              "connected": 0.024334039448496027,
+              "out_of_reference_rays": 0
+            },
+            "test_05": {
+              "reference": 0.0247529037084251,
+              "accepted": 0.024752903708425096,
+              "incorrect": 0.0,
+              "correct": 0.024752903708425096,
+              "connected": 0.024752903708425096,
+              "out_of_reference_rays": 822
+            },
+            "test_06": {
+              "reference": 0.026314713236679492,
+              "accepted": 0.014411614587824065,
+              "incorrect": 0.0,
+              "correct": 0.014411614587824065,
+              "connected": 0.014411614587824065,
+              "out_of_reference_rays": 0
+            },
+            "test_07": {
+              "reference": 0.027706826200819483,
+              "accepted": 0.027385108018050622,
+              "incorrect": 0.0,
+              "correct": 0.027385108018050622,
+              "connected": 0.027385108018050622,
+              "out_of_reference_rays": 0
+            },
+            "test_08": {
+              "reference": 0.02328830299972545,
+              "accepted": 0.02328830299972545,
+              "incorrect": 0.0,
+              "correct": 0.02328830299972545,
+              "connected": 0.02328830299972545,
+              "out_of_reference_rays": 835
+            }
+          },
+          "summary": {
+            "stock": {
+              "reference": 0.21056854578980855,
+              "accepted": 0.21056854578980855,
+              "incorrect": 0.0,
+              "correct": 0.21056854578980855,
+              "connected": 0.21056854578980855,
+              "out_of_reference_rays": 1658,
+              "risk": 0.0
+            },
+            "candidate": {
+              "reference": 0.21056854578980855,
+              "accepted": 0.18515549519096236,
+              "incorrect": 1.8684022737032806e-05,
+              "correct": 0.18513681116822533,
+              "connected": 0.18506137521960872,
+              "out_of_reference_rays": 1657,
+              "risk": 0.00010090990125765814
+            },
+            "connected_delta_cm2": -0.025507170570199827,
+            "connected_gain_percent": -12.113476148361359,
+            "risk_difference_points": 0.010090990125765814,
+            "improved": 0,
+            "same": 3,
+            "worse": 5,
+            "positive_point_estimate": false,
+            "paired_area_delta_95_cm2": [
+              -0.0498009212639154,
+              -0.005279751505274282
+            ],
+            "paired_risk_difference_95_points": [
+              0.0,
+              0.031324157072599834
+            ]
+          }
+        },
+        "graph": {
+          "rows": {
+            "test_01": {
+              "reference": 0.02893667352852737,
+              "accepted": 0.027247040919211252,
+              "incorrect": 8.609081550655004e-06,
+              "correct": 0.027238431837660594,
+              "connected": 0.027238431837660594,
+              "out_of_reference_rays": 0
+            },
+            "test_02": {
+              "reference": 0.02660146053626836,
+              "accepted": 0.023647754914028804,
+              "incorrect": 0.0,
+              "correct": 0.023647754914028804,
+              "connected": 0.023647754914028804,
+              "out_of_reference_rays": 0
+            },
+            "test_03": {
+              "reference": 0.026472371340394426,
+              "accepted": 0.026472371340394426,
+              "incorrect": 0.0,
+              "correct": 0.026472371340394426,
+              "connected": 0.026472371340394426,
+              "out_of_reference_rays": 0
+            },
+            "test_04": {
+              "reference": 0.026495294238968882,
+              "accepted": 0.02649159682099837,
+              "incorrect": 0.0006817731218767643,
+              "correct": 0.025809823699121603,
+              "connected": 0.025809823699121603,
+              "out_of_reference_rays": 0
+            },
+            "test_05": {
+              "reference": 0.0247529037084251,
+              "accepted": 0.024752903708425096,
+              "incorrect": 0.0,
+              "correct": 0.024752903708425096,
+              "connected": 0.024752903708425096,
+              "out_of_reference_rays": 822
+            },
+            "test_06": {
+              "reference": 0.026314713236679492,
+              "accepted": 0.026310987138161435,
+              "incorrect": 0.003015226008369893,
+              "correct": 0.023295761129791544,
+              "connected": 0.023295761129791544,
+              "out_of_reference_rays": 0
+            },
+            "test_07": {
+              "reference": 0.027706826200819483,
+              "accepted": 0.027385108018050622,
+              "incorrect": 0.0,
+              "correct": 0.027385108018050622,
+              "connected": 0.027385108018050622,
+              "out_of_reference_rays": 0
+            },
+            "test_08": {
+              "reference": 0.02328830299972545,
+              "accepted": 0.02328830299972545,
+              "incorrect": 0.0,
+              "correct": 0.02328830299972545,
+              "connected": 0.02328830299972545,
+              "out_of_reference_rays": 835
+            }
+          },
+          "summary": {
+            "stock": {
+              "reference": 0.21056854578980855,
+              "accepted": 0.21056854578980855,
+              "incorrect": 0.0,
+              "correct": 0.21056854578980855,
+              "connected": 0.21056854578980855,
+              "out_of_reference_rays": 1658,
+              "risk": 0.0
+            },
+            "candidate": {
+              "reference": 0.21056854578980855,
+              "accepted": 0.20559606585899545,
+              "incorrect": 0.0037056082117973123,
+              "correct": 0.20189045764719815,
+              "connected": 0.20189045764719815,
+              "out_of_reference_rays": 1657,
+              "risk": 0.018023731126930904
+            },
+            "connected_delta_cm2": -0.008678088142610417,
+            "connected_gain_percent": -4.121265172849208,
+            "risk_difference_points": 1.8023731126930904,
+            "improved": 0,
+            "same": 3,
+            "worse": 5,
+            "positive_point_estimate": false,
+            "paired_area_delta_95_cm2": [
+              -0.015714984589638624,
+              -0.0023781298023106967
+            ],
+            "paired_risk_difference_95_points": [
+              0.0,
+              4.755816561632502
+            ]
+          }
+        },
+        "stock_plus_two_route": {
+          "rows": {
+            "test_01": {
+              "reference": 0.02893667352852737,
+              "accepted": 0.02893667352852737,
+              "incorrect": 0.0,
+              "correct": 0.02893667352852737,
+              "connected": 0.02893667352852737,
+              "out_of_reference_rays": 0
+            },
+            "test_02": {
+              "reference": 0.02660146053626836,
+              "accepted": 0.026601460536268356,
+              "incorrect": 0.0,
+              "correct": 0.026601460536268356,
+              "connected": 0.026601460536268356,
+              "out_of_reference_rays": 0
+            },
+            "test_03": {
+              "reference": 0.026472371340394426,
+              "accepted": 0.026472371340394426,
+              "incorrect": 0.0,
+              "correct": 0.026472371340394426,
+              "connected": 0.026472371340394426,
+              "out_of_reference_rays": 0
+            },
+            "test_04": {
+              "reference": 0.026495294238968882,
+              "accepted": 0.026495294238968882,
+              "incorrect": 0.0,
+              "correct": 0.026495294238968882,
+              "connected": 0.026495294238968882,
+              "out_of_reference_rays": 0
+            },
+            "test_05": {
+              "reference": 0.0247529037084251,
+              "accepted": 0.024752903708425096,
+              "incorrect": 0.0,
+              "correct": 0.024752903708425096,
+              "connected": 0.024752903708425096,
+              "out_of_reference_rays": 823
+            },
+            "test_06": {
+              "reference": 0.026314713236679492,
+              "accepted": 0.026314713236679492,
+              "incorrect": 0.0,
+              "correct": 0.026314713236679492,
+              "connected": 0.026314713236679492,
+              "out_of_reference_rays": 0
+            },
+            "test_07": {
+              "reference": 0.027706826200819483,
+              "accepted": 0.027706826200819483,
+              "incorrect": 0.0,
+              "correct": 0.027706826200819483,
+              "connected": 0.027706826200819483,
+              "out_of_reference_rays": 0
+            },
+            "test_08": {
+              "reference": 0.02328830299972545,
+              "accepted": 0.02328830299972545,
+              "incorrect": 0.0,
+              "correct": 0.02328830299972545,
+              "connected": 0.02328830299972545,
+              "out_of_reference_rays": 835
+            }
+          },
+          "summary": {
+            "stock": {
+              "reference": 0.21056854578980855,
+              "accepted": 0.21056854578980855,
+              "incorrect": 0.0,
+              "correct": 0.21056854578980855,
+              "connected": 0.21056854578980855,
+              "out_of_reference_rays": 1658,
+              "risk": 0.0
+            },
+            "candidate": {
+              "reference": 0.21056854578980855,
+              "accepted": 0.21056854578980855,
+              "incorrect": 0.0,
+              "correct": 0.21056854578980855,
+              "connected": 0.21056854578980855,
+              "out_of_reference_rays": 1658,
+              "risk": 0.0
+            },
+            "connected_delta_cm2": 0.0,
+            "connected_gain_percent": 0.0,
+            "risk_difference_points": 0.0,
+            "improved": 0,
+            "same": 8,
+            "worse": 0,
+            "positive_point_estimate": false,
+            "paired_area_delta_95_cm2": [
+              0.0,
+              0.0
+            ],
+            "paired_risk_difference_95_points": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "stock_plus_graph": {
+          "rows": {
+            "test_01": {
+              "reference": 0.02893667352852737,
+              "accepted": 0.02893667352852737,
+              "incorrect": 0.0,
+              "correct": 0.02893667352852737,
+              "connected": 0.02893667352852737,
+              "out_of_reference_rays": 0
+            },
+            "test_02": {
+              "reference": 0.02660146053626836,
+              "accepted": 0.026601460536268356,
+              "incorrect": 0.0,
+              "correct": 0.026601460536268356,
+              "connected": 0.026601460536268356,
+              "out_of_reference_rays": 0
+            },
+            "test_03": {
+              "reference": 0.026472371340394426,
+              "accepted": 0.026472371340394426,
+              "incorrect": 0.0,
+              "correct": 0.026472371340394426,
+              "connected": 0.026472371340394426,
+              "out_of_reference_rays": 0
+            },
+            "test_04": {
+              "reference": 0.026495294238968882,
+              "accepted": 0.026495294238968882,
+              "incorrect": 0.0,
+              "correct": 0.026495294238968882,
+              "connected": 0.026495294238968882,
+              "out_of_reference_rays": 0
+            },
+            "test_05": {
+              "reference": 0.0247529037084251,
+              "accepted": 0.024752903708425096,
+              "incorrect": 0.0,
+              "correct": 0.024752903708425096,
+              "connected": 0.024752903708425096,
+              "out_of_reference_rays": 823
+            },
+            "test_06": {
+              "reference": 0.026314713236679492,
+              "accepted": 0.026314713236679492,
+              "incorrect": 0.0,
+              "correct": 0.026314713236679492,
+              "connected": 0.026314713236679492,
+              "out_of_reference_rays": 0
+            },
+            "test_07": {
+              "reference": 0.027706826200819483,
+              "accepted": 0.027706826200819483,
+              "incorrect": 0.0,
+              "correct": 0.027706826200819483,
+              "connected": 0.027706826200819483,
+              "out_of_reference_rays": 0
+            },
+            "test_08": {
+              "reference": 0.02328830299972545,
+              "accepted": 0.02328830299972545,
+              "incorrect": 0.0,
+              "correct": 0.02328830299972545,
+              "connected": 0.02328830299972545,
+              "out_of_reference_rays": 835
+            }
+          },
+          "summary": {
+            "stock": {
+              "reference": 0.21056854578980855,
+              "accepted": 0.21056854578980855,
+              "incorrect": 0.0,
+              "correct": 0.21056854578980855,
+              "connected": 0.21056854578980855,
+              "out_of_reference_rays": 1658,
+              "risk": 0.0
+            },
+            "candidate": {
+              "reference": 0.21056854578980855,
+              "accepted": 0.21056854578980855,
+              "incorrect": 0.0,
+              "correct": 0.21056854578980855,
+              "connected": 0.21056854578980855,
+              "out_of_reference_rays": 1658,
+              "risk": 0.0
+            },
+            "connected_delta_cm2": 0.0,
+            "connected_gain_percent": 0.0,
+            "risk_difference_points": 0.0,
+            "improved": 0,
+            "same": 8,
+            "worse": 0,
+            "positive_point_estimate": false,
+            "paired_area_delta_95_cm2": [
+              0.0,
+              0.0
+            ],
+            "paired_risk_difference_95_points": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  }
+}

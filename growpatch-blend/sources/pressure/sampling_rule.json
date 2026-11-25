@@ -1,0 +1,9 @@
+{
+  "dataset": "Same 2.4um acquisition as representative cohort, CT L2, M7 array /0; physical units 9.6um",
+  "salt": "growbench-pressure-v1:",
+  "candidate_pool_size": 40,
+  "target_sites": 8,
+  "candidate_rule": "First 40 eligible by salted SHA256 of public reference ID. Bbox extent in X/Z >350, largest extent <3500, area >0.18cm2. Require at least 65% verified projected disk coverage and <=3% multivalued rays in 160vx disk, local |normal_y|>=.70. Highest-inradius valid graph anchor. Cubes and reference member IDs disjoint from original cohort and every other candidate by >=650 voxels Chebyshev seed separation. Source geometry used only for eligibility, shared initialization and safety from broad chart folds.",
+  "ranking": "Use only the probability signal in shared M7 within a seed-local 97x97 XZ area. Evaluate 13x13 Y-profiles centered on the tangent-plane prediction; offsets +/-40. Local peaks at height>=51, prominence>=32, spacing>=3. Seed must have peak within 4 voxels. Metric=0.65*paired_fraction+0.35*min(gap_fraction,0.60); paired = eligible near peak within 12 and second peak 4-20 voxels away with intervening valley <=0.55*weaker peak. Gap = no peak within 12. Both fractions are fractions of all 169 profiles. Fix ranking before any solver outcomes; top eight eligible. Ties use salted patch order.",
+  "origin": "385x385x385 integer XYZ centered on rounded seed in level-2 space, tangent-radius 160, collar 12, no new tuning"
+}

@@ -1,0 +1,6 @@
+{
+  "salt": "growbench-manual-fresh-v1:",
+  "planned_sites": 16,
+  "source": "Original legacy manual and semantic paired cube catalog",
+  "selection": "Salted hash order of eligible cube names; one target nearest the cube center with the main cohort's mask-only eligibility. Exclude all manual_ids and manual_external cube names and target IDs. Require another labelled sheet within 32 Euclidean voxels of the seed. Require Chebyshev distance >=256 between cube origins and all previously used origins. Sealed as one confirmation set for the locked tiled blend."
+}

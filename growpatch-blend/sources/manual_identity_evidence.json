@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "id": "test_03",
+      "plane": "XY",
+      "global_z": 1872,
+      "target_id": 265,
+      "nearest_other_id_in_section": 270,
+      "ct_display_percentiles": [
+        52.0,
+        216.0
+      ]
+    },
+    {
+      "id": "test_01",
+      "plane": "XY",
+      "global_z": 1872,
+      "target_id": 246,
+      "nearest_other_id_in_section": 247,
+      "ct_display_percentiles": [
+        51.0,
+        210.65000000000146
+      ]
+    }
+  ],
+  "source": "Two prespecified representative-test cubes chosen for contrasting checked neighbor distances, before using method outcomes. Each image shows a distinct manually harmonized sheet-ID boundary. The panel illustrates identity, not algorithm performance."
+}

@@ -1,0 +1,25 @@
+{
+  "original_seed_mesh": "PHerc0125_y3310",
+  "n_independent_anchor_routes": 13,
+  "n_valid_tiles": 219,
+  "new_native_connected_area_cm2": 0.47140599492946106,
+  "new_native_total_consensus_area_cm2": 0.8946174819764956,
+  "new_valid_quads": 245181,
+  "threshold_vox": 3,
+  "grid_spacing_vox": 2,
+  "interpretation": "Conditional agreement of independently seeded routes through the same M7 model; not independent human verification of physical winding identity.",
+  "outward_chart_old_x_max": 4040,
+  "outward_chart_new_x_min": 4056,
+  "outward_chart_max_x": 5576,
+  "direction": "south",
+  "physical_coord_system": "Original PHerc0125 native XYZ",
+  "previous_native_x": [
+    2760,
+    4040
+  ],
+  "previous_native_z": [
+    9827,
+    11107
+  ],
+  "approach": "native array is reflected or transposed into common outward-growth coordinates per tile"
+}

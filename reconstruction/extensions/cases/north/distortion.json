@@ -1,0 +1,46 @@
+{
+  "source_geometry": {
+    "triangles": 8148,
+    "flips": 0,
+    "p50_p90_p95_max_stretch": [
+      1.0330476457818545,
+      1.2464749503354167,
+      1.4230007606464863,
+      1.8443942611296804
+    ],
+    "rms_log_distortion": 0.12740433849080973,
+    "fraction_within_5_percent": 0.6526755031909671,
+    "fraction_within_10_percent": 0.8124693176239568
+  },
+  "intrinsic": {
+    "triangles": 8148,
+    "flips": 0,
+    "p50_p90_p95_max_stretch": [
+      1.0037089481674202,
+      1.0097086841288927,
+      1.0127457397486728,
+      1.062644031444779
+    ],
+    "rms_log_distortion": 0.006344568645860102,
+    "fraction_within_5_percent": 0.9998772704958272,
+    "fraction_within_10_percent": 1.0
+  },
+  "regular_export": {
+    "triangles": 8190,
+    "flips": 0,
+    "p50_p90_p95_max_stretch": [
+      1.003755581226325,
+      1.009524651284776,
+      1.0120167440750334,
+      1.039530731618954
+    ],
+    "rms_log_distortion": 0.006016459795032743,
+    "fraction_within_5_percent": 1.0,
+    "fraction_within_10_percent": 1.0
+  },
+  "retained_vertices": 4363,
+  "source_triangles": 8148,
+  "regular_triangles": 8190,
+  "overlap_rejections": 0,
+  "hole_rejections": 0
+}

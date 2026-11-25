@@ -1,0 +1,921 @@
+{
+  "source": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/README.txt",
+  "original_refs_sha256": "a35c19297a3c1c99eeceb898d657991c4f4e1f127a13f4b728729cb67f0ecfe6",
+  "rule": {
+    "salt": "growbench-manual-external-v1:",
+    "planned_sites": 16,
+    "source": "Original legacy manual and semantic paired cube catalog",
+    "selection": "Salted hash order of eligible cube names, one target nearest cube center with the same mask-only eligibility as main. Exclude all original cube names and target IDs and all newly used targets. Require another labelled sheet within 32 Euclidean voxels of the seed. First pass requires Chebyshev distance >=384 across old/new cube origins. Second pass requires >=256, which ensures zero shared raw voxels. No raw CT, common semantic or contender results enter site selection. Eligible graph-shaped sheets only. All sites seal as one external assessment set without tuning."
+  },
+  "original_ids": [
+    20,
+    38,
+    39,
+    60,
+    68,
+    124,
+    172,
+    190,
+    218,
+    246,
+    253,
+    265,
+    324,
+    352,
+    355,
+    357
+  ],
+  "paired_remaining": 58,
+  "n_384_margin": 1,
+  "selection_history": [
+    {
+      "source": "10192_03024_02256",
+      "margin": 384,
+      "accepted": false
+    },
+    {
+      "source": "01744_02512_05072",
+      "margin": 384,
+      "accepted": false
+    },
+    {
+      "source": "10192_03536_03536",
+      "margin": 384,
+      "accepted": false
+    },
+    {
+      "source": "10192_03280_04048",
+      "margin": 384,
+      "accepted": false
+    },
+    {
+      "source": "10192_03792_03536",
+      "margin": 384,
+      "accepted": false
+    },
+    {
+      "source": "10192_03792_04560",
+      "margin": 384,
+      "accepted": false
+    },
+    {
+      "source": "10192_03280_03792",
+      "margin": 384,
+      "accepted": false
+    },
+    {
+      "source": "10192_04304_02512",
+      "margin": 384,
+      "accepted": false
+    },
+    {
+      "source": "08656_04304_04048",
+      "margin": 384,
+      "accepted": false
+    },
+    {
+      "source": "01744_02768_04048",
+      "margin": 384,
+      "accepted": true
+    },
+    {
+      "source": "10192_03792_02512",
+      "margin": 384,
+      "accepted": false
+    },
+    {
+      "source": "10192_03536_03792",
+      "margin": 384,
+      "accepted": false
+    },
+    {
+      "source": "10192_03024_05072",
+      "margin": 384,
+      "accepted": false
+    },
+    {
+      "source": "10192_03536_04048",
+      "margin": 384,
+      "accepted": false
+    },
+    {
+      "source": "10192_04048_04560",
+      "margin": 384,
+      "accepted": false
+    },
+    {
+      "source": "10192_03792_03792",
+      "margin": 384,
+      "accepted": false
+    },
+    {
+      "source": "10192_04048_02512",
+      "margin": 384,
+      "accepted": false
+    },
+    {
+      "source": "10192_03792_05072",
+      "margin": 384,
+      "accepted": false
+    },
+    {
+      "source": "10192_04304_04048",
+      "margin": 384,
+      "accepted": false
+    },
+    {
+      "source": "10192_03024_02256",
+      "margin": 256,
+      "accepted": false
+    },
+    {
+      "source": "10192_04560_03280",
+      "margin": 256,
+      "accepted": true
+    },
+    {
+      "source": "10448_04048_03280",
+      "margin": 256,
+      "accepted": false
+    },
+    {
+      "source": "02000_02256_04816",
+      "margin": 256,
+      "accepted": false
+    },
+    {
+      "source": "01744_02256_04816",
+      "margin": 256,
+      "accepted": false
+    },
+    {
+      "source": "01744_02512_05072",
+      "margin": 256,
+      "accepted": false
+    },
+    {
+      "source": "10192_04304_03024",
+      "margin": 256,
+      "accepted": true
+    },
+    {
+      "source": "01744_02512_04048",
+      "margin": 256,
+      "accepted": true
+    },
+    {
+      "source": "01744_02512_04304",
+      "margin": 256,
+      "accepted": true
+    },
+    {
+      "source": "10192_03536_03536",
+      "margin": 256,
+      "accepted": false
+    },
+    {
+      "source": "10192_03280_04048",
+      "margin": 256,
+      "accepted": false
+    },
+    {
+      "source": "08400_04304_03280",
+      "margin": 256,
+      "accepted": true
+    },
+    {
+      "source": "10192_02768_02512",
+      "margin": 256,
+      "accepted": true
+    },
+    {
+      "source": "10192_04560_03792",
+      "margin": 256,
+      "accepted": false
+    },
+    {
+      "source": "10192_03792_03536",
+      "margin": 256,
+      "accepted": false
+    },
+    {
+      "source": "10192_03792_04560",
+      "margin": 256,
+      "accepted": false
+    },
+    {
+      "source": "10192_03280_03792",
+      "margin": 256,
+      "accepted": false
+    },
+    {
+      "source": "10192_04304_02512",
+      "margin": 256,
+      "accepted": false
+    },
+    {
+      "source": "10192_04560_03536",
+      "margin": 256,
+      "accepted": true
+    },
+    {
+      "source": "08656_04304_04048",
+      "margin": 256,
+      "accepted": false
+    },
+    {
+      "source": "10192_03792_02512",
+      "margin": 256,
+      "accepted": false
+    },
+    {
+      "source": "02000_02512_05072",
+      "margin": 256,
+      "accepted": false
+    },
+    {
+      "source": "07376_03024_04304",
+      "margin": 256,
+      "accepted": true
+    },
+    {
+      "source": "01744_02256_04560",
+      "margin": 256,
+      "accepted": false
+    },
+    {
+      "source": "01744_02256_04304",
+      "margin": 256,
+      "accepted": false
+    },
+    {
+      "source": "10192_03536_03792",
+      "margin": 256,
+      "accepted": false
+    },
+    {
+      "source": "10192_03024_02512",
+      "margin": 256,
+      "accepted": false
+    },
+    {
+      "source": "10192_03024_05072",
+      "margin": 256,
+      "accepted": false
+    },
+    {
+      "source": "10192_03536_04048",
+      "margin": 256,
+      "accepted": false
+    },
+    {
+      "source": "10192_04048_03792",
+      "margin": 256,
+      "accepted": false
+    },
+    {
+      "source": "01744_02000_04048",
+      "margin": 256,
+      "accepted": true
+    },
+    {
+      "source": "10192_04048_04560",
+      "margin": 256,
+      "accepted": false
+    },
+    {
+      "source": "02000_02256_02256",
+      "margin": 256,
+      "accepted": true
+    },
+    {
+      "source": "01744_02000_04304",
+      "margin": 256,
+      "accepted": true
+    },
+    {
+      "source": "10192_03024_03024",
+      "margin": 256,
+      "accepted": true
+    },
+    {
+      "source": "10192_04048_02768",
+      "margin": 256,
+      "accepted": false
+    },
+    {
+      "source": "01744_02512_02768",
+      "margin": 256,
+      "accepted": true
+    },
+    {
+      "source": "10192_03792_03792",
+      "margin": 256,
+      "accepted": false
+    },
+    {
+      "source": "10192_04048_03536",
+      "margin": 256,
+      "accepted": false
+    },
+    {
+      "source": "10192_03792_02768",
+      "margin": 256,
+      "accepted": false
+    },
+    {
+      "source": "01744_02256_04048",
+      "margin": 256,
+      "accepted": false
+    },
+    {
+      "source": "10448_02512_02256",
+      "margin": 256,
+      "accepted": false
+    },
+    {
+      "source": "10192_04048_02512",
+      "margin": 256,
+      "accepted": false
+    },
+    {
+      "source": "07632_03024_04304",
+      "margin": 256,
+      "accepted": false
+    },
+    {
+      "source": "09168_02768_02768",
+      "margin": 256,
+      "accepted": false
+    },
+    {
+      "source": "10192_04304_03792",
+      "margin": 256,
+      "accepted": false
+    },
+    {
+      "source": "10192_02768_02768",
+      "margin": 256,
+      "accepted": true
+    },
+    {
+      "source": "10192_04048_03280",
+      "margin": 256,
+      "accepted": true
+    }
+  ],
+  "sites": [
+    {
+      "id": "external_01",
+      "source_cube_zyx": "01744_02768_04048",
+      "target_id": 288,
+      "source": {
+        "url": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/instance-labels-harmonized/01744_02768_04048/01744_02768_04048_mask.nrrd",
+        "sha256": "f2089523662d59f070e8471bb3e85a3efa0f2e2db75eb3692a1bd0932907a738",
+        "fields": {
+          "type": "uint16",
+          "sizes": "256 256 256",
+          "encoding": "gzip",
+          "space origin": "(1744,2768,4048)"
+        }
+      },
+      "label_ids": [
+        0,
+        169,
+        170,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295
+      ],
+      "initial_source_margin_vox": 384,
+      "other_id_distance_to_rounded_seed_vox": 16.431676725154983,
+      "unknown_value": 0,
+      "midpoint_definition": "Same midpoint of unique closed target-ID column interval as representative manual cohort."
+    },
+    {
+      "id": "external_02",
+      "source_cube_zyx": "10192_04560_03280",
+      "target_id": 30,
+      "source": {
+        "url": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/instance-labels-harmonized/10192_04560_03280/10192_04560_03280_mask.nrrd",
+        "sha256": "cdaf7740782bd57d1e384252e15cb62bc051cc8a0cad60303cf18c6c2b8d286e",
+        "fields": {
+          "type": "uint16",
+          "sizes": "256 256 256",
+          "encoding": "gzip",
+          "space origin": "(10192,4560,3280)"
+        }
+      },
+      "label_ids": [
+        0,
+        25,
+        29,
+        30,
+        38,
+        348,
+        349,
+        350,
+        351,
+        352
+      ],
+      "initial_source_margin_vox": 256,
+      "other_id_distance_to_rounded_seed_vox": 13.490737563232042,
+      "unknown_value": 0,
+      "midpoint_definition": "Same midpoint of unique closed target-ID column interval as representative manual cohort."
+    },
+    {
+      "id": "external_03",
+      "source_cube_zyx": "10192_04304_03024",
+      "target_id": 140,
+      "source": {
+        "url": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/instance-labels-harmonized/10192_04304_03024/10192_04304_03024_mask.nrrd",
+        "sha256": "f035e2c38971d9b786de8e162e5896c9c5b0cc8b188cc5cbf9b5ba435c55bca2",
+        "fields": {
+          "type": "uint16",
+          "sizes": "256 256 256",
+          "encoding": "gzip",
+          "space origin": "(10192,4304,3024)"
+        }
+      },
+      "label_ids": [
+        0,
+        1,
+        2,
+        25,
+        29,
+        36,
+        37,
+        38,
+        137,
+        140
+      ],
+      "initial_source_margin_vox": 256,
+      "other_id_distance_to_rounded_seed_vox": 28.39013913315678,
+      "unknown_value": 0,
+      "midpoint_definition": "Same midpoint of unique closed target-ID column interval as representative manual cohort."
+    },
+    {
+      "id": "external_04",
+      "source_cube_zyx": "01744_02512_04048",
+      "target_id": 72,
+      "source": {
+        "url": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/instance-labels-harmonized/01744_02512_04048/01744_02512_04048_mask.nrrd",
+        "sha256": "446dc270a775eb4d6943671ea85b09090db9ca8d1c4207b65ed01a0eadebacdb",
+        "fields": {
+          "type": "uint16",
+          "sizes": "256 256 256",
+          "encoding": "gzip",
+          "space origin": "(1744,2512,4048)"
+        }
+      },
+      "label_ids": [
+        0,
+        69,
+        70,
+        71,
+        72,
+        73,
+        159,
+        160,
+        161,
+        162,
+        163,
+        168,
+        169,
+        170,
+        172,
+        244
+      ],
+      "initial_source_margin_vox": 256,
+      "other_id_distance_to_rounded_seed_vox": 14.696938456699069,
+      "unknown_value": 0,
+      "midpoint_definition": "Same midpoint of unique closed target-ID column interval as representative manual cohort."
+    },
+    {
+      "id": "external_05",
+      "source_cube_zyx": "01744_02512_04304",
+      "target_id": 73,
+      "source": {
+        "url": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/instance-labels-harmonized/01744_02512_04304/01744_02512_04304_mask.nrrd",
+        "sha256": "1073090c2be111f17f3fa5baf1309aca7880b161f0e5c1da93490b05ebcb767a",
+        "fields": {
+          "type": "uint16",
+          "sizes": "256 256 256",
+          "encoding": "gzip",
+          "space origin": "(1744,2512,4304)"
+        }
+      },
+      "label_ids": [
+        0,
+        69,
+        70,
+        71,
+        72,
+        73,
+        159,
+        160,
+        161,
+        162,
+        163,
+        168,
+        169,
+        170,
+        171,
+        172
+      ],
+      "initial_source_margin_vox": 256,
+      "other_id_distance_to_rounded_seed_vox": 7.3484692283495345,
+      "unknown_value": 0,
+      "midpoint_definition": "Same midpoint of unique closed target-ID column interval as representative manual cohort."
+    },
+    {
+      "id": "external_06",
+      "source_cube_zyx": "08400_04304_03280",
+      "target_id": 54,
+      "source": {
+        "url": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/instance-labels-harmonized/08400_04304_03280/08400_04304_03280_mask.nrrd",
+        "sha256": "5228ab264ad7af435ed760ed744b0bae0a19f95ccc008c9aded47c02747d28b4",
+        "fields": {
+          "type": "uint16",
+          "sizes": "256 256 256",
+          "encoding": "gzip",
+          "space origin": "(8400,4304,3280)"
+        }
+      },
+      "label_ids": [
+        0,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        336,
+        337,
+        338
+      ],
+      "initial_source_margin_vox": 256,
+      "other_id_distance_to_rounded_seed_vox": 11.789826122551595,
+      "unknown_value": 0,
+      "midpoint_definition": "Same midpoint of unique closed target-ID column interval as representative manual cohort."
+    },
+    {
+      "id": "external_07",
+      "source_cube_zyx": "10192_02768_02512",
+      "target_id": 308,
+      "source": {
+        "url": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/instance-labels-harmonized/10192_02768_02512/10192_02768_02512_mask.nrrd",
+        "sha256": "f7a0a921595d58d6386ad6c6bfea98743ed163c7cb5da67c8bf7d243661543d0",
+        "fields": {
+          "type": "uint16",
+          "sizes": "256 256 256",
+          "encoding": "gzip",
+          "space origin": "(10192,2768,2512)"
+        }
+      },
+      "label_ids": [
+        0,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        425,
+        426,
+        427
+      ],
+      "initial_source_margin_vox": 256,
+      "other_id_distance_to_rounded_seed_vox": 29.698484809834994,
+      "unknown_value": 0,
+      "midpoint_definition": "Same midpoint of unique closed target-ID column interval as representative manual cohort."
+    },
+    {
+      "id": "external_08",
+      "source_cube_zyx": "10192_04560_03536",
+      "target_id": 348,
+      "source": {
+        "url": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/instance-labels-harmonized/10192_04560_03536/10192_04560_03536_mask.nrrd",
+        "sha256": "9b2df17a5cc7cff943ac0338f3ab776294b364f5080d28b94bba8bd4301e2f5b",
+        "fields": {
+          "type": "uint16",
+          "sizes": "256 256 256",
+          "encoding": "gzip",
+          "space origin": "(10192,4560,3536)"
+        }
+      },
+      "label_ids": [
+        0,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        348,
+        349,
+        350,
+        351,
+        352
+      ],
+      "initial_source_margin_vox": 256,
+      "other_id_distance_to_rounded_seed_vox": 7.483314773547883,
+      "unknown_value": 0,
+      "midpoint_definition": "Same midpoint of unique closed target-ID column interval as representative manual cohort."
+    },
+    {
+      "id": "external_09",
+      "source_cube_zyx": "07376_03024_04304",
+      "target_id": 147,
+      "source": {
+        "url": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/instance-labels-harmonized/07376_03024_04304/07376_03024_04304_mask.nrrd",
+        "sha256": "9b952f2c24549f7c369c4e5a0bbcf69bb3dda57009ea213fe64b9c92534f86be",
+        "fields": {
+          "type": "uint16",
+          "sizes": "256 256 256",
+          "encoding": "gzip",
+          "space origin": "(7376,3024,4304)"
+        }
+      },
+      "label_ids": [
+        0,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        190,
+        191,
+        235
+      ],
+      "initial_source_margin_vox": 256,
+      "other_id_distance_to_rounded_seed_vox": 19.28730152198591,
+      "unknown_value": 0,
+      "midpoint_definition": "Same midpoint of unique closed target-ID column interval as representative manual cohort."
+    },
+    {
+      "id": "external_10",
+      "source_cube_zyx": "01744_02000_04048",
+      "target_id": 242,
+      "source": {
+        "url": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/instance-labels-harmonized/01744_02000_04048/01744_02000_04048_mask.nrrd",
+        "sha256": "7995d213eef0b3496cb21e951bb8a81b02d72ac7095dfc3fedc8b121850e5bb2",
+        "fields": {
+          "type": "uint16",
+          "sizes": "256 256 256",
+          "encoding": "gzip",
+          "space origin": "(1744,2000,4048)"
+        }
+      },
+      "label_ids": [
+        0,
+        72,
+        159,
+        160,
+        161,
+        162,
+        163,
+        241,
+        242,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        489
+      ],
+      "initial_source_margin_vox": 256,
+      "other_id_distance_to_rounded_seed_vox": 4.58257569495584,
+      "unknown_value": 0,
+      "midpoint_definition": "Same midpoint of unique closed target-ID column interval as representative manual cohort."
+    },
+    {
+      "id": "external_11",
+      "source_cube_zyx": "02000_02256_02256",
+      "target_id": 252,
+      "source": {
+        "url": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/instance-labels-harmonized/02000_02256_02256/02000_02256_02256_mask.nrrd",
+        "sha256": "dee424cbf81acb4b130e72d31c6e1e59bbb0e8383f29fdca03e64eebb22b0cbd",
+        "fields": {
+          "type": "uint16",
+          "sizes": "256 256 256",
+          "encoding": "gzip",
+          "space origin": "(2000,2256,2256)"
+        }
+      },
+      "label_ids": [
+        0,
+        13,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        278,
+        441,
+        442
+      ],
+      "initial_source_margin_vox": 256,
+      "other_id_distance_to_rounded_seed_vox": 20.493901531919196,
+      "unknown_value": 0,
+      "midpoint_definition": "Same midpoint of unique closed target-ID column interval as representative manual cohort."
+    },
+    {
+      "id": "external_12",
+      "source_cube_zyx": "01744_02000_04304",
+      "target_id": 162,
+      "source": {
+        "url": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/instance-labels-harmonized/01744_02000_04304/01744_02000_04304_mask.nrrd",
+        "sha256": "9cd1e72dcbc995decfbefea0de2f6afb128aac856dc681e19d15970e450b2f9d",
+        "fields": {
+          "type": "uint16",
+          "sizes": "256 256 256",
+          "encoding": "gzip",
+          "space origin": "(1744,2000,4304)"
+        }
+      },
+      "label_ids": [
+        0,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        91,
+        159,
+        160,
+        161,
+        162,
+        163,
+        241,
+        242,
+        244
+      ],
+      "initial_source_margin_vox": 256,
+      "other_id_distance_to_rounded_seed_vox": 26.248809496813376,
+      "unknown_value": 0,
+      "midpoint_definition": "Same midpoint of unique closed target-ID column interval as representative manual cohort."
+    },
+    {
+      "id": "external_13",
+      "source_cube_zyx": "10192_03024_03024",
+      "target_id": 361,
+      "source": {
+        "url": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/instance-labels-harmonized/10192_03024_03024/10192_03024_03024_mask.nrrd",
+        "sha256": "a6c0e844aefd805befec6b04b7a297a62af4e56aac18ad2116ff4f3785028e93",
+        "fields": {
+          "type": "uint16",
+          "sizes": "256 256 256",
+          "encoding": "gzip",
+          "space origin": "(10192,3024,3024)"
+        }
+      },
+      "label_ids": [
+        0,
+        353,
+        354,
+        355,
+        356,
+        357,
+        358,
+        359,
+        360,
+        361,
+        439,
+        440
+      ],
+      "initial_source_margin_vox": 256,
+      "other_id_distance_to_rounded_seed_vox": 5.0,
+      "unknown_value": 0,
+      "midpoint_definition": "Same midpoint of unique closed target-ID column interval as representative manual cohort."
+    },
+    {
+      "id": "external_14",
+      "source_cube_zyx": "01744_02512_02768",
+      "target_id": 272,
+      "source": {
+        "url": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/instance-labels-harmonized/01744_02512_02768/01744_02512_02768_mask.nrrd",
+        "sha256": "8d363830b2780ac82aecf95467eabf5415d2655c5634302137a25e57c4b5e3a9",
+        "fields": {
+          "type": "uint16",
+          "sizes": "256 256 256",
+          "encoding": "gzip",
+          "space origin": "(1744,2512,2768)"
+        }
+      },
+      "label_ids": [
+        0,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        398,
+        399,
+        400,
+        487,
+        488
+      ],
+      "initial_source_margin_vox": 256,
+      "other_id_distance_to_rounded_seed_vox": 18.466185312619388,
+      "unknown_value": 0,
+      "midpoint_definition": "Same midpoint of unique closed target-ID column interval as representative manual cohort."
+    },
+    {
+      "id": "external_15",
+      "source_cube_zyx": "10192_02768_02768",
+      "target_id": 311,
+      "source": {
+        "url": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/instance-labels-harmonized/10192_02768_02768/10192_02768_02768_mask.nrrd",
+        "sha256": "fe1a1d3029fb0e9de9d736d924483136bec9b7d096dd0797ccfb38032bd50994",
+        "fields": {
+          "type": "uint16",
+          "sizes": "256 256 256",
+          "encoding": "gzip",
+          "space origin": "(10192,2768,2768)"
+        }
+      },
+      "label_ids": [
+        0,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        356,
+        425
+      ],
+      "initial_source_margin_vox": 256,
+      "other_id_distance_to_rounded_seed_vox": 13.74772708486752,
+      "unknown_value": 0,
+      "midpoint_definition": "Same midpoint of unique closed target-ID column interval as representative manual cohort."
+    },
+    {
+      "id": "external_16",
+      "source_cube_zyx": "10192_04048_03280",
+      "target_id": 125,
+      "source": {
+        "url": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/instance-labels-harmonized/10192_04048_03280/10192_04048_03280_mask.nrrd",
+        "sha256": "daf75bdd3b47ff24a80b135a94330c3fa00e54681f84aeb4107cdc3578f10103",
+        "fields": {
+          "type": "uint16",
+          "sizes": "256 256 256",
+          "encoding": "gzip",
+          "space origin": "(10192,4048,3280)"
+        }
+      },
+      "label_ids": [
+        0,
+        1,
+        2,
+        123,
+        124,
+        125,
+        137,
+        229,
+        230,
+        231,
+        232
+      ],
+      "initial_source_margin_vox": 256,
+      "other_id_distance_to_rounded_seed_vox": 17.97220075561143,
+      "unknown_value": 0,
+      "midpoint_definition": "Same midpoint of unique closed target-ID column interval as representative manual cohort."
+    }
+  ]
+}

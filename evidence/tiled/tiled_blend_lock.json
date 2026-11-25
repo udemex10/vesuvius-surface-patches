@@ -1,0 +1,35 @@
+{
+ "spacing_vox": 32,
+ "mode": "shared",
+ "selected_on": "manual_ids (16 regions, 3 presets), radius 128",
+ "ranking": [
+  {
+   "spacing_vox": 32,
+   "mode": "shared",
+   "mean_gain_percent": 25.15730391543679,
+   "mean_strict_error": 0.2659115338468876
+  },
+  {
+   "spacing_vox": 64,
+   "mode": "shared",
+   "mean_gain_percent": 24.22014399636173,
+   "mean_strict_error": 0.273414542384324
+  },
+  {
+   "spacing_vox": 32,
+   "mode": "visible",
+   "mean_gain_percent": 21.67474970902452,
+   "mean_strict_error": 0.27959045480642936
+  },
+  {
+   "spacing_vox": 64,
+   "mode": "visible",
+   "mean_gain_percent": 18.84389931778081,
+   "mean_strict_error": 0.2837200791933378
+  }
+ ],
+ "locked_at": "2026-11-24T16:04:49",
+ "protocol_sha256": "f4e1850e91462499a442713d19806c5a8e6558afb799a586d2fe56ec7d4773c7",
+ "eval_sha256": "c222450f483247f82765ef2ced3f52010339d21a5e357fc602f0d73f2a4d7bc6",
+ "tiled_sha256": "810e512ef8ab5741191d997a1bf5ec2e2e365ffc0c1185799a923cd4b383fb0d"
+}

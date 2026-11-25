@@ -1,0 +1,24 @@
+{
+  "type": "seg",
+  "format": "tifxyz",
+  "uuid": "local-blend.tifxyz",
+  "name": "local-blend.tifxyz",
+  "scale": [
+    0.5,
+    0.5
+  ],
+  "coordinate_units": "global XYZ in input voxels",
+  "source": "growbench",
+  "bbox": [
+    [
+      3783.86962890625,
+      3289.361083984375,
+      10365.62109375
+    ],
+    [
+      3976.7099609375,
+      3319.929931640625,
+      10563.7861328125
+    ]
+  ]
+}

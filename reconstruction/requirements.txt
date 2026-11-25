@@ -1,0 +1,8 @@
+numpy==2.5.4
+scipy==1.18.1
+numcodecs==0.17.1
+requests==2.34.2
+tifffile==2026.10.15
+pillow==13.0.0
+filelock==4.2.5
+matplotlib==3.11.2

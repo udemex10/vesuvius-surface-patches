@@ -1,0 +1,1139 @@
+{
+  "split": "test",
+  "method": {
+    "method": "two_route_phase",
+    "threshold": 0.0,
+    "dev_gate": true
+  },
+  "offsets": {
+    "test_01": 1.405755669077923,
+    "test_02": 0.35044300692222474,
+    "test_03": 0.06687654246629383,
+    "test_04": 1.0393933992816213,
+    "test_05": 1.3909620116515256,
+    "test_06": -0.8183095373547473,
+    "test_07": 1.4387635841234463,
+    "test_08": 0.5756267951462756
+  },
+  "sensitivity": {
+    "test_01": {
+      "stock": {
+        "largest_correct_cm2": 0.024472325374964014,
+        "from_collar_cm2": 0.0244723253749643,
+        "all_correct_cm2": 0.0244723253749643,
+        "common_cm2": 0.02529740624483789,
+        "common_bad_cm2": 0.001805543399310636
+      },
+      "candidate": {
+        "largest_correct_cm2": 0.02528802379617091,
+        "from_collar_cm2": 0.025288023796171236,
+        "all_correct_cm2": 0.025288023796171236,
+        "common_cm2": 0.02529740624483789,
+        "common_bad_cm2": 9.382448666654116e-06
+      }
+    },
+    "test_02": {
+      "stock": {
+        "largest_correct_cm2": 0.026109034802445443,
+        "from_collar_cm2": 0.02610903480244548,
+        "all_correct_cm2": 0.02610903480244548,
+        "common_cm2": 0.019164648027217426,
+        "common_bad_cm2": 3.102881913346893e-05
+      },
+      "candidate": {
+        "largest_correct_cm2": 0.0191646480272177,
+        "from_collar_cm2": 0.019164648027217426,
+        "all_correct_cm2": 0.019164648027217426,
+        "common_cm2": 0.019164648027217426,
+        "common_bad_cm2": 0.0
+      }
+    },
+    "test_03": {
+      "stock": {
+        "largest_correct_cm2": 0.02292135257503196,
+        "from_collar_cm2": 0.02292135257503278,
+        "all_correct_cm2": 0.02292135257503278,
+        "common_cm2": 0.026472371340394426,
+        "common_bad_cm2": 0.0035510187653616443
+      },
+      "candidate": {
+        "largest_correct_cm2": 0.024344671710961566,
+        "from_collar_cm2": 0.024344671710962537,
+        "all_correct_cm2": 0.024344671710962537,
+        "common_cm2": 0.026472371340394426,
+        "common_bad_cm2": 0.0021276996294318853
+      }
+    },
+    "test_04": {
+      "stock": {
+        "largest_correct_cm2": 0.021490437178329224,
+        "from_collar_cm2": 0.021490437178329394,
+        "all_correct_cm2": 0.021490437178329394,
+        "common_cm2": 0.024415052221344095,
+        "common_bad_cm2": 0.0037678401321634128
+      },
+      "candidate": {
+        "largest_correct_cm2": 0.02237477074206218,
+        "from_collar_cm2": 0.022374770742062407,
+        "all_correct_cm2": 0.022459376674268717,
+        "common_cm2": 0.024415052221344095,
+        "common_bad_cm2": 0.001955675547075376
+      }
+    },
+    "test_05": {
+      "stock": {
+        "largest_correct_cm2": 0.022634026715836034,
+        "from_collar_cm2": 0.022634026715836107,
+        "all_correct_cm2": 0.022649186953613783,
+        "common_cm2": 0.024752903708425096,
+        "common_bad_cm2": 0.0021037167548113153
+      },
+      "candidate": {
+        "largest_correct_cm2": 0.02474123292555934,
+        "from_collar_cm2": 0.024741232925559464,
+        "all_correct_cm2": 0.024741232925559464,
+        "common_cm2": 0.024752903708425096,
+        "common_bad_cm2": 1.167078286563488e-05
+      }
+    },
+    "test_06": {
+      "stock": {
+        "largest_correct_cm2": 0.019280017612293122,
+        "from_collar_cm2": 0.01928001761229286,
+        "all_correct_cm2": 0.020113628706983827,
+        "common_cm2": 0.014411614587824065,
+        "common_bad_cm2": 0.004336404315477641
+      },
+      "candidate": {
+        "largest_correct_cm2": 0.00306417952240442,
+        "from_collar_cm2": 0.003064179522404423,
+        "all_correct_cm2": 0.0030790278654079864,
+        "common_cm2": 0.014411614587824065,
+        "common_bad_cm2": 0.011332586722416079
+      }
+    },
+    "test_07": {
+      "stock": {
+        "largest_correct_cm2": 0.023928922040189763,
+        "from_collar_cm2": 0.023928922040189808,
+        "all_correct_cm2": 0.024018049896073635,
+        "common_cm2": 0.027497273639485908,
+        "common_bad_cm2": 0.003688776304745847
+      },
+      "candidate": {
+        "largest_correct_cm2": 0.02747958702186717,
+        "from_collar_cm2": 0.02747958702186757,
+        "all_correct_cm2": 0.02747958702186757,
+        "common_cm2": 0.027497273639485908,
+        "common_bad_cm2": 1.768661761833887e-05
+      }
+    },
+    "test_08": {
+      "stock": {
+        "largest_correct_cm2": 0.022146683599775403,
+        "from_collar_cm2": 0.02214668359977559,
+        "all_correct_cm2": 0.02214668359977559,
+        "common_cm2": 0.02328830299972545,
+        "common_bad_cm2": 0.0011416193999498553
+      },
+      "candidate": {
+        "largest_correct_cm2": 0.022210425056955935,
+        "from_collar_cm2": 0.022210425056956112,
+        "all_correct_cm2": 0.022210425056956112,
+        "common_cm2": 0.02328830299972545,
+        "common_bad_cm2": 0.0010778779427693401
+      }
+    }
+  },
+  "case_digests": {
+    "test_01": {
+      "reference": "4ce9a3291f642f8934f71a19cf0348d6b9cd1fad8a025330b0d6d28528fe81c5",
+      "default20": "c3eb0a1cd83494db4f72d46dca93ae96e8a2b4a3e50d329ef19c14926ab54bfd",
+      "oriented8": "b11c60c750b18b83b5951e44782a6d900ee0f4e4a2f226e1aeb8a392d035e179",
+      "two_route": "fca8cdc49d02bed337fbdca86aeee5bc8fc6f691f3765bc4c0efea6f16b50d1b",
+      "graph": "ef9f7af4ffd4cfb15f82307c5c8785e710ef96a47a2c59b1363afd8da5dfa1ed",
+      "two_route_phase": "35983e0e38bf25eff54fb7e773e2ca0e0ef141c8cb75ca82ea5b577ad987dcea",
+      "graph_phase": "7f3c70f6ae9f37fe7c5e200183a1ebb5441cc3a425cf7bf04588dfbb63d1d61f"
+    },
+    "test_02": {
+      "reference": "a3201201ffc64374db7489ba8d1b7b7840c9f918abda90bc880f21d7804d9968",
+      "default20": "7ff28d644b4cb21c51cc15772159e86dd0b8367b37fe5705fcda9926fd024ffa",
+      "oriented8": "54cc6b3822345656a7f2a424951b0f21f8d258eb6115c2accd89d4ee810122f8",
+      "two_route": "1b072e05fa1515ebec70a313cbc81864645e9713565a9f28de6b6fe3c1210fd4",
+      "graph": "a3c5f97cf65dcf7b88c411e33e4f36f12b4a330d4e14fc14cbbc60b937bc8c4c",
+      "two_route_phase": "77b3b9771c75418c0c2343113119d85dfbd9365522b3705a9628497a07fd54e7",
+      "graph_phase": "12e38f29beae06d81ed1788a8ed25039f4d9a2025dcf4e9c86892e388c13e1b7"
+    },
+    "test_03": {
+      "reference": "2ddb9471b95d1d644cdd7ec4d3641b5a0fcd6f9c4b09d2e7bb0a9eaefda81b52",
+      "default20": "c2578cf80db3e5b65868da1157d03fb299c5943ce8d967ee1db67d8e953216cb",
+      "oriented8": "e2a5f80bb39cfd3c1253837a034448b2077d0e18d476522d6f87c54af881b64b",
+      "two_route": "d90c0e26e3651f479245e745760397147c0108beac5d8a1f9d881f537df32849",
+      "graph": "f9c08509eda045a17ebda2bd6014d046d7325f7c561c9cb91dc6c38d8a0feda1",
+      "two_route_phase": "45e9c1219089980300b321e859c235960094dd6b55c49a00975b9ecf50c90197",
+      "graph_phase": "2aba7a27d46b1a08b60ee8fb530f97f6d1784bf1347706a1d57e2b9a883be1aa"
+    },
+    "test_04": {
+      "reference": "1dfae2b11941da4bdf9f54edcdf283d22677469cda2462556a9967fa6b6184c4",
+      "default20": "c609549f57f2d9287745df2a5ba44a009058b7e8cb8fa502f614b230cb0db4fd",
+      "oriented8": "793e4294c0925d0b95c9037b9da97e6fb2e43504e0ad84be00637cb9ea1bd42a",
+      "two_route": "4679a74292852090445030f0354bb18c2fc8823b9a58af374df949b1069b4313",
+      "graph": "c29e209024b2b0211ef737d3b8135504215e1bc2d0e20dd99e4201899c49409d",
+      "two_route_phase": "c76393fd5b3af950a7abaa5b1738e96c1982094436b5625d54dd9453101fa8e4",
+      "graph_phase": "c1270e350d56fde3557ec14e7dcf98cfa4416ef797c30f9fe87536fffe042de6"
+    },
+    "test_05": {
+      "reference": "4e5e682fa02ce7fa9b695279c0d7ffd6c843213047a56a5e0b0356d20021f2f3",
+      "default20": "0541c389d7622f02b49e0bde82af0a975501ccfa092b43d1227d757cc810f508",
+      "oriented8": "6f8bfbee8c49202712d09258c188c4736b0e7e83d8ca6af8ca211acc264bf78f",
+      "two_route": "5c02f3309b35db021f6b76853e53aa6c703b35317d477267bc29cef66d251c8c",
+      "graph": "8fa97190177876a248a0b64950c4eecb6b56aac150a16b837318cd67ff1ce2ad",
+      "two_route_phase": "1ca71e1fbdf5e1aa39dd8db51d56b9b1b1c88b756dd86a29c27223e18e0390a1",
+      "graph_phase": "a13424fc14ae36979c7341a8cdec225273f658d4e65ec0d610a2593b91b22871"
+    },
+    "test_06": {
+      "reference": "1b72cc8be67eb853b6ccb52b1b8977c3c7cb91fbf356c4ee9ad4b593ddb9c3cc",
+      "default20": "6026fab36b5ed1ec34963bd8b38a9a84d4cad515bb42cee42f2b9ab5e412eb14",
+      "oriented8": "c7929998c02c27ad38a2874acdd95c3b2535e0acd0331e8ac7b5394859872955",
+      "two_route": "eba7ecd844de3783588d4f9a04f816190e340fc02e3443d33b571cf266c09876",
+      "graph": "623615caa5656a29e43b5461bc77002b4565edf98ca4d64716d6873d808c785b",
+      "two_route_phase": "7c2b9d76ffeedb5843dd6f4ef872441b3a82c026d5e0bd7bea971e4be6800bab",
+      "graph_phase": "8fab4fddffc11edb42634a4c7a0fb2816ae37e9c1e645af22b4e11f1ff4e82cd"
+    },
+    "test_07": {
+      "reference": "b6b57f1ca47d565ea4222dcbe8de74fe9c3948daf762d3daa64c058277bccee2",
+      "default20": "2799e2d5accbaf15fdcf8600d833a581b89afee989f0962bb355c9f67a2dfb6a",
+      "oriented8": "0ae2bcf743444597c4fafe445bcd7b8198e7ac0c83dbdfb2881d606ab3f296f7",
+      "two_route": "f3b46f382b7ab02f24d1f3824a30b6d079f67201d95006c9c13a4daa0457b031",
+      "graph": "e810546a848f89763fd10270e4071e485f81840532235e3d103b9ad4c9e6a763",
+      "two_route_phase": "2788b531ff8fefa0dcab1c238ff2f21c996256710d77c88314e6566903edfe45",
+      "graph_phase": "90016582866e022e5372555134bbd6c393f023f206c2768ffc050bf6806f447d"
+    },
+    "test_08": {
+      "reference": "bbb2e28afb6d2318ef80b9c1433e7049aad489bc1dd7415648b446b12f51efae",
+      "default20": "546e1c169981de86905b0fa70ba5bd89e55eb075db29f56707520cf7e7ba1dfb",
+      "oriented8": "f975fdcf0f43d5fc45a880d7c3efc8a6167cc4aefdb17f682bc7057cc84e31b7",
+      "two_route": "d2bda8f8376ffaa6abe63b9757fabf0f4f46ab8474834fe83a087de4ec7b60fc",
+      "graph": "3b2873984351c745b59a9a1b55f5eef4fc1c9dcb7511680d2d89cea39b0bc69b",
+      "two_route_phase": "c68da90f959a0bfe3f9f0c95a91fb2b310fb2b858f2c792d6bff982a13ae386c",
+      "graph_phase": "4ad883fd5883084e8602bb72eca33b95aadf9c00c3f22c44d8ec831ef167330c"
+    }
+  },
+  "by_tolerance": {
+    "1": {
+      "stock": {
+        "test_01": {
+          "reference": 0.02893667352852737,
+          "accepted": 0.02893667352852737,
+          "incorrect": 0.01108124478996055,
+          "correct": 0.01785542873856682,
+          "connected": 0.0,
+          "out_of_reference_rays": 0
+        },
+        "test_02": {
+          "reference": 0.02660146053626836,
+          "accepted": 0.026601460536268356,
+          "incorrect": 0.01090812642630198,
+          "correct": 0.01569333410996638,
+          "connected": 0.015599334957962542,
+          "out_of_reference_rays": 0
+        },
+        "test_03": {
+          "reference": 0.026472371340394426,
+          "accepted": 0.026472371340394426,
+          "incorrect": 0.018224614145149344,
+          "correct": 0.008247757195245082,
+          "connected": 0.004858778837206167,
+          "out_of_reference_rays": 0
+        },
+        "test_04": {
+          "reference": 0.026495294238968882,
+          "accepted": 0.026495294238968882,
+          "incorrect": 0.017374230967464755,
+          "correct": 0.009121063271504129,
+          "connected": 0.008652927138796233,
+          "out_of_reference_rays": 0
+        },
+        "test_05": {
+          "reference": 0.0247529037084251,
+          "accepted": 0.024752903708425096,
+          "incorrect": 0.011851324923584402,
+          "correct": 0.012901578784840696,
+          "connected": 0.0,
+          "out_of_reference_rays": 823
+        },
+        "test_06": {
+          "reference": 0.026314713236679492,
+          "accepted": 0.026314713236679492,
+          "incorrect": 0.020400330520701455,
+          "correct": 0.005914382715978038,
+          "connected": 0.005906936456807265,
+          "out_of_reference_rays": 0
+        },
+        "test_07": {
+          "reference": 0.027706826200819483,
+          "accepted": 0.027706826200819483,
+          "incorrect": 0.02115164581871442,
+          "correct": 0.006555180382105064,
+          "connected": 0.0,
+          "out_of_reference_rays": 0
+        },
+        "test_08": {
+          "reference": 0.02328830299972545,
+          "accepted": 0.02328830299972545,
+          "incorrect": 0.005353303660164281,
+          "correct": 0.017934999339561167,
+          "connected": 0.017934999339561167,
+          "out_of_reference_rays": 835
+        }
+      },
+      "adjusted_stock": {
+        "test_01": {
+          "reference": 0.02893667352852737,
+          "accepted": 0.02893667352852737,
+          "incorrect": 0.009599228428922756,
+          "correct": 0.01933744509960461,
+          "connected": 0.01928593348676799,
+          "out_of_reference_rays": 0
+        },
+        "test_02": {
+          "reference": 0.02660146053626836,
+          "accepted": 0.026601460536268356,
+          "incorrect": 0.0053157694056987365,
+          "correct": 0.02128569113056962,
+          "connected": 0.02128569113056962,
+          "out_of_reference_rays": 0
+        },
+        "test_03": {
+          "reference": 0.026472371340394426,
+          "accepted": 0.026472371340394426,
+          "incorrect": 0.016913424328112124,
+          "correct": 0.0095589470122823,
+          "connected": 0.007015527739433957,
+          "out_of_reference_rays": 0
+        },
+        "test_04": {
+          "reference": 0.026495294238968882,
+          "accepted": 0.026495294238968882,
+          "incorrect": 0.006444590509715453,
+          "correct": 0.02005070372925343,
+          "connected": 0.02005070372925343,
+          "out_of_reference_rays": 0
+        },
+        "test_05": {
+          "reference": 0.0247529037084251,
+          "accepted": 0.024752903708425096,
+          "incorrect": 0.0038691815318038377,
+          "correct": 0.02088372217662126,
+          "connected": 0.020822819124699445,
+          "out_of_reference_rays": 823
+        },
+        "test_06": {
+          "reference": 0.026314713236679492,
+          "accepted": 0.026314713236679492,
+          "incorrect": 0.024410767480598814,
+          "correct": 0.0019039457560806785,
+          "connected": 0.0019039457560806785,
+          "out_of_reference_rays": 0
+        },
+        "test_07": {
+          "reference": 0.027706826200819483,
+          "accepted": 0.027706826200819483,
+          "incorrect": 0.0006307653833839452,
+          "correct": 0.027076060817435535,
+          "connected": 0.027076060817435535,
+          "out_of_reference_rays": 0
+        },
+        "test_08": {
+          "reference": 0.02328830299972545,
+          "accepted": 0.02328830299972545,
+          "incorrect": 0.005344829679274922,
+          "correct": 0.01794347332045053,
+          "connected": 0.01794347332045053,
+          "out_of_reference_rays": 835
+        }
+      },
+      "candidate": {
+        "test_01": {
+          "reference": 0.02893667352852737,
+          "accepted": 0.02529740624483789,
+          "incorrect": 0.008266794799318801,
+          "correct": 0.017030611445519088,
+          "connected": 0.01686297381852972,
+          "out_of_reference_rays": 0
+        },
+        "test_02": {
+          "reference": 0.02660146053626836,
+          "accepted": 0.019164648027217426,
+          "incorrect": 0.001790172673031001,
+          "correct": 0.017374475354186424,
+          "connected": 0.017370571294143804,
+          "out_of_reference_rays": 0
+        },
+        "test_03": {
+          "reference": 0.026472371340394426,
+          "accepted": 0.026472371340394426,
+          "incorrect": 0.01398988313310017,
+          "correct": 0.012482488207294258,
+          "connected": 0.009425070759999911,
+          "out_of_reference_rays": 0
+        },
+        "test_04": {
+          "reference": 0.026495294238968882,
+          "accepted": 0.024415052221344095,
+          "incorrect": 0.007299164022266543,
+          "correct": 0.01711588819907755,
+          "connected": 0.016068349647760136,
+          "out_of_reference_rays": 0
+        },
+        "test_05": {
+          "reference": 0.0247529037084251,
+          "accepted": 0.024752903708425096,
+          "incorrect": 0.002384135399471132,
+          "correct": 0.022368768308953967,
+          "connected": 0.022364888822474935,
+          "out_of_reference_rays": 822
+        },
+        "test_06": {
+          "reference": 0.026314713236679492,
+          "accepted": 0.014411614587824065,
+          "incorrect": 0.01357039380005418,
+          "correct": 0.0008412207877698859,
+          "connected": 0.0008412207877698859,
+          "out_of_reference_rays": 0
+        },
+        "test_07": {
+          "reference": 0.027706826200819483,
+          "accepted": 0.027497273639485908,
+          "incorrect": 0.002681212079410732,
+          "correct": 0.024816061560075178,
+          "connected": 0.02481193337933911,
+          "out_of_reference_rays": 0
+        },
+        "test_08": {
+          "reference": 0.02328830299972545,
+          "accepted": 0.02328830299972545,
+          "incorrect": 0.005547062000825964,
+          "correct": 0.017741240998899486,
+          "connected": 0.017722697931676287,
+          "out_of_reference_rays": 835
+        }
+      },
+      "candidate_vs_stock": {
+        "stock": {
+          "reference": 0.21056854578980855,
+          "accepted": 0.21056854578980855,
+          "incorrect": 0.11634482125204118,
+          "correct": 0.09422372453776737,
+          "connected": 0.052952976730333376,
+          "out_of_reference_rays": 1658,
+          "risk": 0.5525270681603968
+        },
+        "candidate": {
+          "reference": 0.21056854578980855,
+          "accepted": 0.18529957276925435,
+          "incorrect": 0.055528817907478524,
+          "correct": 0.12977075486177583,
+          "connected": 0.12546770644169378,
+          "out_of_reference_rays": 1657,
+          "risk": 0.2996705123364002
+        },
+        "connected_delta_cm2": 0.07251472971136042,
+        "connected_gain_percent": 136.94174376758193,
+        "risk_difference_points": -25.285655582399656,
+        "improved": 6,
+        "same": 0,
+        "worse": 2,
+        "positive_point_estimate": true,
+        "paired_area_delta_95_cm2": [
+          0.017911983713815405,
+          0.13028702771177664
+        ],
+        "paired_risk_difference_95_points": [
+          -40.930761590118045,
+          -10.404237428390648
+        ]
+      },
+      "candidate_vs_adjusted": {
+        "stock": {
+          "reference": 0.21056854578980855,
+          "accepted": 0.21056854578980855,
+          "incorrect": 0.07252855674751059,
+          "correct": 0.13803998904229797,
+          "connected": 0.13538415510469118,
+          "out_of_reference_rays": 1658,
+          "risk": 0.34444155215807615
+        },
+        "candidate": {
+          "reference": 0.21056854578980855,
+          "accepted": 0.18529957276925435,
+          "incorrect": 0.055528817907478524,
+          "correct": 0.12977075486177583,
+          "connected": 0.12546770644169378,
+          "out_of_reference_rays": 1657,
+          "risk": 0.2996705123364002
+        },
+        "connected_delta_cm2": -0.009916448662997394,
+        "connected_gain_percent": -7.324674483013989,
+        "risk_difference_points": -4.477103982167597,
+        "improved": 2,
+        "same": 0,
+        "worse": 6,
+        "positive_point_estimate": false,
+        "paired_area_delta_95_cm2": [
+          -0.022191334406431007,
+          0.0027745875527997108
+        ],
+        "paired_risk_difference_95_points": [
+          -9.740844432687712,
+          1.6197122026249482
+        ]
+      },
+      "adjusted_vs_stock": {
+        "stock": {
+          "reference": 0.21056854578980855,
+          "accepted": 0.21056854578980855,
+          "incorrect": 0.11634482125204118,
+          "correct": 0.09422372453776737,
+          "connected": 0.052952976730333376,
+          "out_of_reference_rays": 1658,
+          "risk": 0.5525270681603968
+        },
+        "candidate": {
+          "reference": 0.21056854578980855,
+          "accepted": 0.21056854578980855,
+          "incorrect": 0.07252855674751059,
+          "correct": 0.13803998904229797,
+          "connected": 0.13538415510469118,
+          "out_of_reference_rays": 1658,
+          "risk": 0.34444155215807615
+        },
+        "connected_delta_cm2": 0.08243117837435782,
+        "connected_gain_percent": 155.66863935552513,
+        "risk_difference_points": -20.80855160023206,
+        "improved": 7,
+        "same": 0,
+        "worse": 1,
+        "positive_point_estimate": true,
+        "paired_area_delta_95_cm2": [
+          0.02652631703076966,
+          0.1404918314486965
+        ],
+        "paired_risk_difference_95_points": [
+          -40.221442771568675,
+          -3.416504527496472
+        ]
+      }
+    },
+    "2": {
+      "stock": {
+        "test_01": {
+          "reference": 0.02893667352852737,
+          "accepted": 0.02893667352852737,
+          "incorrect": 0.00446434815356307,
+          "correct": 0.0244723253749643,
+          "connected": 0.0244723253749643,
+          "out_of_reference_rays": 0
+        },
+        "test_02": {
+          "reference": 0.02660146053626836,
+          "accepted": 0.026601460536268356,
+          "incorrect": 0.000492425733822877,
+          "correct": 0.02610903480244548,
+          "connected": 0.02610903480244548,
+          "out_of_reference_rays": 0
+        },
+        "test_03": {
+          "reference": 0.026472371340394426,
+          "accepted": 0.026472371340394426,
+          "incorrect": 0.0035510187653616443,
+          "correct": 0.02292135257503278,
+          "connected": 0.02292135257503278,
+          "out_of_reference_rays": 0
+        },
+        "test_04": {
+          "reference": 0.026495294238968882,
+          "accepted": 0.026495294238968882,
+          "incorrect": 0.005004857060639488,
+          "correct": 0.021490437178329394,
+          "connected": 0.021490437178329394,
+          "out_of_reference_rays": 0
+        },
+        "test_05": {
+          "reference": 0.0247529037084251,
+          "accepted": 0.024752903708425096,
+          "incorrect": 0.0021037167548113153,
+          "correct": 0.022649186953613783,
+          "connected": 0.022634026715836107,
+          "out_of_reference_rays": 823
+        },
+        "test_06": {
+          "reference": 0.026314713236679492,
+          "accepted": 0.026314713236679492,
+          "incorrect": 0.006201084529695665,
+          "correct": 0.020113628706983827,
+          "connected": 0.01928001761229286,
+          "out_of_reference_rays": 0
+        },
+        "test_07": {
+          "reference": 0.027706826200819483,
+          "accepted": 0.027706826200819483,
+          "incorrect": 0.003688776304745847,
+          "correct": 0.024018049896073635,
+          "connected": 0.023928922040189808,
+          "out_of_reference_rays": 0
+        },
+        "test_08": {
+          "reference": 0.02328830299972545,
+          "accepted": 0.02328830299972545,
+          "incorrect": 0.0011416193999498553,
+          "correct": 0.02214668359977559,
+          "connected": 0.02214668359977559,
+          "out_of_reference_rays": 835
+        }
+      },
+      "adjusted_stock": {
+        "test_01": {
+          "reference": 0.02893667352852737,
+          "accepted": 0.02893667352852737,
+          "incorrect": 8.91843220479412e-06,
+          "correct": 0.028927755096322574,
+          "connected": 0.028927755096322574,
+          "out_of_reference_rays": 0
+        },
+        "test_02": {
+          "reference": 0.02660146053626836,
+          "accepted": 0.026601460536268356,
+          "incorrect": 0.0,
+          "correct": 0.026601460536268356,
+          "connected": 0.026601460536268356,
+          "out_of_reference_rays": 0
+        },
+        "test_03": {
+          "reference": 0.026472371340394426,
+          "accepted": 0.026472371340394426,
+          "incorrect": 0.002930853425859451,
+          "correct": 0.023541517914534973,
+          "connected": 0.023541517914534973,
+          "out_of_reference_rays": 0
+        },
+        "test_04": {
+          "reference": 0.026495294238968882,
+          "accepted": 0.026495294238968882,
+          "incorrect": 0.0015569966133892285,
+          "correct": 0.024938297625579656,
+          "connected": 0.024938297625579656,
+          "out_of_reference_rays": 0
+        },
+        "test_05": {
+          "reference": 0.0247529037084251,
+          "accepted": 0.024752903708425096,
+          "incorrect": 0.00011581032298332551,
+          "correct": 0.02463709338544177,
+          "connected": 0.02463709338544177,
+          "out_of_reference_rays": 823
+        },
+        "test_06": {
+          "reference": 0.026314713236679492,
+          "accepted": 0.026314713236679492,
+          "incorrect": 0.018860649852650707,
+          "correct": 0.007454063384028784,
+          "connected": 0.007372246805810984,
+          "out_of_reference_rays": 0
+        },
+        "test_07": {
+          "reference": 0.027706826200819483,
+          "accepted": 0.027706826200819483,
+          "incorrect": 0.0,
+          "correct": 0.027706826200819483,
+          "connected": 0.027706826200819483,
+          "out_of_reference_rays": 0
+        },
+        "test_08": {
+          "reference": 0.02328830299972545,
+          "accepted": 0.02328830299972545,
+          "incorrect": 0.0004530020458359497,
+          "correct": 0.022835300953889498,
+          "connected": 0.022824168060901394,
+          "out_of_reference_rays": 835
+        }
+      },
+      "candidate": {
+        "test_01": {
+          "reference": 0.02893667352852737,
+          "accepted": 0.02529740624483789,
+          "incorrect": 9.382448666654116e-06,
+          "correct": 0.025288023796171236,
+          "connected": 0.025288023796171236,
+          "out_of_reference_rays": 0
+        },
+        "test_02": {
+          "reference": 0.02660146053626836,
+          "accepted": 0.019164648027217426,
+          "incorrect": 0.0,
+          "correct": 0.019164648027217426,
+          "connected": 0.019164648027217426,
+          "out_of_reference_rays": 0
+        },
+        "test_03": {
+          "reference": 0.026472371340394426,
+          "accepted": 0.026472371340394426,
+          "incorrect": 0.0021276996294318853,
+          "correct": 0.024344671710962537,
+          "connected": 0.024344671710962537,
+          "out_of_reference_rays": 0
+        },
+        "test_04": {
+          "reference": 0.026495294238968882,
+          "accepted": 0.024415052221344095,
+          "incorrect": 0.001955675547075376,
+          "correct": 0.022459376674268717,
+          "connected": 0.022374770742062407,
+          "out_of_reference_rays": 0
+        },
+        "test_05": {
+          "reference": 0.0247529037084251,
+          "accepted": 0.024752903708425096,
+          "incorrect": 1.167078286563488e-05,
+          "correct": 0.024741232925559464,
+          "connected": 0.024741232925559464,
+          "out_of_reference_rays": 822
+        },
+        "test_06": {
+          "reference": 0.026314713236679492,
+          "accepted": 0.014411614587824065,
+          "incorrect": 0.011332586722416079,
+          "correct": 0.0030790278654079864,
+          "connected": 0.003064179522404423,
+          "out_of_reference_rays": 0
+        },
+        "test_07": {
+          "reference": 0.027706826200819483,
+          "accepted": 0.027497273639485908,
+          "incorrect": 1.768661761833887e-05,
+          "correct": 0.02747958702186757,
+          "connected": 0.02747958702186757,
+          "out_of_reference_rays": 0
+        },
+        "test_08": {
+          "reference": 0.02328830299972545,
+          "accepted": 0.02328830299972545,
+          "incorrect": 0.0010778779427693401,
+          "correct": 0.022210425056956112,
+          "connected": 0.022210425056956112,
+          "out_of_reference_rays": 835
+        }
+      },
+      "candidate_vs_stock": {
+        "stock": {
+          "reference": 0.21056854578980855,
+          "accepted": 0.21056854578980855,
+          "incorrect": 0.026647846702589763,
+          "correct": 0.18392069908721878,
+          "connected": 0.18298279989886632,
+          "out_of_reference_rays": 1658,
+          "risk": 0.1265518864778118
+        },
+        "candidate": {
+          "reference": 0.21056854578980855,
+          "accepted": 0.18529957276925435,
+          "incorrect": 0.01653257969084331,
+          "correct": 0.16876699307841106,
+          "connected": 0.16866753880320118,
+          "out_of_reference_rays": 1657,
+          "risk": 0.08922081925914975
+        },
+        "connected_delta_cm2": -0.014315261095665145,
+        "connected_gain_percent": -7.823282354175977,
+        "risk_difference_points": -3.7331067218662044,
+        "improved": 6,
+        "same": 0,
+        "worse": 2,
+        "positive_point_estimate": false,
+        "paired_area_delta_95_cm2": [
+          -0.050901872991613216,
+          0.013811523521277834
+        ],
+        "paired_risk_difference_95_points": [
+          -10.738576160239012,
+          8.08080029896409
+        ]
+      },
+      "candidate_vs_adjusted": {
+        "stock": {
+          "reference": 0.21056854578980855,
+          "accepted": 0.21056854578980855,
+          "incorrect": 0.023926230692923454,
+          "correct": 0.1866423150968851,
+          "connected": 0.1865493656256792,
+          "out_of_reference_rays": 1658,
+          "risk": 0.11362680310670349
+        },
+        "candidate": {
+          "reference": 0.21056854578980855,
+          "accepted": 0.18529957276925435,
+          "incorrect": 0.01653257969084331,
+          "correct": 0.16876699307841106,
+          "connected": 0.16866753880320118,
+          "out_of_reference_rays": 1657,
+          "risk": 0.08922081925914975
+        },
+        "connected_delta_cm2": -0.017881826822478016,
+        "connected_gain_percent": -9.58557364293525,
+        "risk_difference_points": -2.4405983847553743,
+        "improved": 2,
+        "same": 0,
+        "worse": 6,
+        "positive_point_estimate": false,
+        "paired_area_delta_95_cm2": [
+          -0.033276241352131766,
+          -0.004329131077035881
+        ],
+        "paired_risk_difference_95_points": [
+          -6.104117582589489,
+          1.1813274462969543
+        ]
+      },
+      "adjusted_vs_stock": {
+        "stock": {
+          "reference": 0.21056854578980855,
+          "accepted": 0.21056854578980855,
+          "incorrect": 0.026647846702589763,
+          "correct": 0.18392069908721878,
+          "connected": 0.18298279989886632,
+          "out_of_reference_rays": 1658,
+          "risk": 0.1265518864778118
+        },
+        "candidate": {
+          "reference": 0.21056854578980855,
+          "accepted": 0.21056854578980855,
+          "incorrect": 0.023926230692923454,
+          "correct": 0.1866423150968851,
+          "connected": 0.1865493656256792,
+          "out_of_reference_rays": 1658,
+          "risk": 0.11362680310670349
+        },
+        "connected_delta_cm2": 0.003566565726812871,
+        "connected_gain_percent": 1.9491262177560371,
+        "risk_difference_points": -1.2925083371108301,
+        "improved": 7,
+        "same": 0,
+        "worse": 1,
+        "positive_point_estimate": true,
+        "paired_area_delta_95_cm2": [
+          -0.02646796038426946,
+          0.024184952189949968
+        ],
+        "paired_risk_difference_95_points": [
+          -11.18946934677005,
+          13.737820280725321
+        ]
+      }
+    },
+    "4": {
+      "stock": {
+        "test_01": {
+          "reference": 0.02893667352852737,
+          "accepted": 0.02893667352852737,
+          "incorrect": 0.0,
+          "correct": 0.02893667352852737,
+          "connected": 0.02893667352852737,
+          "out_of_reference_rays": 0
+        },
+        "test_02": {
+          "reference": 0.02660146053626836,
+          "accepted": 0.026601460536268356,
+          "incorrect": 0.0,
+          "correct": 0.026601460536268356,
+          "connected": 0.026601460536268356,
+          "out_of_reference_rays": 0
+        },
+        "test_03": {
+          "reference": 0.026472371340394426,
+          "accepted": 0.026472371340394426,
+          "incorrect": 0.0,
+          "correct": 0.026472371340394426,
+          "connected": 0.026472371340394426,
+          "out_of_reference_rays": 0
+        },
+        "test_04": {
+          "reference": 0.026495294238968882,
+          "accepted": 0.026495294238968882,
+          "incorrect": 0.0,
+          "correct": 0.026495294238968882,
+          "connected": 0.026495294238968882,
+          "out_of_reference_rays": 0
+        },
+        "test_05": {
+          "reference": 0.0247529037084251,
+          "accepted": 0.024752903708425096,
+          "incorrect": 0.0,
+          "correct": 0.024752903708425096,
+          "connected": 0.024752903708425096,
+          "out_of_reference_rays": 823
+        },
+        "test_06": {
+          "reference": 0.026314713236679492,
+          "accepted": 0.026314713236679492,
+          "incorrect": 0.0,
+          "correct": 0.026314713236679492,
+          "connected": 0.026314713236679492,
+          "out_of_reference_rays": 0
+        },
+        "test_07": {
+          "reference": 0.027706826200819483,
+          "accepted": 0.027706826200819483,
+          "incorrect": 0.0,
+          "correct": 0.027706826200819483,
+          "connected": 0.027706826200819483,
+          "out_of_reference_rays": 0
+        },
+        "test_08": {
+          "reference": 0.02328830299972545,
+          "accepted": 0.02328830299972545,
+          "incorrect": 0.0,
+          "correct": 0.02328830299972545,
+          "connected": 0.02328830299972545,
+          "out_of_reference_rays": 835
+        }
+      },
+      "adjusted_stock": {
+        "test_01": {
+          "reference": 0.02893667352852737,
+          "accepted": 0.02893667352852737,
+          "incorrect": 0.0,
+          "correct": 0.02893667352852737,
+          "connected": 0.02893667352852737,
+          "out_of_reference_rays": 0
+        },
+        "test_02": {
+          "reference": 0.02660146053626836,
+          "accepted": 0.026601460536268356,
+          "incorrect": 0.0,
+          "correct": 0.026601460536268356,
+          "connected": 0.026601460536268356,
+          "out_of_reference_rays": 0
+        },
+        "test_03": {
+          "reference": 0.026472371340394426,
+          "accepted": 0.026472371340394426,
+          "incorrect": 0.0,
+          "correct": 0.026472371340394426,
+          "connected": 0.026472371340394426,
+          "out_of_reference_rays": 0
+        },
+        "test_04": {
+          "reference": 0.026495294238968882,
+          "accepted": 0.026495294238968882,
+          "incorrect": 0.0,
+          "correct": 0.026495294238968882,
+          "connected": 0.026495294238968882,
+          "out_of_reference_rays": 0
+        },
+        "test_05": {
+          "reference": 0.0247529037084251,
+          "accepted": 0.024752903708425096,
+          "incorrect": 0.0,
+          "correct": 0.024752903708425096,
+          "connected": 0.024752903708425096,
+          "out_of_reference_rays": 823
+        },
+        "test_06": {
+          "reference": 0.026314713236679492,
+          "accepted": 0.026314713236679492,
+          "incorrect": 1.1188760618560823e-05,
+          "correct": 0.02630352447606093,
+          "connected": 0.02630352447606093,
+          "out_of_reference_rays": 0
+        },
+        "test_07": {
+          "reference": 0.027706826200819483,
+          "accepted": 0.027706826200819483,
+          "incorrect": 0.0,
+          "correct": 0.027706826200819483,
+          "connected": 0.027706826200819483,
+          "out_of_reference_rays": 0
+        },
+        "test_08": {
+          "reference": 0.02328830299972545,
+          "accepted": 0.02328830299972545,
+          "incorrect": 0.0,
+          "correct": 0.02328830299972545,
+          "connected": 0.02328830299972545,
+          "out_of_reference_rays": 835
+        }
+      },
+      "candidate": {
+        "test_01": {
+          "reference": 0.02893667352852737,
+          "accepted": 0.02529740624483789,
+          "incorrect": 0.0,
+          "correct": 0.02529740624483789,
+          "connected": 0.025288023796171236,
+          "out_of_reference_rays": 0
+        },
+        "test_02": {
+          "reference": 0.02660146053626836,
+          "accepted": 0.019164648027217426,
+          "incorrect": 0.0,
+          "correct": 0.019164648027217426,
+          "connected": 0.019164648027217426,
+          "out_of_reference_rays": 0
+        },
+        "test_03": {
+          "reference": 0.026472371340394426,
+          "accepted": 0.026472371340394426,
+          "incorrect": 0.0,
+          "correct": 0.026472371340394426,
+          "connected": 0.026472371340394426,
+          "out_of_reference_rays": 0
+        },
+        "test_04": {
+          "reference": 0.026495294238968882,
+          "accepted": 0.024415052221344095,
+          "incorrect": 0.00014940901933446153,
+          "correct": 0.02426564320200963,
+          "connected": 0.024199589702059675,
+          "out_of_reference_rays": 0
+        },
+        "test_05": {
+          "reference": 0.0247529037084251,
+          "accepted": 0.024752903708425096,
+          "incorrect": 0.0,
+          "correct": 0.024752903708425096,
+          "connected": 0.024752903708425096,
+          "out_of_reference_rays": 822
+        },
+        "test_06": {
+          "reference": 0.026314713236679492,
+          "accepted": 0.014411614587824065,
+          "incorrect": 0.000398627584877964,
+          "correct": 0.014012987002946101,
+          "connected": 0.014009241649669452,
+          "out_of_reference_rays": 0
+        },
+        "test_07": {
+          "reference": 0.027706826200819483,
+          "accepted": 0.027497273639485908,
+          "incorrect": 0.0,
+          "correct": 0.027497273639485908,
+          "connected": 0.027497273639485908,
+          "out_of_reference_rays": 0
+        },
+        "test_08": {
+          "reference": 0.02328830299972545,
+          "accepted": 0.02328830299972545,
+          "incorrect": 0.0,
+          "correct": 0.02328830299972545,
+          "connected": 0.02328830299972545,
+          "out_of_reference_rays": 835
+        }
+      },
+      "candidate_vs_stock": {
+        "stock": {
+          "reference": 0.21056854578980855,
+          "accepted": 0.21056854578980855,
+          "incorrect": 0.0,
+          "correct": 0.21056854578980855,
+          "connected": 0.21056854578980855,
+          "out_of_reference_rays": 1658,
+          "risk": 0.0
+        },
+        "candidate": {
+          "reference": 0.21056854578980855,
+          "accepted": 0.18529957276925435,
+          "incorrect": 0.0005480366042124255,
+          "correct": 0.18475153616504192,
+          "connected": 0.18467235486314867,
+          "out_of_reference_rays": 1657,
+          "risk": 0.002957570792107935
+        },
+        "connected_delta_cm2": -0.025896190926659887,
+        "connected_gain_percent": -12.298223758694569,
+        "risk_difference_points": 0.29575707921079347,
+        "improved": 0,
+        "same": 3,
+        "worse": 5,
+        "positive_point_estimate": false,
+        "paired_area_delta_95_cm2": [
+          -0.050779582994862585,
+          -0.0050105141964855646
+        ],
+        "paired_risk_difference_95_points": [
+          0.0,
+          0.8295960923491601
+        ]
+      },
+      "candidate_vs_adjusted": {
+        "stock": {
+          "reference": 0.21056854578980855,
+          "accepted": 0.21056854578980855,
+          "incorrect": 1.1188760618560823e-05,
+          "correct": 0.21055735702918998,
+          "connected": 0.21055735702918998,
+          "out_of_reference_rays": 1658,
+          "risk": 5.313595426417366e-05
+        },
+        "candidate": {
+          "reference": 0.21056854578980855,
+          "accepted": 0.18529957276925435,
+          "incorrect": 0.0005480366042124255,
+          "correct": 0.18475153616504192,
+          "connected": 0.18467235486314867,
+          "out_of_reference_rays": 1657,
+          "risk": 0.002957570792107935
+        },
+        "connected_delta_cm2": -0.025885002166041324,
+        "connected_gain_percent": -12.29356339349037,
+        "risk_difference_points": 0.2904434837843761,
+        "improved": 0,
+        "same": 3,
+        "worse": 5,
+        "positive_point_estimate": false,
+        "paired_area_delta_95_cm2": [
+          -0.05075720547362546,
+          -0.0050105141964855646
+        ],
+        "paired_risk_difference_95_points": [
+          0.0,
+          0.8139596605065169
+        ]
+      },
+      "adjusted_vs_stock": {
+        "stock": {
+          "reference": 0.21056854578980855,
+          "accepted": 0.21056854578980855,
+          "incorrect": 0.0,
+          "correct": 0.21056854578980855,
+          "connected": 0.21056854578980855,
+          "out_of_reference_rays": 1658,
+          "risk": 0.0
+        },
+        "candidate": {
+          "reference": 0.21056854578980855,
+          "accepted": 0.21056854578980855,
+          "incorrect": 1.1188760618560823e-05,
+          "correct": 0.21055735702918998,
+          "connected": 0.21055735702918998,
+          "out_of_reference_rays": 1658,
+          "risk": 5.313595426417366e-05
+        },
+        "connected_delta_cm2": -1.1188760618563443e-05,
+        "connected_gain_percent": -0.00531359542641861,
+        "risk_difference_points": 0.005313595426417366,
+        "improved": 0,
+        "same": 7,
+        "worse": 1,
+        "positive_point_estimate": false,
+        "paired_area_delta_95_cm2": [
+          -3.356628185569033e-05,
+          0.0
+        ],
+        "paired_risk_difference_95_points": [
+          0.0,
+          0.016096456549651802
+        ]
+      }
+    }
+  }
+}

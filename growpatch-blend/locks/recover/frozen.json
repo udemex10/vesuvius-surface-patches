@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "model": "seeded ridge graph and two independent axis routes",
+  "frozen_code_sha256": "5e46ae2d11bb63724f0ad90f1b9cebb4f901925937e6a5a10c9c3d9ef513e9b8",
+  "input": "common 257^3 M7 scalar plus supplied seed and common seed tangent",
+  "split": "Algorithm written before any development or test scores were examined. Threshold selected by the root evaluator on development only.",
+  "acceptance": "Every graph node carries continuous quality in [0,1]; mask valid & quality >= q. Two-route comparator qualifies mutually agreeing orthogonal ridges within two 9.6um voxels.",
+  "thresholds": [
+    0,
+    0.25,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95
+  ],
+  "chart": "2 native 9.6um voxels per knot, +/-96 in the two lateral axes, +/-111 voxels depth, nearest positive ridge within 6 voxels of seed",
+  "heldout_policy": "No evaluation meshes or labels enter this program."
+}

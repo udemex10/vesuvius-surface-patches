@@ -1,0 +1,11 @@
+{
+  "threshold": {
+    "two_route": 0.0,
+    "graph": 0.575,
+    "blend_8_gated": 0.125
+  },
+  "dev_strict": 0.5501003692490732,
+  "dev_known_other": 0.03574494715630644,
+  "source_sha256": "9b0de31cc78bddbac9ba3f6f1502d11e5551e1b84c8ab116d9ccd093383ada0a",
+  "protocol": "1f671f4c77d73d6cf01c7067198bf3994f325112fa3dda988564bb9d1b695bc1"
+}

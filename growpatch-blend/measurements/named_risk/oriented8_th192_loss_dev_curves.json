@@ -1,0 +1,1976 @@
+{
+  "two_route": [
+    [
+      0.0,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.008646207948391394,
+        "correct": 0.008646207948391394,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.007651584413666369,
+        "largest": 0.00765158441366626,
+        "out_of_reference_rays": 171,
+        "risk": 0.0
+      }
+    ],
+    [
+      0.025,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.008646207948391394,
+        "correct": 0.008646207948391394,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.007651584413666369,
+        "largest": 0.00765158441366626,
+        "out_of_reference_rays": 171,
+        "risk": 0.0
+      }
+    ],
+    [
+      0.05,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.008646207948391394,
+        "correct": 0.008646207948391394,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.007651584413666369,
+        "largest": 0.00765158441366626,
+        "out_of_reference_rays": 171,
+        "risk": 0.0
+      }
+    ],
+    [
+      0.075,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.008646207948391394,
+        "correct": 0.008646207948391394,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.007651584413666369,
+        "largest": 0.00765158441366626,
+        "out_of_reference_rays": 171,
+        "risk": 0.0
+      }
+    ],
+    [
+      0.1,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.008646207948391394,
+        "correct": 0.008646207948391394,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.007651584413666369,
+        "largest": 0.00765158441366626,
+        "out_of_reference_rays": 171,
+        "risk": 0.0
+      }
+    ],
+    [
+      0.125,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.008646207948391394,
+        "correct": 0.008646207948391394,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.007651584413666369,
+        "largest": 0.00765158441366626,
+        "out_of_reference_rays": 171,
+        "risk": 0.0
+      }
+    ],
+    [
+      0.15,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.008646207948391394,
+        "correct": 0.008646207948391394,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.007651584413666369,
+        "largest": 0.00765158441366626,
+        "out_of_reference_rays": 171,
+        "risk": 0.0
+      }
+    ],
+    [
+      0.175,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.008646207948391394,
+        "correct": 0.008646207948391394,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.007651584413666369,
+        "largest": 0.00765158441366626,
+        "out_of_reference_rays": 171,
+        "risk": 0.0
+      }
+    ],
+    [
+      0.2,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.008646207948391394,
+        "correct": 0.008646207948391394,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.007651584413666369,
+        "largest": 0.00765158441366626,
+        "out_of_reference_rays": 171,
+        "risk": 0.0
+      }
+    ],
+    [
+      0.225,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.008646207948391394,
+        "correct": 0.008646207948391394,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.007651584413666369,
+        "largest": 0.00765158441366626,
+        "out_of_reference_rays": 171,
+        "risk": 0.0
+      }
+    ],
+    [
+      0.25,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.008646207948391394,
+        "correct": 0.008646207948391394,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.007651584413666369,
+        "largest": 0.00765158441366626,
+        "out_of_reference_rays": 171,
+        "risk": 0.0
+      }
+    ],
+    [
+      0.275,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.008646207948391394,
+        "correct": 0.008646207948391394,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.007651584413666369,
+        "largest": 0.00765158441366626,
+        "out_of_reference_rays": 170,
+        "risk": 0.0
+      }
+    ],
+    [
+      0.3,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.008646207948391394,
+        "correct": 0.008646207948391394,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.007651584413666369,
+        "largest": 0.00765158441366626,
+        "out_of_reference_rays": 170,
+        "risk": 0.0
+      }
+    ],
+    [
+      0.325,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.008646207948391394,
+        "correct": 0.008646207948391394,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.007651584413666369,
+        "largest": 0.00765158441366626,
+        "out_of_reference_rays": 169,
+        "risk": 0.0
+      }
+    ],
+    [
+      0.35,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.008643492683190852,
+        "correct": 0.008643492683190852,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.007648869148465826,
+        "largest": 0.007648869148465717,
+        "out_of_reference_rays": 168,
+        "risk": 0.0
+      }
+    ],
+    [
+      0.375,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.008643492683190852,
+        "correct": 0.008643492683190852,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.007648869148465826,
+        "largest": 0.007648869148465717,
+        "out_of_reference_rays": 168,
+        "risk": 0.0
+      }
+    ],
+    [
+      0.4,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.00864041305509454,
+        "correct": 0.00864041305509454,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.007645789520369513,
+        "largest": 0.007645789520369404,
+        "out_of_reference_rays": 167,
+        "risk": 0.0
+      }
+    ],
+    [
+      0.425,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.008637080391405925,
+        "correct": 0.008637080391405925,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.007642456856680899,
+        "largest": 0.00764245685668079,
+        "out_of_reference_rays": 164,
+        "risk": 0.0
+      }
+    ],
+    [
+      0.45,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.0086340882607996,
+        "correct": 0.0086340882607996,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.007639464726074574,
+        "largest": 0.007639464726074466,
+        "out_of_reference_rays": 163,
+        "risk": 0.0
+      }
+    ],
+    [
+      0.475,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.008628868272986047,
+        "correct": 0.008628868272986047,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.00763424473826102,
+        "largest": 0.007634244738260912,
+        "out_of_reference_rays": 160,
+        "risk": 0.0
+      }
+    ],
+    [
+      0.5,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.00862325595434803,
+        "correct": 0.00862325595434803,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.007628632419623003,
+        "largest": 0.007628632419622894,
+        "out_of_reference_rays": 158,
+        "risk": 0.0
+      }
+    ],
+    [
+      0.525,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.008600971648602507,
+        "correct": 0.008600971648602507,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.00760634811387748,
+        "largest": 0.007606348113877372,
+        "out_of_reference_rays": 156,
+        "risk": 0.0
+      }
+    ],
+    [
+      0.55,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.008584461473203285,
+        "correct": 0.008584461473203285,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.007569573548303617,
+        "largest": 0.007569573548303509,
+        "out_of_reference_rays": 152,
+        "risk": 0.0
+      }
+    ],
+    [
+      0.575,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.008567513300324294,
+        "correct": 0.008567513300324294,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.007555165320452433,
+        "largest": 0.007555165320452325,
+        "out_of_reference_rays": 144,
+        "risk": 0.0
+      }
+    ],
+    [
+      0.6,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.008537917983887706,
+        "correct": 0.008537917983887706,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.007431040532867236,
+        "largest": 0.007431040532867127,
+        "out_of_reference_rays": 140,
+        "risk": 0.0
+      }
+    ],
+    [
+      0.625,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.008510394479831089,
+        "correct": 0.008510394479831089,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.007414347681783145,
+        "largest": 0.007414347681783036,
+        "out_of_reference_rays": 133,
+        "risk": 0.0
+      }
+    ],
+    [
+      0.65,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.008454718349497686,
+        "correct": 0.008454718349497686,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.007376255128922288,
+        "largest": 0.0073762551289221785,
+        "out_of_reference_rays": 119,
+        "risk": 0.0
+      }
+    ],
+    [
+      0.675,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.008350414884668998,
+        "correct": 0.008350414884668998,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.0072995396552574384,
+        "largest": 0.00729953965525733,
+        "out_of_reference_rays": 103,
+        "risk": 0.0
+      }
+    ],
+    [
+      0.7,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.008184322161644319,
+        "correct": 0.008184322161644319,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.007179773303610374,
+        "largest": 0.007179773303610265,
+        "out_of_reference_rays": 90,
+        "risk": 0.0
+      }
+    ],
+    [
+      0.725,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.007856393630594543,
+        "correct": 0.007856393630594543,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.006661422485209469,
+        "largest": 0.006661422485209365,
+        "out_of_reference_rays": 81,
+        "risk": 0.0
+      }
+    ],
+    [
+      0.75,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.007088047849528989,
+        "correct": 0.007088047849528989,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.005783498256193084,
+        "largest": 0.0059899895883631675,
+        "out_of_reference_rays": 70,
+        "risk": 0.0
+      }
+    ],
+    [
+      0.775,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.005810441413656898,
+        "correct": 0.005810441413656898,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.00418562232139638,
+        "largest": 0.004601460076113075,
+        "out_of_reference_rays": 58,
+        "risk": 0.0
+      }
+    ],
+    [
+      0.8,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.004053626737110576,
+        "correct": 0.004053626737110576,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.0,
+        "largest": 0.0033049762387112156,
+        "out_of_reference_rays": 42,
+        "risk": 0.0
+      }
+    ],
+    [
+      0.825,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.001491040681306524,
+        "correct": 0.001491040681306524,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.0,
+        "largest": 0.0008475513304050678,
+        "out_of_reference_rays": 12,
+        "risk": 0.0
+      }
+    ],
+    [
+      0.85,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.0,
+        "correct": 0.0,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.0,
+        "largest": 0.0,
+        "out_of_reference_rays": 0,
+        "risk": null
+      }
+    ],
+    [
+      0.875,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.0,
+        "correct": 0.0,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.0,
+        "largest": 0.0,
+        "out_of_reference_rays": 0,
+        "risk": null
+      }
+    ],
+    [
+      0.9,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.0,
+        "correct": 0.0,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.0,
+        "largest": 0.0,
+        "out_of_reference_rays": 0,
+        "risk": null
+      }
+    ],
+    [
+      0.925,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.0,
+        "correct": 0.0,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.0,
+        "largest": 0.0,
+        "out_of_reference_rays": 0,
+        "risk": null
+      }
+    ],
+    [
+      0.95,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.0,
+        "correct": 0.0,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.0,
+        "largest": 0.0,
+        "out_of_reference_rays": 0,
+        "risk": null
+      }
+    ],
+    [
+      0.975,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.0,
+        "correct": 0.0,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.0,
+        "largest": 0.0,
+        "out_of_reference_rays": 0,
+        "risk": null
+      }
+    ],
+    [
+      1.0,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.0,
+        "correct": 0.0,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.0,
+        "largest": 0.0,
+        "out_of_reference_rays": 0,
+        "risk": null
+      }
+    ]
+  ],
+  "graph": [
+    [
+      0.0,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.04256001961229525,
+        "correct": 0.034625646881274764,
+        "incorrect": 0.007934372731020484,
+        "known_other": 0.004998736850565988,
+        "unassigned": 0.0007345614883878268,
+        "ambiguous": 0.0022010743920666694,
+        "connected": 0.0325554793610648,
+        "largest": 0.03255547936106434,
+        "out_of_reference_rays": 6428,
+        "risk": 0.18642784480128172
+      }
+    ],
+    [
+      0.025,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.04256001961229525,
+        "correct": 0.034625646881274764,
+        "incorrect": 0.007934372731020484,
+        "known_other": 0.004998736850565988,
+        "unassigned": 0.0007345614883878268,
+        "ambiguous": 0.0022010743920666694,
+        "connected": 0.0325554793610648,
+        "largest": 0.03255547936106434,
+        "out_of_reference_rays": 6428,
+        "risk": 0.18642784480128172
+      }
+    ],
+    [
+      0.05,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.04256001961229525,
+        "correct": 0.034625646881274764,
+        "incorrect": 0.007934372731020484,
+        "known_other": 0.004998736850565988,
+        "unassigned": 0.0007345614883878268,
+        "ambiguous": 0.0022010743920666694,
+        "connected": 0.0325554793610648,
+        "largest": 0.03255547936106434,
+        "out_of_reference_rays": 6428,
+        "risk": 0.18642784480128172
+      }
+    ],
+    [
+      0.075,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.04256001961229525,
+        "correct": 0.034625646881274764,
+        "incorrect": 0.007934372731020484,
+        "known_other": 0.004998736850565988,
+        "unassigned": 0.0007345614883878268,
+        "ambiguous": 0.0022010743920666694,
+        "connected": 0.0325554793610648,
+        "largest": 0.03255547936106434,
+        "out_of_reference_rays": 6428,
+        "risk": 0.18642784480128172
+      }
+    ],
+    [
+      0.1,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.04254256337982327,
+        "correct": 0.034625646881274764,
+        "incorrect": 0.007916916498548508,
+        "known_other": 0.004998736850565988,
+        "unassigned": 0.0007345614883878268,
+        "ambiguous": 0.0021836181595946934,
+        "connected": 0.0325554793610648,
+        "largest": 0.03255547936106434,
+        "out_of_reference_rays": 6417,
+        "risk": 0.18609401666433847
+      }
+    ],
+    [
+      0.125,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.042508880125839976,
+        "correct": 0.034625646881274764,
+        "incorrect": 0.007883233244565213,
+        "known_other": 0.004998736850565988,
+        "unassigned": 0.0007316336894784729,
+        "ambiguous": 0.0021528627045207527,
+        "connected": 0.0325554793610648,
+        "largest": 0.03255547936106434,
+        "out_of_reference_rays": 6404,
+        "risk": 0.18544909254791714
+      }
+    ],
+    [
+      0.15,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.04247265007627107,
+        "correct": 0.0346224669915824,
+        "incorrect": 0.007850183084688668,
+        "known_other": 0.004998736850565988,
+        "unassigned": 0.0007316336894784729,
+        "ambiguous": 0.002119812544644208,
+        "connected": 0.03255229947137244,
+        "largest": 0.03255229947137198,
+        "out_of_reference_rays": 6390,
+        "risk": 0.1848291328794307
+      }
+    ],
+    [
+      0.175,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.042437713185887946,
+        "correct": 0.0346224669915824,
+        "incorrect": 0.007815246194305549,
+        "known_other": 0.004996176265514066,
+        "unassigned": 0.0007316336894784729,
+        "ambiguous": 0.0020874362393130093,
+        "connected": 0.03255229947137244,
+        "largest": 0.03255229947137198,
+        "out_of_reference_rays": 6370,
+        "risk": 0.18415804263704758
+      }
+    ],
+    [
+      0.2,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.04236234540841381,
+        "correct": 0.034619816930898314,
+        "incorrect": 0.0077425284775155005,
+        "known_other": 0.004996176265514066,
+        "unassigned": 0.0007316336894784729,
+        "ambiguous": 0.0020147185225229615,
+        "connected": 0.03254964941068836,
+        "largest": 0.0325496494106879,
+        "out_of_reference_rays": 6342,
+        "risk": 0.18276911731090592
+      }
+    ],
+    [
+      0.225,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.042252365512897905,
+        "correct": 0.034607933153311385,
+        "incorrect": 0.007644432359586513,
+        "known_other": 0.004982040324445309,
+        "unassigned": 0.0007230043904595868,
+        "ambiguous": 0.0019393876446816177,
+        "connected": 0.03251892567948492,
+        "largest": 0.03251892567948446,
+        "out_of_reference_rays": 6298,
+        "risk": 0.18092318067382482
+      }
+    ],
+    [
+      0.25,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.042101424681878385,
+        "correct": 0.034574621536260224,
+        "incorrect": 0.007526803145618158,
+        "known_other": 0.004970305705773044,
+        "unassigned": 0.0007055998897779978,
+        "ambiguous": 0.0018508975500671162,
+        "connected": 0.03248892797401683,
+        "largest": 0.03248892797401638,
+        "out_of_reference_rays": 6222,
+        "risk": 0.17877787277963306
+      }
+    ],
+    [
+      0.275,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.0418821014356196,
+        "correct": 0.034548172657864244,
+        "incorrect": 0.007333928777755352,
+        "known_other": 0.004920691700021378,
+        "unassigned": 0.0006723819807129882,
+        "ambiguous": 0.0017408550970209856,
+        "connected": 0.03248590063808952,
+        "largest": 0.032485900638089066,
+        "out_of_reference_rays": 6129,
+        "risk": 0.1751089015681062
+      }
+    ],
+    [
+      0.3,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.041642382154367025,
+        "correct": 0.03448817240002666,
+        "incorrect": 0.007154209754340357,
+        "known_other": 0.004862766027396347,
+        "unassigned": 0.0006462770228358607,
+        "ambiguous": 0.0016451667041081498,
+        "connected": 0.03248590063808952,
+        "largest": 0.032485900638089066,
+        "out_of_reference_rays": 6028,
+        "risk": 0.1718011646840933
+      }
+    ],
+    [
+      0.325,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.041273168221603894,
+        "correct": 0.034444464818973335,
+        "incorrect": 0.006828703402630561,
+        "known_other": 0.004758621366781103,
+        "unassigned": 0.0006063522270324586,
+        "ambiguous": 0.001463729808816999,
+        "connected": 0.032483185372888974,
+        "largest": 0.03248318537288852,
+        "out_of_reference_rays": 5924,
+        "risk": 0.16545139849613402
+      }
+    ],
+    [
+      0.35,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.040922199526568434,
+        "correct": 0.034355399127331154,
+        "incorrect": 0.00656680039923728,
+        "known_other": 0.004686935247210725,
+        "unassigned": 0.0005740979795373609,
+        "ambiguous": 0.0013057671724891944,
+        "connected": 0.032475119881135724,
+        "largest": 0.03247511988113527,
+        "out_of_reference_rays": 5769,
+        "risk": 0.16047036755621685
+      }
+    ],
+    [
+      0.375,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.04048437054783141,
+        "correct": 0.03426273367231733,
+        "incorrect": 0.006221636875514079,
+        "known_other": 0.004533141153990162,
+        "unassigned": 0.000514014115445118,
+        "ambiguous": 0.0011744816060787983,
+        "connected": 0.032469407629614186,
+        "largest": 0.03246940762961373,
+        "out_of_reference_rays": 5531,
+        "risk": 0.15367997059910685
+      }
+    ],
+    [
+      0.4,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.03983414728055021,
+        "correct": 0.034135360103348014,
+        "incorrect": 0.005698787177202191,
+        "known_other": 0.004188015528297772,
+        "unassigned": 0.0004497177359443619,
+        "ambiguous": 0.001061053912960058,
+        "connected": 0.032469407629614186,
+        "largest": 0.03246940762961373,
+        "out_of_reference_rays": 5292,
+        "risk": 0.14306286355437395
+      }
+    ],
+    [
+      0.425,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.03926188860164993,
+        "correct": 0.03402654771910303,
+        "incorrect": 0.005235340882546902,
+        "known_other": 0.003852527095654598,
+        "unassigned": 0.00041274873601762613,
+        "ambiguous": 0.0009700650508746779,
+        "connected": 0.03243113003209798,
+        "largest": 0.03243113003209753,
+        "out_of_reference_rays": 5084,
+        "risk": 0.13334409191734328
+      }
+    ],
+    [
+      0.45,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.03746563480474423,
+        "correct": 0.03387362322704969,
+        "incorrect": 0.0035920115776945398,
+        "known_other": 0.0023491108682858765,
+        "unassigned": 0.0003744684918574729,
+        "ambiguous": 0.0008684322175511903,
+        "connected": 0.0324113909811863,
+        "largest": 0.032411390981185846,
+        "out_of_reference_rays": 4819,
+        "risk": 0.09587483560373807
+      }
+    ],
+    [
+      0.475,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.0368469220956687,
+        "correct": 0.03368812285365315,
+        "incorrect": 0.0031587992420155464,
+        "known_other": 0.002084591196235402,
+        "unassigned": 0.000321319730467953,
+        "ambiguous": 0.0007528883153121919,
+        "connected": 0.03238493912285612,
+        "largest": 0.03238493912285567,
+        "out_of_reference_rays": 4679,
+        "risk": 0.08572762831625654
+      }
+    ],
+    [
+      0.5,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.036093992660635704,
+        "correct": 0.03349735663496592,
+        "incorrect": 0.0025966360256697804,
+        "known_other": 0.0016849325827357525,
+        "unassigned": 0.0002723599452877159,
+        "ambiguous": 0.0006393434976463118,
+        "connected": 0.03234768680193257,
+        "largest": 0.03234768680193212,
+        "out_of_reference_rays": 4475,
+        "risk": 0.07194094735054582
+      }
+    ],
+    [
+      0.525,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.03533548169714155,
+        "correct": 0.03323901406310375,
+        "incorrect": 0.002096467634037804,
+        "known_other": 0.0013450707989924612,
+        "unassigned": 0.00024100927040976428,
+        "ambiguous": 0.0005103875646355783,
+        "connected": 0.03159451248726675,
+        "largest": 0.031594512487266295,
+        "out_of_reference_rays": 4304,
+        "risk": 0.059330382192225695
+      }
+    ],
+    [
+      0.55,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.03476242773423077,
+        "correct": 0.03295433228410666,
+        "incorrect": 0.0018080954501241166,
+        "known_other": 0.0012305312701927054,
+        "unassigned": 0.00021188356539373615,
+        "ambiguous": 0.00036568061453767493,
+        "connected": 0.031495391940304714,
+        "largest": 0.03149539194030427,
+        "out_of_reference_rays": 4153,
+        "risk": 0.052012922225902945
+      }
+    ],
+    [
+      0.575,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.03432373581833616,
+        "correct": 0.032724903986312316,
+        "incorrect": 0.0015988318320238396,
+        "known_other": 0.0011742143683103582,
+        "unassigned": 0.00018165363400056645,
+        "ambiguous": 0.00024296382971291498,
+        "connected": 0.03131027003576625,
+        "largest": 0.03131027003576581,
+        "out_of_reference_rays": 3987,
+        "risk": 0.046580938639252785
+      }
+    ],
+    [
+      0.6,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.03383652930811022,
+        "correct": 0.032434909874551235,
+        "incorrect": 0.001401619433558989,
+        "known_other": 0.001058956080226555,
+        "unassigned": 0.0001532195645637179,
+        "ambiguous": 0.0001894437887687159,
+        "connected": 0.031016253569392735,
+        "largest": 0.031016253569392305,
+        "out_of_reference_rays": 3684,
+        "risk": 0.04142326243912484
+      }
+    ],
+    [
+      0.625,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.03326903523475912,
+        "correct": 0.03202478601593815,
+        "incorrect": 0.0012442492188209687,
+        "known_other": 0.0009763201863529839,
+        "unassigned": 0.00012958510058564264,
+        "ambiguous": 0.0001383439318823421,
+        "connected": 0.03069654695566641,
+        "largest": 0.030696546955665985,
+        "out_of_reference_rays": 3433,
+        "risk": 0.03739961829494205
+      }
+    ],
+    [
+      0.65,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.031527351988717874,
+        "correct": 0.030458886959421155,
+        "incorrect": 0.0010684650292967172,
+        "known_other": 0.0008718294063600334,
+        "unassigned": 9.703938147087628e-05,
+        "ambiguous": 9.959624146580743e-05,
+        "connected": 0.02778954651170328,
+        "largest": 0.02778954651170287,
+        "out_of_reference_rays": 3128,
+        "risk": 0.03389009738842227
+      }
+    ],
+    [
+      0.675,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.02957144179301583,
+        "correct": 0.02874608786783683,
+        "incorrect": 0.0008253539251789996,
+        "known_other": 0.0007067407122114172,
+        "unassigned": 6.29016868206972e-05,
+        "ambiguous": 5.571152614688516e-05,
+        "connected": 0.027589468926696836,
+        "largest": 0.02758946892669644,
+        "out_of_reference_rays": 2592,
+        "risk": 0.027910506729973895
+      }
+    ],
+    [
+      0.7,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.028581905778584726,
+        "correct": 0.027975645711935414,
+        "incorrect": 0.0006062600666493125,
+        "known_other": 0.0005315630166250593,
+        "unassigned": 4.678892489709783e-05,
+        "ambiguous": 2.7908125127155373e-05,
+        "connected": 0.027069296097047477,
+        "largest": 0.027069296097047123,
+        "out_of_reference_rays": 2240,
+        "risk": 0.021211324092445888
+      }
+    ],
+    [
+      0.725,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.026412126480617318,
+        "correct": 0.026058303497814274,
+        "incorrect": 0.00035382298280304766,
+        "known_other": 0.000295235177461683,
+        "unassigned": 4.1483147476227305e-05,
+        "ambiguous": 1.7104657865137302e-05,
+        "connected": 0.021726974412089296,
+        "largest": 0.021726974412089445,
+        "out_of_reference_rays": 1778,
+        "risk": 0.013396232335276093
+      }
+    ],
+    [
+      0.75,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.023005839552983572,
+        "correct": 0.022718907046025867,
+        "incorrect": 0.00028693250695770655,
+        "known_other": 0.00025037115170013834,
+        "unassigned": 3.1186827899854604e-05,
+        "ambiguous": 5.374527357713557e-06,
+        "connected": 0.02105337600682539,
+        "largest": 0.02105337600682554,
+        "out_of_reference_rays": 1514,
+        "risk": 0.012472159787817653
+      }
+    ],
+    [
+      0.775,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.020500256170608935,
+        "correct": 0.020299440739821574,
+        "incorrect": 0.00020081543078736007,
+        "known_other": 0.00017630223869239477,
+        "unassigned": 2.4513192094965288e-05,
+        "ambiguous": 0.0,
+        "connected": 0.01882014788810088,
+        "largest": 0.01882014788810098,
+        "out_of_reference_rays": 1073,
+        "risk": 0.009795752263587207
+      }
+    ],
+    [
+      0.8,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.01955243362376876,
+        "correct": 0.01940896968602914,
+        "incorrect": 0.000143463937739618,
+        "known_other": 0.00012203037374096597,
+        "unassigned": 2.1433563998652017e-05,
+        "ambiguous": 0.0,
+        "connected": 0.018214322170079213,
+        "largest": 0.018214322170079306,
+        "out_of_reference_rays": 942,
+        "risk": 0.007337395461873207
+      }
+    ],
+    [
+      0.825,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.018353057318937396,
+        "correct": 0.018329170930535942,
+        "incorrect": 2.3886388401455503e-05,
+        "known_other": 8.401014523636225e-06,
+        "unassigned": 1.5485373877819277e-05,
+        "ambiguous": 0.0,
+        "connected": 0.0174054055800668,
+        "largest": 0.017405405580066886,
+        "out_of_reference_rays": 815,
+        "risk": 0.0013014936959200036
+      }
+    ],
+    [
+      0.85,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.015673143861999726,
+        "correct": 0.015664122540344542,
+        "incorrect": 9.021321655183471e-06,
+        "known_other": 0.0,
+        "unassigned": 9.021321655183471e-06,
+        "ambiguous": 0.0,
+        "connected": 0.014240065732997988,
+        "largest": 0.014240065732998065,
+        "out_of_reference_rays": 588,
+        "risk": 0.0005755910705991853
+      }
+    ],
+    [
+      0.875,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.009727620687796892,
+        "correct": 0.009727620687796892,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.0081905424381287,
+        "largest": 0.008190542438128582,
+        "out_of_reference_rays": 232,
+        "risk": 0.0
+      }
+    ],
+    [
+      0.9,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.009337931584295849,
+        "correct": 0.009337931584295849,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.007986214145464857,
+        "largest": 0.007986214145464741,
+        "out_of_reference_rays": 190,
+        "risk": 0.0
+      }
+    ],
+    [
+      0.925,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.008818198108924388,
+        "correct": 0.008818198108924388,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.0075594168829203326,
+        "largest": 0.007559416882920216,
+        "out_of_reference_rays": 134,
+        "risk": 0.0
+      }
+    ],
+    [
+      0.95,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.007938005931661022,
+        "correct": 0.007938005931661022,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.00688566442516561,
+        "largest": 0.006885664425165499,
+        "out_of_reference_rays": 85,
+        "risk": 0.0
+      }
+    ],
+    [
+      0.975,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.0,
+        "correct": 0.0,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.0,
+        "largest": 0.0,
+        "out_of_reference_rays": 0,
+        "risk": null
+      }
+    ],
+    [
+      1.0,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.0,
+        "correct": 0.0,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.0,
+        "largest": 0.0,
+        "out_of_reference_rays": 0,
+        "risk": null
+      }
+    ]
+  ],
+  "blend_8_gated": [
+    [
+      0.0,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.03626899906452839,
+        "incorrect": 0.02076498100586712,
+        "known_other": 0.0038670290299609245,
+        "unassigned": 0.016897951975906197,
+        "ambiguous": 0.0,
+        "connected": 0.03221033616143819,
+        "largest": 0.03221033616143839,
+        "out_of_reference_rays": 8977,
+        "risk": 0.3640808686372135
+      }
+    ],
+    [
+      0.025,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.03626899906452839,
+        "incorrect": 0.02076498100586712,
+        "known_other": 0.0038670290299609245,
+        "unassigned": 0.016897951975906197,
+        "ambiguous": 0.0,
+        "connected": 0.03221033616143819,
+        "largest": 0.03221033616143839,
+        "out_of_reference_rays": 8977,
+        "risk": 0.3640808686372135
+      }
+    ],
+    [
+      0.05,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.03626899906452839,
+        "incorrect": 0.02076498100586712,
+        "known_other": 0.0038670290299609245,
+        "unassigned": 0.016897951975906197,
+        "ambiguous": 0.0,
+        "connected": 0.03221033616143819,
+        "largest": 0.03221033616143839,
+        "out_of_reference_rays": 8977,
+        "risk": 0.3640808686372135
+      }
+    ],
+    [
+      0.075,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.03626899906452839,
+        "incorrect": 0.02076498100586712,
+        "known_other": 0.0038670290299609245,
+        "unassigned": 0.016897951975906197,
+        "ambiguous": 0.0,
+        "connected": 0.03221033616143819,
+        "largest": 0.03221033616143839,
+        "out_of_reference_rays": 8977,
+        "risk": 0.3640808686372135
+      }
+    ],
+    [
+      0.1,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.03626899906452839,
+        "incorrect": 0.02076498100586712,
+        "known_other": 0.0038670290299609245,
+        "unassigned": 0.016897951975906197,
+        "ambiguous": 0.0,
+        "connected": 0.03221033616143819,
+        "largest": 0.03221033616143839,
+        "out_of_reference_rays": 8977,
+        "risk": 0.3640808686372135
+      }
+    ],
+    [
+      0.125,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.03627192686343775,
+        "incorrect": 0.020762053206957766,
+        "known_other": 0.0038670290299609245,
+        "unassigned": 0.016895024176996842,
+        "ambiguous": 0.0,
+        "connected": 0.032213263960347537,
+        "largest": 0.032213263960347745,
+        "out_of_reference_rays": 8977,
+        "risk": 0.3640295343465723
+      }
+    ],
+    [
+      0.15,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.03627192686343775,
+        "incorrect": 0.020762053206957766,
+        "known_other": 0.0038670290299609245,
+        "unassigned": 0.016895024176996842,
+        "ambiguous": 0.0,
+        "connected": 0.032213263960347537,
+        "largest": 0.032213263960347745,
+        "out_of_reference_rays": 8977,
+        "risk": 0.3640295343465723
+      }
+    ],
+    [
+      0.175,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.03627192686343775,
+        "incorrect": 0.020762053206957766,
+        "known_other": 0.0038670290299609245,
+        "unassigned": 0.016895024176996842,
+        "ambiguous": 0.0,
+        "connected": 0.032213263960347537,
+        "largest": 0.032213263960347745,
+        "out_of_reference_rays": 8977,
+        "risk": 0.3640295343465723
+      }
+    ],
+    [
+      0.2,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.03627192686343775,
+        "incorrect": 0.020762053206957766,
+        "known_other": 0.0038670290299609245,
+        "unassigned": 0.016895024176996842,
+        "ambiguous": 0.0,
+        "connected": 0.032213263960347537,
+        "largest": 0.032213263960347745,
+        "out_of_reference_rays": 8977,
+        "risk": 0.3640295343465723
+      }
+    ],
+    [
+      0.225,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.03627192686343775,
+        "incorrect": 0.020762053206957766,
+        "known_other": 0.0038670290299609245,
+        "unassigned": 0.016895024176996842,
+        "ambiguous": 0.0,
+        "connected": 0.032213263960347537,
+        "largest": 0.032213263960347745,
+        "out_of_reference_rays": 8977,
+        "risk": 0.3640295343465723
+      }
+    ],
+    [
+      0.25,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.03627192686343775,
+        "incorrect": 0.020762053206957766,
+        "known_other": 0.0038670290299609245,
+        "unassigned": 0.016895024176996842,
+        "ambiguous": 0.0,
+        "connected": 0.032213263960347537,
+        "largest": 0.032213263960347745,
+        "out_of_reference_rays": 8977,
+        "risk": 0.3640295343465723
+      }
+    ],
+    [
+      0.275,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.036280953955688644,
+        "incorrect": 0.02075302611470687,
+        "known_other": 0.003864410967157646,
+        "unassigned": 0.016888615147549225,
+        "ambiguous": 0.0,
+        "connected": 0.03222306409324674,
+        "largest": 0.03222306409324694,
+        "out_of_reference_rays": 8977,
+        "risk": 0.36387125866180065
+      }
+    ],
+    [
+      0.3,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.03627555681052652,
+        "incorrect": 0.02075842325986899,
+        "known_other": 0.0038613930411616083,
+        "unassigned": 0.016897030218707382,
+        "ambiguous": 0.0,
+        "connected": 0.03222617922164004,
+        "largest": 0.03222617922164024,
+        "out_of_reference_rays": 8977,
+        "risk": 0.3639658890059474
+      }
+    ],
+    [
+      0.325,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.036273544786936944,
+        "incorrect": 0.02076043528345857,
+        "known_other": 0.0038613930411616083,
+        "unassigned": 0.016899042242296963,
+        "ambiguous": 0.0,
+        "connected": 0.03222944304830292,
+        "largest": 0.03222944304830313,
+        "out_of_reference_rays": 8977,
+        "risk": 0.364001166634952
+      }
+    ],
+    [
+      0.35,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.03625748891681096,
+        "incorrect": 0.020776491153584552,
+        "known_other": 0.0038618597920370033,
+        "unassigned": 0.01691463136154755,
+        "ambiguous": 0.0,
+        "connected": 0.032231327795103806,
+        "largest": 0.032231327795104014,
+        "out_of_reference_rays": 8977,
+        "risk": 0.364282680744719
+      }
+    ],
+    [
+      0.375,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.03626436869886498,
+        "incorrect": 0.020769611371530536,
+        "known_other": 0.00385084134065668,
+        "unassigned": 0.016918770030873855,
+        "ambiguous": 0.0,
+        "connected": 0.03223142952949064,
+        "largest": 0.03223142952949084,
+        "out_of_reference_rays": 8977,
+        "risk": 0.36416205472413393
+      }
+    ],
+    [
+      0.4,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.03627084016899446,
+        "incorrect": 0.020763139901401047,
+        "known_other": 0.003825573942141207,
+        "unassigned": 0.016937565959259843,
+        "ambiguous": 0.0,
+        "connected": 0.03223220257013894,
+        "largest": 0.032232202570139146,
+        "out_of_reference_rays": 8977,
+        "risk": 0.36404858780280913
+      }
+    ],
+    [
+      0.425,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.036281923440736726,
+        "incorrect": 0.02075205662965878,
+        "known_other": 0.0038008372576664533,
+        "unassigned": 0.01695121937199233,
+        "ambiguous": 0.0,
+        "connected": 0.03223512329373771,
+        "largest": 0.03223512329373792,
+        "out_of_reference_rays": 8977,
+        "risk": 0.363854260285624
+      }
+    ],
+    [
+      0.45,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.03629209290871371,
+        "incorrect": 0.020741887161681797,
+        "known_other": 0.0037813864593220334,
+        "unassigned": 0.016960500702359764,
+        "ambiguous": 0.0,
+        "connected": 0.0328850252707629,
+        "largest": 0.032885025270763125,
+        "out_of_reference_rays": 8977,
+        "risk": 0.36367595486200754
+      }
+    ],
+    [
+      0.475,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.03629787336795699,
+        "incorrect": 0.02073610670243852,
+        "known_other": 0.003739442066489305,
+        "unassigned": 0.01699666463594922,
+        "ambiguous": 0.0,
+        "connected": 0.032891448558415345,
+        "largest": 0.03289144855841557,
+        "out_of_reference_rays": 8977,
+        "risk": 0.36357460371596895
+      }
+    ],
+    [
+      0.5,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.03631809963664291,
+        "incorrect": 0.020715880433752595,
+        "known_other": 0.0036973639388648374,
+        "unassigned": 0.01701851649488776,
+        "ambiguous": 0.0,
+        "connected": 0.03290757637173605,
+        "largest": 0.032907576371736275,
+        "out_of_reference_rays": 8977,
+        "risk": 0.36321996830983105
+      }
+    ],
+    [
+      0.525,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.03635379520694414,
+        "incorrect": 0.020680184863451374,
+        "known_other": 0.003614629876032293,
+        "unassigned": 0.01706555498741908,
+        "ambiguous": 0.0,
+        "connected": 0.03294600410578671,
+        "largest": 0.03294600410578693,
+        "out_of_reference_rays": 8977,
+        "risk": 0.3625941033385076
+      }
+    ],
+    [
+      0.55,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.036341669331488774,
+        "incorrect": 0.02069231073890674,
+        "known_other": 0.003610549901100554,
+        "unassigned": 0.017081760837806187,
+        "ambiguous": 0.0,
+        "connected": 0.032921100850332105,
+        "largest": 0.03292110085033233,
+        "out_of_reference_rays": 8977,
+        "risk": 0.36280671125120106
+      }
+    ],
+    [
+      0.575,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.036331659184224055,
+        "incorrect": 0.02070232088617146,
+        "known_other": 0.0036191804654101224,
+        "unassigned": 0.01708314042076134,
+        "ambiguous": 0.0,
+        "connected": 0.03291080494082078,
+        "largest": 0.03291080494082099,
+        "out_of_reference_rays": 8977,
+        "risk": 0.36298222323988505
+      }
+    ],
+    [
+      0.6,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.036321788708872385,
+        "incorrect": 0.02071219136152313,
+        "known_other": 0.0036050335517408705,
+        "unassigned": 0.01710715780978226,
+        "ambiguous": 0.0,
+        "connected": 0.03290130853327215,
+        "largest": 0.032901308533272375,
+        "out_of_reference_rays": 8977,
+        "risk": 0.3631552863040353
+      }
+    ],
+    [
+      0.625,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.03628844849407134,
+        "incorrect": 0.020745531576324167,
+        "known_other": 0.0035766308119159814,
+        "unassigned": 0.017168900764408187,
+        "ambiguous": 0.0,
+        "connected": 0.03284480288386603,
+        "largest": 0.03284480288386625,
+        "out_of_reference_rays": 8977,
+        "risk": 0.3637398538681416
+      }
+    ],
+    [
+      0.65,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.03591653781189967,
+        "incorrect": 0.021117442258495843,
+        "known_other": 0.003563126528827655,
+        "unassigned": 0.017554315729668188,
+        "ambiguous": 0.0,
+        "connected": 0.03247921694918256,
+        "largest": 0.03247921694918277,
+        "out_of_reference_rays": 8977,
+        "risk": 0.3702607153214829
+      }
+    ],
+    [
+      0.675,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.0357996966560246,
+        "incorrect": 0.02123428341437091,
+        "known_other": 0.0035272555566778865,
+        "unassigned": 0.017707027857693024,
+        "ambiguous": 0.0,
+        "connected": 0.0323493372980624,
+        "largest": 0.03234933729806261,
+        "out_of_reference_rays": 8977,
+        "risk": 0.3723093388916923
+      }
+    ],
+    [
+      0.7,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.03577037892345411,
+        "incorrect": 0.021263601146941404,
+        "known_other": 0.003492555623044986,
+        "unassigned": 0.01777104552389642,
+        "ambiguous": 0.0,
+        "connected": 0.03231967114869214,
+        "largest": 0.03231967114869236,
+        "out_of_reference_rays": 8977,
+        "risk": 0.3728233786366708
+      }
+    ],
+    [
+      0.725,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.035773124298861064,
+        "incorrect": 0.02126085577153445,
+        "known_other": 0.0033950597502108953,
+        "unassigned": 0.017865796021323557,
+        "ambiguous": 0.0,
+        "connected": 0.03225032771657259,
+        "largest": 0.03225032771657281,
+        "out_of_reference_rays": 8977,
+        "risk": 0.3727752428515903
+      }
+    ],
+    [
+      0.75,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.03566368270293286,
+        "incorrect": 0.021370297367462654,
+        "known_other": 0.0033897652180680366,
+        "unassigned": 0.01798053214939462,
+        "ambiguous": 0.0,
+        "connected": 0.0321350752047805,
+        "largest": 0.03213507520478072,
+        "out_of_reference_rays": 8977,
+        "risk": 0.3746941269237368
+      }
+    ],
+    [
+      0.775,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.035383594783239436,
+        "incorrect": 0.021650385287156078,
+        "known_other": 0.003368668289896758,
+        "unassigned": 0.01828171699725932,
+        "ambiguous": 0.0,
+        "connected": 0.03192699813748043,
+        "largest": 0.03192699813748065,
+        "out_of_reference_rays": 8977,
+        "risk": 0.37960502248718375
+      }
+    ],
+    [
+      0.8,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.035284921762162316,
+        "incorrect": 0.021749058308233198,
+        "known_other": 0.0033721940701980425,
+        "unassigned": 0.018376864238035154,
+        "ambiguous": 0.0,
+        "connected": 0.03183531230899214,
+        "largest": 0.031835312308992364,
+        "out_of_reference_rays": 8977,
+        "risk": 0.3813350967509004
+      }
+    ],
+    [
+      0.825,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.03518402708398853,
+        "incorrect": 0.02184995298640698,
+        "known_other": 0.0033565502649887074,
+        "unassigned": 0.01849340272141827,
+        "ambiguous": 0.0,
+        "connected": 0.03174118068030338,
+        "largest": 0.03174118068030359,
+        "out_of_reference_rays": 8977,
+        "risk": 0.3831041242332758
+      }
+    ],
+    [
+      0.85,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.034824704110146217,
+        "incorrect": 0.022209275960249297,
+        "known_other": 0.003374081096148698,
+        "unassigned": 0.0188351948641006,
+        "ambiguous": 0.0,
+        "connected": 0.031426101190646295,
+        "largest": 0.031426101190646503,
+        "out_of_reference_rays": 8977,
+        "risk": 0.38940428027005974
+      }
+    ],
+    [
+      0.875,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.034316685405923586,
+        "incorrect": 0.022717294664471928,
+        "known_other": 0.0033793123022776432,
+        "unassigned": 0.019337982362194285,
+        "ambiguous": 0.0,
+        "connected": 0.030932028900941294,
+        "largest": 0.030932028900941485,
+        "out_of_reference_rays": 8977,
+        "risk": 0.3983115791048175
+      }
+    ],
+    [
+      0.9,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.03427544305341297,
+        "incorrect": 0.02275853701698254,
+        "known_other": 0.0033793123022776432,
+        "unassigned": 0.019379224714704896,
+        "ambiguous": 0.0,
+        "connected": 0.030890786548430683,
+        "largest": 0.030890786548430877,
+        "out_of_reference_rays": 8977,
+        "risk": 0.3990346980675781
+      }
+    ],
+    [
+      0.925,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.03423330505539289,
+        "incorrect": 0.022800675015002617,
+        "known_other": 0.003384844377911776,
+        "unassigned": 0.019415830637090847,
+        "ambiguous": 0.0,
+        "connected": 0.03084802713665779,
+        "largest": 0.030848027136657984,
+        "out_of_reference_rays": 8977,
+        "risk": 0.399773520747813
+      }
+    ],
+    [
+      0.95,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.03406188609781408,
+        "incorrect": 0.02297209397258143,
+        "known_other": 0.003387547460631218,
+        "unassigned": 0.019584546511950213,
+        "ambiguous": 0.0,
+        "connected": 0.030698566134604765,
+        "largest": 0.030698566134604956,
+        "out_of_reference_rays": 8977,
+        "risk": 0.4027790791424269
+      }
+    ],
+    [
+      0.975,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.03384490717331114,
+        "incorrect": 0.023189072897084374,
+        "known_other": 0.003387547460631218,
+        "unassigned": 0.01980152543645316,
+        "ambiguous": 0.0,
+        "connected": 0.03049662482342464,
+        "largest": 0.03049662482342483,
+        "out_of_reference_rays": 8977,
+        "risk": 0.40658345899168746
+      }
+    ],
+    [
+      1.0,
+      {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.03384490717331114,
+        "incorrect": 0.023189072897084374,
+        "known_other": 0.003387547460631218,
+        "unassigned": 0.01980152543645316,
+        "ambiguous": 0.0,
+        "connected": 0.03049662482342464,
+        "largest": 0.03049662482342483,
+        "out_of_reference_rays": 8977,
+        "risk": 0.40658345899168746
+      }
+    ]
+  ]
+}

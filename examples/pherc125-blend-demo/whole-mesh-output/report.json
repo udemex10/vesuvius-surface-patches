@@ -1,0 +1,19 @@
+{
+ "mode": "shared",
+ "spacing_vox": 32,
+ "upsample": 4,
+ "tiles": 2026,
+ "tiles_solved": 794,
+ "tiles_abstained": 1232,
+ "resampled_vertices": 513237,
+ "vertices_with_tile": 208233,
+ "vertices_moved": 208233,
+ "displacement_median_vox": 0.13428260507321715,
+ "displacement_p95_vox": 1.9160343133478615,
+ "lattice_nodes": 4,
+ "grid_step_vox": 8.017288686532062,
+ "elapsed_seconds": 131.6,
+ "stock": "surface",
+ "foreground_sha256": "e5af1cc3efcb5e866500fdf42f7b60f4d837e345140bc98356e0384e884baaef",
+ "script_sha256": "87360fc5c27a02fa4aa720fbbf72b4f09d6817a4f739e278af59ee885ae2148d"
+}

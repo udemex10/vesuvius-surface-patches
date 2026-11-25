@@ -1,0 +1,548 @@
+[
+  {
+    "method": "two_route_phase",
+    "threshold": 0.0,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.10612171909022333,
+      "incorrect": 0.0005108748929047069,
+      "correct": 0.10561084419731863,
+      "connected": 0.10561084419731863,
+      "out_of_reference_rays": 360,
+      "risk": 0.004814046523976563
+    }
+  },
+  {
+    "method": "two_route_phase",
+    "threshold": 0.05,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.10612171909022333,
+      "incorrect": 0.0005108748929047069,
+      "correct": 0.10561084419731863,
+      "connected": 0.10561084419731863,
+      "out_of_reference_rays": 360,
+      "risk": 0.004814046523976563
+    }
+  },
+  {
+    "method": "two_route_phase",
+    "threshold": 0.1,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.10612171909022333,
+      "incorrect": 0.0005108748929047069,
+      "correct": 0.10561084419731863,
+      "connected": 0.10561084419731863,
+      "out_of_reference_rays": 360,
+      "risk": 0.004814046523976563
+    }
+  },
+  {
+    "method": "two_route_phase",
+    "threshold": 0.15,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.10612171909022333,
+      "incorrect": 0.0005108748929047069,
+      "correct": 0.10561084419731863,
+      "connected": 0.10561084419731863,
+      "out_of_reference_rays": 360,
+      "risk": 0.004814046523976563
+    }
+  },
+  {
+    "method": "two_route_phase",
+    "threshold": 0.2,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.10612171909022333,
+      "incorrect": 0.0005108748929047069,
+      "correct": 0.10561084419731863,
+      "connected": 0.10561084419731863,
+      "out_of_reference_rays": 360,
+      "risk": 0.004814046523976563
+    }
+  },
+  {
+    "method": "two_route_phase",
+    "threshold": 0.25,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.10612171909022333,
+      "incorrect": 0.0005108748929047069,
+      "correct": 0.10561084419731863,
+      "connected": 0.10561084419731863,
+      "out_of_reference_rays": 360,
+      "risk": 0.004814046523976563
+    }
+  },
+  {
+    "method": "two_route_phase",
+    "threshold": 0.3,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.10612171909022333,
+      "incorrect": 0.0005108748929047069,
+      "correct": 0.10561084419731863,
+      "connected": 0.10561084419731863,
+      "out_of_reference_rays": 360,
+      "risk": 0.004814046523976563
+    }
+  },
+  {
+    "method": "two_route_phase",
+    "threshold": 0.35,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.10612171909022333,
+      "incorrect": 0.0005108748929047069,
+      "correct": 0.10561084419731863,
+      "connected": 0.10561084419731863,
+      "out_of_reference_rays": 360,
+      "risk": 0.004814046523976563
+    }
+  },
+  {
+    "method": "two_route_phase",
+    "threshold": 0.4,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.10612171909022333,
+      "incorrect": 0.0005108748929047069,
+      "correct": 0.10561084419731863,
+      "connected": 0.10561084419731863,
+      "out_of_reference_rays": 360,
+      "risk": 0.004814046523976563
+    }
+  },
+  {
+    "method": "two_route_phase",
+    "threshold": 0.45,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.10612171909022333,
+      "incorrect": 0.0005108748929047069,
+      "correct": 0.10561084419731863,
+      "connected": 0.10561084419731863,
+      "out_of_reference_rays": 360,
+      "risk": 0.004814046523976563
+    }
+  },
+  {
+    "method": "two_route_phase",
+    "threshold": 0.5,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.10612171909022333,
+      "incorrect": 0.0005108748929047069,
+      "correct": 0.10561084419731863,
+      "connected": 0.10561084419731863,
+      "out_of_reference_rays": 360,
+      "risk": 0.004814046523976563
+    }
+  },
+  {
+    "method": "two_route_phase",
+    "threshold": 0.55,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.10612171909022333,
+      "incorrect": 0.0005108748929047069,
+      "correct": 0.10561084419731863,
+      "connected": 0.10561084419731863,
+      "out_of_reference_rays": 360,
+      "risk": 0.004814046523976563
+    }
+  },
+  {
+    "method": "two_route_phase",
+    "threshold": 0.6,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.10612171909022333,
+      "incorrect": 0.0005108748929047069,
+      "correct": 0.10561084419731863,
+      "connected": 0.10561084419731863,
+      "out_of_reference_rays": 360,
+      "risk": 0.004814046523976563
+    }
+  },
+  {
+    "method": "two_route_phase",
+    "threshold": 0.65,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.10612171909022333,
+      "incorrect": 0.0005108748929047069,
+      "correct": 0.10561084419731863,
+      "connected": 0.10561084419731863,
+      "out_of_reference_rays": 360,
+      "risk": 0.004814046523976563
+    }
+  },
+  {
+    "method": "two_route_phase",
+    "threshold": 0.7,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.10612171909022333,
+      "incorrect": 0.0005108748929047069,
+      "correct": 0.10561084419731863,
+      "connected": 0.10561084419731863,
+      "out_of_reference_rays": 360,
+      "risk": 0.004814046523976563
+    }
+  },
+  {
+    "method": "two_route_phase",
+    "threshold": 0.75,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.10612171909022333,
+      "incorrect": 0.0005108748929047069,
+      "correct": 0.10561084419731863,
+      "connected": 0.10561084419731863,
+      "out_of_reference_rays": 360,
+      "risk": 0.004814046523976563
+    }
+  },
+  {
+    "method": "two_route_phase",
+    "threshold": 0.8,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.10611411059210955,
+      "incorrect": 0.0005108748929047069,
+      "correct": 0.10560323569920485,
+      "connected": 0.10560323569920485,
+      "out_of_reference_rays": 360,
+      "risk": 0.004814391696392304
+    }
+  },
+  {
+    "method": "two_route_phase",
+    "threshold": 0.85,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.09651666709140451,
+      "incorrect": 0.00046974742243512775,
+      "correct": 0.09604691966896939,
+      "connected": 0.09535932867837607,
+      "out_of_reference_rays": 357,
+      "risk": 0.0048670083270722685
+    }
+  },
+  {
+    "method": "two_route_phase",
+    "threshold": 0.9,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.06284904297742304,
+      "incorrect": 0.0002588367645007988,
+      "correct": 0.06259020621292224,
+      "connected": 0.046160129662430625,
+      "out_of_reference_rays": 13,
+      "risk": 0.004118388319672258
+    }
+  },
+  {
+    "method": "two_route_phase",
+    "threshold": 0.95,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.0027597075287472276,
+      "incorrect": 0.0002588367645007988,
+      "correct": 0.002500870764246429,
+      "connected": 0.0,
+      "out_of_reference_rays": 0,
+      "risk": 0.09379137528327071
+    }
+  },
+  {
+    "method": "two_route_phase",
+    "threshold": 1.0,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.0,
+      "incorrect": 0.0,
+      "correct": 0.0,
+      "connected": 0.0,
+      "out_of_reference_rays": 0,
+      "risk": null
+    }
+  },
+  {
+    "method": "graph_phase",
+    "threshold": 0.0,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.10612171909022333,
+      "incorrect": 0.0005108748929047069,
+      "correct": 0.10561084419731863,
+      "connected": 0.10561084419731863,
+      "out_of_reference_rays": 360,
+      "risk": 0.004814046523976563
+    }
+  },
+  {
+    "method": "graph_phase",
+    "threshold": 0.05,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.10612171909022333,
+      "incorrect": 0.0005108748929047069,
+      "correct": 0.10561084419731863,
+      "connected": 0.10561084419731863,
+      "out_of_reference_rays": 360,
+      "risk": 0.004814046523976563
+    }
+  },
+  {
+    "method": "graph_phase",
+    "threshold": 0.1,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.10612171909022333,
+      "incorrect": 0.0005108748929047069,
+      "correct": 0.10561084419731863,
+      "connected": 0.10561084419731863,
+      "out_of_reference_rays": 360,
+      "risk": 0.004814046523976563
+    }
+  },
+  {
+    "method": "graph_phase",
+    "threshold": 0.15,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.10612171909022333,
+      "incorrect": 0.0005108748929047069,
+      "correct": 0.10561084419731863,
+      "connected": 0.10561084419731863,
+      "out_of_reference_rays": 360,
+      "risk": 0.004814046523976563
+    }
+  },
+  {
+    "method": "graph_phase",
+    "threshold": 0.2,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.10612171909022333,
+      "incorrect": 0.0005108748929047069,
+      "correct": 0.10561084419731863,
+      "connected": 0.10561084419731863,
+      "out_of_reference_rays": 360,
+      "risk": 0.004814046523976563
+    }
+  },
+  {
+    "method": "graph_phase",
+    "threshold": 0.25,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.10612171909022333,
+      "incorrect": 0.0005108748929047069,
+      "correct": 0.10561084419731863,
+      "connected": 0.10561084419731863,
+      "out_of_reference_rays": 360,
+      "risk": 0.004814046523976563
+    }
+  },
+  {
+    "method": "graph_phase",
+    "threshold": 0.3,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.10612171909022333,
+      "incorrect": 0.0005108748929047069,
+      "correct": 0.10561084419731863,
+      "connected": 0.10561084419731863,
+      "out_of_reference_rays": 360,
+      "risk": 0.004814046523976563
+    }
+  },
+  {
+    "method": "graph_phase",
+    "threshold": 0.35,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.10612171909022333,
+      "incorrect": 0.0005108748929047069,
+      "correct": 0.10561084419731863,
+      "connected": 0.10561084419731863,
+      "out_of_reference_rays": 360,
+      "risk": 0.004814046523976563
+    }
+  },
+  {
+    "method": "graph_phase",
+    "threshold": 0.4,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.10612171909022333,
+      "incorrect": 0.0005108748929047069,
+      "correct": 0.10561084419731863,
+      "connected": 0.10561084419731863,
+      "out_of_reference_rays": 360,
+      "risk": 0.004814046523976563
+    }
+  },
+  {
+    "method": "graph_phase",
+    "threshold": 0.45,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.10612171909022333,
+      "incorrect": 0.0005108748929047069,
+      "correct": 0.10561084419731863,
+      "connected": 0.10561084419731863,
+      "out_of_reference_rays": 360,
+      "risk": 0.004814046523976563
+    }
+  },
+  {
+    "method": "graph_phase",
+    "threshold": 0.5,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.10612171909022333,
+      "incorrect": 0.0005108748929047069,
+      "correct": 0.10561084419731863,
+      "connected": 0.10561084419731863,
+      "out_of_reference_rays": 360,
+      "risk": 0.004814046523976563
+    }
+  },
+  {
+    "method": "graph_phase",
+    "threshold": 0.55,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.10612171909022333,
+      "incorrect": 0.0005108748929047069,
+      "correct": 0.10561084419731863,
+      "connected": 0.10561084419731863,
+      "out_of_reference_rays": 360,
+      "risk": 0.004814046523976563
+    }
+  },
+  {
+    "method": "graph_phase",
+    "threshold": 0.6,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.10612171909022333,
+      "incorrect": 0.0005108748929047069,
+      "correct": 0.10561084419731863,
+      "connected": 0.10561084419731863,
+      "out_of_reference_rays": 360,
+      "risk": 0.004814046523976563
+    }
+  },
+  {
+    "method": "graph_phase",
+    "threshold": 0.65,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.10612171909022333,
+      "incorrect": 0.0005108748929047069,
+      "correct": 0.10561084419731863,
+      "connected": 0.10561084419731863,
+      "out_of_reference_rays": 360,
+      "risk": 0.004814046523976563
+    }
+  },
+  {
+    "method": "graph_phase",
+    "threshold": 0.7,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.10612171909022333,
+      "incorrect": 0.0005108748929047069,
+      "correct": 0.10561084419731863,
+      "connected": 0.10561084419731863,
+      "out_of_reference_rays": 360,
+      "risk": 0.004814046523976563
+    }
+  },
+  {
+    "method": "graph_phase",
+    "threshold": 0.75,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.10612171909022333,
+      "incorrect": 0.0005108748929047069,
+      "correct": 0.10561084419731863,
+      "connected": 0.10561084419731863,
+      "out_of_reference_rays": 360,
+      "risk": 0.004814046523976563
+    }
+  },
+  {
+    "method": "graph_phase",
+    "threshold": 0.8,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.10612171909022333,
+      "incorrect": 0.0005108748929047069,
+      "correct": 0.10561084419731863,
+      "connected": 0.10561084419731863,
+      "out_of_reference_rays": 360,
+      "risk": 0.004814046523976563
+    }
+  },
+  {
+    "method": "graph_phase",
+    "threshold": 0.85,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.10612171909022333,
+      "incorrect": 0.0005108748929047069,
+      "correct": 0.10561084419731863,
+      "connected": 0.10561084419731863,
+      "out_of_reference_rays": 360,
+      "risk": 0.004814046523976563
+    }
+  },
+  {
+    "method": "graph_phase",
+    "threshold": 0.9,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.10612171909022333,
+      "incorrect": 0.0005108748929047069,
+      "correct": 0.10561084419731863,
+      "connected": 0.10561084419731863,
+      "out_of_reference_rays": 360,
+      "risk": 0.004814046523976563
+    }
+  },
+  {
+    "method": "graph_phase",
+    "threshold": 0.95,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.10610571852427438,
+      "incorrect": 0.0005108748929047069,
+      "correct": 0.10559484363136967,
+      "connected": 0.10559484363136967,
+      "out_of_reference_rays": 360,
+      "risk": 0.004814772474188857
+    }
+  },
+  {
+    "method": "graph_phase",
+    "threshold": 1.0,
+    "result": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.0,
+      "incorrect": 0.0,
+      "correct": 0.0,
+      "connected": 0.0,
+      "out_of_reference_rays": 0,
+      "risk": null
+    }
+  }
+]

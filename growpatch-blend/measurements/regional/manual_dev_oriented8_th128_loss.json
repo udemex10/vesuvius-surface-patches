@@ -1,0 +1,1262 @@
+{
+  "cohort": "manual_dev",
+  "stock": "oriented8_th128_loss",
+  "selection": {
+    "chosen": "blend_8",
+    "passing_dev": [
+      "tapered_offset",
+      "blend_2",
+      "blend_4",
+      "blend_8"
+    ],
+    "reference": "manual_dev",
+    "stock": "oriented8_th128_loss",
+    "source": "e926bd78a27e801e6bc1d0f2ee482ed577f98a5c5345410e8c5b7c5b07577da5",
+    "refinement_source": "d164365759ecda4d6a811a6e0c831d88f02b693da02ea9f84ce8159fdbfc4b74",
+    "protocol": "857d10936451343944d57b8fee8a6613b03f7a6e8c8b70a70adfe5a264cebe21"
+  },
+  "digests": {
+    "dev_01": {
+      "stock": "6d3782160a504c3212bfe98f1c071a1608ccc7f604db61acd3543b21794e1b69",
+      "reference": "d8b791839cd5147639b57aba9790086ea1955686eab3df6c3a5703c4da209cc9",
+      "two_route": "ab593f1bb819e1290e36898a13fa43066af00be733e822c584ca915529ad3adb",
+      "graph": "ab593f1bb819e1290e36898a13fa43066af00be733e822c584ca915529ad3adb",
+      "two_route_phase": "ab593f1bb819e1290e36898a13fa43066af00be733e822c584ca915529ad3adb",
+      "graph_phase": "ab593f1bb819e1290e36898a13fa43066af00be733e822c584ca915529ad3adb",
+      "foreground": "f3505314ac5cc403b359233119a6c4db8460f47d7271706a80316c6e27a8a1f4"
+    },
+    "dev_02": {
+      "stock": "d2e9724a4aebea27371a62f1b051d5cf4cc243073f07ff5572124fe60240aa5f",
+      "reference": "b185241b862501d25a99efc65d4f551a83f99f1ebc678279e62d9fe493ecc654",
+      "two_route": "14f01914a4ecf83ae7afafb43ba8034f539d713653d5bbbf65d322b37b93afca",
+      "graph": "fa4170c5f9abee567644216c222b0e3eaf6007a4ed6a3e3d4bf31333d61cf2d4",
+      "two_route_phase": "3bc776a141c32d81a376c3d8ba866a9ed58faa3677653dcbdf2e584750383077",
+      "graph_phase": "20b9b00054fed4cd6c1dba6763eb5514d0b14e452dbe91c5bae2f81f3a9d3dd9",
+      "foreground": "a9fed9b0e629e8b9ccf1079a44fbf59c33fcd880b743f408b23ced36e187842c"
+    },
+    "dev_03": {
+      "stock": "981f607165e023cd6cde9e97347c476a1dcd0ab6f8be7ed1b3c5ce2e5c0131d3",
+      "reference": "dbc2ba6fb636e5dfe88bfa7e37f3f93c0c7b22748e6a76e95a651f9848a4e526",
+      "two_route": "0c866d9491d75e3c1d0c5e5ec0eb973a0b9c75ab1472c9a38211ac0be284000f",
+      "graph": "410e48508cb3f69f38b9ee77c1b592a2b862f706ec73781ca7a5e1bec94fe240",
+      "two_route_phase": "00ad46208c567f46d0c473de89ce7d06b5406fcebbcff44733396d6685e8ded5",
+      "graph_phase": "d7d647d023f21bad43c97ce182256c698f192fa02404d0b41bbde3bbc9d2a69f",
+      "foreground": "b9412662b69aa2b077d88473f3832404e1664b52c2b0f5146841c8e6a2b242f5"
+    },
+    "dev_04": {
+      "stock": "925a07afe946e3efd147dc1ea3e121a8bc1914e35c711d3064769a84639a4434",
+      "reference": "f8860e2669793303b1d7f63ef98c76b2ba77db23de44e49110c19706188cc008",
+      "two_route": "f40c173e0c653067f5d5f99d3ee3d55b72ce91b8914fbe52d69ad78aa85ca800",
+      "graph": "c441319be3fd2b9c503489d096c55f65d5d2c12e365d704cb6c623322f828ca1",
+      "two_route_phase": "f298d4ab609987c6113aac65c642abeb8b35b6264e511a1fe7499bfdba650831",
+      "graph_phase": "dafe8a90ef6c7a7006d3e8313bbdd5fcba5430122f8196454625211f313c1b33",
+      "foreground": "e674386cade46b428a8709b6278b48cb4d96b8098a4dac556f79191df480a085"
+    }
+  },
+  "rows": {
+    "stock": {
+      "dev_01": {
+        "reference": 0.01408586128149612,
+        "accepted": 0.01408586128149612,
+        "correct": 3.1006174989565164e-05,
+        "incorrect": 0.014054855106506555,
+        "connected": 0.0,
+        "largest": 2.277146322535284e-05,
+        "other_footprint_rays": 2509,
+        "known_other": 0.004830947632670768,
+        "unassigned": 0.009223907473835787,
+        "ambiguous": 0.0
+      },
+      "dev_02": {
+        "reference": 0.013492868070994674,
+        "accepted": 0.013492868070994674,
+        "correct": 0.006790357787273024,
+        "incorrect": 0.0067025102837216495,
+        "connected": 0.004779352498375321,
+        "largest": 0.0047793524983752965,
+        "other_footprint_rays": 2464,
+        "known_other": 0.0010283373966990844,
+        "unassigned": 0.005674172887022565,
+        "ambiguous": 0.0
+      },
+      "dev_03": {
+        "reference": 0.013456677470133665,
+        "accepted": 0.013456677470133665,
+        "correct": 0.007045420924504499,
+        "incorrect": 0.006411256545629165,
+        "connected": 0.006525392988799972,
+        "largest": 0.00652539298879998,
+        "other_footprint_rays": 2309,
+        "known_other": 0.0018876725080805767,
+        "unassigned": 0.004523584037548588,
+        "ambiguous": 0.0
+      },
+      "dev_04": {
+        "reference": 0.015998573247771056,
+        "accepted": 0.015998573247771056,
+        "correct": 0.015137182535490127,
+        "incorrect": 0.0008613907122809293,
+        "connected": 0.014665923591569421,
+        "largest": 0.014665923591569603,
+        "other_footprint_rays": 1695,
+        "known_other": 0.0,
+        "unassigned": 0.0008613907122809293,
+        "ambiguous": 0.0
+      }
+    },
+    "stock_offset": {
+      "dev_01": {
+        "reference": 0.01408586128149612,
+        "accepted": 0.01408586128149612,
+        "correct": 5.657078870369778e-05,
+        "incorrect": 0.014029290492792421,
+        "connected": 0.0,
+        "largest": 2.277146322535284e-05,
+        "other_footprint_rays": 2509,
+        "known_other": 0.0022741029448447637,
+        "unassigned": 0.01175518754794766,
+        "ambiguous": 0.0
+      },
+      "dev_02": {
+        "reference": 0.013492868070994674,
+        "accepted": 0.013492868070994674,
+        "correct": 0.00676153497063185,
+        "incorrect": 0.006731333100362824,
+        "connected": 0.004672020037388824,
+        "largest": 0.004672020037388796,
+        "other_footprint_rays": 2464,
+        "known_other": 0.0010406829810145728,
+        "unassigned": 0.00569065011934825,
+        "ambiguous": 0.0
+      },
+      "dev_03": {
+        "reference": 0.013456677470133665,
+        "accepted": 0.013456677470133665,
+        "correct": 0.007005183796293977,
+        "incorrect": 0.006451493673839688,
+        "connected": 0.006488329976171171,
+        "largest": 0.0064883299761711805,
+        "other_footprint_rays": 2309,
+        "known_other": 0.0016937332377044358,
+        "unassigned": 0.004757760436135253,
+        "ambiguous": 0.0
+      },
+      "dev_04": {
+        "reference": 0.015998573247771056,
+        "accepted": 0.015998573247771056,
+        "correct": 0.013629498125509829,
+        "incorrect": 0.0023690751222612254,
+        "connected": 0.012916862560608455,
+        "largest": 0.012916862560608621,
+        "other_footprint_rays": 1695,
+        "known_other": 0.0,
+        "unassigned": 0.0023690751222612254,
+        "ambiguous": 0.0
+      }
+    },
+    "tapered_offset": {
+      "dev_01": {
+        "reference": 0.01408586128149612,
+        "accepted": 0.01408586128149612,
+        "correct": 3.376795495347203e-05,
+        "incorrect": 0.014052093326542647,
+        "connected": 0.0,
+        "largest": 2.277146322535284e-05,
+        "other_footprint_rays": 2509,
+        "known_other": 0.004258579380051045,
+        "unassigned": 0.009793513946491604,
+        "ambiguous": 0.0
+      },
+      "dev_02": {
+        "reference": 0.013492868070994674,
+        "accepted": 0.013492868070994674,
+        "correct": 0.006786757452428321,
+        "incorrect": 0.006706110618566351,
+        "connected": 0.004674946267832684,
+        "largest": 0.004674946267832656,
+        "other_footprint_rays": 2464,
+        "known_other": 0.0010330012258588097,
+        "unassigned": 0.005673109392707541,
+        "ambiguous": 0.0
+      },
+      "dev_03": {
+        "reference": 0.013456677470133665,
+        "accepted": 0.013456677470133665,
+        "correct": 0.007062983947672493,
+        "incorrect": 0.006393693522461172,
+        "connected": 0.006531496138004926,
+        "largest": 0.006531496138004935,
+        "other_footprint_rays": 2309,
+        "known_other": 0.0018440509415256021,
+        "unassigned": 0.004549642580935569,
+        "ambiguous": 0.0
+      },
+      "dev_04": {
+        "reference": 0.015998573247771056,
+        "accepted": 0.015998573247771056,
+        "correct": 0.015335184395281164,
+        "incorrect": 0.0006633888524898919,
+        "connected": 0.01488376088523647,
+        "largest": 0.014883760885236665,
+        "other_footprint_rays": 1695,
+        "known_other": 0.0,
+        "unassigned": 0.0006633888524898919,
+        "ambiguous": 0.0
+      }
+    },
+    "two_route": {
+      "dev_01": {
+        "reference": 0.01408586128149612,
+        "accepted": 0.0,
+        "correct": 0.0,
+        "incorrect": 0.0,
+        "connected": 0.0,
+        "largest": 0.0,
+        "other_footprint_rays": 0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0
+      },
+      "dev_02": {
+        "reference": 0.013492868070994674,
+        "accepted": 0.0003077701175834859,
+        "correct": 0.0003077701175834859,
+        "incorrect": 0.0,
+        "connected": 0.0003077701175834859,
+        "largest": 0.0003077701175834857,
+        "other_footprint_rays": 7,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0
+      },
+      "dev_03": {
+        "reference": 0.013456677470133665,
+        "accepted": 0.0012379858519483092,
+        "correct": 0.0012379858519483092,
+        "incorrect": 0.0,
+        "connected": 0.0012044620495112418,
+        "largest": 0.0012044620495112429,
+        "other_footprint_rays": 75,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0
+      },
+      "dev_04": {
+        "reference": 0.015998573247771056,
+        "accepted": 0.0071004519788596,
+        "correct": 0.0071004519788596,
+        "incorrect": 0.0,
+        "connected": 0.006139352246571641,
+        "largest": 0.006139352246571531,
+        "other_footprint_rays": 89,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0
+      }
+    },
+    "graph": {
+      "dev_01": {
+        "reference": 0.01408586128149612,
+        "accepted": 0.0,
+        "correct": 0.0,
+        "incorrect": 0.0,
+        "connected": 0.0,
+        "largest": 0.0,
+        "other_footprint_rays": 0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0
+      },
+      "dev_02": {
+        "reference": 0.013492868070994674,
+        "accepted": 0.013488805288528027,
+        "correct": 0.007641508136257198,
+        "incorrect": 0.005847297152270829,
+        "connected": 0.0062238617302508535,
+        "largest": 0.006223861730250843,
+        "other_footprint_rays": 2464,
+        "known_other": 0.004979946274227956,
+        "unassigned": 0.0006076060589196835,
+        "ambiguous": 0.0002597448191231894
+      },
+      "dev_03": {
+        "reference": 0.013456677470133665,
+        "accepted": 0.013456677470133665,
+        "correct": 0.012131058444342223,
+        "incorrect": 0.0013256190257914418,
+        "connected": 0.011796185849747808,
+        "largest": 0.01179618584974719,
+        "other_footprint_rays": 2309,
+        "known_other": 0.0,
+        "unassigned": 5.462107228293095e-05,
+        "ambiguous": 0.0012709979535085107
+      },
+      "dev_04": {
+        "reference": 0.015998573247771056,
+        "accepted": 0.015614536853633555,
+        "correct": 0.014853080300675342,
+        "incorrect": 0.0007614565529582129,
+        "connected": 0.014535431781066144,
+        "largest": 0.014535431781066312,
+        "other_footprint_rays": 1655,
+        "known_other": 1.8790576338031104e-05,
+        "unassigned": 7.233435718521243e-05,
+        "ambiguous": 0.0006703316194349694
+      }
+    },
+    "two_route_phase": {
+      "dev_01": {
+        "reference": 0.01408586128149612,
+        "accepted": 0.0,
+        "correct": 0.0,
+        "incorrect": 0.0,
+        "connected": 0.0,
+        "largest": 0.0,
+        "other_footprint_rays": 0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0
+      },
+      "dev_02": {
+        "reference": 0.013492868070994674,
+        "accepted": 0.0003077701175834859,
+        "correct": 0.00030515205478020733,
+        "incorrect": 2.618062803278562e-06,
+        "connected": 0.00030515205478020733,
+        "largest": 0.00030515205478020717,
+        "other_footprint_rays": 7,
+        "known_other": 0.0,
+        "unassigned": 2.618062803278562e-06,
+        "ambiguous": 0.0
+      },
+      "dev_03": {
+        "reference": 0.013456677470133665,
+        "accepted": 0.0012379858519483092,
+        "correct": 0.0012379858519483092,
+        "incorrect": 0.0,
+        "connected": 0.0012044620495112418,
+        "largest": 0.0012044620495112429,
+        "other_footprint_rays": 75,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0
+      },
+      "dev_04": {
+        "reference": 0.015998573247771056,
+        "accepted": 0.007103009065528853,
+        "correct": 0.0071004519788596,
+        "incorrect": 2.55708666925208e-06,
+        "connected": 0.006139352246571641,
+        "largest": 0.006139352246571531,
+        "other_footprint_rays": 89,
+        "known_other": 0.0,
+        "unassigned": 2.55708666925208e-06,
+        "ambiguous": 0.0
+      }
+    },
+    "graph_phase": {
+      "dev_01": {
+        "reference": 0.01408586128149612,
+        "accepted": 0.0,
+        "correct": 0.0,
+        "incorrect": 0.0,
+        "connected": 0.0,
+        "largest": 0.0,
+        "other_footprint_rays": 0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0
+      },
+      "dev_02": {
+        "reference": 0.013492868070994674,
+        "accepted": 0.013488805288528027,
+        "correct": 0.007464909178513663,
+        "incorrect": 0.006023896110014363,
+        "connected": 0.006231907611784248,
+        "largest": 0.006231907611784238,
+        "other_footprint_rays": 2464,
+        "known_other": 0.005099296545172826,
+        "unassigned": 0.0006650094258669699,
+        "ambiguous": 0.0002595901389745676
+      },
+      "dev_03": {
+        "reference": 0.013456677470133665,
+        "accepted": 0.013456677470133665,
+        "correct": 0.012119537781610073,
+        "incorrect": 0.0013371396885235912,
+        "connected": 0.011798135182596564,
+        "largest": 0.011798135182595947,
+        "other_footprint_rays": 2309,
+        "known_other": 2.815000878864414e-06,
+        "unassigned": 4.51545274297587e-05,
+        "ambiguous": 0.001289170160214968
+      },
+      "dev_04": {
+        "reference": 0.015998573247771056,
+        "accepted": 0.015620426603991421,
+        "correct": 0.014868028049299677,
+        "incorrect": 0.0007523985546917441,
+        "connected": 0.014556234503248092,
+        "largest": 0.01455623450324826,
+        "other_footprint_rays": 1655,
+        "known_other": 1.8790576338031104e-05,
+        "unassigned": 6.379890034580472e-05,
+        "ambiguous": 0.0006698090780079082
+      }
+    },
+    "blend_2": {
+      "dev_01": {
+        "reference": 0.01408586128149612,
+        "accepted": 0.01408586128149612,
+        "correct": 3.1006174989565164e-05,
+        "incorrect": 0.014054855106506555,
+        "connected": 0.0,
+        "largest": 2.277146322535284e-05,
+        "other_footprint_rays": 2509,
+        "known_other": 0.004830947632670768,
+        "unassigned": 0.009223907473835787,
+        "ambiguous": 0.0
+      },
+      "dev_02": {
+        "reference": 0.013492868070994674,
+        "accepted": 0.013492868070994674,
+        "correct": 0.006894720918144498,
+        "incorrect": 0.006598147152850176,
+        "connected": 0.004830729153545236,
+        "largest": 0.004830729153545212,
+        "other_footprint_rays": 2464,
+        "known_other": 0.001081848848290997,
+        "unassigned": 0.005516298304559178,
+        "ambiguous": 0.0
+      },
+      "dev_03": {
+        "reference": 0.013456677470133665,
+        "accepted": 0.013456677470133665,
+        "correct": 0.007056201988240281,
+        "incorrect": 0.006400475481893383,
+        "connected": 0.006536079034017806,
+        "largest": 0.006536079034017814,
+        "other_footprint_rays": 2309,
+        "known_other": 0.0018849615929914833,
+        "unassigned": 0.0045155138889019,
+        "ambiguous": 0.0
+      },
+      "dev_04": {
+        "reference": 0.015998573247771056,
+        "accepted": 0.015998573247771056,
+        "correct": 0.015231369461391137,
+        "incorrect": 0.0007672037863799182,
+        "connected": 0.01488047698397868,
+        "largest": 0.014880476983978864,
+        "other_footprint_rays": 1695,
+        "known_other": 0.0,
+        "unassigned": 0.0007672037863799182,
+        "ambiguous": 0.0
+      }
+    },
+    "blend_4": {
+      "dev_01": {
+        "reference": 0.01408586128149612,
+        "accepted": 0.01408586128149612,
+        "correct": 3.1006174989565164e-05,
+        "incorrect": 0.014054855106506555,
+        "connected": 0.0,
+        "largest": 2.277146322535284e-05,
+        "other_footprint_rays": 2509,
+        "known_other": 0.004830947632670768,
+        "unassigned": 0.009223907473835787,
+        "ambiguous": 0.0
+      },
+      "dev_02": {
+        "reference": 0.013492868070994674,
+        "accepted": 0.013492868070994674,
+        "correct": 0.007434959225515479,
+        "incorrect": 0.0060579088454791935,
+        "connected": 0.005758089645904336,
+        "largest": 0.005758089645904332,
+        "other_footprint_rays": 2464,
+        "known_other": 0.0013217987360485198,
+        "unassigned": 0.0047361101094306746,
+        "ambiguous": 0.0
+      },
+      "dev_03": {
+        "reference": 0.013456677470133665,
+        "accepted": 0.013456677470133665,
+        "correct": 0.00715807737921989,
+        "incorrect": 0.006298600090913773,
+        "connected": 0.006631729354148495,
+        "largest": 0.0066317293541485025,
+        "other_footprint_rays": 2309,
+        "known_other": 0.0018743941824287884,
+        "unassigned": 0.004424205908484985,
+        "ambiguous": 0.0
+      },
+      "dev_04": {
+        "reference": 0.015998573247771056,
+        "accepted": 0.015998573247771056,
+        "correct": 0.015521753224878528,
+        "incorrect": 0.00047682002289252596,
+        "connected": 0.015142144527154369,
+        "largest": 0.01514214452715457,
+        "other_footprint_rays": 1695,
+        "known_other": 0.0,
+        "unassigned": 0.00047682002289252596,
+        "ambiguous": 0.0
+      }
+    },
+    "blend_8": {
+      "dev_01": {
+        "reference": 0.01408586128149612,
+        "accepted": 0.01408586128149612,
+        "correct": 3.1006174989565164e-05,
+        "incorrect": 0.014054855106506555,
+        "connected": 0.0,
+        "largest": 2.277146322535284e-05,
+        "other_footprint_rays": 2509,
+        "known_other": 0.004830947632670768,
+        "unassigned": 0.009223907473835787,
+        "ambiguous": 0.0
+      },
+      "dev_02": {
+        "reference": 0.013492868070994674,
+        "accepted": 0.013492868070994674,
+        "correct": 0.008039903968683076,
+        "incorrect": 0.005452964102311598,
+        "connected": 0.006013732763634672,
+        "largest": 0.006013732763634674,
+        "other_footprint_rays": 2464,
+        "known_other": 0.0014093604334354149,
+        "unassigned": 0.004043603668876183,
+        "ambiguous": 0.0
+      },
+      "dev_03": {
+        "reference": 0.013456677470133665,
+        "accepted": 0.013456677470133665,
+        "correct": 0.00755927602978122,
+        "incorrect": 0.0058974014403524455,
+        "connected": 0.0069056129846115704,
+        "largest": 0.006905612984611579,
+        "other_footprint_rays": 2309,
+        "known_other": 0.0017995191662582258,
+        "unassigned": 0.004097882274094218,
+        "ambiguous": 0.0
+      },
+      "dev_04": {
+        "reference": 0.015998573247771056,
+        "accepted": 0.015998573247771056,
+        "correct": 0.015561354981140096,
+        "incorrect": 0.00043721826663096174,
+        "connected": 0.01518175525981233,
+        "largest": 0.015181755259812538,
+        "other_footprint_rays": 1695,
+        "known_other": 0.0,
+        "unassigned": 0.00043721826663096174,
+        "ambiguous": 0.0
+      }
+    },
+    "ridge_25": {
+      "dev_01": {
+        "reference": 0.01408586128149612,
+        "accepted": 0.01408586128149612,
+        "correct": 3.1006174989565164e-05,
+        "incorrect": 0.014054855106506555,
+        "connected": 0.0,
+        "largest": 2.277146322535284e-05,
+        "other_footprint_rays": 2509,
+        "known_other": 0.005735287800399265,
+        "unassigned": 0.00831956730610729,
+        "ambiguous": 0.0
+      },
+      "dev_02": {
+        "reference": 0.013492868070994674,
+        "accepted": 0.013492868070994674,
+        "correct": 0.008136052169439932,
+        "incorrect": 0.005356815901554741,
+        "connected": 0.006229161341521595,
+        "largest": 0.006229161341521599,
+        "other_footprint_rays": 2464,
+        "known_other": 0.001545799497474642,
+        "unassigned": 0.0038110164040800988,
+        "ambiguous": 0.0
+      },
+      "dev_03": {
+        "reference": 0.013456677470133665,
+        "accepted": 0.013456677470133665,
+        "correct": 0.007287496211586089,
+        "incorrect": 0.006169181258547575,
+        "connected": 0.006698661041086277,
+        "largest": 0.006698661041086284,
+        "other_footprint_rays": 2309,
+        "known_other": 0.002495702090072867,
+        "unassigned": 0.0036734791684747076,
+        "ambiguous": 0.0
+      },
+      "dev_04": {
+        "reference": 0.015998573247771056,
+        "accepted": 0.015998573247771056,
+        "correct": 0.015658113347683963,
+        "incorrect": 0.000340459900087093,
+        "connected": 0.015234183292517465,
+        "largest": 0.015234183292517666,
+        "other_footprint_rays": 1695,
+        "known_other": 0.0,
+        "unassigned": 0.000340459900087093,
+        "ambiguous": 0.0
+      }
+    },
+    "ridge_50": {
+      "dev_01": {
+        "reference": 0.01408586128149612,
+        "accepted": 0.01408586128149612,
+        "correct": 3.1006174989565164e-05,
+        "incorrect": 0.014054855106506555,
+        "connected": 0.0,
+        "largest": 2.277146322535284e-05,
+        "other_footprint_rays": 2509,
+        "known_other": 0.005350128408889083,
+        "unassigned": 0.00870472669761747,
+        "ambiguous": 0.0
+      },
+      "dev_02": {
+        "reference": 0.013492868070994674,
+        "accepted": 0.013492868070994674,
+        "correct": 0.007962620167517894,
+        "incorrect": 0.005530247903476779,
+        "connected": 0.006202176682426826,
+        "largest": 0.00620217668242683,
+        "other_footprint_rays": 2464,
+        "known_other": 0.0013703828700723669,
+        "unassigned": 0.004159865033404412,
+        "ambiguous": 0.0
+      },
+      "dev_03": {
+        "reference": 0.013456677470133665,
+        "accepted": 0.013456677470133665,
+        "correct": 0.007131394415226761,
+        "incorrect": 0.006325283054906903,
+        "connected": 0.006604136267713636,
+        "largest": 0.006604136267713642,
+        "other_footprint_rays": 2309,
+        "known_other": 0.002120437552537464,
+        "unassigned": 0.00420484550236944,
+        "ambiguous": 0.0
+      },
+      "dev_04": {
+        "reference": 0.015998573247771056,
+        "accepted": 0.015998573247771056,
+        "correct": 0.015560336927918729,
+        "incorrect": 0.000438236319852327,
+        "connected": 0.015202683817682116,
+        "largest": 0.015202683817682323,
+        "other_footprint_rays": 1695,
+        "known_other": 0.0,
+        "unassigned": 0.000438236319852327,
+        "ambiguous": 0.0
+      }
+    },
+    "ridge_50_half": {
+      "dev_01": {
+        "reference": 0.01408586128149612,
+        "accepted": 0.01408586128149612,
+        "correct": 3.1006174989565164e-05,
+        "incorrect": 0.014054855106506555,
+        "connected": 0.0,
+        "largest": 2.277146322535284e-05,
+        "other_footprint_rays": 2509,
+        "known_other": 0.00516736616115699,
+        "unassigned": 0.008887488945349565,
+        "ambiguous": 0.0
+      },
+      "dev_02": {
+        "reference": 0.013492868070994674,
+        "accepted": 0.013492868070994674,
+        "correct": 0.007520936641287264,
+        "incorrect": 0.005971931429707408,
+        "connected": 0.005284682711042144,
+        "largest": 0.005284682711042129,
+        "other_footprint_rays": 2464,
+        "known_other": 0.0012094043748377623,
+        "unassigned": 0.004762527054869647,
+        "ambiguous": 0.0
+      },
+      "dev_03": {
+        "reference": 0.013456677470133665,
+        "accepted": 0.013456677470133665,
+        "correct": 0.0071018194425965485,
+        "incorrect": 0.0063548580275371155,
+        "connected": 0.006579932013998172,
+        "largest": 0.006579932013998178,
+        "other_footprint_rays": 2309,
+        "known_other": 0.0020203249144092536,
+        "unassigned": 0.004334533113127863,
+        "ambiguous": 0.0
+      },
+      "dev_04": {
+        "reference": 0.015998573247771056,
+        "accepted": 0.015998573247771056,
+        "correct": 0.015467421971359991,
+        "incorrect": 0.0005311512764110643,
+        "connected": 0.015120912086367837,
+        "largest": 0.015120912086368034,
+        "other_footprint_rays": 1695,
+        "known_other": 0.0,
+        "unassigned": 0.0005311512764110643,
+        "ambiguous": 0.0
+      }
+    }
+  },
+  "comparisons": {
+    "stock_offset": {
+      "stock": {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.029003967422257214,
+        "incorrect": 0.0280300126481383,
+        "connected": 0.025970669078744714,
+        "largest": 0.025993440541970232,
+        "other_footprint_rays": 8977,
+        "known_other": 0.007746957537450428,
+        "unassigned": 0.02028305511068787,
+        "ambiguous": 0.0,
+        "risk": 0.4914616271482651
+      },
+      "candidate": {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.027452787681139353,
+        "incorrect": 0.029581192389256158,
+        "connected": 0.02407721257416845,
+        "largest": 0.02409998403739395,
+        "other_footprint_rays": 8977,
+        "known_other": 0.005008519163563772,
+        "unassigned": 0.024572673225692388,
+        "ambiguous": 0.0,
+        "risk": 0.5186590932764097
+      },
+      "connected_delta_cm2": -0.0018934565045762644,
+      "connected_gain_percent": -7.290749802537564,
+      "risk_difference_points": 2.719746612814461,
+      "improved": 0,
+      "same": 1,
+      "worse": 3,
+      "positive_point_estimate": false,
+      "paired_area_delta_95_cm2": [
+        -0.0052842461055116995,
+        -7.412602525760231e-05
+      ],
+      "paired_risk_difference_95_points": [
+        -0.0654351544320253,
+        7.402798158787574
+      ],
+      "stock_known_other_rate": 0.21079626011981756,
+      "candidate_known_other_rate": 0.15429197559805077,
+      "identity_gate": false
+    },
+    "tapered_offset": {
+      "stock": {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.029003967422257214,
+        "incorrect": 0.0280300126481383,
+        "connected": 0.025970669078744714,
+        "largest": 0.025993440541970232,
+        "other_footprint_rays": 8977,
+        "known_other": 0.007746957537450428,
+        "unassigned": 0.02028305511068787,
+        "ambiguous": 0.0,
+        "risk": 0.4914616271482651
+      },
+      "candidate": {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.02921869375033545,
+        "incorrect": 0.027815286320060063,
+        "connected": 0.02609020329107408,
+        "largest": 0.02611297475429961,
+        "other_footprint_rays": 8977,
+        "known_other": 0.007135631547435456,
+        "unassigned": 0.020679654772624605,
+        "ambiguous": 0.0,
+        "risk": 0.48769674298950205
+      },
+      "connected_delta_cm2": 0.0001195342123293669,
+      "connected_gain_percent": 0.46026620248762784,
+      "risk_difference_points": -0.37648841587630266,
+      "improved": 2,
+      "same": 1,
+      "worse": 1,
+      "positive_point_estimate": true,
+      "paired_area_delta_95_cm2": [
+        -0.0003071155424229557,
+        0.0006535118810011478
+      ],
+      "paired_risk_difference_95_points": [
+        -0.9612631467915411,
+        0.0030405856269788423
+      ],
+      "stock_known_other_rate": 0.21079626011981756,
+      "candidate_known_other_rate": 0.19628012592694116,
+      "identity_gate": true
+    },
+    "two_route": {
+      "stock": {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.029003967422257214,
+        "incorrect": 0.0280300126481383,
+        "connected": 0.025970669078744714,
+        "largest": 0.025993440541970232,
+        "other_footprint_rays": 8977,
+        "known_other": 0.007746957537450428,
+        "unassigned": 0.02028305511068787,
+        "ambiguous": 0.0,
+        "risk": 0.4914616271482651
+      },
+      "candidate": {
+        "reference": 0.057033980070395514,
+        "accepted": 0.008646207948391394,
+        "correct": 0.008646207948391394,
+        "incorrect": 0.0,
+        "connected": 0.007651584413666369,
+        "largest": 0.00765158441366626,
+        "other_footprint_rays": 171,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "risk": 0.0
+      },
+      "connected_delta_cm2": -0.018319084665078346,
+      "connected_gain_percent": -70.53759227201164,
+      "risk_difference_points": -49.14616271482651,
+      "improved": 0,
+      "same": 1,
+      "worse": 3,
+      "positive_point_estimate": false,
+      "paired_area_delta_95_cm2": [
+        -0.030051296415785175,
+        -0.00532093093928873
+      ],
+      "paired_risk_difference_95_points": [
+        -87.18741076156074,
+        -15.103099210230212
+      ],
+      "stock_known_other_rate": 0.21079626011981756,
+      "candidate_known_other_rate": 0.0,
+      "identity_gate": false
+    },
+    "graph": {
+      "stock": {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.029003967422257214,
+        "incorrect": 0.0280300126481383,
+        "connected": 0.025970669078744714,
+        "largest": 0.025993440541970232,
+        "other_footprint_rays": 8977,
+        "known_other": 0.007746957537450428,
+        "unassigned": 0.02028305511068787,
+        "ambiguous": 0.0,
+        "risk": 0.4914616271482651
+      },
+      "candidate": {
+        "reference": 0.057033980070395514,
+        "accepted": 0.04256001961229525,
+        "correct": 0.034625646881274764,
+        "incorrect": 0.007934372731020484,
+        "connected": 0.0325554793610648,
+        "largest": 0.03255547936106434,
+        "other_footprint_rays": 6428,
+        "known_other": 0.004998736850565988,
+        "unassigned": 0.0007345614883878268,
+        "ambiguous": 0.0022010743920666694,
+        "risk": 0.18642784480128172
+      },
+      "connected_delta_cm2": 0.006584810282320091,
+      "connected_gain_percent": 25.35479645270027,
+      "risk_difference_points": -30.503378234698335,
+      "improved": 2,
+      "same": 1,
+      "worse": 1,
+      "positive_point_estimate": true,
+      "paired_area_delta_95_cm2": [
+        -0.00026098362100655456,
+        0.015812378582843505
+      ],
+      "paired_risk_difference_95_points": [
+        -68.97990798000667,
+        -2.939897590920509
+      ],
+      "stock_known_other_rate": 0.21079626011981756,
+      "candidate_known_other_rate": 0.126153049707854,
+      "identity_gate": true
+    },
+    "two_route_phase": {
+      "stock": {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.029003967422257214,
+        "incorrect": 0.0280300126481383,
+        "connected": 0.025970669078744714,
+        "largest": 0.025993440541970232,
+        "other_footprint_rays": 8977,
+        "known_other": 0.007746957537450428,
+        "unassigned": 0.02028305511068787,
+        "ambiguous": 0.0,
+        "risk": 0.4914616271482651
+      },
+      "candidate": {
+        "reference": 0.057033980070395514,
+        "accepted": 0.008648765035060648,
+        "correct": 0.008643589885588117,
+        "incorrect": 5.175149472530641e-06,
+        "connected": 0.00764896635086309,
+        "largest": 0.007648966350862981,
+        "other_footprint_rays": 171,
+        "known_other": 0.0,
+        "unassigned": 5.175149472530641e-06,
+        "ambiguous": 0.0,
+        "risk": 0.0005983686054079918
+      },
+      "connected_delta_cm2": -0.018321702727881625,
+      "connected_gain_percent": -70.54767311665735,
+      "risk_difference_points": -49.086325854285704,
+      "improved": 0,
+      "same": 1,
+      "worse": 3,
+      "positive_point_estimate": false,
+      "paired_area_delta_95_cm2": [
+        -0.030053914478588455,
+        -0.00532093093928873
+      ],
+      "paired_risk_difference_95_points": [
+        -86.8025814483155,
+        -15.055500471797806
+      ],
+      "stock_known_other_rate": 0.21079626011981756,
+      "candidate_known_other_rate": 0.0,
+      "identity_gate": false
+    },
+    "graph_phase": {
+      "stock": {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.029003967422257214,
+        "incorrect": 0.0280300126481383,
+        "connected": 0.025970669078744714,
+        "largest": 0.025993440541970232,
+        "other_footprint_rays": 8977,
+        "known_other": 0.007746957537450428,
+        "unassigned": 0.02028305511068787,
+        "ambiguous": 0.0,
+        "risk": 0.4914616271482651
+      },
+      "candidate": {
+        "reference": 0.057033980070395514,
+        "accepted": 0.042565909362653115,
+        "correct": 0.03445247500942342,
+        "incorrect": 0.008113434353229698,
+        "connected": 0.032586277297628904,
+        "largest": 0.032586277297628446,
+        "other_footprint_rays": 6428,
+        "known_other": 0.005120902122389722,
+        "unassigned": 0.0007739628536425333,
+        "ambiguous": 0.002218569377197444,
+        "risk": 0.19060874006249567
+      },
+      "connected_delta_cm2": 0.0066156082188841905,
+      "connected_gain_percent": 25.47338383476085,
+      "risk_difference_points": -30.08528870857694,
+      "improved": 2,
+      "same": 1,
+      "worse": 1,
+      "positive_point_estimate": true,
+      "paired_area_delta_95_cm2": [
+        -0.00021937817664265807,
+        0.015818226581389774
+      ],
+      "paired_risk_difference_95_points": [
+        -69.03973488059869,
+        -2.368932605296592
+      ],
+      "stock_known_other_rate": 0.21079626011981756,
+      "candidate_known_other_rate": 0.12940270690906022,
+      "identity_gate": true
+    },
+    "blend_2": {
+      "stock": {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.029003967422257214,
+        "incorrect": 0.0280300126481383,
+        "connected": 0.025970669078744714,
+        "largest": 0.025993440541970232,
+        "other_footprint_rays": 8977,
+        "known_other": 0.007746957537450428,
+        "unassigned": 0.02028305511068787,
+        "ambiguous": 0.0,
+        "risk": 0.4914616271482651
+      },
+      "candidate": {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.02921329854276548,
+        "incorrect": 0.027820681527630033,
+        "connected": 0.02624728517154172,
+        "largest": 0.026270056634767242,
+        "other_footprint_rays": 8977,
+        "known_other": 0.007797758073953248,
+        "unassigned": 0.02002292345367678,
+        "ambiguous": 0.0,
+        "risk": 0.48779133936105656
+      },
+      "connected_delta_cm2": 0.0002766160927970083,
+      "connected_gain_percent": 1.065109612533627,
+      "risk_difference_points": -0.3670287787208515,
+      "improved": 3,
+      "same": 1,
+      "worse": 0,
+      "positive_point_estimate": true,
+      "paired_area_delta_95_cm2": [
+        2.137209043566804e-05,
+        0.0006543462224456106
+      ],
+      "paired_risk_difference_95_points": [
+        -0.6732463653654874,
+        -0.039143318751411194
+      ],
+      "stock_known_other_rate": 0.21079626011981756,
+      "candidate_known_other_rate": 0.2106872590724909,
+      "identity_gate": true
+    },
+    "blend_4": {
+      "stock": {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.029003967422257214,
+        "incorrect": 0.0280300126481383,
+        "connected": 0.025970669078744714,
+        "largest": 0.025993440541970232,
+        "other_footprint_rays": 8977,
+        "known_other": 0.007746957537450428,
+        "unassigned": 0.02028305511068787,
+        "ambiguous": 0.0,
+        "risk": 0.4914616271482651
+      },
+      "candidate": {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.030145796004603462,
+        "incorrect": 0.026888184065792048,
+        "connected": 0.0275319635272072,
+        "largest": 0.027554734990432758,
+        "other_footprint_rays": 8977,
+        "known_other": 0.008027140551148075,
+        "unassigned": 0.01886104351464397,
+        "ambiguous": 0.0,
+        "risk": 0.47144148159754384
+      },
+      "connected_delta_cm2": 0.0015612944484624854,
+      "connected_gain_percent": 6.011760589334614,
+      "risk_difference_points": -2.0020145550721233,
+      "improved": 3,
+      "same": 1,
+      "worse": 0,
+      "positive_point_estimate": true,
+      "paired_area_delta_95_cm2": [
+        0.0002126727306970451,
+        0.0030425478079355688
+      ],
+      "paired_risk_difference_95_points": [
+        -3.794289573689802,
+        -0.4090271261167677
+      ],
+      "stock_known_other_rate": 0.21079626011981756,
+      "candidate_known_other_rate": 0.21028354838314428,
+      "identity_gate": true
+    },
+    "blend_8": {
+      "stock": {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.029003967422257214,
+        "incorrect": 0.0280300126481383,
+        "connected": 0.025970669078744714,
+        "largest": 0.025993440541970232,
+        "other_footprint_rays": 8977,
+        "known_other": 0.007746957537450428,
+        "unassigned": 0.02028305511068787,
+        "ambiguous": 0.0,
+        "risk": 0.4914616271482651
+      },
+      "candidate": {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.031191541154593955,
+        "incorrect": 0.025842438915801562,
+        "connected": 0.02810110100805857,
+        "largest": 0.028123872471284145,
+        "other_footprint_rays": 8977,
+        "known_other": 0.008039827232364408,
+        "unassigned": 0.01780261168343715,
+        "ambiguous": 0.0,
+        "risk": 0.4531060059968624
+      },
+      "connected_delta_cm2": 0.002130431929313858,
+      "connected_gain_percent": 8.203223116255701,
+      "risk_difference_points": -3.8355621151402675,
+      "improved": 3,
+      "same": 1,
+      "worse": 0,
+      "positive_point_estimate": true,
+      "paired_area_delta_95_cm2": [
+        0.0005158316682429085,
+        0.004083360791589652
+      ],
+      "paired_risk_difference_95_points": [
+        -7.388490674449399,
+        -0.922304439028554
+      ],
+      "stock_known_other_rate": 0.21079626011981756,
+      "candidate_known_other_rate": 0.20493364271833756,
+      "identity_gate": true
+    },
+    "ridge_25": {
+      "stock": {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.029003967422257214,
+        "incorrect": 0.0280300126481383,
+        "connected": 0.025970669078744714,
+        "largest": 0.025993440541970232,
+        "other_footprint_rays": 8977,
+        "known_other": 0.007746957537450428,
+        "unassigned": 0.02028305511068787,
+        "ambiguous": 0.0,
+        "risk": 0.4914616271482651
+      },
+      "candidate": {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.03111266790369955,
+        "incorrect": 0.025921312166695964,
+        "connected": 0.028162005675125338,
+        "largest": 0.0281847771383509,
+        "other_footprint_rays": 8977,
+        "known_other": 0.009776789387946773,
+        "unassigned": 0.01614452277874919,
+        "ambiguous": 0.0,
+        "risk": 0.454488922826392
+      },
+      "connected_delta_cm2": 0.002191336596380623,
+      "connected_gain_percent": 8.437736393068471,
+      "risk_difference_points": -3.6972704321873104,
+      "improved": 3,
+      "same": 1,
+      "worse": 0,
+      "positive_point_estimate": true,
+      "paired_area_delta_95_cm2": [
+        0.00034653610457260897,
+        0.004522694581725128
+      ],
+      "paired_risk_difference_95_points": [
+        -7.9338761197602805,
+        -0.8789142107216374
+      ],
+      "stock_known_other_rate": 0.21079626011981756,
+      "candidate_known_other_rate": 0.2391029383983573,
+      "identity_gate": false
+    },
+    "ridge_50": {
+      "stock": {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.029003967422257214,
+        "incorrect": 0.0280300126481383,
+        "connected": 0.025970669078744714,
+        "largest": 0.025993440541970232,
+        "other_footprint_rays": 8977,
+        "known_other": 0.007746957537450428,
+        "unassigned": 0.02028305511068787,
+        "ambiguous": 0.0,
+        "risk": 0.4914616271482651
+      },
+      "candidate": {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.030685357685652948,
+        "incorrect": 0.026348622384742563,
+        "connected": 0.028008996767822578,
+        "largest": 0.028031768231048148,
+        "other_footprint_rays": 8977,
+        "known_other": 0.008840948831498914,
+        "unassigned": 0.01750767355324365,
+        "ambiguous": 0.0,
+        "risk": 0.46198112690401694
+      },
+      "connected_delta_cm2": 0.0020383276890778646,
+      "connected_gain_percent": 7.848575956582119,
+      "risk_difference_points": -2.9480500244248145,
+      "improved": 3,
+      "same": 1,
+      "worse": 0,
+      "positive_point_estimate": true,
+      "paired_area_delta_95_cm2": [
+        0.00015748655782732782,
+        0.00434721583106818
+      ],
+      "paired_risk_difference_95_points": [
+        -6.679784584465382,
+        -0.3121480249062891
+      ],
+      "stock_known_other_rate": 0.21079626011981756,
+      "candidate_known_other_rate": 0.2236725262367359,
+      "identity_gate": false
+    },
+    "ridge_50_half": {
+      "stock": {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.029003967422257214,
+        "incorrect": 0.0280300126481383,
+        "connected": 0.025970669078744714,
+        "largest": 0.025993440541970232,
+        "other_footprint_rays": 8977,
+        "known_other": 0.007746957537450428,
+        "unassigned": 0.02028305511068787,
+        "ambiguous": 0.0,
+        "risk": 0.4914616271482651
+      },
+      "candidate": {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.03012118423023337,
+        "incorrect": 0.026912795840162144,
+        "connected": 0.026985526811408152,
+        "largest": 0.027008298274633694,
+        "other_footprint_rays": 8977,
+        "known_other": 0.008397095450404006,
+        "unassigned": 0.01851570038975814,
+        "ambiguous": 0.0,
+        "risk": 0.47187300986086544
+      },
+      "connected_delta_cm2": 0.0010148577326634387,
+      "connected_gain_percent": 3.9077073046763857,
+      "risk_difference_points": -1.9588617287399634,
+      "improved": 3,
+      "same": 1,
+      "worse": 0,
+      "positive_point_estimate": true,
+      "paired_area_delta_95_cm2": [
+        0.00010907805039639916,
+        0.0019206374149304782
+      ],
+      "paired_risk_difference_95_points": [
+        -4.168208656706546,
+        -0.20476877095692014
+      ],
+      "stock_known_other_rate": 0.21079626011981756,
+      "candidate_known_other_rate": 0.21800286824920465,
+      "identity_gate": false
+    }
+  }
+}

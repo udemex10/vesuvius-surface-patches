@@ -1,0 +1,349 @@
+{
+  "source": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/README.txt",
+  "rule": {
+    "salt": "growbench-manual-fresh-v1:",
+    "planned_sites": 16,
+    "source": "Original legacy manual and semantic paired cube catalog",
+    "selection": "Salted hash order of eligible cube names; one target nearest the cube center with the main cohort's mask-only eligibility. Exclude all manual_ids and manual_external cube names and target IDs. Require another labelled sheet within 32 Euclidean voxels of the seed. Require Chebyshev distance >=256 between cube origins and all previously used origins. Sealed as one confirmation set for the locked tiled blend."
+  },
+  "prior_cube_names": [
+    "01744_02000_04048",
+    "01744_02000_04304",
+    "01744_02000_04560",
+    "01744_02256_03792",
+    "01744_02512_02768",
+    "01744_02512_03024",
+    "01744_02512_04048",
+    "01744_02512_04304",
+    "01744_02512_04560",
+    "01744_02768_04048",
+    "02000_02256_02256",
+    "02000_02512_02256",
+    "02256_02000_02000",
+    "02256_02512_04816",
+    "07376_03024_04048",
+    "07376_03024_04304",
+    "08400_04304_03024",
+    "08400_04304_03280",
+    "09168_02512_02768",
+    "10192_02768_02512",
+    "10192_02768_02768",
+    "10192_03024_02768",
+    "10192_03024_03024",
+    "10192_03024_03280",
+    "10192_04048_03024",
+    "10192_04048_03280",
+    "10192_04304_03024",
+    "10192_04304_03536",
+    "10192_04560_03024",
+    "10192_04560_03280",
+    "10192_04560_03536",
+    "10448_02512_02512"
+  ],
+  "paired_remaining": 42,
+  "selection_history": [
+    {
+      "source": "10192_03792_05072",
+      "accepted": false
+    },
+    {
+      "source": "07632_03024_04304",
+      "accepted": false
+    },
+    {
+      "source": "10192_03536_03792",
+      "accepted": false
+    },
+    {
+      "source": "10192_03792_03792",
+      "accepted": false
+    },
+    {
+      "source": "10192_03536_03536",
+      "accepted": false
+    },
+    {
+      "source": "10192_04048_02512",
+      "accepted": false
+    },
+    {
+      "source": "10192_03792_02768",
+      "accepted": false
+    },
+    {
+      "source": "02000_02256_04816",
+      "accepted": false
+    },
+    {
+      "source": "10192_03792_02512",
+      "accepted": false
+    },
+    {
+      "source": "01744_02256_04560",
+      "accepted": false
+    },
+    {
+      "source": "02000_02256_02000",
+      "accepted": false
+    },
+    {
+      "source": "10192_04304_03280",
+      "accepted": false
+    },
+    {
+      "source": "10192_03024_02256",
+      "accepted": false
+    },
+    {
+      "source": "10192_03792_04560",
+      "accepted": false
+    },
+    {
+      "source": "10192_04304_03792",
+      "accepted": false
+    },
+    {
+      "source": "09168_02768_02768",
+      "accepted": false
+    },
+    {
+      "source": "10192_04048_03536",
+      "accepted": false
+    },
+    {
+      "source": "10192_04048_03792",
+      "accepted": false
+    },
+    {
+      "source": "10192_04304_02768",
+      "accepted": true
+    },
+    {
+      "source": "10192_03536_04048",
+      "accepted": false
+    },
+    {
+      "source": "02000_02000_02000",
+      "accepted": true
+    },
+    {
+      "source": "10192_04048_02768",
+      "accepted": false
+    },
+    {
+      "source": "10192_03792_03536",
+      "accepted": false
+    },
+    {
+      "source": "10192_04560_03792",
+      "accepted": false
+    },
+    {
+      "source": "10448_04048_03280",
+      "accepted": false
+    },
+    {
+      "source": "10192_03280_03792",
+      "accepted": false
+    },
+    {
+      "source": "01744_02256_04304",
+      "accepted": false
+    },
+    {
+      "source": "10192_04304_02512",
+      "accepted": false
+    },
+    {
+      "source": "01744_02256_04816",
+      "accepted": false
+    },
+    {
+      "source": "10192_03024_05072",
+      "accepted": false
+    },
+    {
+      "source": "02000_02512_05072",
+      "accepted": false
+    },
+    {
+      "source": "10192_03280_04048",
+      "accepted": false
+    },
+    {
+      "source": "08656_04304_04048",
+      "accepted": false
+    },
+    {
+      "source": "01744_02256_02768",
+      "accepted": true
+    },
+    {
+      "source": "10448_02512_02256",
+      "accepted": false
+    },
+    {
+      "source": "01744_02000_04816",
+      "accepted": true
+    },
+    {
+      "source": "01744_02256_04048",
+      "accepted": false
+    },
+    {
+      "source": "10192_03280_03536",
+      "accepted": false
+    },
+    {
+      "source": "10192_04304_04048",
+      "accepted": false
+    },
+    {
+      "source": "10192_03024_02512",
+      "accepted": false
+    },
+    {
+      "source": "10192_04048_04560",
+      "accepted": false
+    },
+    {
+      "source": "01744_02512_05072",
+      "accepted": false
+    }
+  ],
+  "sites": [
+    {
+      "id": "fresh_01",
+      "source_cube_zyx": "10192_04304_02768",
+      "target_id": 25,
+      "source": {
+        "url": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/instance-labels-harmonized/10192_04304_02768/10192_04304_02768_mask.nrrd",
+        "sha256": "98b016bf113812781ad70642a144713489028d472c2f044d297014ca91f6aca3",
+        "fields": {
+          "type": "uint16",
+          "sizes": "256 256 256",
+          "encoding": "gzip",
+          "space origin": "(10192,4304,2768)"
+        }
+      },
+      "label_ids": [
+        0,
+        25,
+        29,
+        36,
+        37,
+        38,
+        118,
+        137,
+        140,
+        236,
+        237,
+        238,
+        239,
+        240
+      ],
+      "other_id_distance_to_rounded_seed_vox": 9.9498743710662,
+      "unknown_value": 0
+    },
+    {
+      "id": "fresh_02",
+      "source_cube_zyx": "02000_02000_02000",
+      "target_id": 17,
+      "source": {
+        "url": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/instance-labels-harmonized/02000_02000_02000/02000_02000_02000_mask.nrrd",
+        "sha256": "ae0856d3953d3560f6bcfdb76c46555fd560fac66100e76028cf6bce2bef5223",
+        "fields": {
+          "type": "uint16",
+          "sizes": "256 256 256",
+          "encoding": "gzip",
+          "space origin": "(2000,2000,2000)"
+        }
+      },
+      "label_ids": [
+        0,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        278,
+        279,
+        280,
+        281
+      ],
+      "other_id_distance_to_rounded_seed_vox": 6.4031242374328485,
+      "unknown_value": 0
+    },
+    {
+      "id": "fresh_03",
+      "source_cube_zyx": "01744_02256_02768",
+      "target_id": 269,
+      "source": {
+        "url": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/instance-labels-harmonized/01744_02256_02768/01744_02256_02768_mask.nrrd",
+        "sha256": "6c0c5d948b767d61859756fa81cd5d5b8d8fb0b6962f45c6988b25ef513d4344",
+        "fields": {
+          "type": "uint16",
+          "sizes": "256 256 256",
+          "encoding": "gzip",
+          "space origin": "(1744,2256,2768)"
+        }
+      },
+      "label_ids": [
+        0,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277
+      ],
+      "other_id_distance_to_rounded_seed_vox": 10.816653826391969,
+      "unknown_value": 0
+    },
+    {
+      "id": "fresh_04",
+      "source_cube_zyx": "01744_02000_04816",
+      "target_id": 97,
+      "source": {
+        "url": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/instance-labels-harmonized/01744_02000_04816/01744_02000_04816_mask.nrrd",
+        "sha256": "bfa65e966c2d5fab695a219dc18a5421a3d216ee0a5ed6908a04e649f79b2cf0",
+        "fields": {
+          "type": "uint16",
+          "sizes": "256 256 256",
+          "encoding": "gzip",
+          "space origin": "(1744,2000,4816)"
+        }
+      },
+      "label_ids": [
+        0,
+        68,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        457,
+        458,
+        459,
+        460,
+        461
+      ],
+      "other_id_distance_to_rounded_seed_vox": 5.916079783099616,
+      "unknown_value": 0
+    }
+  ]
+}

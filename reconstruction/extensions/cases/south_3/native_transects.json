@@ -1,0 +1,173 @@
+[
+  {
+    "z": 8797,
+    "x": [
+      3224,
+      3257
+    ],
+    "y": [
+      3472,
+      3539
+    ],
+    "source": {
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/volumes/20250821151825-9.362um-1.2m-113keV-masked.zarr/0",
+      "bounds_zyx": [
+        8797,
+        3472,
+        3224,
+        8798,
+        3539,
+        3257
+      ],
+      "array_metadata": {
+        "shape": [
+          20840,
+          8387,
+          8387
+        ],
+        "chunks": [
+          128,
+          128,
+          128
+        ],
+        "dtype": "|u1",
+        "fill_value": 0,
+        "order": "C",
+        "filters": null,
+        "dimension_separator": "/",
+        "compressor": null,
+        "zarr_format": 2
+      },
+      "uncompressed_chunk_bytes": 2097152,
+      "downloaded_bytes": 0,
+      "chunks": [
+        {
+          "coordinate": [
+            68,
+            27,
+            25
+          ],
+          "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/volumes/20250821151825-9.362um-1.2m-113keV-masked.zarr/0/68/27/25",
+          "bytes": 2097152,
+          "sha256": "994f2d8be3cbe21cb84153865d414438b2ea4d383424ef00d0d2f6e34af8f6b2",
+          "cache_hit": true
+        }
+      ],
+      "array_sha256": "1ca26fe5263117465f4a0c521e7ef25eb0eada02626f6f13e1519f7881b525aa"
+    }
+  },
+  {
+    "z": 9305,
+    "x": [
+      3224,
+      3257
+    ],
+    "y": [
+      3362,
+      3428
+    ],
+    "source": {
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/volumes/20250821151825-9.362um-1.2m-113keV-masked.zarr/0",
+      "bounds_zyx": [
+        9305,
+        3362,
+        3224,
+        9306,
+        3428,
+        3257
+      ],
+      "array_metadata": {
+        "shape": [
+          20840,
+          8387,
+          8387
+        ],
+        "chunks": [
+          128,
+          128,
+          128
+        ],
+        "dtype": "|u1",
+        "fill_value": 0,
+        "order": "C",
+        "filters": null,
+        "dimension_separator": "/",
+        "compressor": null,
+        "zarr_format": 2
+      },
+      "uncompressed_chunk_bytes": 2097152,
+      "downloaded_bytes": 0,
+      "chunks": [
+        {
+          "coordinate": [
+            72,
+            26,
+            25
+          ],
+          "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/volumes/20250821151825-9.362um-1.2m-113keV-masked.zarr/0/72/26/25",
+          "bytes": 2097152,
+          "sha256": "08a4482aeffd8201598a4bfeaca6434155fe60ce1726573934b865ad51d40272",
+          "cache_hit": true
+        }
+      ],
+      "array_sha256": "de2a8238b6cddd222ee892b3f3c72d3a9f0d42965a05456e673997f74691cc98"
+    }
+  },
+  {
+    "z": 9811,
+    "x": [
+      3224,
+      3257
+    ],
+    "y": [
+      3358,
+      3427
+    ],
+    "source": {
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/volumes/20250821151825-9.362um-1.2m-113keV-masked.zarr/0",
+      "bounds_zyx": [
+        9811,
+        3358,
+        3224,
+        9812,
+        3427,
+        3257
+      ],
+      "array_metadata": {
+        "shape": [
+          20840,
+          8387,
+          8387
+        ],
+        "chunks": [
+          128,
+          128,
+          128
+        ],
+        "dtype": "|u1",
+        "fill_value": 0,
+        "order": "C",
+        "filters": null,
+        "dimension_separator": "/",
+        "compressor": null,
+        "zarr_format": 2
+      },
+      "uncompressed_chunk_bytes": 2097152,
+      "downloaded_bytes": 0,
+      "chunks": [
+        {
+          "coordinate": [
+            76,
+            26,
+            25
+          ],
+          "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/volumes/20250821151825-9.362um-1.2m-113keV-masked.zarr/0/76/26/25",
+          "bytes": 2097152,
+          "sha256": "65f9ce761b5223cacaca3c7d5719640d32fda98fd785f956045cf461f67af05c",
+          "cache_hit": true
+        }
+      ],
+      "array_sha256": "8513f1c9ed8ca0cbcbbcc8deebe960f941580415b39cbf8545e684cf6af96828"
+    }
+  }
+]

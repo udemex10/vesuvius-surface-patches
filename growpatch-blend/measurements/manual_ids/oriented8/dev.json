@@ -1,0 +1,519 @@
+{
+  "split": "dev",
+  "stock": "oriented8",
+  "field_digests": {
+    "dev_01": {
+      "stock": "46c279ceddfbbecd59f97214675891c883b1a1665cb15dd0ff50094eabbab192",
+      "instance_labels": "a61bd5fe92a91e4f9b5e6d1fc7b67c819182c8af4d6da9ecff15cb50fcccd8d6",
+      "two_route": "ab593f1bb819e1290e36898a13fa43066af00be733e822c584ca915529ad3adb",
+      "graph": "ab593f1bb819e1290e36898a13fa43066af00be733e822c584ca915529ad3adb",
+      "two_route_phase": "ab593f1bb819e1290e36898a13fa43066af00be733e822c584ca915529ad3adb"
+    },
+    "dev_02": {
+      "stock": "8cba6a5d8ec44bb22f2e4d403d9ba3ca8dbc5b14c3eac83db0cb1d916425fd8f",
+      "instance_labels": "3c75f6b880c5974cc21bf6c7310989e4b6596034df9b38538399f3be8f5efc19",
+      "two_route": "14f01914a4ecf83ae7afafb43ba8034f539d713653d5bbbf65d322b37b93afca",
+      "graph": "fa4170c5f9abee567644216c222b0e3eaf6007a4ed6a3e3d4bf31333d61cf2d4",
+      "two_route_phase": "3bc776a141c32d81a376c3d8ba866a9ed58faa3677653dcbdf2e584750383077"
+    },
+    "dev_03": {
+      "stock": "78b287209630e2e8f4b56004fb9416f8f42c63c16d476b1b27a7d93990661eb3",
+      "instance_labels": "f9bfed1ec28c22be4b8d9a96796706fa70875e12c66810bdef3b70a21b6a99e9",
+      "two_route": "0c866d9491d75e3c1d0c5e5ec0eb973a0b9c75ab1472c9a38211ac0be284000f",
+      "graph": "410e48508cb3f69f38b9ee77c1b592a2b862f706ec73781ca7a5e1bec94fe240",
+      "two_route_phase": "00ad46208c567f46d0c473de89ce7d06b5406fcebbcff44733396d6685e8ded5"
+    },
+    "dev_04": {
+      "stock": "a62ac8f1ecfb63cca122e23ac01dd125ed9272eb4bc9c22ffae0295cfb478370",
+      "instance_labels": "8672260a790e45b5cff0ca9dfad300969308f7de0f98780cde5e0697218bc322",
+      "two_route": "f40c173e0c653067f5d5f99d3ee3d55b72ce91b8914fbe52d69ad78aa85ca800",
+      "graph": "c441319be3fd2b9c503489d096c55f65d5d2c12e365d704cb6c623322f828ca1",
+      "two_route_phase": "f298d4ab609987c6113aac65c642abeb8b35b6264e511a1fe7499bfdba650831"
+    }
+  },
+  "rows": {
+    "stock": {
+      "dev_01": {
+        "reference": 0.01408586128149612,
+        "accepted": 0.01408586128149612,
+        "correct": 0.0,
+        "incorrect": 0.01408586128149612,
+        "known_other": 0.00011234199983295707,
+        "unassigned": 0.013973519281663163,
+        "ambiguous": 0.0,
+        "connected": 0.0,
+        "largest": 0.0,
+        "out_of_reference_rays": 2509
+      },
+      "dev_02": {
+        "reference": 0.013492868070994674,
+        "accepted": 0.013492868070994674,
+        "correct": 0.0039138321350588616,
+        "incorrect": 0.009579035935935811,
+        "known_other": 0.000628350976383358,
+        "unassigned": 0.008950684959552454,
+        "ambiguous": 0.0,
+        "connected": 0.0027223009016591375,
+        "largest": 0.0027223009016591275,
+        "out_of_reference_rays": 2464
+      },
+      "dev_03": {
+        "reference": 0.013456677470133665,
+        "accepted": 0.013456677470133665,
+        "correct": 0.006977800956837742,
+        "incorrect": 0.006478876513295922,
+        "known_other": 0.00021050748525268387,
+        "unassigned": 0.006268369028043238,
+        "ambiguous": 0.0,
+        "connected": 0.0062778037944879505,
+        "largest": 0.006277803794487961,
+        "out_of_reference_rays": 2309
+      },
+      "dev_04": {
+        "reference": 0.015998573247771056,
+        "accepted": 0.015998573247771056,
+        "correct": 0.014767933482030055,
+        "incorrect": 0.0012306397657409999,
+        "known_other": 0.0,
+        "unassigned": 0.0012306397657409999,
+        "ambiguous": 0.0,
+        "connected": 0.014130622392610162,
+        "largest": 0.01413062239261033,
+        "out_of_reference_rays": 1695
+      }
+    },
+    "stock_offset": {
+      "dev_01": {
+        "reference": 0.01408586128149612,
+        "accepted": 0.01408586128149612,
+        "correct": 0.0,
+        "incorrect": 0.01408586128149612,
+        "known_other": 4.604803973546763e-06,
+        "unassigned": 0.014081256477522572,
+        "ambiguous": 0.0,
+        "connected": 0.0,
+        "largest": 0.0,
+        "out_of_reference_rays": 2509
+      },
+      "dev_02": {
+        "reference": 0.013492868070994674,
+        "accepted": 0.013492868070994674,
+        "correct": 0.004527852450077733,
+        "incorrect": 0.00896501562091694,
+        "known_other": 0.00048379139064483876,
+        "unassigned": 0.008481224230272102,
+        "ambiguous": 0.0,
+        "connected": 0.0025605454138541307,
+        "largest": 0.0025605454138541276,
+        "out_of_reference_rays": 2464
+      },
+      "dev_03": {
+        "reference": 0.013456677470133665,
+        "accepted": 0.013456677470133665,
+        "correct": 0.006871370027089628,
+        "incorrect": 0.006585307443044036,
+        "known_other": 0.0002447464167838684,
+        "unassigned": 0.006340561026260167,
+        "ambiguous": 0.0,
+        "connected": 0.006236863052516924,
+        "largest": 0.006236863052516936,
+        "out_of_reference_rays": 2309
+      },
+      "dev_04": {
+        "reference": 0.015998573247771056,
+        "accepted": 0.015998573247771056,
+        "correct": 0.014664317786366813,
+        "incorrect": 0.001334255461404242,
+        "known_other": 2.557086669252079e-06,
+        "unassigned": 0.0013316983747349896,
+        "ambiguous": 0.0,
+        "connected": 0.013956558537724564,
+        "largest": 0.013956558537724728,
+        "out_of_reference_rays": 1695
+      }
+    },
+    "two_route": {
+      "dev_01": {
+        "reference": 0.01408586128149612,
+        "accepted": 0.0,
+        "correct": 0.0,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.0,
+        "largest": 0.0,
+        "out_of_reference_rays": 0
+      },
+      "dev_02": {
+        "reference": 0.013492868070994674,
+        "accepted": 0.0003077701175834859,
+        "correct": 0.0003077701175834859,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.0003077701175834859,
+        "largest": 0.0003077701175834857,
+        "out_of_reference_rays": 7
+      },
+      "dev_03": {
+        "reference": 0.013456677470133665,
+        "accepted": 0.0012379858519483092,
+        "correct": 0.0012379858519483092,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.0012044620495112418,
+        "largest": 0.0012044620495112429,
+        "out_of_reference_rays": 75
+      },
+      "dev_04": {
+        "reference": 0.015998573247771056,
+        "accepted": 0.0071004519788596,
+        "correct": 0.0071004519788596,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.006139352246571641,
+        "largest": 0.006139352246571531,
+        "out_of_reference_rays": 89
+      }
+    },
+    "graph": {
+      "dev_01": {
+        "reference": 0.01408586128149612,
+        "accepted": 0.0,
+        "correct": 0.0,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.0,
+        "largest": 0.0,
+        "out_of_reference_rays": 0
+      },
+      "dev_02": {
+        "reference": 0.013492868070994674,
+        "accepted": 0.013488805288528027,
+        "correct": 0.007641508136257198,
+        "incorrect": 0.005847297152270829,
+        "known_other": 0.004979946274227956,
+        "unassigned": 0.0006076060589196835,
+        "ambiguous": 0.0002597448191231894,
+        "connected": 0.0062238617302508535,
+        "largest": 0.006223861730250843,
+        "out_of_reference_rays": 2464
+      },
+      "dev_03": {
+        "reference": 0.013456677470133665,
+        "accepted": 0.013456677470133665,
+        "correct": 0.012131058444342223,
+        "incorrect": 0.0013256190257914418,
+        "known_other": 0.0,
+        "unassigned": 5.462107228293095e-05,
+        "ambiguous": 0.0012709979535085107,
+        "connected": 0.011796185849747808,
+        "largest": 0.01179618584974719,
+        "out_of_reference_rays": 2309
+      },
+      "dev_04": {
+        "reference": 0.015998573247771056,
+        "accepted": 0.015614536853633555,
+        "correct": 0.014853080300675342,
+        "incorrect": 0.0007614565529582129,
+        "known_other": 1.8790576338031104e-05,
+        "unassigned": 7.233435718521243e-05,
+        "ambiguous": 0.0006703316194349694,
+        "connected": 0.014535431781066144,
+        "largest": 0.014535431781066312,
+        "out_of_reference_rays": 1655
+      }
+    },
+    "two_route_phase": {
+      "dev_01": {
+        "reference": 0.01408586128149612,
+        "accepted": 0.0,
+        "correct": 0.0,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.0,
+        "largest": 0.0,
+        "out_of_reference_rays": 0
+      },
+      "dev_02": {
+        "reference": 0.013492868070994674,
+        "accepted": 0.0003077701175834859,
+        "correct": 0.00030515205478020733,
+        "incorrect": 2.618062803278562e-06,
+        "known_other": 0.0,
+        "unassigned": 2.618062803278562e-06,
+        "ambiguous": 0.0,
+        "connected": 0.00030515205478020733,
+        "largest": 0.00030515205478020717,
+        "out_of_reference_rays": 7
+      },
+      "dev_03": {
+        "reference": 0.013456677470133665,
+        "accepted": 0.0012379858519483092,
+        "correct": 0.0012379858519483092,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.0012044620495112418,
+        "largest": 0.0012044620495112429,
+        "out_of_reference_rays": 75
+      },
+      "dev_04": {
+        "reference": 0.015998573247771056,
+        "accepted": 0.007103009065528853,
+        "correct": 0.0071004519788596,
+        "incorrect": 2.55708666925208e-06,
+        "known_other": 0.0,
+        "unassigned": 2.55708666925208e-06,
+        "ambiguous": 0.0,
+        "connected": 0.006139352246571641,
+        "largest": 0.006139352246571531,
+        "out_of_reference_rays": 89
+      }
+    }
+  },
+  "summary": {
+    "stock_offset": {
+      "stock": {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.025659566573926658,
+        "incorrect": 0.031374413496468856,
+        "known_other": 0.000951200461468999,
+        "unassigned": 0.030423213034999855,
+        "ambiguous": 0.0,
+        "connected": 0.02313072708875725,
+        "largest": 0.02313072708875742,
+        "out_of_reference_rays": 8977,
+        "risk": 0.5501003692490732
+      },
+      "candidate": {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.026063540263534173,
+        "incorrect": 0.030970439806861337,
+        "known_other": 0.000735699698071506,
+        "unassigned": 0.03023474010878983,
+        "ambiguous": 0.0,
+        "connected": 0.02275396700409562,
+        "largest": 0.022753967004095793,
+        "out_of_reference_rays": 8977,
+        "risk": 0.5430173340285099
+      },
+      "connected_delta_cm2": -0.00037676008466163216,
+      "connected_gain_percent": -1.628829406079316,
+      "risk_difference_points": -0.7083035220563305,
+      "improved": 0,
+      "same": 1,
+      "worse": 3,
+      "positive_point_estimate": false,
+      "paired_area_delta_95_cm2": [
+        -0.0006716386853812106,
+        -8.188148394205376e-05
+      ],
+      "paired_risk_difference_95_points": [
+        -3.2179863739392967,
+        0.7131041844559038
+      ],
+      "stock_known_other_rate": 0.03574494715630644,
+      "candidate_known_other_rate": 0.027452259807573532,
+      "identity_gate": false
+    },
+    "two_route": {
+      "stock": {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.025659566573926658,
+        "incorrect": 0.031374413496468856,
+        "known_other": 0.000951200461468999,
+        "unassigned": 0.030423213034999855,
+        "ambiguous": 0.0,
+        "connected": 0.02313072708875725,
+        "largest": 0.02313072708875742,
+        "out_of_reference_rays": 8977,
+        "risk": 0.5501003692490732
+      },
+      "candidate": {
+        "reference": 0.057033980070395514,
+        "accepted": 0.008646207948391394,
+        "correct": 0.008646207948391394,
+        "incorrect": 0.0,
+        "known_other": 0.0,
+        "unassigned": 0.0,
+        "ambiguous": 0.0,
+        "connected": 0.007651584413666369,
+        "largest": 0.00765158441366626,
+        "out_of_reference_rays": 171,
+        "risk": 0.0
+      },
+      "connected_delta_cm2": -0.01547914267509088,
+      "connected_gain_percent": -66.92025985907965,
+      "risk_difference_points": -55.010036924907325,
+      "improved": 0,
+      "same": 1,
+      "worse": 3,
+      "positive_point_estimate": false,
+      "paired_area_delta_95_cm2": [
+        -0.02638834122219121,
+        -0.004829061568151303
+      ],
+      "paired_risk_difference_95_points": [
+        -87.47573638743292,
+        -21.582793986481473
+      ],
+      "stock_known_other_rate": 0.03574494715630644,
+      "candidate_known_other_rate": 0.0,
+      "identity_gate": false
+    },
+    "graph": {
+      "stock": {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.025659566573926658,
+        "incorrect": 0.031374413496468856,
+        "known_other": 0.000951200461468999,
+        "unassigned": 0.030423213034999855,
+        "ambiguous": 0.0,
+        "connected": 0.02313072708875725,
+        "largest": 0.02313072708875742,
+        "out_of_reference_rays": 8977,
+        "risk": 0.5501003692490732
+      },
+      "candidate": {
+        "reference": 0.057033980070395514,
+        "accepted": 0.04256001961229525,
+        "correct": 0.034625646881274764,
+        "incorrect": 0.007934372731020484,
+        "known_other": 0.004998736850565988,
+        "unassigned": 0.0007345614883878268,
+        "ambiguous": 0.0022010743920666694,
+        "connected": 0.0325554793610648,
+        "largest": 0.03255547936106434,
+        "out_of_reference_rays": 6428,
+        "risk": 0.18642784480128172
+      },
+      "connected_delta_cm2": 0.009424752272307555,
+      "connected_gain_percent": 40.74559453381161,
+      "risk_difference_points": -36.367252444779155,
+      "improved": 3,
+      "same": 1,
+      "worse": 0,
+      "positive_point_estimate": true,
+      "paired_area_delta_95_cm2": [
+        0.0008096187769119634,
+        0.018039885767703146
+      ],
+      "paired_risk_difference_95_points": [
+        -69.7734165145581,
+        -10.564004441225027
+      ],
+      "stock_known_other_rate": 0.03574494715630644,
+      "candidate_known_other_rate": 0.126153049707854,
+      "identity_gate": false
+    },
+    "two_route_phase": {
+      "stock": {
+        "reference": 0.057033980070395514,
+        "accepted": 0.057033980070395514,
+        "correct": 0.025659566573926658,
+        "incorrect": 0.031374413496468856,
+        "known_other": 0.000951200461468999,
+        "unassigned": 0.030423213034999855,
+        "ambiguous": 0.0,
+        "connected": 0.02313072708875725,
+        "largest": 0.02313072708875742,
+        "out_of_reference_rays": 8977,
+        "risk": 0.5501003692490732
+      },
+      "candidate": {
+        "reference": 0.057033980070395514,
+        "accepted": 0.008648765035060648,
+        "correct": 0.008643589885588117,
+        "incorrect": 5.175149472530641e-06,
+        "known_other": 0.0,
+        "unassigned": 5.175149472530641e-06,
+        "ambiguous": 0.0,
+        "connected": 0.00764896635086309,
+        "largest": 0.007648966350862981,
+        "out_of_reference_rays": 171,
+        "risk": 0.0005983686054079918
+      },
+      "connected_delta_cm2": -0.01548176073789416,
+      "connected_gain_percent": -66.93157840861436,
+      "risk_difference_points": -54.95020006436653,
+      "improved": 0,
+      "same": 1,
+      "worse": 3,
+      "positive_point_estimate": false,
+      "paired_area_delta_95_cm2": [
+        -0.02639095928499449,
+        -0.004834297693757861
+      ],
+      "paired_risk_difference_95_points": [
+        -87.47573638743292,
+        -21.535195248049067
+      ],
+      "stock_known_other_rate": 0.03574494715630644,
+      "candidate_known_other_rate": 0.0,
+      "identity_gate": false
+    }
+  },
+  "midpoint_geometry": {
+    "stock": {
+      "reference": 0.05703398007039549,
+      "accepted": 0.05703398007039549,
+      "incorrect": 0.03449542749825242,
+      "correct": 0.022538552572143076,
+      "connected": 0.021201518037342916,
+      "out_of_reference_rays": 8977,
+      "risk": 0.6048223787937586
+    },
+    "stock_offset": {
+      "reference": 0.05703398007039549,
+      "accepted": 0.05703398007039549,
+      "incorrect": 0.03430802699192275,
+      "correct": 0.022725953078472746,
+      "connected": 0.020788775614641146,
+      "out_of_reference_rays": 8977,
+      "risk": 0.6015366093963157
+    },
+    "two_route": {
+      "reference": 0.05703398007039549,
+      "accepted": 0.008646207948391393,
+      "incorrect": 2.79346363231014e-05,
+      "correct": 0.008618273312068292,
+      "connected": 0.007628892805090515,
+      "out_of_reference_rays": 171,
+      "risk": 0.003230854091162424
+    },
+    "graph": {
+      "reference": 0.05703398007039549,
+      "accepted": 0.04256001961229523,
+      "incorrect": 0.008696405138297406,
+      "correct": 0.03386361447399783,
+      "connected": 0.03250944294843497,
+      "out_of_reference_rays": 6428,
+      "risk": 0.20433273333795848
+    },
+    "two_route_phase": {
+      "reference": 0.05703398007039549,
+      "accepted": 0.008648765035060645,
+      "incorrect": 2.749959238602866e-05,
+      "correct": 0.008621265442674617,
+      "connected": 0.00763188493569684,
+      "out_of_reference_rays": 171,
+      "risk": 0.0031795975812211248
+    }
+  }
+}

@@ -1,0 +1,669 @@
+{
+  "source": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/README.txt",
+  "salt": "growbench-manual-v1:",
+  "ordered_source_ids": [
+    "02000_02512_02256",
+    "01744_02512_04560",
+    "08400_04304_03024",
+    "10192_04048_03024",
+    "10192_04304_02768",
+    "01744_02256_03792",
+    "10448_02512_02512",
+    "01744_02512_03024",
+    "10192_03024_02512",
+    "01744_02000_04560",
+    "02000_02256_04816",
+    "01744_02512_02768",
+    "10192_04304_04048",
+    "10192_04048_03792",
+    "10192_03024_02768",
+    "01744_02000_04816",
+    "10192_04304_03024",
+    "09168_02512_02768",
+    "01744_02512_05072",
+    "10192_03536_04048",
+    "10192_04304_03536",
+    "07632_03024_04304",
+    "10192_03024_05072",
+    "02256_02512_04816",
+    "02000_02256_02000",
+    "10192_04304_02512",
+    "10192_02768_02512",
+    "10192_03792_05072",
+    "10192_04048_02512",
+    "10192_03536_03536",
+    "08656_04304_04048",
+    "01744_02256_04816",
+    "01744_02512_04048",
+    "02256_02000_02000",
+    "10192_03536_03792",
+    "10192_03792_04560",
+    "01744_02000_04304",
+    "10192_04048_03280",
+    "10192_04304_03280",
+    "09168_02768_02768",
+    "10448_04048_03280",
+    "01744_02256_04048",
+    "10192_03024_03024",
+    "08400_04304_03280",
+    "10192_03024_02256",
+    "01744_02512_04304",
+    "10192_02768_02768",
+    "10192_03280_04048",
+    "10192_03792_03792",
+    "10192_04048_04560",
+    "10192_04048_03536",
+    "10192_03792_03536",
+    "10192_03792_02768",
+    "10192_04560_03280",
+    "01744_02256_04560",
+    "01744_02256_02768",
+    "02000_02256_02256",
+    "10192_03280_03536",
+    "07376_03024_04048",
+    "10192_03792_02512",
+    "10192_04048_02768",
+    "02000_02000_02000",
+    "10192_03024_03280",
+    "01744_02000_04048",
+    "10448_02512_02256",
+    "10192_03280_03792",
+    "02000_02512_05072",
+    "07376_03024_04304",
+    "10192_04560_03024",
+    "10192_04560_03792",
+    "10192_04560_03536",
+    "10192_04304_03792",
+    "01744_02256_04304",
+    "01744_02768_04048"
+  ],
+  "geometry_checked": [
+    "02000_02512_02256",
+    "01744_02512_04560",
+    "08400_04304_03024",
+    "10192_04048_03024",
+    "01744_02256_03792",
+    "10448_02512_02512",
+    "01744_02512_03024",
+    "10192_03024_02512",
+    "01744_02000_04560",
+    "10192_04304_04048",
+    "10192_04048_03792",
+    "10192_03024_02768",
+    "09168_02512_02768",
+    "01744_02512_05072",
+    "10192_03536_04048",
+    "10192_04304_03536",
+    "07632_03024_04304",
+    "10192_03024_05072",
+    "02256_02512_04816",
+    "10192_04304_02512",
+    "10192_03792_05072",
+    "10192_04048_02512",
+    "10192_03536_03536",
+    "08656_04304_04048",
+    "02256_02000_02000",
+    "10192_03536_03792",
+    "10192_03792_04560",
+    "10192_03024_02256",
+    "10192_03280_04048",
+    "10192_03792_03792",
+    "10192_04048_04560",
+    "10192_03792_03536",
+    "10192_03280_03536",
+    "07376_03024_04048",
+    "10192_03792_02512",
+    "10192_03024_03280",
+    "10192_03280_03792",
+    "10192_04560_03024"
+  ],
+  "selection": "Intersection of paired semantic and harmonized-instance folders, SHA256 ordering, origins >=384 in L-infinity, one eligible label nearest cube center across nine fixed columns, graph inclination, >=65% assigned rays on 96-voxel disk. Outcomes and raw/predicted intensities unseen.",
+  "sites": [
+    {
+      "id": "dev_01",
+      "source_cube_zyx": "02000_02512_02256",
+      "target_id": 253,
+      "source": {
+        "url": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/instance-labels-harmonized/02000_02512_02256/02000_02512_02256_mask.nrrd",
+        "sha256": "d9787f100cdca3471fb01991e09290a7a668df00261b6427d9ee60d5a198a2de",
+        "fields": {
+          "type": "uint16",
+          "sizes": "256 256 256",
+          "encoding": "gzip",
+          "space origin": "(2000,2512,2256)"
+        }
+      },
+      "label_ids": [
+        0,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264
+      ],
+      "midpoint_definition": "Per-voxel native Y coordinate halfway between first and last occupied voxels of a unique target-ID run; censor open-ended and multivalued rays.",
+      "unknown_value": 0,
+      "source_id": "manually harmonized instance IDs; unknown/background zero untouched"
+    },
+    {
+      "id": "dev_02",
+      "source_cube_zyx": "01744_02512_04560",
+      "target_id": 172,
+      "source": {
+        "url": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/instance-labels-harmonized/01744_02512_04560/01744_02512_04560_mask.nrrd",
+        "sha256": "5f2d2282649bdf354e470707e78d5fcd81269ee65f837f7f7c2d0efe7dd11642",
+        "fields": {
+          "type": "uint16",
+          "sizes": "256 256 256",
+          "encoding": "gzip",
+          "space origin": "(1744,2512,4560)"
+        }
+      },
+      "label_ids": [
+        0,
+        69,
+        70,
+        71,
+        72,
+        73,
+        162,
+        168,
+        169,
+        170,
+        171,
+        172,
+        340,
+        341
+      ],
+      "midpoint_definition": "Per-voxel native Y coordinate halfway between first and last occupied voxels of a unique target-ID run; censor open-ended and multivalued rays.",
+      "unknown_value": 0,
+      "source_id": "manually harmonized instance IDs; unknown/background zero untouched"
+    },
+    {
+      "id": "dev_03",
+      "source_cube_zyx": "08400_04304_03024",
+      "target_id": 60,
+      "source": {
+        "url": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/instance-labels-harmonized/08400_04304_03024/08400_04304_03024_mask.nrrd",
+        "sha256": "e05debd8c3c41a7b8ca0a59702ef216fdafdf80493620c8fb01eb270ea37924c",
+        "fields": {
+          "type": "uint16",
+          "sizes": "256 256 256",
+          "encoding": "gzip",
+          "space origin": "(8400,4304,3024)"
+        }
+      },
+      "label_ids": [
+        0,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66
+      ],
+      "midpoint_definition": "Per-voxel native Y coordinate halfway between first and last occupied voxels of a unique target-ID run; censor open-ended and multivalued rays.",
+      "unknown_value": 0,
+      "source_id": "manually harmonized instance IDs; unknown/background zero untouched"
+    },
+    {
+      "id": "dev_04",
+      "source_cube_zyx": "10192_04048_03024",
+      "target_id": 124,
+      "source": {
+        "url": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/instance-labels-harmonized/10192_04048_03024/10192_04048_03024_mask.nrrd",
+        "sha256": "aa55e19d1cc3ce91077ee2c8482cb44677476db81b8a812b6fd1c14c1f355557",
+        "fields": {
+          "type": "uint16",
+          "sizes": "256 256 256",
+          "encoding": "gzip",
+          "space origin": "(10192,4048,3024)"
+        }
+      },
+      "label_ids": [
+        0,
+        1,
+        2,
+        123,
+        124,
+        125,
+        137,
+        229,
+        230,
+        231,
+        232
+      ],
+      "midpoint_definition": "Per-voxel native Y coordinate halfway between first and last occupied voxels of a unique target-ID run; censor open-ended and multivalued rays.",
+      "unknown_value": 0,
+      "source_id": "manually harmonized instance IDs; unknown/background zero untouched"
+    },
+    {
+      "id": "test_01",
+      "source_cube_zyx": "01744_02256_03792",
+      "target_id": 246,
+      "source": {
+        "url": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/instance-labels-harmonized/01744_02256_03792/01744_02256_03792_mask.nrrd",
+        "sha256": "1a7d6487ac73660079bd6b98673675e1d66c138eddee96a7ef3237c65d6cff71",
+        "fields": {
+          "type": "uint16",
+          "sizes": "256 256 256",
+          "encoding": "gzip",
+          "space origin": "(1744,2256,3792)"
+        }
+      },
+      "label_ids": [
+        0,
+        241,
+        242,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        339
+      ],
+      "midpoint_definition": "Per-voxel native Y coordinate halfway between first and last occupied voxels of a unique target-ID run; censor open-ended and multivalued rays.",
+      "unknown_value": 0,
+      "source_id": "manually harmonized instance IDs; unknown/background zero untouched"
+    },
+    {
+      "id": "test_02",
+      "source_cube_zyx": "10448_02512_02512",
+      "target_id": 39,
+      "source": {
+        "url": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/instance-labels-harmonized/10448_02512_02512/10448_02512_02512_mask.nrrd",
+        "sha256": "91f503cc8db1df2cc192ee7273b587dc33aaa1613192f655adcf488b53793c2c",
+        "fields": {
+          "type": "uint16",
+          "sizes": "256 256 256",
+          "encoding": "gzip",
+          "space origin": "(10448,2512,2512)"
+        }
+      },
+      "label_ids": [
+        0,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "midpoint_definition": "Per-voxel native Y coordinate halfway between first and last occupied voxels of a unique target-ID run; censor open-ended and multivalued rays.",
+      "unknown_value": 0,
+      "source_id": "manually harmonized instance IDs; unknown/background zero untouched"
+    },
+    {
+      "id": "test_03",
+      "source_cube_zyx": "01744_02512_03024",
+      "target_id": 265,
+      "source": {
+        "url": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/instance-labels-harmonized/01744_02512_03024/01744_02512_03024_mask.nrrd",
+        "sha256": "a771c70fd3fc901ba37620b73b4e341814d3eff69769813ef88025034651b34f",
+        "fields": {
+          "type": "uint16",
+          "sizes": "256 256 256",
+          "encoding": "gzip",
+          "space origin": "(1744,2512,3024)"
+        }
+      },
+      "label_ids": [
+        0,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        398,
+        399,
+        400,
+        401,
+        402,
+        403,
+        404,
+        405
+      ],
+      "midpoint_definition": "Per-voxel native Y coordinate halfway between first and last occupied voxels of a unique target-ID run; censor open-ended and multivalued rays.",
+      "unknown_value": 0,
+      "source_id": "manually harmonized instance IDs; unknown/background zero untouched"
+    },
+    {
+      "id": "test_04",
+      "source_cube_zyx": "01744_02000_04560",
+      "target_id": 68,
+      "source": {
+        "url": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/instance-labels-harmonized/01744_02000_04560/01744_02000_04560_mask.nrrd",
+        "sha256": "29b9806bfa58dd479821b249d744e8956891b572d19aebb0f095ee62bb6df4ce",
+        "fields": {
+          "type": "uint16",
+          "sizes": "256 256 256",
+          "encoding": "gzip",
+          "space origin": "(1744,2000,4560)"
+        }
+      },
+      "label_ids": [
+        0,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98
+      ],
+      "midpoint_definition": "Per-voxel native Y coordinate halfway between first and last occupied voxels of a unique target-ID run; censor open-ended and multivalued rays.",
+      "unknown_value": 0,
+      "source_id": "manually harmonized instance IDs; unknown/background zero untouched"
+    },
+    {
+      "id": "test_05",
+      "source_cube_zyx": "10192_03024_02768",
+      "target_id": 355,
+      "source": {
+        "url": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/instance-labels-harmonized/10192_03024_02768/10192_03024_02768_mask.nrrd",
+        "sha256": "f26bb69f2061e747adefb07f4518e95da578b52c0feaa66ded7ee32be8e2a2c8",
+        "fields": {
+          "type": "uint16",
+          "sizes": "256 256 256",
+          "encoding": "gzip",
+          "space origin": "(10192,3024,2768)"
+        }
+      },
+      "label_ids": [
+        0,
+        306,
+        312,
+        313,
+        314,
+        315,
+        353,
+        354,
+        355,
+        356,
+        357,
+        358,
+        359,
+        360,
+        361
+      ],
+      "midpoint_definition": "Per-voxel native Y coordinate halfway between first and last occupied voxels of a unique target-ID run; censor open-ended and multivalued rays.",
+      "unknown_value": 0,
+      "source_id": "manually harmonized instance IDs; unknown/background zero untouched"
+    },
+    {
+      "id": "test_06",
+      "source_cube_zyx": "09168_02512_02768",
+      "target_id": 218,
+      "source": {
+        "url": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/instance-labels-harmonized/09168_02512_02768/09168_02512_02768_mask.nrrd",
+        "sha256": "1b808d95e661752737152b7f3b9cc55f20d46fa4612da56d045c6aae167f860f",
+        "fields": {
+          "type": "uint16",
+          "sizes": "256 256 256",
+          "encoding": "gzip",
+          "space origin": "(9168,2512,2768)"
+        }
+      },
+      "label_ids": [
+        0,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        472,
+        473,
+        474,
+        475,
+        476
+      ],
+      "midpoint_definition": "Per-voxel native Y coordinate halfway between first and last occupied voxels of a unique target-ID run; censor open-ended and multivalued rays.",
+      "unknown_value": 0,
+      "source_id": "manually harmonized instance IDs; unknown/background zero untouched"
+    },
+    {
+      "id": "test_07",
+      "source_cube_zyx": "10192_04304_03536",
+      "target_id": 38,
+      "source": {
+        "url": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/instance-labels-harmonized/10192_04304_03536/10192_04304_03536_mask.nrrd",
+        "sha256": "28b6bb10f5741358158ac5b579c955619b525600f5a33394a822826ec69b4a7a",
+        "fields": {
+          "type": "uint16",
+          "sizes": "256 256 256",
+          "encoding": "gzip",
+          "space origin": "(10192,4304,3536)"
+        }
+      },
+      "label_ids": [
+        0,
+        25,
+        29,
+        30,
+        36,
+        37,
+        38,
+        137,
+        140,
+        351,
+        352
+      ],
+      "midpoint_definition": "Per-voxel native Y coordinate halfway between first and last occupied voxels of a unique target-ID run; censor open-ended and multivalued rays.",
+      "unknown_value": 0,
+      "source_id": "manually harmonized instance IDs; unknown/background zero untouched"
+    },
+    {
+      "id": "test_08",
+      "source_cube_zyx": "02256_02512_04816",
+      "target_id": 324,
+      "source": {
+        "url": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/instance-labels-harmonized/02256_02512_04816/02256_02512_04816_mask.nrrd",
+        "sha256": "a09964944e118505d0a01aba48104a32d43848e0b065e9b925e4d9d97270885a",
+        "fields": {
+          "type": "uint16",
+          "sizes": "256 256 256",
+          "encoding": "gzip",
+          "space origin": "(2256,2512,4816)"
+        }
+      },
+      "label_ids": [
+        0,
+        318,
+        319,
+        320,
+        321,
+        322,
+        323,
+        324,
+        325,
+        326,
+        327,
+        328,
+        329,
+        330,
+        331,
+        332,
+        333
+      ],
+      "midpoint_definition": "Per-voxel native Y coordinate halfway between first and last occupied voxels of a unique target-ID run; censor open-ended and multivalued rays.",
+      "unknown_value": 0,
+      "source_id": "manually harmonized instance IDs; unknown/background zero untouched"
+    },
+    {
+      "id": "confirm_01",
+      "source_cube_zyx": "02256_02000_02000",
+      "target_id": 20,
+      "source": {
+        "url": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/instance-labels-harmonized/02256_02000_02000/02256_02000_02000_mask.nrrd",
+        "sha256": "eb07ead884b774d2a9db1df6cb39e0708bb3f9583bef9f52c96a7ca7857b700a",
+        "fields": {
+          "type": "uint16",
+          "sizes": "256 256 256",
+          "encoding": "gzip",
+          "space origin": "(2256,2000,2000)"
+        }
+      },
+      "label_ids": [
+        0,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "midpoint_definition": "Per-voxel native Y coordinate halfway between first and last occupied voxels of a unique target-ID run; censor open-ended and multivalued rays.",
+      "unknown_value": 0,
+      "source_id": "manually harmonized instance IDs; unknown/background zero untouched"
+    },
+    {
+      "id": "confirm_02",
+      "source_cube_zyx": "07376_03024_04048",
+      "target_id": 190,
+      "source": {
+        "url": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/instance-labels-harmonized/07376_03024_04048/07376_03024_04048_mask.nrrd",
+        "sha256": "9eb0b7482a473db43992723d2e87e99d9bfde1551682a1756cdf4c2d85f769c2",
+        "fields": {
+          "type": "uint16",
+          "sizes": "256 256 256",
+          "encoding": "gzip",
+          "space origin": "(7376,3024,4048)"
+        }
+      },
+      "label_ids": [
+        0,
+        146,
+        147,
+        148,
+        149,
+        150,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195
+      ],
+      "midpoint_definition": "Per-voxel native Y coordinate halfway between first and last occupied voxels of a unique target-ID run; censor open-ended and multivalued rays.",
+      "unknown_value": 0,
+      "source_id": "manually harmonized instance IDs; unknown/background zero untouched"
+    },
+    {
+      "id": "confirm_03",
+      "source_cube_zyx": "10192_03024_03280",
+      "target_id": 357,
+      "source": {
+        "url": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/instance-labels-harmonized/10192_03024_03280/10192_03024_03280_mask.nrrd",
+        "sha256": "e148c23f4a02888fb3cf03ee2cbb0fc961e3396e67cf7d0ac9e28fda85b22b04",
+        "fields": {
+          "type": "uint16",
+          "sizes": "256 256 256",
+          "encoding": "gzip",
+          "space origin": "(10192,3024,3280)"
+        }
+      },
+      "label_ids": [
+        0,
+        353,
+        354,
+        355,
+        356,
+        357,
+        358,
+        359,
+        360,
+        361,
+        362,
+        363,
+        364,
+        365,
+        366,
+        367
+      ],
+      "midpoint_definition": "Per-voxel native Y coordinate halfway between first and last occupied voxels of a unique target-ID run; censor open-ended and multivalued rays.",
+      "unknown_value": 0,
+      "source_id": "manually harmonized instance IDs; unknown/background zero untouched"
+    },
+    {
+      "id": "confirm_04",
+      "source_cube_zyx": "10192_04560_03024",
+      "target_id": 352,
+      "source": {
+        "url": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/instance-labels-harmonized/10192_04560_03024/10192_04560_03024_mask.nrrd",
+        "sha256": "e55dd31fe55f02c19bc38ed5bd8e0c18ec3cd9a20cbddb741cce9d2f2cff93e2",
+        "fields": {
+          "type": "uint16",
+          "sizes": "256 256 256",
+          "encoding": "gzip",
+          "space origin": "(10192,4560,3024)"
+        }
+      },
+      "label_ids": [
+        0,
+        25,
+        29,
+        30,
+        37,
+        38,
+        348,
+        349,
+        350,
+        351,
+        352,
+        416,
+        417
+      ],
+      "midpoint_definition": "Per-voxel native Y coordinate halfway between first and last occupied voxels of a unique target-ID run; censor open-ended and multivalued rays.",
+      "unknown_value": 0,
+      "source_id": "manually harmonized instance IDs; unknown/background zero untouched"
+    }
+  ]
+}

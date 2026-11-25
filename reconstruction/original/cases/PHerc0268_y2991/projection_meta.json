@@ -1,0 +1,66 @@
+{
+  "specimen": "PHerc0268",
+  "volume_id": "20251110183117",
+  "field": "PHerc0268_y2991",
+  "flat_origin": {
+    "x": 3160,
+    "z": 6765
+  },
+  "projection": "Y(X,Z), columns increasing native x and rows increasing native z; forward depth along (~hx,-1,~hz)",
+  "organizer_grid_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0268/representations/predictions/surfaces/20251110183117-surface-20260413222639-surface-m7-L0-th0.2.normal-grids",
+  "source_grids": "PHerc0268_inner_survey/xy and yz, immutable underlying polylines",
+  "mesh": "mesh.tifxyz",
+  "surface_sha256": {
+    "x": "9adfd8251349f02f7485051c99fd2a557061b6c68fc508e2364fa24b5aa86798",
+    "y": "c452ce20fc5546f8312d9fad8f20349e571b7248724158755ecda7698049ef97",
+    "z": "30cc3ed3ef1eca373db028c120c809fa70fc89add496d32a924e00038aab95a6"
+  },
+  "node_diagnostics": {
+    "fraction_independent_agreement": 0.5848193872885231,
+    "eligible_nodes": 4597,
+    "total_nodes": 6561,
+    "explicit_disagreements": 1037,
+    "knots_direct": 4074
+  },
+  "pitch_quantiles_xy_um": [
+    [
+      8.723710078878131,
+      9.646626214028025,
+      10.825455519866246
+    ],
+    [
+      8.640877123855491,
+      8.717886939472809,
+      9.423720577692547
+    ]
+  ],
+  "seed_native_xyz": [
+    3800,
+    2991,
+    7405
+  ],
+  "source_layers": [
+    -8,
+    8
+  ],
+  "physical_depth_um": [
+    -69.12,
+    69.12
+  ],
+  "shape": [
+    17,
+    1280,
+    1280
+  ],
+  "dtype": "uint8",
+  "pitch_um": 8.64,
+  "depth_pitch_um": 8.64,
+  "native_volume_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0268/volumes/20251110183117-8.640um-1.2m-116keV-masked.zarr/0",
+  "center_index": 8,
+  "depth_order": "xyz + unit normal times (depth index - 8) in native voxels",
+  "support": 988513,
+  "all_corners_nonzero": 988492,
+  "missing_objects": 0,
+  "ct17_sha256": "22d01b7bffd33a2c793b7376c7b119092355eb4dd7158f8b8f926d0fbdc618f4",
+  "mask_sha256": "e72570919d99a79a7bace8bda2f83bb9d91f94f86b2a5598c95f3eb1f0dfc0fb"
+}

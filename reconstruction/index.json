@@ -1,0 +1,275 @@
+{
+  "frame": "global original level-zero CT voxel-center XYZ",
+  "intrinsic_knot_interval_native_voxels": 8,
+  "source_archive_sha256": {
+    "three_prior_meshes": "e83ab718c0be1315ba31bccce2778b7ca1506ffad61ea6082a4d700ca7dbc32d",
+    "seven_new_meshes": "a43f52caa3d16b7c4e0016118bffe39cf653f0d98095a2c2a7446f3ce6cc100a"
+  },
+  "total_triangulated_cm2": 4.25880340776676,
+  "cases": [
+    {
+      "id": "PHerc0125_y3310",
+      "family": "original",
+      "specimen": "PHerc0125",
+      "acquisition": "20250821151825",
+      "pitch_um": 9.362,
+      "mesh": "original/cases/PHerc0125_y3310/PHerc0125_y3310.tifxyz",
+      "native_volume_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/volumes/20250821151825-9.362um-1.2m-113keV-masked.zarr/0",
+      "ct17_sha256": "9ae5795e3f768a7f285e27292698c0715ef2796468ad68e46917a42a0505ab97",
+      "mask_sha256": "f28bfb2fb4b8f332029edcbbfa7123111d01640ed77b79470c8601206712f70d",
+      "archive_triangulated_cm2": 1.2186439411673162,
+      "quad_count": 21742,
+      "native_xyz_bounds": [
+        [
+          2767.484375,
+          3222.968505859375,
+          9827.1982421875
+        ],
+        [
+          4035.50927734375,
+          3410.27587890625,
+          11102.384765625
+        ]
+      ]
+    },
+    {
+      "id": "PHerc0125_y3706",
+      "family": "original",
+      "specimen": "PHerc0125",
+      "acquisition": "20250821151825",
+      "pitch_um": 9.362,
+      "mesh": "original/cases/PHerc0125_y3706/PHerc0125_y3706.tifxyz",
+      "native_volume_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/volumes/20250821151825-9.362um-1.2m-113keV-masked.zarr/0",
+      "ct17_sha256": "9f72dfbd2e7640e368a1ffc0c0981c8dae5efdcac6a8b7e3061beb2a83634c87",
+      "mask_sha256": "455073cb89f9eb59aa3e3374ff537db59f1841e684f85becedd174123d9b527e",
+      "archive_triangulated_cm2": 0.9356155239917391,
+      "quad_count": 16700,
+      "native_xyz_bounds": [
+        [
+          2764.370361328125,
+          3633.47900390625,
+          9843.2626953125
+        ],
+        [
+          4035.597412109375,
+          3887.465576171875,
+          11090.900390625
+        ]
+      ]
+    },
+    {
+      "id": "PHerc0268_y2991",
+      "family": "original",
+      "specimen": "PHerc0268",
+      "acquisition": "20251110183117",
+      "pitch_um": 8.64,
+      "mesh": "original/cases/PHerc0268_y2991/PHerc0268_y2991.tifxyz",
+      "native_volume_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0268/volumes/20251110183117-8.640um-1.2m-116keV-masked.zarr/0",
+      "ct17_sha256": "ceec3c27ed6a7e403b6917cba30366395bcbee1aadffc289a25eea53655e4bae",
+      "mask_sha256": "d5709e7ea98383c6de68f573eb9165b50b1303262f30d66d722f968c22609d6e",
+      "archive_triangulated_cm2": 0.7565825397803625,
+      "quad_count": 15846,
+      "native_xyz_bounds": [
+        [
+          3167.081298828125,
+          2704.656494140625,
+          6769.1044921875
+        ],
+        [
+          4435.677734375,
+          3512.16259765625,
+          8012.97216796875
+        ]
+      ]
+    },
+    {
+      "id": "PHerc0125_east",
+      "family": "extension",
+      "specimen": "PHerc0125",
+      "acquisition": "20250821151825",
+      "pitch_um": 9.362,
+      "mesh": "extensions/cases/east/PHerc0125_east.tifxyz",
+      "native_volume_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/volumes/20250821151825-9.362um-1.2m-113keV-masked.zarr/0",
+      "ct17_sha256": "138ccace8b52d9ab204c2dccf75150f06d67f6803694607cbe9d546c1f709164",
+      "mask_sha256": "12a7bff655169e4911187f4b5a7948d1054602f4fb94b5f3d9978b9704b0495a",
+      "archive_triangulated_cm2": 0.33866693619209,
+      "direction": "east",
+      "component": 1,
+      "quad_count": 6041,
+      "native_xyz_bounds": [
+        [
+          4064.018798828125,
+          3326.17041015625,
+          9979.0009765625
+        ],
+        [
+          5083.91357421875,
+          3683.380615234375,
+          10952.7900390625
+        ]
+      ]
+    },
+    {
+      "id": "PHerc0125_north",
+      "family": "extension",
+      "specimen": "PHerc0125",
+      "acquisition": "20250821151825",
+      "pitch_um": 9.362,
+      "mesh": "extensions/cases/north/PHerc0125_north.tifxyz",
+      "native_volume_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/volumes/20250821151825-9.362um-1.2m-113keV-masked.zarr/0",
+      "ct17_sha256": "2ee156b828a6759f25e0d2fa53bb4e2766c454b7f27e7e9e4ad1b59ab8225c8f",
+      "mask_sha256": "f6bd9e2d838de28a198a32cda4da98a9bf64b984bc0d681c2dda21005d7c4207",
+      "archive_triangulated_cm2": 0.22950846316030782,
+      "direction": "north",
+      "component": 1,
+      "quad_count": 4095,
+      "native_xyz_bounds": [
+        [
+          3077.46337890625,
+          3188.426025390625,
+          11131.0556640625
+        ],
+        [
+          3887.791015625,
+          3324.24853515625,
+          11829.447265625
+        ]
+      ]
+    },
+    {
+      "id": "PHerc0125_south",
+      "family": "extension",
+      "specimen": "PHerc0125",
+      "acquisition": "20250821151825",
+      "pitch_um": 9.362,
+      "mesh": "extensions/cases/south/PHerc0125_south.tifxyz",
+      "native_volume_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/volumes/20250821151825-9.362um-1.2m-113keV-masked.zarr/0",
+      "ct17_sha256": "4b235aa4bf50534f9753da7ebc8edf326e045a9795ff51da2ebb97f3168e412d",
+      "mask_sha256": "6575de33cd42e7d5716615e8be6fca045c3e9cf053c27f8165fe4fd053ad35a7",
+      "archive_triangulated_cm2": 0.40148610581814026,
+      "direction": "south",
+      "component": 1,
+      "quad_count": 7162,
+      "native_xyz_bounds": [
+        [
+          3312.065673828125,
+          3367.00341796875,
+          8301.4052734375
+        ],
+        [
+          3727.9736328125,
+          3576.312255859375,
+          9802.546875
+        ]
+      ]
+    },
+    {
+      "id": "PHerc0125_south_2",
+      "family": "extension",
+      "specimen": "PHerc0125",
+      "acquisition": "20250821151825",
+      "pitch_um": 9.362,
+      "mesh": "extensions/cases/south_2/PHerc0125_south_2.tifxyz",
+      "native_volume_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/volumes/20250821151825-9.362um-1.2m-113keV-masked.zarr/0",
+      "ct17_sha256": "87992bd0c664daf9aaf27ba75aab469f2e6e0a9949fd21cb681de5a9c832c288",
+      "mask_sha256": "89b8da5922e0a097c820f3fbe2485aaec7ae6c7f33c451fb6c1b3fc5c5c94a8e",
+      "archive_triangulated_cm2": 0.33063882025330654,
+      "direction": "south",
+      "component": 2,
+      "quad_count": 5898,
+      "native_xyz_bounds": [
+        [
+          2912.17626953125,
+          3377.73486328125,
+          8299.0712890625
+        ],
+        [
+          3167.92041015625,
+          3557.84326171875,
+          9802.9921875
+        ]
+      ]
+    },
+    {
+      "id": "PHerc0125_south_3",
+      "family": "extension",
+      "specimen": "PHerc0125",
+      "acquisition": "20250821151825",
+      "pitch_um": 9.362,
+      "mesh": "extensions/cases/south_3/PHerc0125_south_3.tifxyz",
+      "native_volume_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/volumes/20250821151825-9.362um-1.2m-113keV-masked.zarr/0",
+      "ct17_sha256": "e4718e6f4da89a3c77d79e1aa30ccb6c0a354e040ae8afd2e96a3963054f4fb1",
+      "mask_sha256": "4eb8d4daabb91b8a70dc2f465f6c97518615a7a2117871fd333abe17e15b2d72",
+      "archive_triangulated_cm2": 0.010649242282605088,
+      "direction": "south",
+      "component": 3,
+      "quad_count": 190,
+      "native_xyz_bounds": [
+        [
+          3232.12060546875,
+          3384.662841796875,
+          8306.6494140625
+        ],
+        [
+          3247.545654296875,
+          3572.11669921875,
+          9800.7314453125
+        ]
+      ]
+    },
+    {
+      "id": "PHerc0125_west",
+      "family": "extension",
+      "specimen": "PHerc0125",
+      "acquisition": "20250821151825",
+      "pitch_um": 9.362,
+      "mesh": "extensions/cases/west/PHerc0125_west.tifxyz",
+      "native_volume_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/volumes/20250821151825-9.362um-1.2m-113keV-masked.zarr/0",
+      "ct17_sha256": "6ca6e9ee927f4adecdd422ef9c5786b41cbe2c95403cf9146542d6d703e3851b",
+      "mask_sha256": "b72f64ffc0d48d881d18d4a9b858aee3aa92e642620e1623cd5406a8b795c2a0",
+      "archive_triangulated_cm2": 0.02646847915677862,
+      "direction": "west",
+      "component": 1,
+      "quad_count": 472,
+      "native_xyz_bounds": [
+        [
+          2352.57568359375,
+          3305.02783203125,
+          10299.0224609375
+        ],
+        [
+          2734.84521484375,
+          3330.735595703125,
+          10394.9296875
+        ]
+      ]
+    },
+    {
+      "id": "PHerc0125_west_2",
+      "family": "extension",
+      "specimen": "PHerc0125",
+      "acquisition": "20250821151825",
+      "pitch_um": 9.362,
+      "mesh": "extensions/cases/west_2/PHerc0125_west_2.tifxyz",
+      "native_volume_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/volumes/20250821151825-9.362um-1.2m-113keV-masked.zarr/0",
+      "ct17_sha256": "b5de62a537e3c1efd6f900a821fb7f78a43f0d00d75bea28e0e133d66fd18503",
+      "mask_sha256": "7428a15d729db511a229b907a8b207ad16cca262c6063b636462dfddf2419e86",
+      "archive_triangulated_cm2": 0.01054335596411382,
+      "direction": "west",
+      "component": 2,
+      "quad_count": 188,
+      "native_xyz_bounds": [
+        [
+          2592.07861328125,
+          3303.4599609375,
+          10539.130859375
+        ],
+        [
+          2735.946533203125,
+          3312.380615234375,
+          10634.99609375
+        ]
+      ]
+    }
+  ]
+}

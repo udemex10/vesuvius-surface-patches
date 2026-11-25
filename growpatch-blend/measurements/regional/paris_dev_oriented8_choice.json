@@ -1,0 +1,18 @@
+{
+  "chosen": "stock_offset",
+  "passing_dev": [
+    "stock_offset",
+    "tapered_offset",
+    "ridge_25",
+    "ridge_50",
+    "ridge_50_half",
+    "blend_2",
+    "blend_4",
+    "blend_8"
+  ],
+  "reference": "paris_dev",
+  "stock": "oriented8",
+  "source": "e926bd78a27e801e6bc1d0f2ee482ed577f98a5c5345410e8c5b7c5b07577da5",
+  "refinement_source": "d164365759ecda4d6a811a6e0c831d88f02b693da02ea9f84ce8159fdbfc4b74",
+  "protocol": "857d10936451343944d57b8fee8a6613b03f7a6e8c8b70a70adfe5a264cebe21"
+}

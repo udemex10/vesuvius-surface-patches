@@ -1,0 +1,40 @@
+{
+  "specimen": "PHerc0125",
+  "native_volume_id": "20250821151825",
+  "mesh": "PHerc0125_east.tifxyz",
+  "scan": "PHerc0125",
+  "original_surface": "PHerc0125_y3310",
+  "new_x_cutoff": 4056,
+  "shape": [
+    17,
+    1024,
+    1096
+  ],
+  "dtype": "uint8",
+  "pitch_um": 9.362,
+  "depth_pitch_um": 9.362,
+  "native_volume_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/volumes/20250821151825-9.362um-1.2m-113keV-masked.zarr/0",
+  "center_index": 8,
+  "depth_order": "xyz + unit normal times (depth index - 8) in native voxels",
+  "support": 386624,
+  "all_corners_nonzero": 386601,
+  "missing_objects": 0,
+  "ct17_sha256": "138ccace8b52d9ab204c2dccf75150f06d67f6803694607cbe9d546c1f709164",
+  "mask_sha256": "12a7bff655169e4911187f4b5a7948d1054602f4fb94b5f3d9978b9704b0495a",
+  "supported_nominal_cm2": 0.33886450739456003,
+  "new_native_xyz_range": [
+    [
+      4064.0188831397863,
+      3326.170459205474,
+      9979.00083428784
+    ],
+    [
+      5083.913516706514,
+      3683.3806146555844,
+      10952.789589825261
+    ]
+  ],
+  "independent_ground_truth": "unavailable on this new original-scroll region",
+  "connected_component_count": 3,
+  "largest_connected_supported_nominal_cm2": 0.33774262523136
+}

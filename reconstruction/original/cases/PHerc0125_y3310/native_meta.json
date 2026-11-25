@@ -1,0 +1,25 @@
+{
+  "specimen": "PHerc0125",
+  "field": "PHerc0125_y3310",
+  "mesh": "PHerc0125_y3310.tifxyz",
+  "native_volume_id": "20250821151825",
+  "normal": "cross(increasing regular intrinsic x,increasing regular intrinsic y), approximately -native Y",
+  "geometry": "strict four valid tifxyz corners, eight native pixels per output mesh knot",
+  "mesh_info": "distortion.json",
+  "shape": [
+    17,
+    1360,
+    1320
+  ],
+  "dtype": "uint8",
+  "pitch_um": 9.362,
+  "depth_pitch_um": 9.362,
+  "native_volume_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/volumes/20250821151825-9.362um-1.2m-113keV-masked.zarr/0",
+  "center_index": 8,
+  "depth_order": "xyz + unit normal times (depth index - 8) in native voxels",
+  "support": 1391488,
+  "all_corners_nonzero": 1391292,
+  "missing_objects": 0,
+  "ct17_sha256": "9ae5795e3f768a7f285e27292698c0715ef2796468ad68e46917a42a0505ab97",
+  "mask_sha256": "f28bfb2fb4b8f332029edcbbfa7123111d01640ed77b79470c8601206712f70d"
+}

@@ -1,0 +1,93 @@
+{
+  "preset": "oriented8",
+  "dev_risk_budget": 0.06796141986607077,
+  "stock_presets": {
+    "default20": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.07958316785452652,
+      "incorrect": 0.027813762116461027,
+      "correct": 0.0517694057380655,
+      "connected": 0.025770853125029136,
+      "out_of_reference_rays": 360,
+      "risk": 0.3494930255516216
+    },
+    "oriented8": {
+      "reference": 0.10612550103592719,
+      "accepted": 0.10612550103592719,
+      "incorrect": 0.007212439734399776,
+      "correct": 0.09891306130152741,
+      "connected": 0.07662715544987227,
+      "out_of_reference_rays": 360,
+      "risk": 0.06796141986607077
+    }
+  },
+  "primary": {
+    "method": "two_route",
+    "threshold": 0.0,
+    "dev_gate": true
+  },
+  "standalone": {
+    "method": "two_route",
+    "threshold": 0.0,
+    "dev_gate": true
+  },
+  "arms": {
+    "two_route": {
+      "method": "two_route",
+      "threshold": 0.0,
+      "dev_gate": true
+    },
+    "graph": {
+      "method": "graph",
+      "threshold": 0.0,
+      "dev_gate": true
+    },
+    "stock_plus_two_route": {
+      "method": "stock_plus_two_route",
+      "threshold": 0.0,
+      "dev_gate": true
+    },
+    "stock_plus_graph": {
+      "method": "stock_plus_graph",
+      "threshold": 0.0,
+      "dev_gate": true
+    }
+  },
+  "dev_files": {
+    "dev_01": {
+      "reference": "6870c0b47a388954c7b0382b439dbf5fe1ee79a1269dcab1ab152b26ac3056a1",
+      "default20": "267b6c99c44edbe9fb1b027ea49dcd5550e3ae5dccc1b5d0064ab7c2ba09b72d",
+      "oriented8": "e1a20b55f570334011b169e4042f9fce2f89c57df4ea6d48e3935903db9ac4db",
+      "two_route": "256b6bc67b551209706fb2c62d02492d85f4efd995cb2cfda91fed467ae0026f",
+      "graph": "dcf42271df73e127a48be25fb725c10967c203649c1580ef969af52b5dd396dc"
+    },
+    "dev_02": {
+      "reference": "b35a57d6fc4181d7631440539df880d8ff19bc17e5d642cb064fe42e3d1e9925",
+      "default20": "6e3901c9281987c928a06cfbf2deb2207009e3b8f1b8b0d826bdc0628267dc79",
+      "oriented8": "ff8d6c3c2a44727132b18e8d6bd28dfca591c76f6dcc56340d8628be7b49bd6e",
+      "two_route": "fcfbae45a07674dfa03371a87a5f92d9b3e31c710771c14f3a5376830626645a",
+      "graph": "ec63feea2e0ee683aed3b9a216a5c99ef6a111a79a2ffaa40c0b603f9a3b872e"
+    },
+    "dev_03": {
+      "reference": "e898e2e873bfc3ff01f0395d4cbd23b9eff13f8ac9d2dd4e6d827348d0178f05",
+      "default20": "92fb54c392e6c66ab08b5f141f6c24df1c336318a2ad3b268dcffcff55e7cdb1",
+      "oriented8": "92df3380f702b2317869597806147e67d33e537290e8123d0929c53d17fa036b",
+      "two_route": "73e205cbc13650cbc8eb162b7fcf951e6cee33ac0f42431cd6dbb4049d4bcce4",
+      "graph": "de2f9c795b15a5689acf4d4382cb2f55a76df7038e7fbb166997eb88f5b1ba0a"
+    },
+    "dev_04": {
+      "reference": "b773118a2c429d35bddf9a4cd1364bc19255e383d8561e2516e435aaf8cdc17d",
+      "default20": "fc4531fe574fb3aceec8b058e9a6795f9d130a6aeff4fdbfd1ec5d80609bf2d2",
+      "oriented8": "ca43aee2a04429f9873f45a54a9f084ee4dda350c4402ca7bc271091e071d52d",
+      "two_route": "b2cf756a562c0f1689dc2fea7a822cd7349a57073a7cae4de65992d9d106d282",
+      "graph": "71a1dc002e634f5c1d3a40e48dcf4e5104e9fbc5e2bd6755612269e0cba9800d"
+    }
+  },
+  "source_hashes": {
+    "research/growpatch-heldout-protocol.md": "c09bd0695fed2048b037b990c683a075cdca8f9350a9b792f185dff424fa0950",
+    "scripts/growbench_geometry.py": "b16d6332021efd3e434912edc9dfa8844cefd7f5ce4ef07c656bc68c702096da",
+    "scripts/growbench_extend.py": "0f46849680185ce7e0192c26471aa2deb19758c8c3b800fc329d642c99b5d2be",
+    "scripts/growbench_compare.py": "c542748506870003021f3da6906c5d417851259adb6c19bada483c68d55816c5",
+    "results/growbench/labels/seeds.json": "6795888c093ed3ca932612cff38b3dbe087348af9c869cfea63e6fa2fd69f588"
+  }
+}

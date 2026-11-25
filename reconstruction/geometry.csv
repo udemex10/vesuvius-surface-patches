@@ -1,0 +1,11 @@
+case,volume_id,pitch_um,triangulated_cm2,qualified_quads,coordinate_folder
+PHerc0125_y3310,20250821151825,9.362,1.218643941,21742,original/cases/PHerc0125_y3310/PHerc0125_y3310.tifxyz
+PHerc0125_y3706,20250821151825,9.362,0.935615524,16700,original/cases/PHerc0125_y3706/PHerc0125_y3706.tifxyz
+PHerc0268_y2991,20251110183117,8.64,0.756582540,15846,original/cases/PHerc0268_y2991/PHerc0268_y2991.tifxyz
+PHerc0125_east,20250821151825,9.362,0.338666936,6041,extensions/cases/east/PHerc0125_east.tifxyz
+PHerc0125_north,20250821151825,9.362,0.229508463,4095,extensions/cases/north/PHerc0125_north.tifxyz
+PHerc0125_south,20250821151825,9.362,0.401486106,7162,extensions/cases/south/PHerc0125_south.tifxyz
+PHerc0125_south_2,20250821151825,9.362,0.330638820,5898,extensions/cases/south_2/PHerc0125_south_2.tifxyz
+PHerc0125_south_3,20250821151825,9.362,0.010649242,190,extensions/cases/south_3/PHerc0125_south_3.tifxyz
+PHerc0125_west,20250821151825,9.362,0.026468479,472,extensions/cases/west/PHerc0125_west.tifxyz
+PHerc0125_west_2,20250821151825,9.362,0.010543356,188,extensions/cases/west_2/PHerc0125_west_2.tifxyz

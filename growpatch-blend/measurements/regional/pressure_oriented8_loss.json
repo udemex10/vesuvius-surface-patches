@@ -1,0 +1,1506 @@
+{
+  "cohort": "pressure",
+  "stock": "oriented8_loss",
+  "selection": {
+    "chosen": "stock_offset",
+    "passing_dev": [
+      "stock_offset",
+      "tapered_offset",
+      "ridge_25",
+      "ridge_50",
+      "ridge_50_half",
+      "blend_2",
+      "blend_4",
+      "blend_8"
+    ],
+    "reference": "paris_dev",
+    "stock": "oriented8",
+    "source": "e926bd78a27e801e6bc1d0f2ee482ed577f98a5c5345410e8c5b7c5b07577da5",
+    "refinement_source": "d164365759ecda4d6a811a6e0c831d88f02b693da02ea9f84ce8159fdbfc4b74",
+    "protocol": "857d10936451343944d57b8fee8a6613b03f7a6e8c8b70a70adfe5a264cebe21"
+  },
+  "digests": {
+    "pressure_01": {
+      "stock": "72ffc9795887f3bb54ea15e3d3c222e36e78f52d03f123ed8992a0c50fa92342",
+      "reference": "02dc470801a8140851bd48f532101b4d8ef5c6f9a902b154f5fc42352a4f1d64",
+      "two_route": "613b6f013860d212c95262868840e51fcfe01103dacaa9464b6ee1d029d13d2d",
+      "graph": "194d90640ec596ef2522b0c8c689634743884ed5dd13adc2c23d68fbaa171226",
+      "two_route_phase": "76fe5c8f87d70ddb721de665ed72cb9bdd04ba201e70a661912db2d1c7068d2d",
+      "graph_phase": "d03d6f7f10ae3bb32af66a1857a2d28cd9fec57904a498fa3cc2c4e85a5267cd",
+      "foreground": "8548704c98e113676f0c83f45f04745c571a6e5d452502f53928ee7f01f3e926"
+    },
+    "pressure_02": {
+      "stock": "a95f94b8edc86e961d0e1548180ee35661ce3064faebee31a8e751def25c00ef",
+      "reference": "2c3758d82d2c9cda22220936bec9e6eae0ed3c5d6b1bc9ea649e1dc6ca9e54b7",
+      "two_route": "c4e12557183557bcf6f9bfeab96e3d006e26e426e9c640d0c6269761aaa10a1a",
+      "graph": "41f58cc1f21be3a9de83d705ed82db1ca163853d41c8a16965a67fe92cc21b6b",
+      "two_route_phase": "f7209666eac02f53ac6fff777a9ccece24080d506829281eb71e8dfab06da1f8",
+      "graph_phase": "9ca2588cd3fc78b51a39a5e14e1deec52db2014bb01ee6cc10b47b4bbb8687ba",
+      "foreground": "02083935f35d321b3af5c42a5277fac97dfb548227743065e340c0d37406b5ff"
+    },
+    "pressure_03": {
+      "stock": "74dc85927bad24075a4e710bed6525c635cb5eb8731e1adfd95fbc93c9b160e3",
+      "reference": "647188c0e3d16fee3cb044ea8be44ab2e6a4071fad4badd738384edb5eb7299b",
+      "two_route": "20a4a6f5716a657831d4671e33d89278ee96a76d8b158c7c5eefaa0e9e97a414",
+      "graph": "5fd4c3bb39fa2eecf071c6ebb9baf679accc6b00ecdca682fcc7bd4aa95b2801",
+      "two_route_phase": "2222c0c2ae6c9f2b7a094a22e2a4fc327b6c4d0b4da3ff36ee3b16c1fdae942c",
+      "graph_phase": "be215546980bd5debd7caf57ace2ce56dbdb652ece74f894bf878698c48bd47e",
+      "foreground": "fe0b3c508191bace0b15aeb52d0e2f26b6429a239e840250f2388401dbfffcd2"
+    },
+    "pressure_04": {
+      "stock": "64657b233afbbd5e79fb697e059e4bdea10b8896fa742cf68743e6fbefd9ea66",
+      "reference": "553f75ce8498f14c11bc1c1564008afc7a476048a0afd4c4d9fd38ab149c4d37",
+      "two_route": "565bfed6d0aa1f63115f0d46eb834a1aaf1c0d1a3169d35245bb7752ae89dd83",
+      "graph": "4fe82822aac6ee0e84af8372722d1cb5c2e188f684ac627012f7c2cdaa713172",
+      "two_route_phase": "c676136c97747d571011a772cbb14cc1233a8142bfcee1c33aa4cc1b9221bece",
+      "graph_phase": "de746dfe81d5e941e46c4cd2871e47a1b985f4bf82917458a62061c3bc8b5e29",
+      "foreground": "3a9b26038df670bb9b835ab38f05e6d28c11682c0a74d68759edc31fca0447a5"
+    },
+    "pressure_05": {
+      "stock": "b175adbcd8cdf94d55eb6281c0b4e911f1d2674c683a44b55273c0b63b22eb2a",
+      "reference": "ec3e1af5388ee8796eeb5fb681dfdef8386ea40075130c2c53edac176ac56fdd",
+      "two_route": "b8dda0f995dfdbdfb15453afb7605a8eb07ded2bcb12d9e59497ce454468302f",
+      "graph": "5ce1cdbcdbe65ae97cc901aa59c18409a1becccf382e7a7a13de77b9c18f5890",
+      "two_route_phase": "c04bfad04df292e0184e8817f6236fb516b549f2a101545c1f545e7c05b4053e",
+      "graph_phase": "66216249934f488c662b6af54d09387a0ec2d07b59a6e1a505631e41913f975a",
+      "foreground": "b00c7eb84995fd3c2892fbba531c2774f0b8ecfedd84b45b99750630f549b748"
+    },
+    "pressure_06": {
+      "stock": "2aa14d3ff69fc612274c615e1ec127e94fd2feb03647e054daaddc1ee335916b",
+      "reference": "6ead6fe0f8ac2df3457e85b3eccb920b37de7cf585450fe5b4b4fcc559bb1cdf",
+      "two_route": "ec02897d624b746e79656776d292d5cbbfe550e61b65440ed126750349917201",
+      "graph": "3bf6bbb143745be3d01fe77158261511c033e3645239c5ceb9784c9c4ad02f03",
+      "two_route_phase": "c728deab798444dec9f7d1d09d2015d0a6c4a165f648fe47d55d82b7dae828c3",
+      "graph_phase": "b24f3dd47f739d05cc9059cdc679722f57a7ce9c0258ffda48c9a933843de664",
+      "foreground": "c96769c9909497f0a437cc84383f2ca74ba42f3059297eef07599f6514e7f8f6"
+    },
+    "pressure_07": {
+      "stock": "eaf3421dd063ad611d03319fd5eb1293c377d902447f4045fbac63bffbde973e",
+      "reference": "f1b781f008af7dda74e78f960977d46f82210dfcd4e07048b55fbe28f7084fff",
+      "two_route": "58b7c35ff88558596feb8870cf0536b763232c05ef4f72e48c93e9ef81d4ab3d",
+      "graph": "5be0c9b8485ca1f6743b6f7fa9100e32e3ed1b5a6b09139ef149ed502a9c2718",
+      "two_route_phase": "02e5d59de5a9659a2c6fa70a855154c7129fadcb9c0b5062948bbed5a420d17e",
+      "graph_phase": "8da72364010077667ab7047ec99db177ffbfcb430d8766970c88bb8e40742c91",
+      "foreground": "6e6a7a824903b35f4099e5b6691fdb622a592680b2438f54087db2944555bbd3"
+    },
+    "pressure_08": {
+      "stock": "1523b066e2c5f2318fdf7f6b390e68c99000193647f9437d92412d2389e28ec9",
+      "reference": "60fe7ff5b48b667d91f0c7b3a172dcba6f8db4085b22b5be9ead0e992371ef5c",
+      "two_route": "6ff22eba746d43880577d186edd03b5b097829f5db05def30949dc7480940151",
+      "graph": "306a4d9a5d58dce01915112e2d20e9541a63b75589af65eb269a8f4f6a90c96b",
+      "two_route_phase": "fcaeeb00366dfb8f01ac4feec7fcdab46589e3e3d3cdb5bf5399648ecbcb5fd5",
+      "graph_phase": "6cda9bf49a0b1c19479faa7f5c4e319f75335fe6c3f2289e3078a9ba395e4fc3",
+      "foreground": "7820aa8bbecd0f372b7d86f07cc2613fb9c4530839defb0a413632f08eb52089"
+    }
+  },
+  "rows": {
+    "stock": {
+      "pressure_01": {
+        "reference": 0.08203505291192101,
+        "accepted": 0.08203505291192101,
+        "correct": 0.05566804024410585,
+        "incorrect": 0.026367012667815156,
+        "connected": 0.05363108742339864,
+        "largest": 0.05363108742340037,
+        "other_footprint_rays": 0
+      },
+      "pressure_02": {
+        "reference": 0.07419460310379722,
+        "accepted": 0.07419460310379722,
+        "correct": 0.07419460310379722,
+        "incorrect": 0.0,
+        "connected": 0.07419460310379722,
+        "largest": 0.07419460310379936,
+        "other_footprint_rays": 0
+      },
+      "pressure_03": {
+        "reference": 0.07959277429241951,
+        "accepted": 0.07959277429241951,
+        "correct": 0.06243814007152301,
+        "incorrect": 0.017154634220896497,
+        "connected": 0.06183707571519333,
+        "largest": 0.061837075715194034,
+        "other_footprint_rays": 0
+      },
+      "pressure_04": {
+        "reference": 0.07418267703384362,
+        "accepted": 0.07418267703384362,
+        "correct": 0.07367034266490692,
+        "incorrect": 0.000512334368936693,
+        "connected": 0.07367034266490692,
+        "largest": 0.07367034266490974,
+        "other_footprint_rays": 19
+      },
+      "pressure_05": {
+        "reference": 0.0815990183457172,
+        "accepted": 0.0815990183457172,
+        "correct": 0.07850909575185613,
+        "incorrect": 0.0030899225938610764,
+        "connected": 0.07850909575185613,
+        "largest": 0.07850909575185508,
+        "other_footprint_rays": 0
+      },
+      "pressure_06": {
+        "reference": 0.07438245373302833,
+        "accepted": 0.07438245373302833,
+        "correct": 0.06743074430548023,
+        "incorrect": 0.006951709427548107,
+        "connected": 0.06727655447155152,
+        "largest": 0.06727655447154769,
+        "other_footprint_rays": 0
+      },
+      "pressure_07": {
+        "reference": 0.07605143041222448,
+        "accepted": 0.07605143041222448,
+        "correct": 0.03970588888011917,
+        "incorrect": 0.0363455415321053,
+        "connected": 0.0,
+        "largest": 0.01146181649665305,
+        "other_footprint_rays": 71
+      },
+      "pressure_08": {
+        "reference": 0.06933841346790479,
+        "accepted": 0.06933841346790479,
+        "correct": 0.06741953189381769,
+        "incorrect": 0.0019188815740870876,
+        "connected": 0.06741953189381769,
+        "largest": 0.06741953189381772,
+        "other_footprint_rays": 2124
+      }
+    },
+    "stock_offset": {
+      "pressure_01": {
+        "reference": 0.08203505291192101,
+        "accepted": 0.08203505291192101,
+        "correct": 0.07900506326280853,
+        "incorrect": 0.0030299896491124863,
+        "connected": 0.07900506326280853,
+        "largest": 0.07900506326280843,
+        "other_footprint_rays": 0
+      },
+      "pressure_02": {
+        "reference": 0.07419460310379722,
+        "accepted": 0.07419460310379722,
+        "correct": 0.07419460310379722,
+        "incorrect": 0.0,
+        "connected": 0.07419460310379722,
+        "largest": 0.07419460310379936,
+        "other_footprint_rays": 0
+      },
+      "pressure_03": {
+        "reference": 0.07959277429241951,
+        "accepted": 0.07959277429241951,
+        "correct": 0.07094433561039695,
+        "incorrect": 0.008648438682022556,
+        "connected": 0.07013061701216289,
+        "largest": 0.07013061701216378,
+        "other_footprint_rays": 0
+      },
+      "pressure_04": {
+        "reference": 0.07418267703384362,
+        "accepted": 0.07418267703384362,
+        "correct": 0.07344740592267557,
+        "incorrect": 0.0007352711111680516,
+        "connected": 0.07344740592267557,
+        "largest": 0.07344740592267836,
+        "other_footprint_rays": 19
+      },
+      "pressure_05": {
+        "reference": 0.0815990183457172,
+        "accepted": 0.0815990183457172,
+        "correct": 0.06413349238603251,
+        "incorrect": 0.017465525959684695,
+        "connected": 0.06359793010687811,
+        "largest": 0.06359793010687687,
+        "other_footprint_rays": 0
+      },
+      "pressure_06": {
+        "reference": 0.07438245373302833,
+        "accepted": 0.07438245373302833,
+        "correct": 0.07135706150384862,
+        "incorrect": 0.003025392229179721,
+        "connected": 0.07135335929962894,
+        "largest": 0.07135335929962494,
+        "other_footprint_rays": 0
+      },
+      "pressure_07": {
+        "reference": 0.07605143041222448,
+        "accepted": 0.07605143041222448,
+        "correct": 0.06990356436501799,
+        "incorrect": 0.006147866047206485,
+        "connected": 0.06990356436501799,
+        "largest": 0.06990356436501984,
+        "other_footprint_rays": 71
+      },
+      "pressure_08": {
+        "reference": 0.06933841346790479,
+        "accepted": 0.06933841346790479,
+        "correct": 0.06659726894586748,
+        "incorrect": 0.002741144522037305,
+        "connected": 0.06658211363650521,
+        "largest": 0.06658211363650506,
+        "other_footprint_rays": 2124
+      }
+    },
+    "tapered_offset": {
+      "pressure_01": {
+        "reference": 0.08203505291192101,
+        "accepted": 0.08203505291192101,
+        "correct": 0.062044651896937794,
+        "incorrect": 0.019990401014983214,
+        "connected": 0.06033087219956765,
+        "largest": 0.06033087219956941,
+        "other_footprint_rays": 0
+      },
+      "pressure_02": {
+        "reference": 0.07419460310379722,
+        "accepted": 0.07419460310379722,
+        "correct": 0.07419460310379722,
+        "incorrect": 0.0,
+        "connected": 0.07419460310379722,
+        "largest": 0.07419460310379936,
+        "other_footprint_rays": 0
+      },
+      "pressure_03": {
+        "reference": 0.07959277429241951,
+        "accepted": 0.07959277429241951,
+        "correct": 0.06387531595081382,
+        "incorrect": 0.015717458341605685,
+        "connected": 0.06323779526086942,
+        "largest": 0.06323779526087059,
+        "other_footprint_rays": 0
+      },
+      "pressure_04": {
+        "reference": 0.07418267703384362,
+        "accepted": 0.07418267703384362,
+        "correct": 0.07366662482253634,
+        "incorrect": 0.0005160522113072782,
+        "connected": 0.07366662482253634,
+        "largest": 0.07366662482253915,
+        "other_footprint_rays": 19
+      },
+      "pressure_05": {
+        "reference": 0.0815990183457172,
+        "accepted": 0.0815990183457172,
+        "correct": 0.07858975062684936,
+        "incorrect": 0.0030092677188678567,
+        "connected": 0.07858975062684936,
+        "largest": 0.07858975062684834,
+        "other_footprint_rays": 0
+      },
+      "pressure_06": {
+        "reference": 0.07438245373302833,
+        "accepted": 0.07438245373302833,
+        "correct": 0.06963726347247622,
+        "incorrect": 0.004745190260552105,
+        "connected": 0.06946428113919442,
+        "largest": 0.06946428113918963,
+        "other_footprint_rays": 0
+      },
+      "pressure_07": {
+        "reference": 0.07605143041222448,
+        "accepted": 0.07605143041222448,
+        "correct": 0.051712486779171854,
+        "incorrect": 0.02433894363305262,
+        "connected": 0.04886915640063367,
+        "largest": 0.04886915640063401,
+        "other_footprint_rays": 71
+      },
+      "pressure_08": {
+        "reference": 0.06933841346790479,
+        "accepted": 0.06933841346790479,
+        "correct": 0.06739453419273292,
+        "incorrect": 0.0019438792751718611,
+        "connected": 0.06739026946773455,
+        "largest": 0.06739026946773462,
+        "other_footprint_rays": 2124
+      }
+    },
+    "two_route": {
+      "pressure_01": {
+        "reference": 0.08203505291192101,
+        "accepted": 0.01870280937865044,
+        "correct": 0.007458947427369841,
+        "incorrect": 0.011243861951280599,
+        "connected": 0.0058149655114023684,
+        "largest": 0.005814965511402372,
+        "other_footprint_rays": 0
+      },
+      "pressure_02": {
+        "reference": 0.07419460310379722,
+        "accepted": 0.042488877569497756,
+        "correct": 0.04244460734500033,
+        "incorrect": 4.427022449742225e-05,
+        "connected": 0.041109267629754476,
+        "largest": 0.041109267629754635,
+        "other_footprint_rays": 0
+      },
+      "pressure_03": {
+        "reference": 0.07959277429241951,
+        "accepted": 0.0784988048425223,
+        "correct": 0.06867853995560577,
+        "incorrect": 0.00982026488691652,
+        "connected": 0.0648852031447058,
+        "largest": 0.06488520314470704,
+        "other_footprint_rays": 0
+      },
+      "pressure_04": {
+        "reference": 0.07418267703384362,
+        "accepted": 0.0673107843814168,
+        "correct": 0.0669063164381834,
+        "incorrect": 0.0004044679432333919,
+        "connected": 0.06227962939214192,
+        "largest": 0.0622796293921432,
+        "other_footprint_rays": 11
+      },
+      "pressure_05": {
+        "reference": 0.0815990183457172,
+        "accepted": 0.08135156282654729,
+        "correct": 0.07715813405766139,
+        "incorrect": 0.0041934287688859175,
+        "connected": 0.07715350676482383,
+        "largest": 0.07715350676482315,
+        "other_footprint_rays": 0
+      },
+      "pressure_06": {
+        "reference": 0.07438245373302833,
+        "accepted": 0.053686883445534114,
+        "correct": 0.04613622405082937,
+        "incorrect": 0.007550659394704739,
+        "connected": 0.03981298418091071,
+        "largest": 0.03981298418091049,
+        "other_footprint_rays": 0
+      },
+      "pressure_07": {
+        "reference": 0.07605143041222448,
+        "accepted": 0.07496190976370676,
+        "correct": 0.041255900915220106,
+        "incorrect": 0.03370600884848664,
+        "connected": 0.0,
+        "largest": 0.013276448639022071,
+        "other_footprint_rays": 61
+      },
+      "pressure_08": {
+        "reference": 0.06933841346790479,
+        "accepted": 0.06529329425100656,
+        "correct": 0.06364655057288025,
+        "incorrect": 0.0016467436781263055,
+        "connected": 0.06360461290816954,
+        "largest": 0.06360461290816806,
+        "other_footprint_rays": 510
+      }
+    },
+    "graph": {
+      "pressure_01": {
+        "reference": 0.08203505291192101,
+        "accepted": 0.08064262737976946,
+        "correct": 0.058028708983848806,
+        "incorrect": 0.022613918395920647,
+        "connected": 0.056712450323012246,
+        "largest": 0.05671245032301381,
+        "other_footprint_rays": 0
+      },
+      "pressure_02": {
+        "reference": 0.07419460310379722,
+        "accepted": 0.07419460310379722,
+        "correct": 0.06325721060047995,
+        "incorrect": 0.010937392503317274,
+        "connected": 0.06272965712371462,
+        "largest": 0.06272965712371367,
+        "other_footprint_rays": 0
+      },
+      "pressure_03": {
+        "reference": 0.07959277429241951,
+        "accepted": 0.07928979055072755,
+        "correct": 0.06941534641063789,
+        "incorrect": 0.009874444140089658,
+        "connected": 0.06940209008585238,
+        "largest": 0.06940209008585335,
+        "other_footprint_rays": 0
+      },
+      "pressure_04": {
+        "reference": 0.07418267703384362,
+        "accepted": 0.07418267703384362,
+        "correct": 0.07102044167233856,
+        "incorrect": 0.0031622353615050683,
+        "connected": 0.07100928014478014,
+        "largest": 0.07100928014478258,
+        "other_footprint_rays": 12
+      },
+      "pressure_05": {
+        "reference": 0.0815990183457172,
+        "accepted": 0.08135156282654729,
+        "correct": 0.07715813405766139,
+        "incorrect": 0.0041934287688859175,
+        "connected": 0.07715350676482383,
+        "largest": 0.07715350676482315,
+        "other_footprint_rays": 0
+      },
+      "pressure_06": {
+        "reference": 0.07438245373302833,
+        "accepted": 0.07438245373302833,
+        "correct": 0.06099441289608036,
+        "incorrect": 0.013388040836947968,
+        "connected": 0.06052152073300005,
+        "largest": 0.06052152073299843,
+        "other_footprint_rays": 0
+      },
+      "pressure_07": {
+        "reference": 0.07605143041222448,
+        "accepted": 0.07578841164548426,
+        "correct": 0.04145759747414629,
+        "incorrect": 0.034330814171337966,
+        "connected": 0.0,
+        "largest": 0.013276448639022071,
+        "other_footprint_rays": 61
+      },
+      "pressure_08": {
+        "reference": 0.06933841346790479,
+        "accepted": 0.06921382239124192,
+        "correct": 0.06680292730841603,
+        "incorrect": 0.002410895082825899,
+        "connected": 0.06680292730841603,
+        "largest": 0.06680292730841608,
+        "other_footprint_rays": 2056
+      }
+    },
+    "two_route_phase": {
+      "pressure_01": {
+        "reference": 0.08203505291192101,
+        "accepted": 0.01870280937865044,
+        "correct": 0.010750967903893863,
+        "incorrect": 0.007951841474756579,
+        "connected": 0.01012256221548778,
+        "largest": 0.010122562215487817,
+        "other_footprint_rays": 0
+      },
+      "pressure_02": {
+        "reference": 0.07419460310379722,
+        "accepted": 0.042488877569497756,
+        "correct": 0.042481495754358334,
+        "incorrect": 7.381815139422677e-06,
+        "connected": 0.04114615603911248,
+        "largest": 0.04114615603911263,
+        "other_footprint_rays": 0
+      },
+      "pressure_03": {
+        "reference": 0.07959277429241951,
+        "accepted": 0.07851773672646055,
+        "correct": 0.072731631786645,
+        "incorrect": 0.005786104939815542,
+        "connected": 0.07021738003027755,
+        "largest": 0.07021738003027823,
+        "other_footprint_rays": 0
+      },
+      "pressure_04": {
+        "reference": 0.07418267703384362,
+        "accepted": 0.0673107843814168,
+        "correct": 0.0667875242317599,
+        "incorrect": 0.0005232601496568969,
+        "connected": 0.06215712255669194,
+        "largest": 0.062157122556693215,
+        "other_footprint_rays": 11
+      },
+      "pressure_05": {
+        "reference": 0.0815990183457172,
+        "accepted": 0.08133066893341301,
+        "correct": 0.044897805929045256,
+        "incorrect": 0.03643286300436776,
+        "connected": 0.043559852007018056,
+        "largest": 0.04355985200701881,
+        "other_footprint_rays": 0
+      },
+      "pressure_06": {
+        "reference": 0.07438245373302833,
+        "accepted": 0.053686883445534114,
+        "correct": 0.05173020998827076,
+        "incorrect": 0.001956673457263346,
+        "connected": 0.04591989151787606,
+        "largest": 0.04591989151787593,
+        "other_footprint_rays": 0
+      },
+      "pressure_07": {
+        "reference": 0.07605143041222448,
+        "accepted": 0.0750130442551031,
+        "correct": 0.0677930013390911,
+        "incorrect": 0.00722004291601201,
+        "connected": 0.06776153559556279,
+        "largest": 0.06776153559556407,
+        "other_footprint_rays": 67
+      },
+      "pressure_08": {
+        "reference": 0.06933841346790479,
+        "accepted": 0.06528526258485619,
+        "correct": 0.06290003298893294,
+        "incorrect": 0.0023852295959232404,
+        "connected": 0.06285809532422222,
+        "largest": 0.06285809532422001,
+        "other_footprint_rays": 510
+      }
+    },
+    "graph_phase": {
+      "pressure_01": {
+        "reference": 0.08203505291192101,
+        "accepted": 0.08066112790486896,
+        "correct": 0.0633648151214304,
+        "incorrect": 0.01729631278343856,
+        "connected": 0.06203209119751528,
+        "largest": 0.06203209119751703,
+        "other_footprint_rays": 0
+      },
+      "pressure_02": {
+        "reference": 0.07419460310379722,
+        "accepted": 0.07419460310379722,
+        "correct": 0.0645778120112323,
+        "incorrect": 0.009616791092564914,
+        "connected": 0.06360448522604525,
+        "largest": 0.06360448522604475,
+        "other_footprint_rays": 0
+      },
+      "pressure_03": {
+        "reference": 0.07959277429241951,
+        "accepted": 0.0793087224346658,
+        "correct": 0.07350905399905876,
+        "incorrect": 0.005799668435607038,
+        "connected": 0.07344393817163392,
+        "largest": 0.07344393817163561,
+        "other_footprint_rays": 0
+      },
+      "pressure_04": {
+        "reference": 0.07418267703384362,
+        "accepted": 0.07418267703384362,
+        "correct": 0.07092019152937273,
+        "incorrect": 0.003262485504470891,
+        "connected": 0.07090531537278785,
+        "largest": 0.07090531537279031,
+        "other_footprint_rays": 12
+      },
+      "pressure_05": {
+        "reference": 0.0815990183457172,
+        "accepted": 0.08133066893341301,
+        "correct": 0.044897805929045256,
+        "incorrect": 0.03643286300436776,
+        "connected": 0.043559852007018056,
+        "largest": 0.04355985200701881,
+        "other_footprint_rays": 0
+      },
+      "pressure_06": {
+        "reference": 0.07438245373302833,
+        "accepted": 0.07438245373302833,
+        "correct": 0.06553616631026177,
+        "incorrect": 0.008846287422766564,
+        "connected": 0.06445440508574243,
+        "largest": 0.06445440508574009,
+        "other_footprint_rays": 0
+      },
+      "pressure_07": {
+        "reference": 0.07605143041222448,
+        "accepted": 0.07583966996827264,
+        "correct": 0.06820823456203158,
+        "incorrect": 0.007631435406241054,
+        "connected": 0.06814684944954019,
+        "largest": 0.0681468494495416,
+        "other_footprint_rays": 67
+      },
+      "pressure_08": {
+        "reference": 0.06933841346790479,
+        "accepted": 0.06920579072509155,
+        "correct": 0.06619812324367823,
+        "incorrect": 0.00300766748141332,
+        "connected": 0.06619812324367823,
+        "largest": 0.06619812324367809,
+        "other_footprint_rays": 2058
+      }
+    },
+    "blend_2": {
+      "pressure_01": {
+        "reference": 0.08203505291192101,
+        "accepted": 0.08203505291192101,
+        "correct": 0.05763803200106519,
+        "incorrect": 0.02439702091085582,
+        "connected": 0.056441422727505436,
+        "largest": 0.05644142272750701,
+        "other_footprint_rays": 0
+      },
+      "pressure_02": {
+        "reference": 0.07419460310379722,
+        "accepted": 0.07419460310379722,
+        "correct": 0.0739085175071145,
+        "incorrect": 0.0002860855966827333,
+        "connected": 0.0739085175071145,
+        "largest": 0.07390851750711659,
+        "other_footprint_rays": 0
+      },
+      "pressure_03": {
+        "reference": 0.07959277429241951,
+        "accepted": 0.07959277429241951,
+        "correct": 0.06590672498440017,
+        "incorrect": 0.013686049308019334,
+        "connected": 0.06517153641350151,
+        "largest": 0.06517153641350304,
+        "other_footprint_rays": 0
+      },
+      "pressure_04": {
+        "reference": 0.07418267703384362,
+        "accepted": 0.07418267703384362,
+        "correct": 0.07365188376746262,
+        "incorrect": 0.0005307932663809992,
+        "connected": 0.07364816210982739,
+        "largest": 0.07364816210983016,
+        "other_footprint_rays": 19
+      },
+      "pressure_05": {
+        "reference": 0.0815990183457172,
+        "accepted": 0.0815990183457172,
+        "correct": 0.07810656873066785,
+        "incorrect": 0.003492449615049354,
+        "connected": 0.07810656873066785,
+        "largest": 0.07810656873066699,
+        "other_footprint_rays": 0
+      },
+      "pressure_06": {
+        "reference": 0.07438245373302833,
+        "accepted": 0.07438245373302833,
+        "correct": 0.06568582819784947,
+        "incorrect": 0.00869662553517886,
+        "connected": 0.0654757160239588,
+        "largest": 0.06547571602395548,
+        "other_footprint_rays": 0
+      },
+      "pressure_07": {
+        "reference": 0.07605143041222448,
+        "accepted": 0.07605143041222448,
+        "correct": 0.04122249073510202,
+        "incorrect": 0.034828939677122445,
+        "connected": 0.0,
+        "largest": 0.011773634188640759,
+        "other_footprint_rays": 71
+      },
+      "pressure_08": {
+        "reference": 0.06933841346790479,
+        "accepted": 0.06933841346790479,
+        "correct": 0.06720551846042616,
+        "incorrect": 0.002132895007478617,
+        "connected": 0.06720551846042616,
+        "largest": 0.06720551846042627,
+        "other_footprint_rays": 2124
+      }
+    },
+    "blend_4": {
+      "pressure_01": {
+        "reference": 0.08203505291192101,
+        "accepted": 0.08203505291192101,
+        "correct": 0.05762308568018417,
+        "incorrect": 0.02441196723173684,
+        "connected": 0.05642647640662442,
+        "largest": 0.056426476406625986,
+        "other_footprint_rays": 0
+      },
+      "pressure_02": {
+        "reference": 0.07419460310379722,
+        "accepted": 0.07419460310379722,
+        "correct": 0.07350293003042835,
+        "incorrect": 0.0006916730733688765,
+        "connected": 0.07350293003042835,
+        "largest": 0.07350293003043036,
+        "other_footprint_rays": 0
+      },
+      "pressure_03": {
+        "reference": 0.07959277429241951,
+        "accepted": 0.07959277429241951,
+        "correct": 0.06616454995124271,
+        "incorrect": 0.01342822434117679,
+        "connected": 0.0654958978766742,
+        "largest": 0.06549589787667565,
+        "other_footprint_rays": 0
+      },
+      "pressure_04": {
+        "reference": 0.07418267703384362,
+        "accepted": 0.07418267703384362,
+        "correct": 0.07367045504689784,
+        "incorrect": 0.0005122219869457805,
+        "connected": 0.0736667333892626,
+        "largest": 0.07366673338926537,
+        "other_footprint_rays": 19
+      },
+      "pressure_05": {
+        "reference": 0.0815990183457172,
+        "accepted": 0.0815990183457172,
+        "correct": 0.07810656873066785,
+        "incorrect": 0.003492449615049354,
+        "connected": 0.07810656873066785,
+        "largest": 0.07810656873066699,
+        "other_footprint_rays": 0
+      },
+      "pressure_06": {
+        "reference": 0.07438245373302833,
+        "accepted": 0.07438245373302833,
+        "correct": 0.0660101279935133,
+        "incorrect": 0.008372325739515022,
+        "connected": 0.06580001581962264,
+        "largest": 0.06580001581961932,
+        "other_footprint_rays": 0
+      },
+      "pressure_07": {
+        "reference": 0.07605143041222448,
+        "accepted": 0.07605143041222448,
+        "correct": 0.040874237738094524,
+        "incorrect": 0.03517719267412994,
+        "connected": 0.0,
+        "largest": 0.011773634188640759,
+        "other_footprint_rays": 71
+      },
+      "pressure_08": {
+        "reference": 0.06933841346790479,
+        "accepted": 0.06933841346790479,
+        "correct": 0.06720551846042616,
+        "incorrect": 0.002132895007478617,
+        "connected": 0.06720551846042616,
+        "largest": 0.06720551846042627,
+        "other_footprint_rays": 2124
+      }
+    },
+    "blend_8": {
+      "pressure_01": {
+        "reference": 0.08203505291192101,
+        "accepted": 0.08203505291192101,
+        "correct": 0.05762308568018417,
+        "incorrect": 0.024411967231736845,
+        "connected": 0.05642647640662442,
+        "largest": 0.056426476406625986,
+        "other_footprint_rays": 0
+      },
+      "pressure_02": {
+        "reference": 0.07419460310379722,
+        "accepted": 0.07419460310379722,
+        "correct": 0.06907702383707198,
+        "incorrect": 0.00511757926672524,
+        "connected": 0.06907333313937153,
+        "largest": 0.06907333313937249,
+        "other_footprint_rays": 0
+      },
+      "pressure_03": {
+        "reference": 0.07959277429241951,
+        "accepted": 0.07959277429241951,
+        "correct": 0.06616881226213225,
+        "incorrect": 0.013423962030287243,
+        "connected": 0.06550016018756377,
+        "largest": 0.0655001601875652,
+        "other_footprint_rays": 0
+      },
+      "pressure_04": {
+        "reference": 0.07418267703384362,
+        "accepted": 0.07418267703384362,
+        "correct": 0.07351408247565942,
+        "incorrect": 0.0006685945581841918,
+        "connected": 0.07351036081802419,
+        "largest": 0.07351036081802703,
+        "other_footprint_rays": 19
+      },
+      "pressure_05": {
+        "reference": 0.0815990183457172,
+        "accepted": 0.0815990183457172,
+        "correct": 0.07810656873066785,
+        "incorrect": 0.003492449615049354,
+        "connected": 0.07810656873066785,
+        "largest": 0.07810656873066699,
+        "other_footprint_rays": 0
+      },
+      "pressure_06": {
+        "reference": 0.07438245373302833,
+        "accepted": 0.07438245373302833,
+        "correct": 0.0652998509010767,
+        "incorrect": 0.009082602831951635,
+        "connected": 0.06508973872718603,
+        "largest": 0.06508973872718285,
+        "other_footprint_rays": 0
+      },
+      "pressure_07": {
+        "reference": 0.07605143041222448,
+        "accepted": 0.07605143041222448,
+        "correct": 0.04073860166805318,
+        "incorrect": 0.035312828744171285,
+        "connected": 0.0,
+        "largest": 0.011773634188640759,
+        "other_footprint_rays": 71
+      },
+      "pressure_08": {
+        "reference": 0.06933841346790479,
+        "accepted": 0.06933841346790479,
+        "correct": 0.06720551846042616,
+        "incorrect": 0.002132895007478617,
+        "connected": 0.06720551846042616,
+        "largest": 0.06720551846042627,
+        "other_footprint_rays": 2124
+      }
+    },
+    "ridge_25": {
+      "pressure_01": {
+        "reference": 0.08203505291192101,
+        "accepted": 0.08203505291192101,
+        "correct": 0.0593862765872465,
+        "incorrect": 0.02264877632467451,
+        "connected": 0.05791006577603288,
+        "largest": 0.057910065776034345,
+        "other_footprint_rays": 0
+      },
+      "pressure_02": {
+        "reference": 0.07419460310379722,
+        "accepted": 0.07419460310379722,
+        "correct": 0.07048093718560289,
+        "incorrect": 0.0037136659181943414,
+        "connected": 0.07048093718560289,
+        "largest": 0.0704809371856038,
+        "other_footprint_rays": 0
+      },
+      "pressure_03": {
+        "reference": 0.07959277429241951,
+        "accepted": 0.07959277429241951,
+        "correct": 0.06797390221480051,
+        "incorrect": 0.011618872077619006,
+        "connected": 0.06793566707914074,
+        "largest": 0.06793566707914184,
+        "other_footprint_rays": 0
+      },
+      "pressure_04": {
+        "reference": 0.07418267703384362,
+        "accepted": 0.07418267703384362,
+        "correct": 0.07367407887526153,
+        "incorrect": 0.0005085981585820932,
+        "connected": 0.07364807647207622,
+        "largest": 0.07364807647207897,
+        "other_footprint_rays": 19
+      },
+      "pressure_05": {
+        "reference": 0.0815990183457172,
+        "accepted": 0.0815990183457172,
+        "correct": 0.0776734166731131,
+        "incorrect": 0.00392560167260411,
+        "connected": 0.0776734166731131,
+        "largest": 0.07767341667311232,
+        "other_footprint_rays": 0
+      },
+      "pressure_06": {
+        "reference": 0.07438245373302833,
+        "accepted": 0.07438245373302833,
+        "correct": 0.0628615957475502,
+        "incorrect": 0.011520857985478127,
+        "connected": 0.06257311109939091,
+        "largest": 0.06257311109938912,
+        "other_footprint_rays": 0
+      },
+      "pressure_07": {
+        "reference": 0.07605143041222448,
+        "accepted": 0.07605143041222448,
+        "correct": 0.04150638576533992,
+        "incorrect": 0.03454504464688455,
+        "connected": 0.0,
+        "largest": 0.013329682717756237,
+        "other_footprint_rays": 71
+      },
+      "pressure_08": {
+        "reference": 0.06933841346790479,
+        "accepted": 0.06933841346790479,
+        "correct": 0.06696404906718972,
+        "incorrect": 0.0023743644007150513,
+        "connected": 0.06696404906718972,
+        "largest": 0.06696404906718985,
+        "other_footprint_rays": 2124
+      }
+    },
+    "ridge_50": {
+      "pressure_01": {
+        "reference": 0.08203505291192101,
+        "accepted": 0.08203505291192101,
+        "correct": 0.05932348723945685,
+        "incorrect": 0.022711565672464164,
+        "connected": 0.05786198990658657,
+        "largest": 0.05786198990658805,
+        "other_footprint_rays": 0
+      },
+      "pressure_02": {
+        "reference": 0.07419460310379722,
+        "accepted": 0.07419460310379722,
+        "correct": 0.07066178124325209,
+        "incorrect": 0.0035328218605451367,
+        "connected": 0.07066178124325209,
+        "largest": 0.070661781243253,
+        "other_footprint_rays": 0
+      },
+      "pressure_03": {
+        "reference": 0.07959277429241951,
+        "accepted": 0.07959277429241951,
+        "correct": 0.06782857843049725,
+        "incorrect": 0.011764195861922264,
+        "connected": 0.06780262062046877,
+        "largest": 0.06780262062046993,
+        "other_footprint_rays": 0
+      },
+      "pressure_04": {
+        "reference": 0.07418267703384362,
+        "accepted": 0.07418267703384362,
+        "correct": 0.07368152296370964,
+        "incorrect": 0.0005011540701339832,
+        "connected": 0.07368152296370964,
+        "largest": 0.07368152296371237,
+        "other_footprint_rays": 19
+      },
+      "pressure_05": {
+        "reference": 0.0815990183457172,
+        "accepted": 0.0815990183457172,
+        "correct": 0.07766862530780483,
+        "incorrect": 0.00393039303791237,
+        "connected": 0.07766862530780483,
+        "largest": 0.07766862530780404,
+        "other_footprint_rays": 0
+      },
+      "pressure_06": {
+        "reference": 0.07438245373302833,
+        "accepted": 0.07438245373302833,
+        "correct": 0.06291643785391438,
+        "incorrect": 0.011466015879113953,
+        "connected": 0.06262813306275972,
+        "largest": 0.06262813306275787,
+        "other_footprint_rays": 0
+      },
+      "pressure_07": {
+        "reference": 0.07605143041222448,
+        "accepted": 0.07605143041222448,
+        "correct": 0.04164643974920651,
+        "incorrect": 0.03440499066301796,
+        "connected": 0.0,
+        "largest": 0.013329378691889849,
+        "other_footprint_rays": 71
+      },
+      "pressure_08": {
+        "reference": 0.06933841346790479,
+        "accepted": 0.06933841346790479,
+        "correct": 0.06698301259970421,
+        "incorrect": 0.002355400868200579,
+        "connected": 0.06698301259970421,
+        "largest": 0.0669830125997043,
+        "other_footprint_rays": 2124
+      }
+    },
+    "ridge_50_half": {
+      "pressure_01": {
+        "reference": 0.08203505291192101,
+        "accepted": 0.08203505291192101,
+        "correct": 0.0577668124713318,
+        "incorrect": 0.02426824044058921,
+        "connected": 0.056600113160138896,
+        "largest": 0.05660011316014032,
+        "other_footprint_rays": 0
+      },
+      "pressure_02": {
+        "reference": 0.07419460310379722,
+        "accepted": 0.07419460310379722,
+        "correct": 0.07372163520670832,
+        "incorrect": 0.0004729678970888977,
+        "connected": 0.07372163520670832,
+        "largest": 0.07372163520671049,
+        "other_footprint_rays": 0
+      },
+      "pressure_03": {
+        "reference": 0.07959277429241951,
+        "accepted": 0.07959277429241951,
+        "correct": 0.06520681356683722,
+        "incorrect": 0.014385960725582288,
+        "connected": 0.06439069765168517,
+        "largest": 0.06439069765168669,
+        "other_footprint_rays": 0
+      },
+      "pressure_04": {
+        "reference": 0.07418267703384362,
+        "accepted": 0.07418267703384362,
+        "correct": 0.07367775847734337,
+        "incorrect": 0.0005049185565002347,
+        "connected": 0.07367404384831691,
+        "largest": 0.07367404384831969,
+        "other_footprint_rays": 19
+      },
+      "pressure_05": {
+        "reference": 0.0815990183457172,
+        "accepted": 0.0815990183457172,
+        "correct": 0.07826416717620036,
+        "incorrect": 0.003334851169516863,
+        "connected": 0.07826416717620036,
+        "largest": 0.07826416717619934,
+        "other_footprint_rays": 0
+      },
+      "pressure_06": {
+        "reference": 0.07438245373302833,
+        "accepted": 0.07438245373302833,
+        "correct": 0.0662455730458974,
+        "incorrect": 0.008136880687130931,
+        "connected": 0.06602432597292329,
+        "largest": 0.06602432597292013,
+        "other_footprint_rays": 0
+      },
+      "pressure_07": {
+        "reference": 0.07605143041222448,
+        "accepted": 0.07605143041222448,
+        "correct": 0.04086378938409903,
+        "incorrect": 0.03518764102812544,
+        "connected": 0.0,
+        "largest": 0.011817547940463252,
+        "other_footprint_rays": 71
+      },
+      "pressure_08": {
+        "reference": 0.06933841346790479,
+        "accepted": 0.06933841346790479,
+        "correct": 0.06728220622438512,
+        "incorrect": 0.0020562072435196706,
+        "connected": 0.06728220622438512,
+        "largest": 0.06728220622438519,
+        "other_footprint_rays": 2124
+      }
+    }
+  },
+  "comparisons": {
+    "stock_offset": {
+      "stock": {
+        "reference": 0.6113764233008562,
+        "accepted": 0.6113764233008562,
+        "correct": 0.5190363869156063,
+        "incorrect": 0.09234003638524992,
+        "connected": 0.47653829102452144,
+        "largest": 0.48800010752117706,
+        "other_footprint_rays": 2214,
+        "risk": 0.15103630572912968
+      },
+      "candidate": {
+        "reference": 0.6113764233008562,
+        "accepted": 0.6113764233008562,
+        "correct": 0.5695827951004448,
+        "incorrect": 0.0417936282004113,
+        "connected": 0.5682146567094745,
+        "largest": 0.5682146567094766,
+        "other_footprint_rays": 2214,
+        "risk": 0.06835989516043997
+      },
+      "connected_delta_cm2": 0.09167636568495299,
+      "connected_gain_percent": 19.237985154950657,
+      "risk_difference_points": -8.267641056868971,
+      "improved": 4,
+      "same": 1,
+      "worse": 3,
+      "positive_point_estimate": true,
+      "paired_area_delta_95_cm2": [
+        -0.020301774767652596,
+        0.24254500717488633
+      ],
+      "paired_risk_difference_95_points": [
+        -20.655554946308534,
+        3.3720818802593593
+      ]
+    },
+    "tapered_offset": {
+      "stock": {
+        "reference": 0.6113764233008562,
+        "accepted": 0.6113764233008562,
+        "correct": 0.5190363869156063,
+        "incorrect": 0.09234003638524992,
+        "connected": 0.47653829102452144,
+        "largest": 0.48800010752117706,
+        "other_footprint_rays": 2214,
+        "risk": 0.15103630572912968
+      },
+      "candidate": {
+        "reference": 0.6113764233008562,
+        "accepted": 0.6113764233008562,
+        "correct": 0.5411152308453155,
+        "incorrect": 0.07026119245554062,
+        "connected": 0.5357433530211826,
+        "largest": 0.5357433530211851,
+        "other_footprint_rays": 2214,
+        "risk": 0.11492296689524996
+      },
+      "connected_delta_cm2": 0.059205061996661174,
+      "connected_gain_percent": 12.423988399625713,
+      "risk_difference_points": -3.6113338833879722,
+      "improved": 5,
+      "same": 1,
+      "worse": 2,
+      "positive_point_estimate": true,
+      "paired_area_delta_95_cm2": [
+        0.0028749539810520855,
+        0.15705700994137547
+      ],
+      "paired_risk_difference_95_points": [
+        -7.628889632001995,
+        -0.48779275205276296
+      ]
+    },
+    "two_route": {
+      "stock": {
+        "reference": 0.6113764233008562,
+        "accepted": 0.6113764233008562,
+        "correct": 0.5190363869156063,
+        "incorrect": 0.09234003638524992,
+        "connected": 0.47653829102452144,
+        "largest": 0.48800010752117706,
+        "other_footprint_rays": 2214,
+        "risk": 0.15103630572912968
+      },
+      "candidate": {
+        "reference": 0.6113764233008562,
+        "accepted": 0.482294926458882,
+        "correct": 0.4136852207627505,
+        "incorrect": 0.06860970569613153,
+        "connected": 0.35466016953190865,
+        "largest": 0.36793661817093104,
+        "other_footprint_rays": 582,
+        "risk": 0.14225674360682053
+      },
+      "connected_delta_cm2": -0.12187812149261282,
+      "connected_gain_percent": -25.575724718906436,
+      "risk_difference_points": -0.8779562122309154,
+      "improved": 1,
+      "same": 1,
+      "worse": 6,
+      "positive_point_estimate": false,
+      "paired_area_delta_95_cm2": [
+        -0.2240309507766732,
+        -0.03241798048790657
+      ],
+      "paired_risk_difference_95_points": [
+        -4.140949254728805,
+        2.755845184091742
+      ]
+    },
+    "graph": {
+      "stock": {
+        "reference": 0.6113764233008562,
+        "accepted": 0.6113764233008562,
+        "correct": 0.5190363869156063,
+        "incorrect": 0.09234003638524992,
+        "connected": 0.47653829102452144,
+        "largest": 0.48800010752117706,
+        "other_footprint_rays": 2214,
+        "risk": 0.15103630572912968
+      },
+      "candidate": {
+        "reference": 0.6113764233008562,
+        "accepted": 0.6090459486644396,
+        "correct": 0.5081347794036093,
+        "incorrect": 0.1009111692608304,
+        "connected": 0.4643314324835993,
+        "largest": 0.47760788112262315,
+        "other_footprint_rays": 2129,
+        "risk": 0.16568728432085586
+      },
+      "connected_delta_cm2": -0.012206858540922176,
+      "connected_gain_percent": -2.5615692948153965,
+      "risk_difference_points": 1.4650978591726176,
+      "improved": 2,
+      "same": 1,
+      "worse": 5,
+      "positive_point_estimate": false,
+      "paired_area_delta_95_cm2": [
+        -0.04242880451686121,
+        0.017052206492715626
+      ],
+      "paired_risk_difference_95_points": [
+        -3.1259716355909424,
+        6.546558659312907
+      ]
+    },
+    "two_route_phase": {
+      "stock": {
+        "reference": 0.6113764233008562,
+        "accepted": 0.6113764233008562,
+        "correct": 0.5190363869156063,
+        "incorrect": 0.09234003638524992,
+        "connected": 0.47653829102452144,
+        "largest": 0.48800010752117706,
+        "other_footprint_rays": 2214,
+        "risk": 0.15103630572912968
+      },
+      "candidate": {
+        "reference": 0.6113764233008562,
+        "accepted": 0.48233606727493195,
+        "correct": 0.42007266992199715,
+        "incorrect": 0.0622633973529348,
+        "connected": 0.4037425952862489,
+        "largest": 0.4037425952862507,
+        "other_footprint_rays": 588,
+        "risk": 0.12908716883791443
+      },
+      "connected_delta_cm2": -0.07279569573827258,
+      "connected_gain_percent": -15.275938389288154,
+      "risk_difference_points": -2.194913689121525,
+      "improved": 2,
+      "same": 0,
+      "worse": 6,
+      "positive_point_estimate": false,
+      "paired_area_delta_95_cm2": [
+        -0.22993650070750796,
+        0.13072506626237582
+      ],
+      "paired_risk_difference_95_points": [
+        -17.266989176222907,
+        15.248715421961965
+      ]
+    },
+    "graph_phase": {
+      "stock": {
+        "reference": 0.6113764233008562,
+        "accepted": 0.6113764233008562,
+        "correct": 0.5190363869156063,
+        "incorrect": 0.09234003638524992,
+        "connected": 0.47653829102452144,
+        "largest": 0.48800010752117706,
+        "other_footprint_rays": 2214,
+        "risk": 0.15103630572912968
+      },
+      "candidate": {
+        "reference": 0.6113764233008562,
+        "accepted": 0.6091057138369811,
+        "correct": 0.517212202706111,
+        "incorrect": 0.0918935111308701,
+        "connected": 0.5123450597539612,
+        "largest": 0.5123450597539663,
+        "other_footprint_rays": 2137,
+        "risk": 0.15086627664678937
+      },
+      "connected_delta_cm2": 0.03580676872943975,
+      "connected_gain_percent": 7.51393317260149,
+      "risk_difference_points": -0.01700290823403172,
+      "improved": 3,
+      "same": 0,
+      "worse": 5,
+      "positive_point_estimate": true,
+      "paired_area_delta_95_cm2": [
+        -0.09941641882396751,
+        0.20481166757480473
+      ],
+      "paired_risk_difference_95_points": [
+        -14.821554651086508,
+        15.520850477427198
+      ]
+    },
+    "blend_2": {
+      "stock": {
+        "reference": 0.6113764233008562,
+        "accepted": 0.6113764233008562,
+        "correct": 0.5190363869156063,
+        "incorrect": 0.09234003638524992,
+        "connected": 0.47653829102452144,
+        "largest": 0.48800010752117706,
+        "other_footprint_rays": 2214,
+        "risk": 0.15103630572912968
+      },
+      "candidate": {
+        "reference": 0.6113764233008562,
+        "accepted": 0.6113764233008562,
+        "correct": 0.523325564384088,
+        "incorrect": 0.08805085891676816,
+        "connected": 0.4799574419730016,
+        "largest": 0.4917310761616463,
+        "other_footprint_rays": 2214,
+        "risk": 0.14402069749660373
+      },
+      "connected_delta_cm2": 0.003419150948480172,
+      "connected_gain_percent": 0.7174976309100481,
+      "risk_difference_points": -0.701560823252595,
+      "improved": 2,
+      "same": 1,
+      "worse": 5,
+      "positive_point_estimate": true,
+      "paired_area_delta_95_cm2": [
+        -0.004812569098210248,
+        0.012538769478671559
+      ],
+      "paired_risk_difference_95_points": [
+        -2.129077521881917,
+        0.6548950014622036
+      ]
+    },
+    "blend_4": {
+      "stock": {
+        "reference": 0.6113764233008562,
+        "accepted": 0.6113764233008562,
+        "correct": 0.5190363869156063,
+        "incorrect": 0.09234003638524992,
+        "connected": 0.47653829102452144,
+        "largest": 0.48800010752117706,
+        "other_footprint_rays": 2214,
+        "risk": 0.15103630572912968
+      },
+      "candidate": {
+        "reference": 0.6113764233008562,
+        "accepted": 0.6113764233008562,
+        "correct": 0.5231574736314549,
+        "incorrect": 0.08821894966940122,
+        "connected": 0.4802041407137062,
+        "largest": 0.4919777749023507,
+        "other_footprint_rays": 2214,
+        "risk": 0.14429563572815268
+      },
+      "connected_delta_cm2": 0.0036658496891847567,
+      "connected_gain_percent": 0.7692665538593879,
+      "risk_difference_points": -0.6740670000977,
+      "improved": 2,
+      "same": 1,
+      "worse": 5,
+      "positive_point_estimate": true,
+      "paired_area_delta_95_cm2": [
+        -0.004650901154902177,
+        0.013362153133873057
+      ],
+      "paired_risk_difference_95_points": [
+        -2.149789545654281,
+        0.6333032386834755
+      ]
+    },
+    "blend_8": {
+      "stock": {
+        "reference": 0.6113764233008562,
+        "accepted": 0.6113764233008562,
+        "correct": 0.5190363869156063,
+        "incorrect": 0.09234003638524992,
+        "connected": 0.47653829102452144,
+        "largest": 0.48800010752117706,
+        "other_footprint_rays": 2214,
+        "risk": 0.15103630572912968
+      },
+      "candidate": {
+        "reference": 0.6113764233008562,
+        "accepted": 0.6113764233008562,
+        "correct": 0.5177335440152717,
+        "incorrect": 0.0936428792855844,
+        "connected": 0.47491215646986396,
+        "largest": 0.4866857906585076,
+        "other_footprint_rays": 2214,
+        "risk": 0.15316730530758965
+      },
+      "connected_delta_cm2": -0.0016261345546575226,
+      "connected_gain_percent": -0.34123901169860993,
+      "risk_difference_points": 0.2130999578459969,
+      "improved": 2,
+      "same": 1,
+      "worse": 5,
+      "positive_point_estimate": false,
+      "paired_area_delta_95_cm2": [
+        -0.01592695625748796,
+        0.012140424609729875
+      ],
+      "paired_risk_difference_95_points": [
+        -1.9180640551043073,
+        2.595291850451304
+      ]
+    },
+    "ridge_25": {
+      "stock": {
+        "reference": 0.6113764233008562,
+        "accepted": 0.6113764233008562,
+        "correct": 0.5190363869156063,
+        "incorrect": 0.09234003638524992,
+        "connected": 0.47653829102452144,
+        "largest": 0.48800010752117706,
+        "other_footprint_rays": 2214,
+        "risk": 0.15103630572912968
+      },
+      "candidate": {
+        "reference": 0.6113764233008562,
+        "accepted": 0.6113764233008562,
+        "correct": 0.5205206421161044,
+        "incorrect": 0.0908557811847518,
+        "connected": 0.4771853233525465,
+        "largest": 0.49051500607030646,
+        "other_footprint_rays": 2214,
+        "risk": 0.14860857848298475
+      },
+      "connected_delta_cm2": 0.0006470323280250018,
+      "connected_gain_percent": 0.1357776154008382,
+      "risk_difference_points": -0.24277272461449284,
+      "improved": 2,
+      "same": 1,
+      "worse": 5,
+      "positive_point_estimate": true,
+      "paired_area_delta_95_cm2": [
+        -0.01753806547706037,
+        0.020029289962232195
+      ],
+      "paired_risk_difference_95_points": [
+        -3.140489746010831,
+        2.6829211499931214
+      ]
+    },
+    "ridge_50": {
+      "stock": {
+        "reference": 0.6113764233008562,
+        "accepted": 0.6113764233008562,
+        "correct": 0.5190363869156063,
+        "incorrect": 0.09234003638524992,
+        "connected": 0.47653829102452144,
+        "largest": 0.48800010752117706,
+        "other_footprint_rays": 2214,
+        "risk": 0.15103630572912968
+      },
+      "candidate": {
+        "reference": 0.6113764233008562,
+        "accepted": 0.6113764233008562,
+        "correct": 0.5207098853875458,
+        "incorrect": 0.09066653791331042,
+        "connected": 0.4772876857042858,
+        "largest": 0.4906170643961794,
+        "other_footprint_rays": 2214,
+        "risk": 0.1482990420595492
+      },
+      "connected_delta_cm2": 0.0007493946797643633,
+      "connected_gain_percent": 0.15725801973923673,
+      "risk_difference_points": -0.2737263669580492,
+      "improved": 3,
+      "same": 1,
+      "worse": 4,
+      "positive_point_estimate": true,
+      "paired_area_delta_95_cm2": [
+        -0.016941395654195848,
+        0.019606125866860315
+      ],
+      "paired_risk_difference_95_points": [
+        -3.0980858207792354,
+        2.5915202220827744
+      ]
+    },
+    "ridge_50_half": {
+      "stock": {
+        "reference": 0.6113764233008562,
+        "accepted": 0.6113764233008562,
+        "correct": 0.5190363869156063,
+        "incorrect": 0.09234003638524992,
+        "connected": 0.47653829102452144,
+        "largest": 0.48800010752117706,
+        "other_footprint_rays": 2214,
+        "risk": 0.15103630572912968
+      },
+      "candidate": {
+        "reference": 0.6113764233008562,
+        "accepted": 0.6113764233008562,
+        "correct": 0.5230287555528026,
+        "incorrect": 0.08834766774805354,
+        "connected": 0.4799571892403581,
+        "largest": 0.4917747371808251,
+        "other_footprint_rays": 2214,
+        "risk": 0.14450617390683704
+      },
+      "connected_delta_cm2": 0.003418898215836609,
+      "connected_gain_percent": 0.7174445957923413,
+      "risk_difference_points": -0.6530131822292645,
+      "improved": 3,
+      "same": 1,
+      "worse": 4,
+      "positive_point_estimate": true,
+      "paired_area_delta_95_cm2": [
+        -0.00358401727745683,
+        0.011411581481002466
+      ],
+      "paired_risk_difference_95_points": [
+        -1.810463813562782,
+        0.447593479439044
+      ]
+    }
+  }
+}

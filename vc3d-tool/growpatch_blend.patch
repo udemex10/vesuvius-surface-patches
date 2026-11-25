@@ -1,0 +1,723 @@
+diff --git a/segmentation/growpatch_blend/README.md b/segmentation/growpatch_blend/README.md
+new file mode 100644
+index 0000000..14e9f82
+--- /dev/null
++++ b/segmentation/growpatch_blend/README.md
+@@ -0,0 +1,67 @@
++# growpatch_blend
++
++Refines a GrowPatch segment so it sits more squarely on the papyrus sheet it is already following. It takes a
++tifxyz segment (VC3D's surface format) and the surface prediction it was grown on, and writes a new tifxyz segment
++with the same files GrowPatch writes. Here "sheet" means one labeled papyrus layer, as in the Vesuvius Challenge instance labels.
++
++```sh
++python -m segmentation.growpatch_blend /path/to/scroll.volpkg/paths/<segment> <prediction.zarr>/0 --workers 8
++```
++
++The new segment is written next to the input as `<segment>_blend`. It also holds `move.npy` (how far each point
++moved, in voxels) and `blend_report.json`. Its grid is 4× denser than an 8-voxel GrowPatch grid.
++
++## What it does
++
++Tiles are laid every 32 voxels over the segment. In each tile, a second, independent trace of the same prediction
++is grown from the segment (a ridge-following graph trace). Both surfaces are then compared along short rays across
++the sheet:
++
++- Where both see exactly one sheet and are within 8 voxels of each other, the segment point moves halfway toward
++  the trace.
++- Where they disagree by more, or either sees several sheets, the point stays where GrowPatch put it.
++- A tile whose trace finds no ridge near the segment changes nothing.
++
++Each point's move is a weighted average of the tiles that see it, so no point moves more than 4 voxels. The tool
++never looks at labels.
++
++## Evidence
++
++Tested against the Vesuvius Challenge hand labels of PHerc. Paris. 4 (Scroll 1, 7.91 µm). The settings were fixed
++on 16 labeled regions first, then the tool ran once on 16 other regions:
++
++| GrowPatch cutoff | Target-sheet area within 128 voxels of the seed | Regions better / tied / worse | Share of labeled hits on a wrong sheet |
++|---|---|---|---|
++| 1 | 30.48 → 33.98 mm² (+11.5%) | 15 / 1 / 0 | 2.94% → 3.73% |
++| 128 | 25.02 → 30.22 mm² (+20.8%) | 15 / 1 / 0 | 1.66% → 4.14% |
++| 192 | 19.44 → 25.96 mm² (+33.5%) | 15 / 1 / 0 | 5.22% → 6.91% |
++
++"Target-sheet area" counts only surface on the hand-labeled sheet that is joined to the seed.
++
++The wrong-sheet share rises. Almost nothing already on the target sheet is moved off it. The rise comes from
++GrowPatch surface that sat on unlabeled voxels and was pulled onto a neighbouring labeled sheet. At cutoffs 1 and
++128, most of it is in regions where GrowPatch never connects the target sheet to the seed. Stricter versions that required the overlapping
++tiles to agree did not remove the rise on the development regions, and they lost most of the gain.
++
++On a full official 160-generation GrowPatch segment from PHerc. 125 it ran in about two to three minutes on 20
++CPU workers (the 41% of that segment inside its prediction cube is refined), and it gives the same x, y and z
++values as the benchmark. The benchmark, the label replay and an
++interactive viewer of all 16 test regions are at <https://github.com/udemex10/vesuvius-surface-patches>.
++
++## Limits
++
++- It tightens the sheet GrowPatch is already on. It does not repair a place where GrowPatch has already jumped to
++  a neighbouring sheet.
++- It was tested against labels on one scroll. On PHerc. 125 it runs, but there are no labels there to measure
++  accuracy.
++- The tool reads the prediction in a box around the segment. Parts of a segment that GrowPatch extrapolated
++  beyond the prediction get no ridge and stay as they are.
++
++## Tests
++
++```sh
++python -m pytest segmentation/growpatch_blend/tests
++```
++
++The tests use a small synthetic prediction (one flat sheet) and need only numpy and scipy. Reading and writing
++segments and Zarr arrays goes through `vc_reader`.
+diff --git a/segmentation/growpatch_blend/__init__.py b/segmentation/growpatch_blend/__init__.py
+new file mode 100644
+index 0000000..dd73c36
+--- /dev/null
++++ b/segmentation/growpatch_blend/__init__.py
+@@ -0,0 +1,4 @@
++"""Refine GrowPatch tifxyz segments toward a second trace of the same surface prediction. See README.md."""
++from .blend import tiled_blend
++
++__all__ = ["tiled_blend"]
+diff --git a/segmentation/growpatch_blend/__main__.py b/segmentation/growpatch_blend/__main__.py
+new file mode 100644
+index 0000000..2ce9739
+--- /dev/null
++++ b/segmentation/growpatch_blend/__main__.py
+@@ -0,0 +1,63 @@
++"""Refine a GrowPatch tifxyz segment toward a second trace of the same surface prediction.
++
++    python -m segmentation.growpatch_blend SEGMENT_DIR PREDICTION_ZARR [--out NEW_SEGMENT_DIR] [--workers N]
++
++SEGMENT_DIR is a tifxyz segment (for example a volpkg `paths/<id>` folder written by vc_grow_seg_from_seed).
++PREDICTION_ZARR is the level-0 array of the surface prediction the segment was grown on (local path, http or s3),
++in the same voxel grid as the segment. Only the box around the segment (plus a margin) is read.
++
++The result is a new tifxyz segment next to the input (or at --out) on a grid 4x denser than an 8-voxel GrowPatch
++grid, with the per-vertex move in `move.npy` and a summary in `blend_report.json`.
++"""
++import argparse
++import json
++import time
++from pathlib import Path
++
++import numpy as np
++from vc_reader import tifxyz
++from vc_reader.reader.zarr_reader import ZarrReader
++
++from .blend import SPACING, tiled_blend
++from .geometry import RADIUS
++
++MARGIN = int(RADIUS * 1.75) + 24   # tile charts reach this far past the mesh
++
++
++def main(argv=None):
++    p = argparse.ArgumentParser(prog="python -m segmentation.growpatch_blend", description=__doc__,
++                                formatter_class=argparse.RawDescriptionHelpFormatter)
++    p.add_argument("segment", type=Path, help="input tifxyz segment folder")
++    p.add_argument("prediction", help="surface-prediction Zarr array (level 0), local path or URL")
++    p.add_argument("--out", type=Path, default=None, help="output segment folder (default: <segment>_blend next to it)")
++    p.add_argument("--workers", type=int, default=1)
++    a = p.parse_args(argv)
++
++    surface = tifxyz.read(a.segment)
++    xyz = np.array(surface.xyz, dtype=np.float64)
++    valid = np.array(surface.valid, dtype=bool)
++    pts = xyz[valid]
++    lo = np.maximum(np.floor(pts.min(0) - MARGIN).astype(int), 0)
++    hi = np.ceil(pts.max(0) + MARGIN).astype(int) + 1
++    started = time.time()
++    with ZarrReader.open(a.prediction) as arr:
++        shape_xyz = np.asarray(arr.shape[::-1][:3])
++        hi = np.minimum(hi, shape_xyz)
++        cube = np.ascontiguousarray(arr[lo[2]:hi[2], lo[1]:hi[1], lo[0]:hi[0]])
++    print(f"read prediction box {lo.tolist()}..{hi.tolist()} ({cube.nbytes / 2**20:.0f} MiB) in {time.time() - started:.0f}s", flush=True)
++
++    out, ok, move, report = tiled_blend(xyz, valid, cube, lo.astype(float), SPACING, workers=a.workers)
++    dest = a.out or a.segment.with_name(f"{a.segment.name}_blend")
++    scale = float(surface.scale[0]) * report["upsample"]
++    grid = np.where(ok[..., None], out, -1.0).astype(np.float32)
++    result = tifxyz.Surface(grid, mask=ok, scale=(scale, scale),
++                            extra={"name": dest.name, "source": "growpatch_blend", "parent": surface.uuid})
++    tifxyz.write(dest, result)
++    np.save(dest / "move.npy", move.astype(np.float32))
++    report.update(input=str(a.segment), prediction=str(a.prediction), seconds=round(time.time() - started, 1))
++    (dest / "blend_report.json").write_text(json.dumps(report, indent=1), encoding="utf-8")
++    print(json.dumps(report, indent=1))
++
++
++if __name__ == "__main__":
++    main()
+diff --git a/segmentation/growpatch_blend/blend.py b/segmentation/growpatch_blend/blend.py
+new file mode 100644
+index 0000000..002dc9b
+--- /dev/null
++++ b/segmentation/growpatch_blend/blend.py
+@@ -0,0 +1,183 @@
++"""Tiled local blend: refine a GrowPatch mesh toward a second trace of the same surface prediction.
++
++Ported from the GrowPatch blend benchmark (growbench_tiled_blend.py, MIT). Tiles sit every SPACING voxels on the
++mesh. In each tile a graph trace of the prediction runs from the mesh, and both surfaces are cast onto parallel
++rays along the tile normal. Where both hit exactly one sheet within LIMIT voxels of each other, the mesh point moves
++halfway toward the trace; everywhere else it stays. Tile moves are blended with cos^2 weights onto a 4x denser grid.
++A tile whose trace finds no ridge near the mesh changes nothing.
++"""
++import os
++from concurrent.futures import ProcessPoolExecutor
++
++import numpy as np
++from scipy.ndimage import map_coordinates
++
++from .geometry import RADIUS, STEP, faces, frame, project
++from .graph_trace import solve
++
++LIMIT = 8.0            # largest disagreement, in voxels, at which a point still moves
++SPACING = 32           # tile spacing in voxels (locked in the benchmark)
++VISIBLE_TOL = 3.0      # a vertex takes a tile's move only if it lies this close to the tile's own surface depth
++NEIGHBOR_RADIUS = 24.0
++N_RAYS = 2 * (RADIUS // STEP) + 1
++
++
++def grid_valid(xyz):
++    return np.isfinite(xyz).all(-1) & (xyz >= 0).all(-1)
++
++
++def upsample(xyz, valid, k):
++    """Bilinear k-fold resampling of every complete quad. Shared edges get identical values."""
++    xyz = np.asarray(xyz, dtype=np.float64)
++    h, w, _ = xyz.shape
++    full = valid[:-1, :-1] & valid[1:, :-1] & valid[:-1, 1:] & valid[1:, 1:]
++    out = np.full(((h - 1) * k + 1, (w - 1) * k + 1, 3), -1.0)
++    ok = np.zeros(out.shape[:2], bool)
++    I, J = np.nonzero(full)
++    a00, a01, a10, a11 = xyz[I, J], xyz[I, J + 1], xyz[I + 1, J], xyz[I + 1, J + 1]
++    for a in range(k + 1):
++        for b in range(k + 1):
++            s, t = a / k, b / k
++            out[I * k + a, J * k + b] = (1 - s) * (1 - t) * a00 + (1 - s) * t * a01 + s * (1 - t) * a10 + s * t * a11
++            ok[I * k + a, J * k + b] = True
++    return out, ok
++
++
++def grid_step(xyz, valid):
++    both = valid[:, 1:] & valid[:, :-1]
++    d = np.linalg.norm(xyz[:, 1:] - xyz[:, :-1], axis=-1)[both]
++    return float(np.median(d)) if d.size else float("nan")
++
++
++def tile_seeds(xyz, valid, spacing_vox):
++    step = grid_step(xyz, valid)
++    s = max(1, int(round(spacing_vox / step)))
++    rows, cols = np.arange(s // 2, xyz.shape[0], s), np.arange(s // 2, xyz.shape[1], s)
++    pts = xyz[valid]
++    seeds = []
++    for i in rows:
++        for j in cols:
++            if not valid[i, j]:
++                continue
++            p = xyz[i, j]
++            near = pts[np.linalg.norm(pts - p, axis=1) <= NEIGHBOR_RADIUS]
++            if len(near) < 6:
++                continue
++            centered = near - near.mean(0)
++            _, vecs = np.linalg.eigh(centered.T @ centered)
++            normal = vecs[:, 0]
++            jj = j + 1 if j + 1 < xyz.shape[1] and valid[i, j + 1] else j - 1
++            if jj < 0 or not valid[i, jj]:
++                continue
++            u = (xyz[i, jj] - p) * (1 if jj > j else -1)
++            u = u - np.dot(u, normal) * normal
++            if np.linalg.norm(u) < 1e-6:
++                continue
++            u /= np.linalg.norm(u)
++            seeds.append(dict(grid_ij=[int(i), int(j)], seed_xyz=p.tolist(), normal_xyz=normal.tolist(),
++                              tangent_u_xyz=u.tolist(), tangent_v_xyz=np.cross(normal, u).tolist()))
++    return seeds, s, step
++
++
++_VOLUME = None
++
++
++def _init_worker(volume):
++    global _VOLUME
++    os.environ.setdefault("OMP_NUM_THREADS", "1")
++    _VOLUME = np.load(volume, mmap_mode="r") if isinstance(volume, (str, os.PathLike)) else volume
++
++
++def tile_shift(task):
++    """Move field for one tile, or the reason it abstained."""
++    site, tri = task["site"], task["triangles"]
++    stock = project(tri, site)
++    try:
++        info = solve(_VOLUME, site)
++    except ValueError as exc:
++        return dict(index=task["index"], abstained=str(exc))
++    gtri, _ = faces(info["field"]["xyz"], info["field"]["valid"])
++    graph = project(gtri, site)
++    unique_s = np.isfinite(stock.low) & (stock.high - stock.low <= 1)
++    unique_g = np.isfinite(graph.low) & (graph.high - graph.low <= 1)
++    both = unique_s & unique_g
++    gap = np.zeros(stock.low.shape)
++    gap[both] = graph.center[both] - stock.center[both]
++    shared = both & (np.abs(gap) <= LIMIT)
++    shift = np.where(shared, 0.5 * gap, 0.0)
++    return dict(index=task["index"], shift=shift.astype(np.float32), center=np.where(unique_s, stock.center, np.nan).astype(np.float32),
++                unique=unique_s, shared=shared)
++
++
++def transfer(points, results, sites):
++    """cos^2-weighted combination of the tile moves on the resampled vertices (shared-only)."""
++    acc = np.zeros_like(points)
++    wsum = np.zeros(len(points))
++    for res in results:
++        if "shift" not in res:
++            continue
++        site = sites[res["index"]]
++        F = frame(site)
++        seed = np.asarray(site["seed_xyz"], float)
++        lo, hi = seed - RADIUS * 1.75, seed + RADIUS * 1.75
++        cand = np.flatnonzero(((points >= lo) & (points <= hi)).all(1))
++        if not len(cand):
++            continue
++        loc = (points[cand] - seed) @ F.T
++        r = np.hypot(loc[:, 0], loc[:, 1])
++        inside = r < RADIUS
++        cand, loc, r = cand[inside], loc[inside], r[inside]
++        fu, fv = (loc[:, 0] + RADIUS) / STEP, (loc[:, 1] + RADIUS) / STEP
++        iu = np.clip(np.rint(fu).astype(int), 0, N_RAYS - 1)
++        iv = np.clip(np.rint(fv).astype(int), 0, N_RAYS - 1)
++        center = res["center"][iv, iu]
++        visible = res["unique"][iv, iu] & np.isfinite(center) & (np.abs(loc[:, 2] - np.nan_to_num(center)) <= VISIBLE_TOL)
++        visible &= res["shared"][iv, iu]
++        if not visible.any():
++            continue
++        cand, fu, fv, r = cand[visible], fu[visible], fv[visible], r[visible]
++        s = map_coordinates(res["shift"], [fv, fu], order=1, mode="nearest")
++        w = np.cos(np.pi * r / (2 * RADIUS)) ** 2
++        acc[cand] += (w * s)[:, None] * F[2]
++        wsum[cand] += w
++    disp = np.zeros_like(points)
++    has = wsum > 0
++    disp[has] = acc[has] / wsum[has, None]
++    return disp
++
++
++def tiled_blend(xyz, valid, volume, origin_xyz, spacing_vox=SPACING, workers=1):
++    """Refine a GrowPatch vertex grid. Returns (refined xyz, validity, per-vertex move, report).
++
++    `volume` is the ZYX surface prediction (array or .npy path) whose first voxel sits at global `origin_xyz`.
++    """
++    xyz = np.asarray(xyz, dtype=np.float64)
++    sites, lattice, step = tile_seeds(xyz, valid, spacing_vox)
++    for k, s in enumerate(sites):
++        s["id"] = f"tile_{k:04d}"
++        s["origin_xyz"] = [float(c) for c in origin_xyz]
++    tri_all, _ = faces(xyz, valid)
++    centroids = tri_all.mean(1)
++    tasks = [dict(index=k, site=s,
++                  triangles=tri_all[np.linalg.norm(centroids - np.asarray(s["seed_xyz"]), axis=1) <= RADIUS * 1.75 + 2 * step])
++             for k, s in enumerate(sites)]
++    if workers > 1 and len(tasks) > 1:
++        with ProcessPoolExecutor(workers, initializer=_init_worker, initargs=(volume,)) as pool:
++            results = list(pool.map(tile_shift, tasks, chunksize=1))
++    else:
++        _init_worker(volume)
++        results = [tile_shift(t) for t in tasks]
++    k = max(1, int(round(step / STEP)))
++    up, ok = upsample(xyz, valid, k)
++    disp = transfer(up[ok], results, sites)
++    out = up.copy()
++    out[ok] = up[ok] + disp
++    moved = np.linalg.norm(disp, axis=1)
++    field = np.zeros(up.shape)
++    field[ok] = disp
++    report = dict(tiles=len(sites), tiles_solved=sum("shift" in r for r in results),
++                  tiles_abstained=sum("abstained" in r for r in results), upsample=k,
++                  vertices=int(ok.sum()), vertices_moved=int((moved > 1e-6).sum()),
++                  move_median_vox=float(np.median(moved[moved > 1e-6])) if (moved > 1e-6).any() else 0.0,
++                  move_p95_vox=float(np.percentile(moved[moved > 1e-6], 95)) if (moved > 1e-6).any() else 0.0)
++    return out, ok, field, report
+diff --git a/segmentation/growpatch_blend/geometry.py b/segmentation/growpatch_blend/geometry.py
+new file mode 100644
+index 0000000..771989b
+--- /dev/null
++++ b/segmentation/growpatch_blend/geometry.py
+@@ -0,0 +1,99 @@
++"""Seed-frame geometry for the blend: tile frames, mesh triangles and parallel-ray projection.
++
++Vendored from the GrowPatch blend benchmark (growbench_geometry.py, MIT); numerics unchanged.
++"""
++from dataclasses import dataclass
++
++import numpy as np
++
++STEP = 2
++RADIUS = 96
++AXIS = np.arange(-RADIUS, RADIUS + 1, STEP)
++
++
++def frame(site):
++    normal = np.asarray(site["normal_xyz"], dtype=float)
++    normal /= np.linalg.norm(normal)
++    u = np.asarray(site["tangent_u_xyz"], dtype=float)
++    u -= np.dot(u,normal)*normal
++    u /= np.linalg.norm(u)
++    v = np.cross(normal,u)
++    if np.dot(v,site["tangent_v_xyz"]) < 0:
++        v = -v
++    return np.stack((u,v,normal))
++
++
++def faces(xyz, valid=None, quality=None):
++    """Keep complete quads, split each along its first-to-last diagonal."""
++    xyz = np.asarray(xyz)
++    support = np.isfinite(xyz).all(-1) & (xyz >= 0).all(-1)
++    if valid is not None:
++        support &= valid
++    full = support[:-1,:-1] & support[1:,:-1] & support[:-1,1:] & support[1:,1:]
++    corners = (np.s_[:-1,:-1],np.s_[:-1,1:],np.s_[1:,1:],np.s_[1:,:-1])
++    def select(field):
++        a,b,c,d = [field[sl][full] for sl in corners]
++        return np.concatenate((np.stack((a,b,c),1),np.stack((a,c,d),1)))
++    q = select(np.asarray(quality, dtype=float)) if quality is not None else None
++    return select(xyz), q
++
++
++@dataclass
++class Projection:
++    low: np.ndarray
++    high: np.ndarray
++    confidence: np.ndarray
++    area_factor: np.ndarray
++
++    @property
++    def center(self):
++        out = np.full(self.low.shape,np.nan)
++        present = np.isfinite(self.low)
++        out[present] = (self.low[present]+self.high[present])/2
++        return out
++
++
++def project(triangles, site, quality=None):
++    """Rasterize both extremal intersections. Each 2D pixel is a ray in the seed frame."""
++    tri = (np.asarray(triangles,dtype=float) - site["seed_xyz"]) @ frame(site).T
++    n = len(AXIS)
++    low, high = np.full(n*n,np.inf),np.full(n*n,-np.inf)
++    qmin, area = np.full(n*n,np.inf),np.full(n*n,-np.inf)
++    if len(tri):
++        a, b, c = tri[:,0],tri[:,1],tri[:,2]
++        ab, ac = b-a,c-a
++        normals = np.cross(ab,ac)
++        det = normals[:,2]
++        finite = np.isfinite(tri).all(axis=(1,2)) & (np.abs(det)>1e-9)
++        uv = (tri[:,:,:2]+RADIUS)/STEP
++        # Roundoff at shared triangle edges must not create missing grid samples.
++        lower = np.maximum(0,np.ceil(uv.min(1)-1e-7)).astype(int)
++        upper = np.minimum(n-1,np.floor(uv.max(1)+1e-7)).astype(int)
++        extent = upper-lower
++        keep = finite & (extent>=0).all(1)
++        a,ab,ac,det,normals,lower,extent = (x[keep] for x in (a,ab,ac,det,normals,lower,extent))
++        q = np.asarray(quality)[keep] if quality is not None else None
++        weight = np.linalg.norm(normals,axis=1)/np.abs(det)
++        if len(a):
++            max_x,max_y = extent.max(0)
++            for dy in range(max_y+1):
++                for dx in range(max_x+1):
++                    ids = np.flatnonzero((extent[:,0]>=dx)&(extent[:,1]>=dy))
++                    if not len(ids):
++                        continue
++                    ix,iy = lower[ids,0]+dx,lower[ids,1]+dy
++                    x,y = ix*STEP-RADIUS-a[ids,0],iy*STEP-RADIUS-a[ids,1]
++                    s = (x*ac[ids,1]-y*ac[ids,0])/det[ids]
++                    t = (ab[ids,0]*y-ab[ids,1]*x)/det[ids]
++                    good = (s>=-1e-7)&(t>=-1e-7)&(s+t<=1+1e-7)
++                    if not good.any():
++                        continue
++                    flat = iy[good]*n+ix[good]
++                    ids,s,t = ids[good],s[good],t[good]
++                    z = a[ids,2]+s*ab[ids,2]+t*ac[ids,2]
++                    score = np.ones(z.shape) if q is None else q[ids,0]*(1-s-t)+q[ids,1]*s+q[ids,2]*t
++                    np.minimum.at(low,flat,z)
++                    np.maximum.at(high,flat,z)
++                    np.minimum.at(qmin,flat,score)
++                    np.maximum.at(area,flat,weight[ids])
++    return Projection(*(x.reshape(n,n) for x in (low,high,qmin,area)))
+diff --git a/segmentation/growpatch_blend/graph_trace.py b/segmentation/growpatch_blend/graph_trace.py
+new file mode 100644
+index 0000000..24b86b5
+--- /dev/null
++++ b/segmentation/growpatch_blend/graph_trace.py
+@@ -0,0 +1,224 @@
++"""Graph trace of one papyrus layer from a surface-prediction cube, around a seed.
++
++Vendored from the GrowPatch blend benchmark (growbench_recover.py, MIT). The only change is that the traced
++field is returned in memory instead of written to .npz files; the numbers are identical.
++
++The trace works in a 193 x 193 chart (2-voxel spacing, 96-voxel radius) laid on the two axes orthogonal to the
++seed normal's dominant axis. It finds ridges (local maxima above 0.15 of the cube maximum) along that axis, links
++them using local orientation, and keeps the ridge path connected to the seed. ValueError means it abstains.
++"""
++import numpy as np
++from scipy.ndimage import gaussian_filter, map_coordinates
++from scipy.sparse import coo_matrix
++from scipy.sparse.csgraph import dijkstra
++
++STEP = 2
++RADIUS = 96
++DEPTH = 111
++
++
++def evidence(volume, site):
++    """Resample a height chart and locate local maxima across candidate sheets."""
++    seed = np.asarray(site["seed_xyz"], dtype=np.float64)
++    normal = np.asarray(site["normal_xyz"], dtype=np.float64)
++    dep = int(np.argmax(np.abs(normal)))
++    u, v = [axis for axis in range(3) if axis != dep]
++    depth = np.arange(-DEPTH, DEPTH + 1, dtype=np.float32)
++    sides = np.arange(-RADIUS, RADIUS + 1, STEP, dtype=np.float32)
++    vv, uu, dd = np.meshgrid(sides, sides, depth, indexing="ij")
++    xyz = np.empty((3, *vv.shape), np.float32)
++    for dim, offsets in ((u, uu), (v, vv), (dep, dd)):
++        xyz[dim] = offsets + seed[dim] - site["origin_xyz"][dim]
++    sampled = map_coordinates(volume, xyz[::-1], order=1, output=np.float32,
++                              mode="constant", cval=0.0, prefilter=False)
++    if not sampled.max():
++        raise ValueError("No surface prediction in the chart")
++    sampled /= float(volume.max())
++    # The chart spans the central portion of the crop; all samples are within
++    # its provided volume. Normal and transverse smoothing differ in voxel units.
++    signal = gaussian_filter(sampled, (0.55,0.55,0.85))
++    peaks = np.zeros(signal.shape, dtype=bool)
++    peaks[...,1:-1] = ((signal[...,1:-1] >= signal[...,:-2]) &
++                       (signal[...,1:-1] > signal[...,2:]) &
++                       (signal[...,1:-1] > .15))
++    iy, ix, iz = np.where(peaks)
++    n, m = signal.shape[:2]
++    before, middle, after = signal[iy,ix,iz-1],signal[iy,ix,iz],signal[iy,ix,iz+1]
++    denom = np.maximum(2*middle-before-after,1e-6)
++    dz = np.clip((after-before)/(2*denom),-.5,.5)
++    peak_z = (depth[iz]+dz).astype(np.float32)
++    # Principal direction of the structure tensor in the native orthogonal
++    # basis (u,v,depth). Evaluate only on candidate ridges.
++    dv, du, dn = np.gradient(signal, STEP, STEP, 1)
++    grads = (du, dv, dn)
++    tensor = np.zeros((len(iy),3,3),np.float32)
++    for a in range(3):
++        for b in range(a+1):
++            val = gaussian_filter(grads[a]*grads[b], (1.25,1.25,1.8))[iy,ix,iz]
++            tensor[:,a,b] = tensor[:,b,a] = val
++    eig, vec = np.linalg.eigh(tensor)
++    nor = vec[:,:,-1]
++    norm_depth = np.maximum(np.abs(nor[:,2]), .24)
++    slopes = -nor[:,:2] * np.where(nor[:,2:3]>=0,1.,-1.) / norm_depth[:,None]
++    slopes = np.clip(slopes,-2.8,2.8).astype(np.float32)
++    coherence = np.clip((eig[:,-1]-eig[:,-2])/(eig[:,-1]+1e-12),0,1)
++    ray = iy*m+ix
++    counts = np.bincount(ray,minlength=n*m)
++    offsets = np.r_[0,np.cumsum(counts)]
++    max_count = int(counts.max())
++    ids = np.full((n*m,max_count),-1,np.int32)
++    ids[ray,np.arange(len(ray))-offsets[ray]] = np.arange(len(ray),dtype=np.int32)
++    return dict(seed=seed,axes=(u,v,dep),sides=sides,iy=iy,ix=ix,iz=iz,
++                height=peak_z,slopes=slopes,coherence=coherence,
++                density=middle,ids=ids,n=n,m=m,signal=signal)
++
++
++def connect(ev):
++    """Use tangent extrapolation and intermediate ridge support to link nearby peaks."""
++    iy,ix,rz=ev["iy"],ev["ix"],ev["height"]
++    slopes,coherence,density=ev["slopes"],ev["coherence"],ev["density"]
++    n,m=ev["n"],ev["m"]
++    source_parts, target_parts, weights = [],[],[]
++    cardinal = {direction: np.full(len(iy),-1,np.int32)
++                for direction in ((1,0),(-1,0),(0,1),(0,-1))}
++    for dy, dx in ((0,1),(1,0),(1,1),(1,-1),(0,3),(3,0)):
++        y,x=iy+dy,ix+dx
++        src=np.flatnonzero((y>=0)&(x>=0)&(y<n)&(x<m))
++        if not len(src):
++            continue
++        neighbors=ev["ids"][y[src]*m+x[src]]
++        a,b=np.where(neighbors>=0)
++        src=src[a].astype(np.int32)
++        dest=neighbors[a,b]
++        run=STEP*np.hypot(dx,dy)
++        rise=rz[dest]-rz[src]
++        keep=np.abs(rise)<=1.9*run+1.7
++        src,dest,rise=src[keep],dest[keep],rise[keep]
++        slope0=STEP*(dx*slopes[src,0]+dy*slopes[src,1])
++        slope1=STEP*(dx*slopes[dest,0]+dy*slopes[dest,1])
++        error0=np.abs(rise-slope0)
++        error1=np.abs(rise-slope1)
++        residual=np.abs(rise-(slope0+slope1)*.5)
++        quality=np.minimum(coherence[src],coherence[dest])
++        # Limit excessive hops even where tangent estimates are unreliable.
++        keep=(residual <= 1.5+.22*run+1.1*(1-quality)) & (np.maximum(error0,error1) < 3.0+.55*run)
++        src,dest,rise,residual,quality=src[keep],dest[keep],rise[keep],residual[keep],quality[keep]
++        if not len(src):
++            continue
++        cost=run*(1+.24*(1-quality)+.20*(1-np.minimum(density[src],density[dest]))) + 1.6*residual
++        if max(abs(dx),abs(dy))>1:
++            # Longer links can reconnect short breaks, but a fully observed
++            # local route should win over a speculative bridge.
++            py=iy[src]+.5*dy
++            px=ix[src]+.5*dx
++            pd=DEPTH+rz[src]+.5*rise
++            mid=map_coordinates(ev["signal"],[py,px,pd],order=1,prefilter=False)
++            cost += 1.8 + 3.4*(1-mid)
++        source_parts.append(src);target_parts.append(dest);weights.append(cost)
++        if (dy,dx) in cardinal:
++            for direction,start,end in [((dy,dx),src,dest),((-dy,-dx),dest,src)]:
++                # Prefer the cheapest candidate among all immediate neighbors;
++                # use its table for the two axis-order paths.
++                order=np.lexsort((end,cost,start))
++                first=np.r_[True,start[order[1:]]!=start[order[:-1]]]
++                take=order[first]
++                cardinal[direction][start[take]] = end[take]
++    if not source_parts:
++        raise ValueError("The seed chart has no connected ridges")
++    s,t,w=map(np.concatenate,(source_parts,target_parts,weights))
++    nodes=len(iy)
++    graph=coo_matrix((w,(s,t)),shape=(nodes,nodes)).tocsr()
++    return graph,cardinal
++
++
++def axis_routes(ev, anchor, cardinal):
++    mid=ev["n"]//2
++    def route(primary):
++        rays=np.full((ev["n"],ev["m"]),-1,np.int32)
++        rays[mid,mid]=anchor
++        def extend(y,x,direction):
++            dy,dx=direction
++            ident=rays[y,x]
++            while ident>=0 and 0<=y+dy<ev["n"] and 0<=x+dx<ev["m"]:
++                ident=cardinal[direction][ident]
++                y+=dy;x+=dx
++                rays[y,x]=ident
++        for sign in (-1,1):
++            extend(mid,mid,(0,sign) if primary=="u" else (sign,0))
++        for idx in range(ev["n"]):
++            for sign in (-1,1):
++                if primary=="u":
++                    extend(mid,idx,(sign,0))
++                else:
++                    extend(idx,mid,(0,sign))
++        return rays
++    return route("u"),route("v")
++
++
++def make_field(ev,chosen,quality):
++    ok=chosen>=0
++    vv,uu=np.meshgrid(ev["sides"],ev["sides"],indexing="ij")
++    u,v,d=ev["axes"]
++    xyz=np.empty((*ok.shape,3),np.float32)
++    xyz[...,u]=ev["seed"][u]+uu
++    xyz[...,v]=ev["seed"][v]+vv
++    xyz[...,d]=ev["seed"][d]+ev["height"][np.maximum(chosen,0)]
++    xyz[~ok]=np.nan
++    return dict(xyz=xyz,valid=ok,quality=np.where(ok,quality,0).astype(np.float32))
++
++
++def solve(volume,site):
++    ev=evidence(volume,site)
++    graph,cardinal=connect(ev)
++    mid=ev["n"]//2
++    center=ev["ids"][mid*ev["m"]+mid]
++    center=center[center>=0]
++    if not len(center):
++        raise ValueError("No M7 ridge on seed ray")
++    h=ev["height"]
++    anchor=int(center[np.argmin(np.abs(h[center]))])
++    if abs(h[anchor])>6:
++        raise ValueError(f"Seed is {abs(h[anchor]):.3f} cue voxels from closest ridge")
++    paths=axis_routes(ev,anchor,cardinal)
++    left,right=paths
++    agreed=(left>=0)&(right>=0)&(np.abs(h[np.maximum(left,0)]-h[np.maximum(right,0)])<=2)
++    two=np.where(agreed,left,-1)
++    simple_q=np.sqrt(ev["density"][np.maximum(two,0)]*ev["coherence"][np.maximum(two,0)])
++    stats={}
++    pos=dijkstra(graph,directed=False,indices=anchor)
++    other=center[(center!=anchor)&(np.abs(h[center]-h[anchor])<65)]
++    neg=(dijkstra(graph,directed=False,indices=other,min_only=True)
++         if len(other) else np.full_like(pos,np.inf))
++    clearance=np.zeros_like(pos)
++    finite=np.isfinite(pos)&np.isfinite(neg)
++    clearance[finite]=np.clip((neg[finite]-pos[finite])/8.,-5,5)
++    clearance[np.isfinite(pos)&~np.isfinite(neg)]=5
++    ids=ev["ids"];safe=np.maximum(ids,0)
++    costs=np.where(ids>=0,pos[safe]+8*np.maximum(0,0.6-clearance[safe]),np.inf)
++    best_col=np.argmin(costs,axis=1)
++    best=ids[np.arange(len(ids)),best_col].reshape(ev["n"],ev["m"])
++    reachable=np.isfinite(np.min(costs,axis=1)).reshape(best.shape)
++    best=np.where(reachable,best,-1)
++    # Locally consistent, independently arrived axis traces temporarily outrank
++    # the cheapest longer crossing, but never overrule an adjacent seeded sheet.
++    keep_prior=agreed&(clearance[np.maximum(two,0)]>-.15)
++    best=np.where(keep_prior,two,best)
++    safe=np.maximum(best,0)
++    axis_votes=((left==best)&(left>=0)).astype(float)+((right==best)&(right>=0))
++    margin=1/(1+np.exp(-clearance[safe]))
++    local_confirm=np.zeros_like(margin)
++    for dy,dx in ((0,1),(0,-1),(1,0),(-1,0)):
++        nbr=np.roll(best,(-dy,-dx),axis=(0,1))
++        if dx>0:nbr[:,-1]=-1
++        if dx<0:nbr[:,0]=-1
++        if dy>0:nbr[-1,:]=-1
++        if dy<0:nbr[0,:]=-1
++        local_confirm+=(cardinal[(dy,dx)][safe]==nbr)&(nbr>=0)
++    quality=(.4*margin + .20*axis_votes/2 + .25*local_confirm/4
++             + .15*np.sqrt(ev["density"][safe]*ev["coherence"][safe]))
++    quality[mid,mid]=1
++    stats["field"]=make_field(ev,best,quality)
++    stats["graph"]=int(stats["field"]["valid"].sum())
++    stats.update(anchor_offset=float(h[anchor]),depth_axis_xyz=ev["axes"][-1],
++                 peak_nodes=int(len(h)),neighbor_origin_count=int(len(other)))
++    return stats
+diff --git a/segmentation/growpatch_blend/tests/test_growpatch_blend.py b/segmentation/growpatch_blend/tests/test_growpatch_blend.py
+new file mode 100644
+index 0000000..b3b2a9e
+--- /dev/null
++++ b/segmentation/growpatch_blend/tests/test_growpatch_blend.py
+@@ -0,0 +1,41 @@
++"""Regression tests for the blend's core rules on a small synthetic prediction (no vc_reader needed).
++
++The real-data check is in the README: on the 16 held-out PHerc. Paris. 4 regions and on a full PHerc. 125 mesh.
++"""
++import numpy as np
++
++from segmentation.growpatch_blend.blend import tiled_blend
++
++SHEET_Z = 120.0
++
++
++def prediction(shape=(240, 260, 260), sheets=(SHEET_Z,), width=1.6):
++    """ZYX uint8 cube with flat sheets z = const (Gaussian ridges across z)."""
++    z = np.arange(shape[0], dtype=np.float32)[:, None, None]
++    out = np.zeros(shape, np.float32)
++    for s in sheets:
++        out = np.maximum(out, np.exp(-0.5 * ((z - s) / width) ** 2))
++    return np.broadcast_to((out * 255).astype(np.uint8), shape).copy()
++
++
++def mesh(z, step=8.0, n=26, x0=30.0, y0=30.0):
++    """A flat GrowPatch-like vertex grid at depth z (rows along y, columns along x)."""
++    yy, xx = np.meshgrid(y0 + step * np.arange(n), x0 + step * np.arange(n), indexing="ij")
++    xyz = np.stack([xx, yy, np.full(xx.shape, z)], -1).astype(np.float64)
++    return xyz, np.ones(xx.shape, bool)
++
++
++def test_moves_halfway_onto_a_lone_sheet():
++    xyz, valid = mesh(SHEET_Z + 3.0)
++    out, ok, move, report = tiled_blend(xyz, valid, prediction(), (0.0, 0.0, 0.0))
++    assert report["tiles_solved"] > 0
++    z = out[ok][:, 2]
++    moved = np.abs(move[ok][:, 2]) > 1e-6
++    assert moved.mean() > 0.5
++    np.testing.assert_allclose(z[moved], SHEET_Z + 1.5, atol=0.35)
++
++
++def test_leaves_the_mesh_alone_when_the_sheet_is_far():
++    xyz, valid = mesh(SHEET_Z + 12.0)
++    out, ok, move, report = tiled_blend(xyz, valid, prediction(), (0.0, 0.0, 0.0))
++    assert np.abs(move).max() == 0.0

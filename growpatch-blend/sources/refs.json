@@ -1,0 +1,517 @@
+{
+  "verified_source": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHercParis4/representations/spiral/20260411134726-spiral-dataset-20261019084150/verified_patches/",
+  "README": "https://scrollprize.org/data/datasets/spiral-input-PHercParis4-README.md",
+  "initial_index_sha256": "f87530267dfba66b2f6c6f7f52910ccf9c7a51900ae6276d2082b49db7d5b335",
+  "initial_count": 22563,
+  "eligible_metadata": 8865,
+  "salt": "growbench-v1:",
+  "attempted_before_completion": [
+    "band-seed1626673-20260729-235614-487.tifxyz",
+    "band-seed15328142-20260730-000941-313.tifxyz",
+    "band-seed864167-20260729-183742-398.tifxyz",
+    "band-seed3732336-20260729-163129-266.tifxyz",
+    "band-seed13246353-20260729-200434-182.tifxyz",
+    "band-seed6327663-20260729-204905-674.tifxyz",
+    "band-seed2148394-20260730-003219-300.tifxyz",
+    "band-seed18197974-20260729-214018-437.tifxyz",
+    "band-seed4204151-20260729-173615-113.tifxyz",
+    "band-seed16489744-20260729-233554-429.tifxyz",
+    "band-seed13510549-20260729-233919-812.tifxyz",
+    "band-seed3912952-20260729-170703-126.tifxyz",
+    "band-seed2506369-20260729-230846-377.tifxyz",
+    "band-seed1260960-20260729-214350-843.tifxyz",
+    "band-seed7072638-20260729-230116-458.tifxyz",
+    "band-seed139810-20260729-233430-644.tifxyz",
+    "band-seed6302929-20260729-180750-747.tifxyz",
+    "band-seed6004394-20260729-201353-217.tifxyz",
+    "band-seed12541835-20260729-172348-256.tifxyz",
+    "band-seed8182115-20260729-175908-807.tifxyz",
+    "band-seed1656770-20260729-180445-313.tifxyz",
+    "band-seed8832716-20260729-210633-270.tifxyz",
+    "band-seed12795565-20260730-003222-647.tifxyz",
+    "band-seed1420286-20260729-235335-279.tifxyz"
+  ],
+  "rule": "Sort eligible public patch IDs by SHA256(salt+name), never consulting CT, M7, detector or fitted results. Anchor the most interior graph-compatible point, first in row-major ties. Require X/Z extents >210, largest extent <2200, area >0.05 nominal cm2, >=70% reference coverage on central 96vx disk, <=3% ambiguous reference rays, abs normal Y >=0.70, no reused member IDs or overlapping cubes (Linf seed separation >=650). See script for full lock.",
+  "sites": [
+    {
+      "id": "dev_01",
+      "name": "band-seed864167-20260729-183742-398.tifxyz",
+      "source": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHercParis4/representations/spiral/20260411134726-spiral-dataset-20261019084150/verified_patches/band-seed864167-20260729-183742-398.tifxyz/",
+      "hashes": {
+        "x.tif": "b8056a58495c075893937536a862548a51177223dd4e6071c30813a9aae3f54e",
+        "y.tif": "d03a34a22f0b3c86ce52dacdbdb89bcfe2bf53ea6dc45f6d973a748f4b1eef8f",
+        "z.tif": "6a31561d19a2321556ca87da7a1364f6c7949b1a54999aae79010abc064563ff",
+        "meta.json": "e52561a23072914aa7b924c0b52281f879bb6765c12b0073b32ab9ef53da3950"
+      },
+      "members": [
+        "band-seed864167-20260729-183742-398.tifxyz"
+      ],
+      "source_tool": "merge_overlapping_patches",
+      "mesh_scale": [
+        0.05,
+        0.05
+      ],
+      "source_index_ij": [
+        21,
+        13
+      ],
+      "projected_disk_coverage": 1.0,
+      "ambiguous_multivalued_fraction": 0.0,
+      "triangles": 430,
+      "triangle_max_edge": 80,
+      "local_plane_sheet_offset": 0.4361596840354697,
+      "ref_sha256": "20addfd11f26d7c4296990809ac384cc701c25ba3f21b3aaaa324b003ecb228e",
+      "triangle_sha256": "6870c0b47a388954c7b0382b439dbf5fe1ee79a1269dcab1ab152b26ac3056a1"
+    },
+    {
+      "id": "dev_02",
+      "name": "band-seed3732336-20260729-163129-266.tifxyz",
+      "source": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHercParis4/representations/spiral/20260411134726-spiral-dataset-20261019084150/verified_patches/band-seed3732336-20260729-163129-266.tifxyz/",
+      "hashes": {
+        "x.tif": "550b1fdce4e690332fcbf081f7426e3da12af8b6cc14da52451c903a52746496",
+        "y.tif": "c523a327c08fb3aa3df0b6b63d02d5f57330357e5358c810fb5f037b2b26f089",
+        "z.tif": "26bc06e4fb8e74f295ddd8842c019b74beaa0836d631390a185aabd15481667c",
+        "meta.json": "68b3662aa65566791395d59405f5317b8d75afbcb6ec354a7ce98c7f8e9b7ed9"
+      },
+      "members": [
+        "band-seed3732336-20260729-163129-266.tifxyz"
+      ],
+      "source_tool": "merge_overlapping_patches",
+      "mesh_scale": [
+        0.05,
+        0.05
+      ],
+      "source_index_ij": [
+        34,
+        73
+      ],
+      "projected_disk_coverage": 1.0,
+      "ambiguous_multivalued_fraction": 0.0,
+      "triangles": 480,
+      "triangle_max_edge": 80,
+      "local_plane_sheet_offset": 0.29538347604640136,
+      "ref_sha256": "9ce6e6d6dabf0316bbc103d032000b898214397e07b33364e4f4f0035b6782fe",
+      "triangle_sha256": "b35a57d6fc4181d7631440539df880d8ff19bc17e5d642cb064fe42e3d1e9925"
+    },
+    {
+      "id": "dev_03",
+      "name": "band-seed13246353-20260729-200434-182.tifxyz",
+      "source": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHercParis4/representations/spiral/20260411134726-spiral-dataset-20261019084150/verified_patches/band-seed13246353-20260729-200434-182.tifxyz/",
+      "hashes": {
+        "x.tif": "5884de7304b641e81a904b059b7ebf5f99d3473d9df9162eb4f6d677c2ea907a",
+        "y.tif": "1038bc64110394ba6e041787375192ff8cd4141bd216989c2734245eb996efdf",
+        "z.tif": "cefa426db8ab094b8b5d76d1fd28bff403600ade451e9666f230d9c0549c6c04",
+        "meta.json": "bc73229488f872f39142de7d54c9926b9baba0d4ba33b1144d1c1cd3ceb2bd93"
+      },
+      "members": [
+        "band-seed13246353-20260729-200434-182.tifxyz"
+      ],
+      "source_tool": "merge_overlapping_patches",
+      "mesh_scale": [
+        0.05,
+        0.05
+      ],
+      "source_index_ij": [
+        22,
+        19
+      ],
+      "projected_disk_coverage": 1.0,
+      "ambiguous_multivalued_fraction": 0.0,
+      "triangles": 450,
+      "triangle_max_edge": 80,
+      "local_plane_sheet_offset": 0.29729136669027595,
+      "ref_sha256": "c4cbffe295460147b20989a296a98923b11b55d2427ddf209ca3ce0fc4645182",
+      "triangle_sha256": "e898e2e873bfc3ff01f0395d4cbd23b9eff13f8ac9d2dd4e6d827348d0178f05"
+    },
+    {
+      "id": "dev_04",
+      "name": "band-seed6327663-20260729-204905-674.tifxyz",
+      "source": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHercParis4/representations/spiral/20260411134726-spiral-dataset-20261019084150/verified_patches/band-seed6327663-20260729-204905-674.tifxyz/",
+      "hashes": {
+        "x.tif": "d26233e79b6f9cedd80d9074a89368df3969a54ff123b1352b91fe027414fe7a",
+        "y.tif": "3fd5b1b4ca1fdf09a764d399cd5d6cddc6584d2921f5695989e6adfde3625b10",
+        "z.tif": "464d604a158557fbccabdcf12fed0809414b5acd149c403ba506dacdb3ab8d51",
+        "meta.json": "c75136493a1ffa1ab464dec0e3b879636d41f960091ecf3cc4fedfcd69e9e343"
+      },
+      "members": [
+        "band-seed6327663-20260729-204905-674.tifxyz"
+      ],
+      "source_tool": "merge_overlapping_patches",
+      "mesh_scale": [
+        0.05,
+        0.05
+      ],
+      "source_index_ij": [
+        6,
+        5
+      ],
+      "projected_disk_coverage": 0.8320497323432913,
+      "ambiguous_multivalued_fraction": 0.0,
+      "triangles": 252,
+      "triangle_max_edge": 80,
+      "local_plane_sheet_offset": 0.2485225694300116,
+      "ref_sha256": "6a91a1de62fd27e29cd46b6db5a893d70c26a1566e8d35bf93d450bb8fcaffd6",
+      "triangle_sha256": "b773118a2c429d35bddf9a4cd1364bc19255e383d8561e2516e435aaf8cdc17d"
+    },
+    {
+      "id": "test_01",
+      "name": "band-seed2148394-20260730-003219-300.tifxyz",
+      "source": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHercParis4/representations/spiral/20260411134726-spiral-dataset-20261019084150/verified_patches/band-seed2148394-20260730-003219-300.tifxyz/",
+      "hashes": {
+        "x.tif": "2a5a3ed619dda3275d9094b09024554c751427569f979817480d3da5df181c67",
+        "y.tif": "44cd236653d3f4d514061858d5bf7078a17b9d42d47ac11dc197ba7ef2037d4f",
+        "z.tif": "5662ab0472532b1b5037708b31e3b3b2a4a553db7752e42f43ad839bc63ad433",
+        "meta.json": "8a0b8edf7fd344c56bd23f01ee482faa652073663962dba34c2a25f5f524aa9e"
+      },
+      "members": [
+        "band-seed2148394-20260730-003219-300.tifxyz"
+      ],
+      "source_tool": "merge_overlapping_patches",
+      "mesh_scale": [
+        0.05,
+        0.05
+      ],
+      "source_index_ij": [
+        11,
+        24
+      ],
+      "projected_disk_coverage": 1.0,
+      "ambiguous_multivalued_fraction": 0.0,
+      "triangles": 483,
+      "triangle_max_edge": 80,
+      "local_plane_sheet_offset": 0.34926689190866245,
+      "ref_sha256": "284ec1436d76e57a75b86dd310bd4ea873f9ba35008166915aa6189f3cab4a84",
+      "triangle_sha256": "4ce9a3291f642f8934f71a19cf0348d6b9cd1fad8a025330b0d6d28528fe81c5"
+    },
+    {
+      "id": "test_02",
+      "name": "band-seed18197974-20260729-214018-437.tifxyz",
+      "source": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHercParis4/representations/spiral/20260411134726-spiral-dataset-20261019084150/verified_patches/band-seed18197974-20260729-214018-437.tifxyz/",
+      "hashes": {
+        "x.tif": "d952ab8ed6a686e29840db3978206914f4d4492206cc97610256bd241fa0f033",
+        "y.tif": "60396d74e0f6ecd97393d83350f3c4aebfc408cfa83ccb83043b5c7fb86ede58",
+        "z.tif": "d0e39e0737b71d4f6251f6c524217479fe48f1cbb37b82f3f53d00c7127db24e",
+        "meta.json": "8ae52c51ea392e55cf63ef4a88376ff569c781adab72b0fdce46031331df7cf9"
+      },
+      "members": [
+        "band-seed18197974-20260729-214018-437.tifxyz"
+      ],
+      "source_tool": "merge_overlapping_patches",
+      "mesh_scale": [
+        0.05,
+        0.05
+      ],
+      "source_index_ij": [
+        22,
+        18
+      ],
+      "projected_disk_coverage": 1.0,
+      "ambiguous_multivalued_fraction": 0.0,
+      "triangles": 420,
+      "triangle_max_edge": 80,
+      "local_plane_sheet_offset": -0.06091397503027027,
+      "ref_sha256": "b1777280789971e08856d6487beb9bb3c8d54bfe66fd6fc92b084453ee9ab450",
+      "triangle_sha256": "a3201201ffc64374db7489ba8d1b7b7840c9f918abda90bc880f21d7804d9968"
+    },
+    {
+      "id": "test_03",
+      "name": "band-seed4204151-20260729-173615-113.tifxyz",
+      "source": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHercParis4/representations/spiral/20260411134726-spiral-dataset-20261019084150/verified_patches/band-seed4204151-20260729-173615-113.tifxyz/",
+      "hashes": {
+        "x.tif": "4439b6336ae72c8f130f7fbcba63fbc44522b775e530b43e4f01b0cba5123e75",
+        "y.tif": "b930065b1761490124632c5e240073cc1a294b213cac646a1208e3bf004230af",
+        "z.tif": "06543f9803a3a351a62780bbe9b61d021436f7f1dccc5939e1b3fcb2a438f1cb",
+        "meta.json": "a88d25b0566089c2c91d5dd1cd202f5327ed72f2cbff9edbfb62366b429e080c"
+      },
+      "members": [
+        "band-seed4204151-20260729-173615-113.tifxyz"
+      ],
+      "source_tool": "merge_overlapping_patches",
+      "mesh_scale": [
+        0.05,
+        0.05
+      ],
+      "source_index_ij": [
+        8,
+        12
+      ],
+      "projected_disk_coverage": 0.9999309392265193,
+      "ambiguous_multivalued_fraction": 0.0,
+      "triangles": 284,
+      "triangle_max_edge": 80,
+      "local_plane_sheet_offset": -0.2745946342033879,
+      "ref_sha256": "a0146a2ea16ba7c3df34658a73bee5b1b0ac3099ce6593b13f58e2373de13a5e",
+      "triangle_sha256": "2ddb9471b95d1d644cdd7ec4d3641b5a0fcd6f9c4b09d2e7bb0a9eaefda81b52"
+    },
+    {
+      "id": "test_04",
+      "name": "band-seed13510549-20260729-233919-812.tifxyz",
+      "source": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHercParis4/representations/spiral/20260411134726-spiral-dataset-20261019084150/verified_patches/band-seed13510549-20260729-233919-812.tifxyz/",
+      "hashes": {
+        "x.tif": "fcf41c873769326ad1d5080bbf9113bb1e111e99b103ee94555c377f2301242a",
+        "y.tif": "5580da79f3cd44ff4271de012239b10ecdcd5eba8ca8953b081dcff3201d89c9",
+        "z.tif": "108d11ebad3f8a9c159897bdeb7b98b30ba7b57f46663f1c158641580e6a659e",
+        "meta.json": "cb58a94f9bb34974740d44e38ae4e1e479fede236ac6ee336f5ef4a03db2feac"
+      },
+      "members": [
+        "band-seed13510549-20260729-233919-812.tifxyz"
+      ],
+      "source_tool": "merge_overlapping_patches",
+      "mesh_scale": [
+        0.05,
+        0.05
+      ],
+      "source_index_ij": [
+        9,
+        7
+      ],
+      "projected_disk_coverage": 1.0,
+      "ambiguous_multivalued_fraction": 0.0,
+      "triangles": 407,
+      "triangle_max_edge": 80,
+      "local_plane_sheet_offset": 0.26999491585519864,
+      "ref_sha256": "7bb0c2f261cefee899f0dc6dccb8037f6449b3e4f1876b9960b87073399bcfd7",
+      "triangle_sha256": "1dfae2b11941da4bdf9f54edcdf283d22677469cda2462556a9967fa6b6184c4"
+    },
+    {
+      "id": "test_05",
+      "name": "band-seed3912952-20260729-170703-126.tifxyz",
+      "source": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHercParis4/representations/spiral/20260411134726-spiral-dataset-20261019084150/verified_patches/band-seed3912952-20260729-170703-126.tifxyz/",
+      "hashes": {
+        "x.tif": "9a03928bca2948ff22317a1a503bdea64325d7b1cbcf30bfaa6061d84c868767",
+        "y.tif": "7b182ddcbf333fc5f38b768064dd9f4611870d3fae0b135679f9eff06466c139",
+        "z.tif": "0d19eda05be135add8792e8443296ed680da4395859050917e00f1e19eb6272f",
+        "meta.json": "4cff54450b43a84f4a72dec6d147ebd22ffec5841397cafe3d91786bed869823"
+      },
+      "members": [
+        "band-seed3912952-20260729-170703-126.tifxyz"
+      ],
+      "source_tool": "merge_overlapping_patches",
+      "mesh_scale": [
+        0.05,
+        0.05
+      ],
+      "source_index_ij": [
+        46,
+        29
+      ],
+      "projected_disk_coverage": 0.8702258443262656,
+      "ambiguous_multivalued_fraction": 0.0,
+      "triangles": 290,
+      "triangle_max_edge": 80,
+      "local_plane_sheet_offset": 0.3431635326296188,
+      "ref_sha256": "fd9ab6a18e3d24a89c544daf34713d0949503d95a910c2053c5dff84a388d2ff",
+      "triangle_sha256": "4e5e682fa02ce7fa9b695279c0d7ffd6c843213047a56a5e0b0356d20021f2f3"
+    },
+    {
+      "id": "test_06",
+      "name": "band-seed2506369-20260729-230846-377.tifxyz",
+      "source": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHercParis4/representations/spiral/20260411134726-spiral-dataset-20261019084150/verified_patches/band-seed2506369-20260729-230846-377.tifxyz/",
+      "hashes": {
+        "x.tif": "42b1fdd58cf88022e2f28a3da32b1f183cd54f5a1ed54c88b316279dcca3df0d",
+        "y.tif": "ea4f91d3fc6e7a66634e85bbc865f95dcca4942fea793040af59b5e0690841cb",
+        "z.tif": "fd86ae59479943ccad87570b12a48fcebb80a730c8244dfe3946c2bea0fcba06",
+        "meta.json": "e05546773526f74723ef1907c74f023971ec1f289507a7649e2eb46383d7dfec"
+      },
+      "members": [
+        "band-seed2506369-20260729-230846-377.tifxyz"
+      ],
+      "source_tool": "merge_overlapping_patches",
+      "mesh_scale": [
+        0.05,
+        0.05
+      ],
+      "source_index_ij": [
+        20,
+        19
+      ],
+      "projected_disk_coverage": 1.0,
+      "ambiguous_multivalued_fraction": 0.0,
+      "triangles": 392,
+      "triangle_max_edge": 80,
+      "local_plane_sheet_offset": -0.18144427518342207,
+      "ref_sha256": "40d48f651f3f4c2e8fc5975a863f3b7608f9e6fa937e9b951d09f3f44b5e30f6",
+      "triangle_sha256": "1b72cc8be67eb853b6ccb52b1b8977c3c7cb91fbf356c4ee9ad4b593ddb9c3cc"
+    },
+    {
+      "id": "test_07",
+      "name": "band-seed139810-20260729-233430-644.tifxyz",
+      "source": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHercParis4/representations/spiral/20260411134726-spiral-dataset-20261019084150/verified_patches/band-seed139810-20260729-233430-644.tifxyz/",
+      "hashes": {
+        "x.tif": "0746afb5d195d2b6fa09e81b528bf35ecf633db259a0139db49111bb120b332b",
+        "y.tif": "f58eb69354ea51cd5ecbc69dfdb2bcf51f9e8989a36bcdcd2b8f7f053c3b6dee",
+        "z.tif": "b090831d462c1a95ada3522344a6edd6dc94c08fa780629b874ac48093feed47",
+        "meta.json": "92ba72b5daa3c7380a2adc5fb59c7f109cbd910e7c7ec6022be5841352cc344c"
+      },
+      "members": [
+        "band-seed139810-20260729-233430-644.tifxyz"
+      ],
+      "source_tool": "merge_overlapping_patches",
+      "mesh_scale": [
+        0.05,
+        0.05
+      ],
+      "source_index_ij": [
+        9,
+        8
+      ],
+      "projected_disk_coverage": 1.0,
+      "ambiguous_multivalued_fraction": 0.0,
+      "triangles": 366,
+      "triangle_max_edge": 80,
+      "local_plane_sheet_offset": 0.18344782531530696,
+      "ref_sha256": "7b2c6238c880e1c768a79fc0fa6525d6484503d6ac9c2bbdc5773836590a346a",
+      "triangle_sha256": "b6b57f1ca47d565ea4222dcbe8de74fe9c3948daf762d3daa64c058277bccee2"
+    },
+    {
+      "id": "test_08",
+      "name": "band-seed6004394-20260729-201353-217.tifxyz",
+      "source": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHercParis4/representations/spiral/20260411134726-spiral-dataset-20261019084150/verified_patches/band-seed6004394-20260729-201353-217.tifxyz/",
+      "hashes": {
+        "x.tif": "d2978b793bec4f5d4c027edbea908d7c721786b1c48387d4799a0b31634ab25f",
+        "y.tif": "29f6be992dc10e1f1448991d16a6786ccea0e84e2e441e60c32e2c500ecbc100",
+        "z.tif": "86e718167d3632b44c2b4f0909e64b3269518afa344d628884c5ae71ed7d607b",
+        "meta.json": "46321b969de841aabb7eaccd971fd524a2f385dbc5ce602a0e58a2b2bf386899"
+      },
+      "members": [
+        "band-seed6004394-20260729-201353-217.tifxyz"
+      ],
+      "source_tool": "merge_overlapping_patches",
+      "mesh_scale": [
+        0.05,
+        0.05
+      ],
+      "source_index_ij": [
+        5,
+        19
+      ],
+      "projected_disk_coverage": 0.8323779266523931,
+      "ambiguous_multivalued_fraction": 0.0,
+      "triangles": 182,
+      "triangle_max_edge": 80,
+      "local_plane_sheet_offset": 0.3267523503949291,
+      "ref_sha256": "2639b90811e055668e965f0819b27c1d12e41f771517f7ebd592a21bad36a1ac",
+      "triangle_sha256": "bbb2e28afb6d2318ef80b9c1433e7049aad489bc1dd7415648b446b12f51efae"
+    },
+    {
+      "id": "confirm_01",
+      "name": "band-seed8182115-20260729-175908-807.tifxyz",
+      "source": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHercParis4/representations/spiral/20260411134726-spiral-dataset-20261019084150/verified_patches/band-seed8182115-20260729-175908-807.tifxyz/",
+      "hashes": {
+        "x.tif": "ff4d21a1b6fc0b6223cf0dc25b5872ec276f3f5696ed1211732fbafdb6f64e3b",
+        "y.tif": "fc49278d62005676054b711eab6f95227240e4faeeacdccc203416b14634f98f",
+        "z.tif": "83adea3bc73d43d5d66692b2246c469c1e9a629ee34ee23efa798565ab04b161",
+        "meta.json": "5916bd868dc2ff7ea040b1345a89ff80a4eb73371bf684148133e088504083c0"
+      },
+      "members": [
+        "band-seed8182115-20260729-175908-807.tifxyz"
+      ],
+      "source_tool": "merge_overlapping_patches",
+      "mesh_scale": [
+        0.05,
+        0.05
+      ],
+      "source_index_ij": [
+        15,
+        11
+      ],
+      "projected_disk_coverage": 1.0,
+      "ambiguous_multivalued_fraction": 0.0,
+      "triangles": 392,
+      "triangle_max_edge": 80,
+      "local_plane_sheet_offset": -0.06524218547376753,
+      "ref_sha256": "adb4fd3f228ab4b8ac07c33768f43e397b0e6dce83eb538c66fd502ec8e862b5",
+      "triangle_sha256": "9c52a0f032ac8e7d8f293a9e829163293c0f83711756ff6a1cee777a27259e42"
+    },
+    {
+      "id": "confirm_02",
+      "name": "band-seed1656770-20260729-180445-313.tifxyz",
+      "source": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHercParis4/representations/spiral/20260411134726-spiral-dataset-20261019084150/verified_patches/band-seed1656770-20260729-180445-313.tifxyz/",
+      "hashes": {
+        "x.tif": "8e7dc81caee4cf8b0b4a5c66614e2952cdcdee84fd4a393e4e79abdfa63b67b2",
+        "y.tif": "e95bc82168267da4f1dc5b26db59c62598d6a0697f3311559c299c17aa37afc6",
+        "z.tif": "cf8666a7b40b79f5e824451d0344222146f6e93977d7006c1031d78730c7e902",
+        "meta.json": "61c9244dd134b8e94b73f698d23626f1af07fe68f4ad528742e1b120c09ef379"
+      },
+      "members": [
+        "band-seed1656770-20260729-180445-313.tifxyz"
+      ],
+      "source_tool": "merge_overlapping_patches",
+      "mesh_scale": [
+        0.05,
+        0.05
+      ],
+      "source_index_ij": [
+        47,
+        31
+      ],
+      "projected_disk_coverage": 1.0,
+      "ambiguous_multivalued_fraction": 0.0,
+      "triangles": 392,
+      "triangle_max_edge": 80,
+      "local_plane_sheet_offset": -0.21124237596328707,
+      "ref_sha256": "55ca7c4013b4d9a9257c0582b6299609eb66a92fa166291fd4899dec7278f835",
+      "triangle_sha256": "05f3b45f6e0b7fdbd00cc52e9942bc3a9df8125de391ef58f2ada296a6e0d550"
+    },
+    {
+      "id": "confirm_03",
+      "name": "band-seed12795565-20260730-003222-647.tifxyz",
+      "source": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHercParis4/representations/spiral/20260411134726-spiral-dataset-20261019084150/verified_patches/band-seed12795565-20260730-003222-647.tifxyz/",
+      "hashes": {
+        "x.tif": "35492ec2436ef175b0e4521e9f51606cdc2f391de57d30f48eebcbe4de917875",
+        "y.tif": "0847b1dbf9c0186f204995432fd2489d5a8c8f2a38d57e6d61c0efbf8b04b428",
+        "z.tif": "428316c7decba55b8dcff5f622287c2f06534141284eead07fd4bcafdaadda6f",
+        "meta.json": "25680085ec3ec99bfc21d5d7a963bbafc9b947c0128f51e89484739601849d83"
+      },
+      "members": [
+        "band-seed12795565-20260730-003222-647.tifxyz"
+      ],
+      "source_tool": "merge_overlapping_patches",
+      "mesh_scale": [
+        0.05,
+        0.05
+      ],
+      "source_index_ij": [
+        10,
+        11
+      ],
+      "projected_disk_coverage": 1.0,
+      "ambiguous_multivalued_fraction": 0.0,
+      "triangles": 292,
+      "triangle_max_edge": 80,
+      "local_plane_sheet_offset": 0.2325307751022926,
+      "ref_sha256": "aa5f039bd1ba7c3ca33a4656f674616c37dd1db237019b3aa5b8be17b1449427",
+      "triangle_sha256": "e67db77a172600edad5e170e18ca57107e24e6bb860d650ea3796b2a9da1854c"
+    },
+    {
+      "id": "confirm_04",
+      "name": "band-seed1420286-20260729-235335-279.tifxyz",
+      "source": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHercParis4/representations/spiral/20260411134726-spiral-dataset-20261019084150/verified_patches/band-seed1420286-20260729-235335-279.tifxyz/",
+      "hashes": {
+        "x.tif": "c419380676ffa469b1da33a8025f70a6979c18ebf996014e35ba3e90ae18695b",
+        "y.tif": "7e28472907cd82c5fb2adb592b548568f288be42654743c9c50261b49e1a7d86",
+        "z.tif": "837a94473d5095ca94ebeff1c5471a8baa4f0b5bbf294ac80d63864d317690aa",
+        "meta.json": "5e6a838835ce6b903410dbd641d3b2babf548c30f7546aea1d1942e4a4982af3"
+      },
+      "members": [
+        "band-seed1420286-20260729-235335-279.tifxyz"
+      ],
+      "source_tool": "merge_overlapping_patches",
+      "mesh_scale": [
+        0.05,
+        0.05
+      ],
+      "source_index_ij": [
+        8,
+        8
+      ],
+      "projected_disk_coverage": 0.9914680483592401,
+      "ambiguous_multivalued_fraction": 0.0,
+      "triangles": 289,
+      "triangle_max_edge": 80,
+      "local_plane_sheet_offset": 0.06732746271124683,
+      "ref_sha256": "3f90c24962f5ce5c034badae5383246cc37668163e2371bb2e0f5c5b488833a8",
+      "triangle_sha256": "e88df799c758a408d2c486d96981e225576b558e81c8dbc82bac5b11f7077b5a"
+    }
+  ]
+}

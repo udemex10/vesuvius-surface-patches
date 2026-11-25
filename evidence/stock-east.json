@@ -1,0 +1,212 @@
+{
+  "stock_mesh_sha256": "2c687da93171300d180dc65b01e9e57efabd1df14eac570e29812a0524855e85",
+  "proposed_mesh_sha256": "13c4e89fc4a1ddf4f1f3f9a8429cfddadc752c6ca6689ea8aca2fe7404c9a787",
+  "pitch_um": 9.362,
+  "east_guard_x": 4056,
+  "central_z_half_width": 80,
+  "interior_crop_margin_vox": 32,
+  "stock_native_east_max_x": 4958,
+  "sections": {
+    "central_route_06_east": {
+      "reference": {
+        "rays": 24273,
+        "area_cm2": 0.09001627532675674
+      },
+      "stock_intersects": {
+        "rays": 24273,
+        "area_cm2": 0.09001627532675674
+      },
+      "same_height_3vox": {
+        "rays": 23911,
+        "area_cm2": 0.08776247529426755
+      },
+      "same_height_6vox": {
+        "rays": 24267,
+        "area_cm2": 0.08981181377940478
+      },
+      "folded_rays": 0,
+      "max_east_stock_x": 4696,
+      "median_y_difference_vox": 0.5581133248374499
+    },
+    "consensus_central_corridor_east": {
+      "reference": {
+        "rays": 25386,
+        "area_cm2": 0.09335638852392333
+      },
+      "stock_intersects": {
+        "rays": 25386,
+        "area_cm2": 0.09335638852392333
+      },
+      "same_height_3vox": {
+        "rays": 25002,
+        "area_cm2": 0.09140947177116249
+      },
+      "same_height_6vox": {
+        "rays": 25382,
+        "area_cm2": 0.09324781544778896
+      },
+      "folded_rays": 0,
+      "max_east_stock_x": 4958,
+      "median_y_difference_vox": 0.36063853744781227
+    },
+    "consensus_all_interior_east": {
+      "reference": {
+        "rays": 73156,
+        "area_cm2": 0.2720347197628432
+      },
+      "stock_intersects": {
+        "rays": 73156,
+        "area_cm2": 0.2720347197628432
+      },
+      "same_height_3vox": {
+        "rays": 71928,
+        "area_cm2": 0.26695106799007096
+      },
+      "same_height_6vox": {
+        "rays": 72849,
+        "area_cm2": 0.2709579062820897
+      },
+      "folded_rays": 0,
+      "max_east_stock_x": 4958,
+      "median_y_difference_vox": 0.29801106596414684
+    },
+    "previously_released_sheet": {
+      "reference": {
+        "rays": 10449,
+        "area_cm2": 0.037142730625920564
+      },
+      "stock_intersects": {
+        "rays": 10449,
+        "area_cm2": 0.037142730625920564
+      },
+      "same_height_3vox": {
+        "rays": 10449,
+        "area_cm2": 0.037142730625920564
+      },
+      "same_height_6vox": {
+        "rays": 10449,
+        "area_cm2": 0.037142730625920564
+      },
+      "folded_rays": 0,
+      "max_east_stock_x": 4040,
+      "median_y_difference_vox": 0.24293461284287332
+    }
+  },
+  "largest_candidate_stock_agreement_patch": {
+    "path": "oriented8_g160_loss_candidate_agreement.tifxyz",
+    "largest_connected_cm2": 0.26695106799006757,
+    "total_cm2": 0.26695106799007096,
+    "largest_connected_quads": 70865,
+    "bbox_xyz": [
+      [
+        4056.0,
+        3324.565673828125,
+        10209.0
+      ],
+      [
+        4958.0,
+        3635.0859375,
+        10719.0
+      ]
+    ],
+    "sha256": {
+      "meta.json": "2bcb01d95708afff4bc6e05c142e4ccbcce0eb08f361bf84add2d9238d42fd8d",
+      "qualified_quads.npz": "8fc7e732854e8323db7878ed7da3879a33e87cf958008bcf7f341f31c020b633",
+      "x.tif": "c17006a6755ac1c939341d5e2f1b715888d9cefb05af8a5b5da7f1ae5a30683b",
+      "y.tif": "db75208c329c6d5fcc7f9d323b5385be5bb653a22574a94fc9566e08e1df0e9e",
+      "z.tif": "66c4473995c686a2c45dd665498c3b364aa9fd9fd6e7df55a0837bf26c48d2cd"
+    },
+    "qualified_quads": "qualified_quads.npz contains the exact measured faces; 4-connected component, 2-voxel node spacing."
+  },
+  "physical_review_locations": [
+    {
+      "connected_disagreement_rays": 394,
+      "candidate_xyz": [
+        4422.0,
+        3464.8173828125,
+        10357.0
+      ],
+      "stock_xyz": [
+        4422.0,
+        3460.3554324028323,
+        10357.0
+      ],
+      "median_absolute_delta_y_vox": 4.046594377624842
+    },
+    {
+      "connected_disagreement_rays": 379,
+      "candidate_xyz": [
+        4444.0,
+        3467.26904296875,
+        10225.0
+      ],
+      "stock_xyz": [
+        4444.0,
+        3482.2491107122783,
+        10225.0
+      ],
+      "median_absolute_delta_y_vox": 13.497645658555484
+    },
+    {
+      "connected_disagreement_rays": 153,
+      "candidate_xyz": [
+        4784.0,
+        3560.34521484375,
+        10539.0
+      ],
+      "stock_xyz": [
+        4784.0,
+        3564.2882093251505,
+        10539.0
+      ],
+      "median_absolute_delta_y_vox": 3.9414841615362093
+    },
+    {
+      "connected_disagreement_rays": 46,
+      "candidate_xyz": [
+        4640.0,
+        3538.7802734375,
+        10377.0
+      ],
+      "stock_xyz": [
+        4640.0,
+        3543.8205999276847,
+        10377.0
+      ],
+      "median_absolute_delta_y_vox": 3.9612876488429265
+    },
+    {
+      "connected_disagreement_rays": 44,
+      "candidate_xyz": [
+        4580.0,
+        3500.9007161458335,
+        10473.0
+      ],
+      "stock_xyz": [
+        4580.0,
+        3504.4432828586346,
+        10473.0
+      ],
+      "median_absolute_delta_y_vox": 3.2240852275738234
+    }
+  ],
+  "ceiling_check": {
+    "native_configuration_differences": {
+      "generations": [
+        110,
+        160
+      ]
+    },
+    "first_distinct_native_frontier_count_generation": 68,
+    "last_logged_generation": 159,
+    "qualification": "Each native run starts at the original seed. The native work-grid size is a function of the generation ceiling, so the larger run is a separate stock sensitivity."
+  },
+  "scope": {
+    "total_east_candidate_cm2": 0.4385599673766043,
+    "wholly_inside_input_cm2": 0.2967645339161986,
+    "wholly_inside_scored_interior_cm2": 0.2720347197628432,
+    "outside_or_crossing_input_boundary_cm2": 0.14179543346040568,
+    "inside_input_but_outside_scored_collar_cm2": 0.0247298141533554
+  },
+  "interpretation": "Agreement of algorithms sharing M7 and an initial seed. The candidate extension has no independent external winding labels here. The central-route test matches a single seed. The multi-route consensus has 13 seeds."
+}

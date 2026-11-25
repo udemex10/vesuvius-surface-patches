@@ -1,0 +1,77 @@
+{
+  "east": {
+    "windows": 31,
+    "scored_pixels": 158720,
+    "input_shape": [
+      17,
+      1024,
+      1096
+    ],
+    "max_replay_abs_error": 0.0,
+    "float32_values_exact": 317440,
+    "total_float32_values": 317440
+  },
+  "north": {
+    "windows": 13,
+    "scored_pixels": 81920,
+    "input_shape": [
+      17,
+      776,
+      840
+    ],
+    "max_replay_abs_error": 0.0,
+    "float32_values_exact": 163840,
+    "total_float32_values": 163840
+  },
+  "south": {
+    "windows": 31,
+    "scored_pixels": 183296,
+    "input_shape": [
+      17,
+      1552,
+      440
+    ],
+    "max_replay_abs_error": 0.0,
+    "float32_values_exact": 366592,
+    "total_float32_values": 366592
+  },
+  "south_2": {
+    "windows": 36,
+    "scored_pixels": 202752,
+    "input_shape": [
+      17,
+      1560,
+      312
+    ],
+    "max_replay_abs_error": 0.0,
+    "float32_values_exact": 405504,
+    "total_float32_values": 405504
+  },
+  "south_3": {
+    "windows": 0,
+    "scored_pixels": 0,
+    "input_shape": [
+      17,
+      1544,
+      32
+    ]
+  },
+  "west": {
+    "windows": 0,
+    "scored_pixels": 0,
+    "input_shape": [
+      17,
+      112,
+      400
+    ]
+  },
+  "west_2": {
+    "windows": 0,
+    "scored_pixels": 0,
+    "input_shape": [
+      17,
+      112,
+      160
+    ]
+  }
+}

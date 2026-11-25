@@ -1,0 +1,138 @@
+{
+ "community_source": "https://github.com/pscamillo/vesuvius-eligible-meshes",
+ "community_meshes_compared": 103,
+ "tolerances_voxels": [
+  3.0,
+  6.0,
+  12.0
+ ],
+ "cases": {
+  "PHerc0125_y3310": {
+   "triangulated_cm2": 1.218643,
+   "agree_within_3vox_cm2": 0.410102,
+   "agree_within_6vox_cm2": 0.748162,
+   "agree_within_12vox_cm2": 1.019915,
+   "matched_windings": [
+    "z9936_w070",
+    "z10544_w070",
+    "z9344_w070"
+   ],
+   "median_vertex_distance_vox": 3.89
+  },
+  "PHerc0125_y3706": {
+   "triangulated_cm2": 0.935603,
+   "agree_within_3vox_cm2": 0.057758,
+   "agree_within_6vox_cm2": 0.342499,
+   "agree_within_12vox_cm2": 0.793283,
+   "matched_windings": [
+    "z10544_w035",
+    "z9936_w035",
+    "z9344_w035"
+   ],
+   "median_vertex_distance_vox": 6.7
+  },
+  "PHerc0125_east": {
+   "triangulated_cm2": 0.338667,
+   "agree_within_3vox_cm2": 0.12874,
+   "curve_faces_and_agree_3vox_cm2": 0.109407,
+   "agree_within_6vox_cm2": 0.212874,
+   "curve_faces_and_agree_6vox_cm2": 0.179772,
+   "agree_within_12vox_cm2": 0.303127,
+   "curve_faces_and_agree_12vox_cm2": 0.259822,
+   "matched_windings": [
+    "z9936_w070",
+    "z10544_w070"
+   ],
+   "median_vertex_distance_vox": 3.65
+  },
+  "PHerc0125_north": {
+   "triangulated_cm2": 0.229508,
+   "agree_within_3vox_cm2": 0.127742,
+   "curve_faces_and_agree_3vox_cm2": 0.115689,
+   "agree_within_6vox_cm2": 0.2086,
+   "curve_faces_and_agree_6vox_cm2": 0.186905,
+   "agree_within_12vox_cm2": 0.229171,
+   "curve_faces_and_agree_12vox_cm2": 0.206971,
+   "matched_windings": [
+    "z10544_w070",
+    "z11136_w070"
+   ],
+   "median_vertex_distance_vox": 2.3
+  },
+  "PHerc0125_south": {
+   "triangulated_cm2": 0.401486,
+   "agree_within_3vox_cm2": 0.001345,
+   "curve_faces_and_agree_3vox_cm2": 0.001065,
+   "agree_within_6vox_cm2": 0.011994,
+   "curve_faces_and_agree_6vox_cm2": 0.009639,
+   "agree_within_12vox_cm2": 0.062157,
+   "curve_faces_and_agree_12vox_cm2": 0.038237,
+   "matched_windings": [
+    "z9344_w070",
+    "z8144_w065"
+   ],
+   "median_vertex_distance_vox": 19.71
+  },
+  "PHerc0125_south_2": {
+   "triangulated_cm2": 0.330639,
+   "agree_within_3vox_cm2": 0.040756,
+   "curve_faces_and_agree_3vox_cm2": 0.033712,
+   "agree_within_6vox_cm2": 0.072281,
+   "curve_faces_and_agree_6vox_cm2": 0.060425,
+   "agree_within_12vox_cm2": 0.093353,
+   "curve_faces_and_agree_12vox_cm2": 0.0736,
+   "matched_windings": [
+    "z9344_w070",
+    "z8736_w070",
+    "z7536_w065"
+   ],
+   "median_vertex_distance_vox": 17.63
+  },
+  "PHerc0125_south_3": {
+   "triangulated_cm2": 0.010649,
+   "agree_within_3vox_cm2": 0.001177,
+   "curve_faces_and_agree_3vox_cm2": 0.0,
+   "agree_within_6vox_cm2": 0.002018,
+   "curve_faces_and_agree_6vox_cm2": 0.0,
+   "agree_within_12vox_cm2": 0.002466,
+   "curve_faces_and_agree_12vox_cm2": 0.0,
+   "matched_windings": [
+    "z9344_w070"
+   ],
+   "median_vertex_distance_vox": 22.45
+  },
+  "PHerc0125_west": {
+   "triangulated_cm2": 0.026468,
+   "agree_within_3vox_cm2": 0.007519,
+   "curve_faces_and_agree_3vox_cm2": 0.0,
+   "agree_within_6vox_cm2": 0.021984,
+   "curve_faces_and_agree_6vox_cm2": 0.0,
+   "agree_within_12vox_cm2": 0.026468,
+   "curve_faces_and_agree_12vox_cm2": 0.0,
+   "matched_windings": [
+    "z9936_w070"
+   ],
+   "median_vertex_distance_vox": 3.53
+  },
+  "PHerc0125_west_2": {
+   "triangulated_cm2": 0.010543,
+   "agree_within_3vox_cm2": 0.0,
+   "curve_faces_and_agree_3vox_cm2": 0.0,
+   "agree_within_6vox_cm2": 0.0,
+   "curve_faces_and_agree_6vox_cm2": 0.0,
+   "agree_within_12vox_cm2": 0.006896,
+   "curve_faces_and_agree_12vox_cm2": 0.005211,
+   "matched_windings": [
+    "z10544_w070",
+    "z9936_w070"
+   ],
+   "median_vertex_distance_vox": 9.94
+  }
+ },
+ "totals_cm2": {
+  "triangulated_cm2": 3.502206,
+  "agree_within_3vox_cm2": 0.775139,
+  "agree_within_6vox_cm2": 1.620412,
+  "agree_within_12vox_cm2": 2.536836
+ }
+}

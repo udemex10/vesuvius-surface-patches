@@ -1,0 +1,71 @@
+{
+  "seed_manifest_sha256": "6eee96cd74934b79de4d1a63721d7980b7aae8bb6cd7458bb977a6d71419d2de",
+  "grow_exe_sha256": "9fd4b818653a02986a547ef47461ae62ad008188ac0d3798220dfe357655e573",
+  "gen_normalgrids_exe_sha256": "bf0a45caaf36839bb3b05ac99b2c6648f417e334365c6d4bdf8a38b004ad68ea",
+  "cases": [
+    {
+      "id": "pressure_01",
+      "split": "test",
+      "variant": "default20_loss",
+      "surface_sha256": "35474999f753355aada10ff7cfb92538d681020d0b15c01f28c58bfcb8b1a02e",
+      "input_sha256": "8548704c98e113676f0c83f45f04745c571a6e5d452502f53928ee7f01f3e926",
+      "valid_vertices": 360
+    },
+    {
+      "id": "pressure_02",
+      "split": "test",
+      "variant": "default20_loss",
+      "surface_sha256": "e07382fdd946045fa9166375a484f589443d2b09c9cf62f95b45280c110c7cf6",
+      "input_sha256": "02083935f35d321b3af5c42a5277fac97dfb548227743065e340c0d37406b5ff",
+      "valid_vertices": 303
+    },
+    {
+      "id": "pressure_03",
+      "split": "test",
+      "variant": "default20_loss",
+      "surface_sha256": "35d6a10f224dd508ad8e3aac3ca685d5c928cef27a07839ccd20732e7fdc0e9a",
+      "input_sha256": "fe0b3c508191bace0b15aeb52d0e2f26b6429a239e840250f2388401dbfffcd2",
+      "valid_vertices": 295
+    },
+    {
+      "id": "pressure_04",
+      "split": "test",
+      "variant": "default20_loss",
+      "surface_sha256": "7e4860a574cd57e8cfec697bf8ed474d9e84c17dd4f26dbe62601b343cf53a6f",
+      "input_sha256": "3a9b26038df670bb9b835ab38f05e6d28c11682c0a74d68759edc31fca0447a5",
+      "valid_vertices": 313
+    },
+    {
+      "id": "pressure_05",
+      "split": "test",
+      "variant": "default20_loss",
+      "surface_sha256": "3cfd3fc1e4e86c7b0a64245ad6c9fd0a5d49d20593addab2945e17ebd4677d3e",
+      "input_sha256": "b00c7eb84995fd3c2892fbba531c2774f0b8ecfedd84b45b99750630f549b748",
+      "valid_vertices": 373
+    },
+    {
+      "id": "pressure_06",
+      "split": "test",
+      "variant": "default20_loss",
+      "surface_sha256": "05eae5201e485124ffe4de743c1051544cd6dace77c7e8e2f52d5c57eab84b27",
+      "input_sha256": "c96769c9909497f0a437cc84383f2ca74ba42f3059297eef07599f6514e7f8f6",
+      "valid_vertices": 408
+    },
+    {
+      "id": "pressure_07",
+      "split": "test",
+      "variant": "default20_loss",
+      "surface_sha256": "7ec2ba79320e7564718887839e38260a1356ab1d2f45d7aabbb10e0a89edf8dd",
+      "input_sha256": "6e6a7a824903b35f4099e5b6691fdb622a592680b2438f54087db2944555bbd3",
+      "valid_vertices": 292
+    },
+    {
+      "id": "pressure_08",
+      "split": "test",
+      "variant": "default20_loss",
+      "surface_sha256": "20a7fe7fc0ba060d036b31cadc9a0b0b22366b90b39f0d22e30abdf7f411d3e3",
+      "input_sha256": "7820aa8bbecd0f372b7d86f07cc2613fb9c4530839defb0a413632f08eb52089",
+      "valid_vertices": 306
+    }
+  ]
+}

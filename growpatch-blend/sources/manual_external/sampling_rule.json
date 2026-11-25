@@ -1,0 +1,6 @@
+{
+  "salt": "growbench-manual-external-v1:",
+  "planned_sites": 16,
+  "source": "Original legacy manual and semantic paired cube catalog",
+  "selection": "Salted hash order of eligible cube names, one target nearest cube center with the same mask-only eligibility as main. Exclude all original cube names and target IDs and all newly used targets. Require another labelled sheet within 32 Euclidean voxels of the seed. First pass requires Chebyshev distance >=384 across old/new cube origins. Second pass requires >=256, which ensures zero shared raw voxels. No raw CT, common semantic or contender results enter site selection. Eligible graph-shaped sheets only. All sites seal as one external assessment set without tuning."
+}

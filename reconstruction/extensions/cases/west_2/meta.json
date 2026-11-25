@@ -1,0 +1,42 @@
+{
+  "specimen": "PHerc0125",
+  "native_volume_id": "20250821151825",
+  "mesh": "PHerc0125_west_2.tifxyz",
+  "scan": "PHerc0125",
+  "original_surface": "PHerc0125_y3310",
+  "direction": "west",
+  "component_rank": 2,
+  "source_exclusion": "Full old XZ footprint plus 16-voxel guard on the outward growth axis",
+  "shape": [
+    17,
+    112,
+    160
+  ],
+  "dtype": "uint8",
+  "pitch_um": 9.362,
+  "depth_pitch_um": 9.362,
+  "native_volume_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/volumes/20250821151825-9.362um-1.2m-113keV-masked.zarr/0",
+  "center_index": 8,
+  "depth_order": "xyz + unit normal times (depth index - 8) in native voxels",
+  "support": 12032,
+  "all_corners_nonzero": 11939,
+  "missing_objects": 0,
+  "ct17_sha256": "b5de62a537e3c1efd6f900a821fb7f78a43f0d00d75bea28e0e133d66fd18503",
+  "mask_sha256": "7428a15d729db511a229b907a8b207ad16cca262c6063b636462dfddf2419e86",
+  "supported_nominal_cm2": 0.01054569233408,
+  "connected_component_count": 1,
+  "largest_connected_supported_nominal_cm2": 0.01054569233408,
+  "new_native_xyz_range": [
+    [
+      2592.0787212541027,
+      3303.4600340143293,
+      10539.130494716583
+    ],
+    [
+      2735.946599683613,
+      3312.3805680222054,
+      10634.996438277605
+    ]
+  ],
+  "independent_ground_truth": "unavailable on this new original-scroll region"
+}

@@ -1,0 +1,81 @@
+{
+  "dataset": "Only original control_points positions; excluded model-interpolated line_points and segment_to_next.",
+  "scope": "Within 96 voxel 3D sphere of locked seed. Nearness alone does not identify a fiber as belonging to target surface; controls may lie near either face.",
+  "sites": [
+    {
+      "id": "dev_01",
+      "anchors": []
+    },
+    {
+      "id": "dev_02",
+      "anchors": []
+    },
+    {
+      "id": "dev_03",
+      "anchors": []
+    },
+    {
+      "id": "dev_04",
+      "anchors": []
+    },
+    {
+      "id": "test_01",
+      "anchors": []
+    },
+    {
+      "id": "test_02",
+      "anchors": []
+    },
+    {
+      "id": "test_03",
+      "anchors": []
+    },
+    {
+      "id": "test_04",
+      "anchors": []
+    },
+    {
+      "id": "test_05",
+      "anchors": []
+    },
+    {
+      "id": "test_06",
+      "anchors": [
+        {
+          "file": "anon_20260817T021012847_000129.json",
+          "index": 29,
+          "xyz_l2": [
+            3882.221923828125,
+            2825.11181640625,
+            13949.443359375
+          ],
+          "nearest_reference_voxels": 53.91712668389448
+        }
+      ]
+    },
+    {
+      "id": "test_07",
+      "anchors": []
+    },
+    {
+      "id": "test_08",
+      "anchors": []
+    },
+    {
+      "id": "confirm_01",
+      "anchors": []
+    },
+    {
+      "id": "confirm_02",
+      "anchors": []
+    },
+    {
+      "id": "confirm_03",
+      "anchors": []
+    },
+    {
+      "id": "confirm_04",
+      "anchors": []
+    }
+  ]
+}

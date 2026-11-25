@@ -1,0 +1,55 @@
+{
+  "source_grid_step": 16,
+  "output_grid_step": 8,
+  "fit_iterations": 35,
+  "source_projection": {
+    "triangles": 7632,
+    "flips": 0,
+    "p50_p90_p95_max_stretch": [
+      1.1339391566929948,
+      1.2436400121322864,
+      1.2889266810311706,
+      2.7893424534568263
+    ],
+    "rms_log_distortion": 0.15170647087654923,
+    "fraction_within_5_percent": 0.10718029350104821,
+    "fraction_within_10_percent": 0.3238993710691824
+  },
+  "intrinsic_triangle_solution": {
+    "triangles": 7632,
+    "flips": 0,
+    "p50_p90_p95_max_stretch": [
+      1.0019918623104158,
+      1.0064020629214054,
+      1.0099728488438138,
+      1.1259033651354948
+    ],
+    "rms_log_distortion": 0.006562594196387852,
+    "fraction_within_5_percent": 0.9965932914046122,
+    "fraction_within_10_percent": 0.9998689727463312
+  },
+  "exported_mesh": {
+    "triangles": 31692,
+    "flips": 0,
+    "p50_p90_p95_max_stretch": [
+      1.0019490042256756,
+      1.0056352529332828,
+      1.0086961321424688,
+      1.154553821537734
+    ],
+    "rms_log_distortion": 0.006073848996665039,
+    "fraction_within_5_percent": 0.9978859018048719,
+    "fraction_within_10_percent": 0.9997160166603559
+  },
+  "source_valid_quads": 3816,
+  "nodes_exported": 17071,
+  "regular_valid_quads": 15846,
+  "rejected_overlaps": 73,
+  "rejected_hole_bridges": 123,
+  "original_unsigned_surface_mm2": 83.43988136642554,
+  "mesh_hashes": {
+    "x": "0b5a89a008d2f50ff4ec63646c9e58e46c57567bca3b77ceded25e3804683307",
+    "y": "1650d3592fc47bb01b237f4b99040769793cf00c3f0563ab1001fe60c76ef4ae",
+    "z": "02739cffcff26763c81faed4ce09a14fad93d22067d417559cc2a164751899ce"
+  }
+}

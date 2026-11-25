@@ -1,0 +1,86 @@
+[
+ {
+  "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/volumes/20250821151825-9.362um-1.2m-113keV-masked.zarr/0/81/28/23",
+  "start": 1753088,
+  "count": 16384,
+  "sha256": "8a2728e86e0b1a34fd644e05c8b98d233ef04e3dcb59e999436477b1b17d3888"
+ },
+ {
+  "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/volumes/20250821151825-9.362um-1.2m-113keV-masked.zarr/0/81/28/24",
+  "start": 1753088,
+  "count": 16384,
+  "sha256": "1d25194fd5d7946cbec49bdec95ca884722dbb0bc8a07dd1ceb596b900797271"
+ },
+ {
+  "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/volumes/20250821151825-9.362um-1.2m-113keV-masked.zarr/0/81/28/25",
+  "start": 1753088,
+  "count": 16384,
+  "sha256": "2b3928e6f6fe87c276443ac1581d7df18079d685b7c4d5becf958684b36a612c"
+ },
+ {
+  "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/volumes/20250821151825-9.362um-1.2m-113keV-masked.zarr/0/81/28/26",
+  "start": 1753088,
+  "count": 16384,
+  "sha256": "6717f36067c729f7c861b42465eafe756ca541cf00884315cf882059bde2810a"
+ },
+ {
+  "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/volumes/20250821151825-9.362um-1.2m-113keV-masked.zarr/0/81/28/27",
+  "start": 1753088,
+  "count": 16384,
+  "sha256": "c84d7d31703b84f1f8147c9dce065c53d14b7d017887dc59251211559e20a92c"
+ },
+ {
+  "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/volumes/20250821151825-9.362um-1.2m-113keV-masked.zarr/0/81/28/28",
+  "start": 1753088,
+  "count": 16384,
+  "sha256": "25d10e5a88e6de0d1d6d36fbd1087deb950c4f4e48e4f5feb2467d2735103107"
+ },
+ {
+  "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/volumes/20250821151825-9.362um-1.2m-113keV-masked.zarr/0/81/28/29",
+  "start": 1753088,
+  "count": 16384,
+  "sha256": "9e7a9d11ecfb6c2c42570884569d762dfbfad8e7d1d69015a7d46865899e4c73"
+ },
+ {
+  "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/volumes/20250821151825-9.362um-1.2m-113keV-masked.zarr/0/81/29/23",
+  "start": 1753088,
+  "count": 16384,
+  "sha256": "bd2c299d3a61ace84002ac866eff1bb2e112e71cdaf8f97dbea63f52f30f60c5"
+ },
+ {
+  "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/volumes/20250821151825-9.362um-1.2m-113keV-masked.zarr/0/81/29/24",
+  "start": 1753088,
+  "count": 16384,
+  "sha256": "61da7711597bd753de9c7455417c869dc6baabc48789249f869a4389592ab630"
+ },
+ {
+  "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/volumes/20250821151825-9.362um-1.2m-113keV-masked.zarr/0/81/29/25",
+  "start": 1753088,
+  "count": 16384,
+  "sha256": "16fc959b77b3018d9075aed7cdebf7415b051bd393351511c0b23f67309316c6"
+ },
+ {
+  "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/volumes/20250821151825-9.362um-1.2m-113keV-masked.zarr/0/81/29/26",
+  "start": 1753088,
+  "count": 16384,
+  "sha256": "c87f567b152f18288754f924117b24584d2ae06db363ff46fb353368032e11a7"
+ },
+ {
+  "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/volumes/20250821151825-9.362um-1.2m-113keV-masked.zarr/0/81/29/27",
+  "start": 1753088,
+  "count": 16384,
+  "sha256": "aa71fa4ec7ea04ccbd5e5bc53b03ad192a3c8b1f119be61c3e1342c8308aad87"
+ },
+ {
+  "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/volumes/20250821151825-9.362um-1.2m-113keV-masked.zarr/0/81/29/28",
+  "start": 1753088,
+  "count": 16384,
+  "sha256": "8a52e29904adf62426f82a3f9a14f5221a2e15e8581d2d0ba7c20891b10d02d4"
+ },
+ {
+  "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/volumes/20250821151825-9.362um-1.2m-113keV-masked.zarr/0/81/29/29",
+  "start": 1753088,
+  "count": 16384,
+  "sha256": "b2cb19810c9b35a968d2f5e35589dcee2a76e62b24ae1ea4c62e506f3249a18c"
+ }
+]

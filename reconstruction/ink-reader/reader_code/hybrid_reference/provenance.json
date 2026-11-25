@@ -1,0 +1,30 @@
+{
+  "commit": "47a9c37f6f8e99afdab47bb46ad425aa726f5dc0",
+  "files": [
+    {
+      "file": "hybrid_3d2d.py",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/47a9c37f6f8e99afdab47bb46ad425aa726f5dc0/ink-detection/koine_machines/models/hybrid_3d2d.py",
+      "sha256": "6d160c95353b231db0376d463588b099a7fe41aac88ede5783ce40b16f48b14f"
+    },
+    {
+      "file": "normalization.py",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/47a9c37f6f8e99afdab47bb46ad425aa726f5dc0/vesuvius/src/vesuvius/image_proc/intensity/normalization.py",
+      "sha256": "61727be786424da9dc95117ab90a20b1044b37a7443daa7653e7e9d3efe895a2"
+    },
+    {
+      "file": "prepare_9um_isotropic_input.py",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/47a9c37f6f8e99afdab47bb46ad425aa726f5dc0/ink-detection/scripts/prepare_9um_isotropic_input.py",
+      "sha256": "3afff4f240ff6e09227502f3158af2b9d90888e9e646a388d41477a912dd01af"
+    },
+    {
+      "file": "make_model.py",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/47a9c37f6f8e99afdab47bb46ad425aa726f5dc0/ink-detection/koine_machines/models/make_model.py",
+      "sha256": "58e021ac7f237057a7e7174f67fd5d4aab7ce9964c6351ba4096614fad020b79"
+    },
+    {
+      "file": "LICENSE",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/47a9c37f6f8e99afdab47bb46ad425aa726f5dc0/LICENSE",
+      "sha256": "87070eec603117b5365e2172999e81b08890aef91c1673383cf9779ee9c89976"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+ "mode": "resume",
+ "voxelsize": 9.362,
+ "step_size": 8,
+ "generations": 160,
+ "normal_grid_path": "<your work dir>/volumes/pherc125_y3310_east/grid8",
+ "min_area_cm": 0,
+ "thread_limit": 1,
+ "vis_losses": true
+}

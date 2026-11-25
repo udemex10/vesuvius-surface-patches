@@ -1,0 +1,404 @@
+{
+  "primary": {
+    "dev_01": {
+      "ct.npy": "69c409e9aed67adf56e4570da7b025f56a797966a2f798b04f5c66759ee19d6d",
+      "m7.npy": "76be13caa0899af2f28faadd88e46d3275dc069088b9413c6b11a35a723c84a4",
+      "ref_xyz.npy": "20addfd11f26d7c4296990809ac384cc701c25ba3f21b3aaaa324b003ecb228e",
+      "triangles.npy": "6870c0b47a388954c7b0382b439dbf5fe1ee79a1269dcab1ab152b26ac3056a1"
+    },
+    "dev_02": {
+      "ct.npy": "d3bd1a1119e9258840142efc829ca0b0cd974c69aeb6a92105fe0f18cffb404a",
+      "m7.npy": "d3f3343a3256a4616b76b8a155901eb67593dc500d8f252ca8218b0c2b30b823",
+      "ref_xyz.npy": "9ce6e6d6dabf0316bbc103d032000b898214397e07b33364e4f4f0035b6782fe",
+      "triangles.npy": "b35a57d6fc4181d7631440539df880d8ff19bc17e5d642cb064fe42e3d1e9925"
+    },
+    "dev_03": {
+      "ct.npy": "46201f963a89d5508b650d773504559ea660b4f8aa0f298c5a7080d2a26fe9e0",
+      "m7.npy": "25ab6eb7d0bd0a3af68e7e7f68dc72bc094a1dcea188bb75b61dc4ad98ca2551",
+      "ref_xyz.npy": "c4cbffe295460147b20989a296a98923b11b55d2427ddf209ca3ce0fc4645182",
+      "triangles.npy": "e898e2e873bfc3ff01f0395d4cbd23b9eff13f8ac9d2dd4e6d827348d0178f05"
+    },
+    "dev_04": {
+      "ct.npy": "2e5a1b210626403b67fd430c48abf971cfa12cba1a8d2d480fd8912e92d0b65d",
+      "m7.npy": "41fd141ff6a8ff4ad45582c08ef3dc10f796a0a7b420e04382e88ba1aa490836",
+      "ref_xyz.npy": "6a91a1de62fd27e29cd46b6db5a893d70c26a1566e8d35bf93d450bb8fcaffd6",
+      "triangles.npy": "b773118a2c429d35bddf9a4cd1364bc19255e383d8561e2516e435aaf8cdc17d"
+    },
+    "test_01": {
+      "ct.npy": "707ec24829335f6a1ceac0bd4e3e183f24bec6170d0df70b00f42b9ba2355d18",
+      "m7.npy": "cce2400c8fa85187bb24c4aa1d0b98f574b2af15dd76cce2ec882be2a067e530",
+      "ref_xyz.npy": "284ec1436d76e57a75b86dd310bd4ea873f9ba35008166915aa6189f3cab4a84",
+      "triangles.npy": "4ce9a3291f642f8934f71a19cf0348d6b9cd1fad8a025330b0d6d28528fe81c5"
+    },
+    "test_02": {
+      "ct.npy": "d07ebfa5eb8e7a39b86107f51479950bb05c8dea7a98a5b0d464abce27117cae",
+      "m7.npy": "b18f73d928d0b96b6988e6929b9bb9016ec43729136779f71c453e36e40cfb86",
+      "ref_xyz.npy": "b1777280789971e08856d6487beb9bb3c8d54bfe66fd6fc92b084453ee9ab450",
+      "triangles.npy": "a3201201ffc64374db7489ba8d1b7b7840c9f918abda90bc880f21d7804d9968"
+    },
+    "test_03": {
+      "ct.npy": "17ef7a214662f56b13f7cb3ce152b8c3fbafc483805d7f7707c3c7593fd16c8d",
+      "m7.npy": "194d4ce1e21a60d917483419d8427d5c7f3a148c2eba0dcc733f3ef14bb49bcd",
+      "ref_xyz.npy": "a0146a2ea16ba7c3df34658a73bee5b1b0ac3099ce6593b13f58e2373de13a5e",
+      "triangles.npy": "2ddb9471b95d1d644cdd7ec4d3641b5a0fcd6f9c4b09d2e7bb0a9eaefda81b52"
+    },
+    "test_04": {
+      "ct.npy": "f3ae71b40d52a48e9b0cf97deeb3a3ca0d33139291bcc01882b2c2f49a30f88a",
+      "m7.npy": "9eaf8ce6826440941759cbecc8966fb8bc8c471f74ac99a27b4bead7328f0929",
+      "ref_xyz.npy": "7bb0c2f261cefee899f0dc6dccb8037f6449b3e4f1876b9960b87073399bcfd7",
+      "triangles.npy": "1dfae2b11941da4bdf9f54edcdf283d22677469cda2462556a9967fa6b6184c4"
+    },
+    "test_05": {
+      "ct.npy": "d6fc4bab36efdf150dbd9e595519305cee559764497614bbf3b67da01744aac7",
+      "m7.npy": "ecd07031d3d85e57aba9bd2ff9e93eff5ccd85fa16be76e0c0a09d92befd8d35",
+      "ref_xyz.npy": "fd9ab6a18e3d24a89c544daf34713d0949503d95a910c2053c5dff84a388d2ff",
+      "triangles.npy": "4e5e682fa02ce7fa9b695279c0d7ffd6c843213047a56a5e0b0356d20021f2f3"
+    },
+    "test_06": {
+      "ct.npy": "fb06afd9cbd7709fd98f082427e3888c2d6eaf4c4dfe7cf4a642daa1e3f21d18",
+      "m7.npy": "149cb958ee2b0bdc00f5054e2ac68cfa47f63c8e65a9d4eef34c516519458993",
+      "ref_xyz.npy": "40d48f651f3f4c2e8fc5975a863f3b7608f9e6fa937e9b951d09f3f44b5e30f6",
+      "triangles.npy": "1b72cc8be67eb853b6ccb52b1b8977c3c7cb91fbf356c4ee9ad4b593ddb9c3cc"
+    },
+    "test_07": {
+      "ct.npy": "d0169f467675715f665358fe12d8ef7d75f4145c115b4ec21e24507805cc5db3",
+      "m7.npy": "5ff462590a2f5b5d2dbd10a859a19bfc4df84d45a63436a53e4cb466f6530859",
+      "ref_xyz.npy": "7b2c6238c880e1c768a79fc0fa6525d6484503d6ac9c2bbdc5773836590a346a",
+      "triangles.npy": "b6b57f1ca47d565ea4222dcbe8de74fe9c3948daf762d3daa64c058277bccee2"
+    },
+    "test_08": {
+      "ct.npy": "1b80c49912c0d0fd706ad5ce7c3919df89155bbd500d125dddafad90355d697e",
+      "m7.npy": "25f5b3f3f116bab84a39b3ead83e310bc4e68acbce417bd87fde3b7d7fba6bf9",
+      "ref_xyz.npy": "2639b90811e055668e965f0819b27c1d12e41f771517f7ebd592a21bad36a1ac",
+      "triangles.npy": "bbb2e28afb6d2318ef80b9c1433e7049aad489bc1dd7415648b446b12f51efae"
+    },
+    "confirm_01": {
+      "ct.npy": "e6120eba35360f473acb2dacbc3ca905cdab59cc428811cd2690e0fbebc7ff35",
+      "m7.npy": "f2a88eb6409103448dba68f20af792ce614d50e2f277f1c48ce71402cb8cdd29",
+      "ref_xyz.npy": "adb4fd3f228ab4b8ac07c33768f43e397b0e6dce83eb538c66fd502ec8e862b5",
+      "triangles.npy": "9c52a0f032ac8e7d8f293a9e829163293c0f83711756ff6a1cee777a27259e42"
+    },
+    "confirm_02": {
+      "ct.npy": "518ea9f444c3014c34bc9fff41b722a4b8e65fb3af3f8595640b86a7065dc719",
+      "m7.npy": "ab5f623e20e1c46030a6f10a1764a08cbe37a02532b08edc999dcd3bc43da92c",
+      "ref_xyz.npy": "55ca7c4013b4d9a9257c0582b6299609eb66a92fa166291fd4899dec7278f835",
+      "triangles.npy": "05f3b45f6e0b7fdbd00cc52e9942bc3a9df8125de391ef58f2ada296a6e0d550"
+    },
+    "confirm_03": {
+      "ct.npy": "b95f54ca2a96605da87f69973f695c1d86178a6201ea2985816abb55e1dbd033",
+      "m7.npy": "86ac66478543fb44dbd40897b562268b60ceac0e4932258eea86a9f38bc85c26",
+      "ref_xyz.npy": "aa5f039bd1ba7c3ca33a4656f674616c37dd1db237019b3aa5b8be17b1449427",
+      "triangles.npy": "e67db77a172600edad5e170e18ca57107e24e6bb860d650ea3796b2a9da1854c"
+    },
+    "confirm_04": {
+      "ct.npy": "312fca550ce7f9cf97c63ba09b9abc5e14b47d08a8073415e83f4f8c2facaed7",
+      "m7.npy": "5dee8b0861f04c70a3639df5cd296408f4f79ec8cd9dad15812c854cf7d71875",
+      "ref_xyz.npy": "3f90c24962f5ce5c034badae5383246cc37668163e2371bb2e0f5c5b488833a8",
+      "triangles.npy": "e88df799c758a408d2c486d96981e225576b558e81c8dbc82bac5b11f7077b5a"
+    }
+  },
+  "manual": {
+    "dev_01": {
+      "ct.npy": "4b63f4842586bd78c6d29813ba026d4c596387a3882f368333e66379d79fd67a",
+      "m7.npy": "f3505314ac5cc403b359233119a6c4db8460f47d7271706a80316c6e27a8a1f4",
+      "ref_xyz.npy": "3fabf5a206382efd4d5e7f1ec9c53f00f6b09e67205c2818c8788ac7aea57db6",
+      "triangles.npy": "d8b791839cd5147639b57aba9790086ea1955686eab3df6c3a5703c4da209cc9",
+      "instance_ids.npy": "a61bd5fe92a91e4f9b5e6d1fc7b67c819182c8af4d6da9ecff15cb50fcccd8d6"
+    },
+    "dev_02": {
+      "ct.npy": "04836de49a4a349d0443d065e65339cdbf09a443d8db5821d268bfbd47a6907b",
+      "m7.npy": "a9fed9b0e629e8b9ccf1079a44fbf59c33fcd880b743f408b23ced36e187842c",
+      "ref_xyz.npy": "25032355600747c68c7c712841f494a8447f0cd1efebfd8cb686ad7164a2d786",
+      "triangles.npy": "b185241b862501d25a99efc65d4f551a83f99f1ebc678279e62d9fe493ecc654",
+      "instance_ids.npy": "3c75f6b880c5974cc21bf6c7310989e4b6596034df9b38538399f3be8f5efc19"
+    },
+    "dev_03": {
+      "ct.npy": "f236603297a3ed9b8dc9d00e805f7a0d546c0ae1893f9c9fcb8dd04a4ae3d7a0",
+      "m7.npy": "b9412662b69aa2b077d88473f3832404e1664b52c2b0f5146841c8e6a2b242f5",
+      "ref_xyz.npy": "bcebf8d78381a19c345153d737b35b8bf9bb53b3ffdb9470ea1fec65da98c2da",
+      "triangles.npy": "dbc2ba6fb636e5dfe88bfa7e37f3f93c0c7b22748e6a76e95a651f9848a4e526",
+      "instance_ids.npy": "f9bfed1ec28c22be4b8d9a96796706fa70875e12c66810bdef3b70a21b6a99e9"
+    },
+    "dev_04": {
+      "ct.npy": "30744a84a271b16d0cb39a2cfd67d665d67e414a779ca9bd5203a65d79d51604",
+      "m7.npy": "e674386cade46b428a8709b6278b48cb4d96b8098a4dac556f79191df480a085",
+      "ref_xyz.npy": "4ad2df51c70b6fd8cb23c03a0a5470a4dd55bd0f5008185cf8ea697d8eebf008",
+      "triangles.npy": "f8860e2669793303b1d7f63ef98c76b2ba77db23de44e49110c19706188cc008",
+      "instance_ids.npy": "8672260a790e45b5cff0ca9dfad300969308f7de0f98780cde5e0697218bc322"
+    },
+    "test_01": {
+      "ct.npy": "0258ecd0922b6e01d7589efa20669efe534bc76be97a3d3b3d8b08bb6ccece01",
+      "m7.npy": "abcfcd0567584c578f7920fa1eeafbf9144467e4cf14b33df684ed74dc19b59a",
+      "ref_xyz.npy": "f00f49b97ac047fc25a97e6138d2d54964633166dafb2a56902cc9ed72bfd184",
+      "triangles.npy": "06cdf3e35a48d3379102f7c263b1b2e7b20d021b47b97b8189ee85de212dd8ab",
+      "instance_ids.npy": "0163d2d1379f0d8e2a38bc5793ef5da1e5a4d50432c2589d5c2705e5dc377929"
+    },
+    "test_02": {
+      "ct.npy": "33fb1818655da4715089307d679b04e63aa441a568ea3da12848d67a925263fc",
+      "m7.npy": "56fd8341543c4db8b564120b5c79893525e3c547a920bef64af26198479128ea",
+      "ref_xyz.npy": "b248351de477d4363a558bafb2255f040b5c9abf8b7d8d7de6f27cabb6348515",
+      "triangles.npy": "2b54df210865daf55842b2cdb303648761bc89e83e54ffcca3a05a8dd68c9150",
+      "instance_ids.npy": "fb57aa17427e7d522feaf3ec53cdefd7abd35f06a8d719e65acee2976efd8e90"
+    },
+    "test_03": {
+      "ct.npy": "30106ddc3536eb60aaddf462e02ecdb5d7498a9fd5d4231b9ae1502074d7382d",
+      "m7.npy": "31cd3abbac6a385e86a737b17b88481eb148ca909a8062764ed8b0d66faef447",
+      "ref_xyz.npy": "c88fc673a96d734366f643a24dbaed4c468c1c50a604d1f17b9e5e484447aeab",
+      "triangles.npy": "448331e997dcdba253aa15deba0099e5bdbaa77d59bd2ec7c1975f2b34198b69",
+      "instance_ids.npy": "4e3211b8bb2cd19432655f48b2559c02db003fd51111e8c1a6d27aec757535bb"
+    },
+    "test_04": {
+      "ct.npy": "028a18a5de1ece2f3e7bf785c14f0b9abde4956308d052963d3ca0078be19f8a",
+      "m7.npy": "43544989efd47bfcc5dc87ef9cc45a3727a8fbc60f6c6867f73069bef8c2ae9f",
+      "ref_xyz.npy": "f286f283b8be2f8d0233f0eacff621e4a7e84ca44ecedb7f5289594799e67dc1",
+      "triangles.npy": "bdb0bb2e512f0a959410090722a818f6c600a46acc066a76cc0b3f9e487d0b21",
+      "instance_ids.npy": "76bbc45402f855d1d2bbc47d723ca3bc9e92a6c0ab42a34f538e569f1a8f2886"
+    },
+    "test_05": {
+      "ct.npy": "fd16c2daedd15a89277c6389abf7754d8b45027024dfb0324dfb0b4cfcf26764",
+      "m7.npy": "b3c762546621c87db63ccc266937d5dda73ff109f5684bc02df0837cd3d12051",
+      "ref_xyz.npy": "e47bb3b50d3c5ee32308d08840ba2ff967be3396c786a3892baf51b17d7a62eb",
+      "triangles.npy": "34a5037496bac37861f4882fc7fcaf237f5c69fd75b3962b4c8574da11789c3a",
+      "instance_ids.npy": "6f818f7c838796ddd1da5947283c5bfc95e593c1ad2e486c25487ebe9c5970c6"
+    },
+    "test_06": {
+      "ct.npy": "07ff3edfb257c81189c246890992c26694d49f07a93654701f33cc41d4d43ced",
+      "m7.npy": "a4cefe24f6c9bbd5d1dc8e8030a844466cd78c70334899f970d8910f579c2624",
+      "ref_xyz.npy": "00ab33d99c0a207e6bb6074433b829d3ff6ecaf31ab385e8719e3bcdaacb5701",
+      "triangles.npy": "0a90413343f21aff2a319f97fc8d2c4f9f23a41341f7ae59c6cb87ba33885c87",
+      "instance_ids.npy": "9152d24d47dd70e7f8343a10fb0031ecd79c2658adeb14969db218a6ecb161db"
+    },
+    "test_07": {
+      "ct.npy": "c3e11340d55ec540fa7e8634dc38b65b184cac3ad41554a5e908a34fbfa2622e",
+      "m7.npy": "1a73a8611ee1b82acb2a7ddb365d15694ea43ad73ba20f948a01f2636aea6640",
+      "ref_xyz.npy": "7d8c36902ef22acd83b9eebee987cd88d301c13e27f262f541462e585aac56ed",
+      "triangles.npy": "667c57f0a08fac6413180ff2568473bae463bae84ed607d1e842b1405a3554ad",
+      "instance_ids.npy": "16c11d2348626cf7d3999c852ba8c53340dc66442935fde0dc1b4e2d87f5f33b"
+    },
+    "test_08": {
+      "ct.npy": "d182a044d69a285eca2fdb5bc3690f7378e90c2e310363197e19987098be5971",
+      "m7.npy": "6deb44bd287067d9ff0d38c179fa657b48865dd6d7f5fac0262f87e48cf296ea",
+      "ref_xyz.npy": "07656cac7a9d7f21aa63424a1034d859624b96b1ed7a2e45bb1290e32f9cd3f6",
+      "triangles.npy": "54fd397495575cd5bf90ccf8e953821913a182c4551bdf3a0a8e1a30a136f9c0",
+      "instance_ids.npy": "178f2cc1371bbf011515ccebf6cf10a8c017f8cff3bd4d132e76f83577372e62"
+    },
+    "confirm_01": {
+      "ct.npy": "1c1c11b4b4e9e135ccc30424d846f38d0a799093774661d5a6c142498a7a0f9f",
+      "m7.npy": "b920acd0b403c787c927e106da401940422a878a6c7a43bf53db892f563645b9",
+      "ref_xyz.npy": "525c3711fc6aee6fa2ee3397aed527b2d2e72501ca3bbee9a5e8b869e2e7c465",
+      "triangles.npy": "46eb02ccb5720eb53a767ba3bf9cca970a925db06a720fa174095e5c50510fd2",
+      "instance_ids.npy": "9c41d8727ee8e24c65bf77cea65e21c337e001fef8e0dcbd4dd45d4fce0b6828"
+    },
+    "confirm_02": {
+      "ct.npy": "419d00efc20c42f1504f241e426940f2fae94b85cea3bd4d621b8a42fc3c012c",
+      "m7.npy": "94e9bb3ea1913178a72ddcfa153c82261ad56bd96c4e7b4d1750c6226a00eff3",
+      "ref_xyz.npy": "9aaa885cb2d4060fb6be57b8c4c537fe5d127aeb3cb44ac56f58e23ff0952c3b",
+      "triangles.npy": "db349eefcc13e31393cea5b3b16f6677cbd55f5509c2d2297d97e863e7ba1dbd",
+      "instance_ids.npy": "2d8f0bedeb7522cc03238fd41e10cba65370b06358969248022b10d293567af6"
+    },
+    "confirm_03": {
+      "ct.npy": "17b14adf27b22075c41d92ab6f4f2e9c495b35080f4c1b466c9e5354a6e3ffd2",
+      "m7.npy": "a6e62b32925487e3584408fa8558a6225e89bd374a19f71abd3c441b35c15cd9",
+      "ref_xyz.npy": "87f32111d473dcdcb578cec82f4f3a1c81eadc8bf25955bfbd8e4f00559cda1e",
+      "triangles.npy": "abe9199d5699c6b3e62ece64a45b385f2f98e371aa38ee71cb9df79695d828d1",
+      "instance_ids.npy": "514bfe55d9a3e230b16f8602eb093ac91c1a5c512981b42639eb8283c72c7273"
+    },
+    "confirm_04": {
+      "ct.npy": "1ab1f1c043df6498e722e444a39caf1223a206754f955327d1dd76bc56ccc8c9",
+      "m7.npy": "1ade407c81db19c241f37733b5ad01866c4b4e3c7af1832ca49b54d68d141b78",
+      "ref_xyz.npy": "c7ac24208a792dc4a61f557fbecd830337511587241032f922ebbdd9fbeb0d0d",
+      "triangles.npy": "8011351bc6593be249a6464d67b8c3e0c4529db01219e76fb5e92c0586605465",
+      "instance_ids.npy": "15632a9297240a6e7d23ba1f856cfa0f2faa2a7c5142497695351c5d36b7646a"
+    }
+  },
+  "pressure": {
+    "pressure_01": {
+      "ct.npy": "e5ec98186c4f921648b07a5a8febd285ddd8a97f0d9c0e3783e020aae07b215b",
+      "m7.npy": "8548704c98e113676f0c83f45f04745c571a6e5d452502f53928ee7f01f3e926",
+      "ref_xyz.npy": "c259b82b70cb768f120db1f3ea5a3b685c1c98276812f98fae9932af808efd44",
+      "triangles.npy": "02dc470801a8140851bd48f532101b4d8ef5c6f9a902b154f5fc42352a4f1d64"
+    },
+    "pressure_02": {
+      "ct.npy": "e9289451e84e3284b2542daa832a48c21ad05d10758012cf35768f997573b6ab",
+      "m7.npy": "02083935f35d321b3af5c42a5277fac97dfb548227743065e340c0d37406b5ff",
+      "ref_xyz.npy": "69f37aa4449c8fa66b638e892320246d947a4dded9be37b4d8d849fb285e9503",
+      "triangles.npy": "2c3758d82d2c9cda22220936bec9e6eae0ed3c5d6b1bc9ea649e1dc6ca9e54b7"
+    },
+    "pressure_03": {
+      "ct.npy": "e500bdd09d2797aab4d026ec76b4338e44ac496a38ca09586e0b59b88b511659",
+      "m7.npy": "fe0b3c508191bace0b15aeb52d0e2f26b6429a239e840250f2388401dbfffcd2",
+      "ref_xyz.npy": "30eafeb1b02160cbcbe34fc34af8d01499ee0ee9f3716da32cffffdc73842969",
+      "triangles.npy": "647188c0e3d16fee3cb044ea8be44ab2e6a4071fad4badd738384edb5eb7299b"
+    },
+    "pressure_04": {
+      "ct.npy": "7471dd5be8d444605c110c17b5870feedfa8dce29a334ecb4eb92d4b3e40e30e",
+      "m7.npy": "3a9b26038df670bb9b835ab38f05e6d28c11682c0a74d68759edc31fca0447a5",
+      "ref_xyz.npy": "7a3885b53c649c733084e20977ec71c4c554475ab6399b2eb8b032142b70f752",
+      "triangles.npy": "553f75ce8498f14c11bc1c1564008afc7a476048a0afd4c4d9fd38ab149c4d37"
+    },
+    "pressure_05": {
+      "ct.npy": "af48e7355d0f918e3858d452a8579983b35b8cde8d82a1a90a1ba632829df5c1",
+      "m7.npy": "b00c7eb84995fd3c2892fbba531c2774f0b8ecfedd84b45b99750630f549b748",
+      "ref_xyz.npy": "aaab7221065c2f91d3b39c3d7b25555d9daa385d78336083b1cf797f44750a7d",
+      "triangles.npy": "ec3e1af5388ee8796eeb5fb681dfdef8386ea40075130c2c53edac176ac56fdd"
+    },
+    "pressure_06": {
+      "ct.npy": "f5364d71615599371451f363f7b34ef2f79c124b6ef928e61061a5c7daba5485",
+      "m7.npy": "c96769c9909497f0a437cc84383f2ca74ba42f3059297eef07599f6514e7f8f6",
+      "ref_xyz.npy": "f2ef6cc0807427907dd12c2587ae27c53785da32829a2a08040083d9df81d062",
+      "triangles.npy": "6ead6fe0f8ac2df3457e85b3eccb920b37de7cf585450fe5b4b4fcc559bb1cdf"
+    },
+    "pressure_07": {
+      "ct.npy": "8f53ea096b042a1e2431bf7f005e0021d420b8f58d56dd977c7eff0ab3cc486d",
+      "m7.npy": "6e6a7a824903b35f4099e5b6691fdb622a592680b2438f54087db2944555bbd3",
+      "ref_xyz.npy": "d01fbe6de7327f7ee1c97c6ed014dba0e6da40c972e1d86914b6b926bbe7fabb",
+      "triangles.npy": "f1b781f008af7dda74e78f960977d46f82210dfcd4e07048b55fbe28f7084fff"
+    },
+    "pressure_08": {
+      "ct.npy": "9d32f39e3af73e6764f4a596ad0caf315ef23a4edd82aef0fc2a553acbb4ce3f",
+      "m7.npy": "7820aa8bbecd0f372b7d86f07cc2613fb9c4530839defb0a413632f08eb52089",
+      "ref_xyz.npy": "3887171aa4c324dcac70d3651aabec6e598454142c5772c4830bdcd222282e89",
+      "triangles.npy": "60fe7ff5b48b667d91f0c7b3a172dcba6f8db4085b22b5be9ead0e992371ef5c"
+    }
+  },
+  "interrupted": {
+    "gap_01": {
+      "ct.npy": "70627649278b69d286494d1952b13328399a4cd1020e8433ed72d108271f6f29",
+      "m7.npy": "41fc37676fe606c565b2b8e64a896ecced1534235d65554ec94c5d4ec01503e5",
+      "ref_xyz.npy": "b5584f133fb5a91c216f681719118867e3730488729e99f01dcd6140314b6dc6",
+      "triangles.npy": "5d1a2499ae938d0cbf74f3617d452c317cfc4e1b65a8a21bba4a40a19b668a83"
+    },
+    "gap_02": {
+      "ct.npy": "6ddadbafc90562471f8465391eecd9ebe06dc064443d15c8a9fb304cdcd6129f",
+      "m7.npy": "cd2a82e968274f9cc9c9f1693b33e05fb1e9e5ed60a4018befd43a187fb8777d",
+      "ref_xyz.npy": "88f7f17d8a11ae64af3a95824aa8e2538b1dff30779f8f1bbb4dc94a78a9ffe6",
+      "triangles.npy": "93e29b4e0fae8a46399ff6bda4b58939e92e0fa2fd4820f20889f3b2d2bc4e6d"
+    },
+    "gap_03": {
+      "ct.npy": "ca471ddf8597b24a2b1cfcb7f0c6263bdb6b57df909874d1e78baff71ba6ca40",
+      "m7.npy": "eed3730b81aaeb485f3041ab233358d2ddbb841b5bbc8e6436c6c92821c02fbb",
+      "ref_xyz.npy": "f424709c1f50a94afa5e51bbbeecf49acfece1f73ad9774235ddeaf2fac8afd4",
+      "triangles.npy": "cf467fd87d59cb28ef4df61b90160e77d37ea889696ce693b1aa0640dc354ca3"
+    },
+    "gap_04": {
+      "ct.npy": "7d6b0138a5bea27290122ca4330eede5646a9942ad5684389237b791003d1fe4",
+      "m7.npy": "44c1236721f09952e3cdd40a066a655890e8928fccfd143a74b538ca6334fda0",
+      "ref_xyz.npy": "ee55b5ad1d69d8b426bbc7ba8ad9750fcb4588ff03eddbc866b2a0ea0f559dae",
+      "triangles.npy": "aed1a25be1e0a5a105070ddf7f434d033bf759c6eb4b4511ddec6af8172b4cfc"
+    }
+  },
+  "manual_external": {
+    "external_01": {
+      "ct.npy": "5068ffa19bfefbef50ae9f94608cb68dcac9a818988cff267a0736c312682865",
+      "m7.npy": "e07d3c70cb5c62fbaa119e69f5cf0c8c4405b35685328cd7b18e00c4a94dbbfb",
+      "ref_xyz.npy": "1d20b0e9b00f241cdac21c4cae99d8a3cac464aadcfb38bead28dc28f4223240",
+      "triangles.npy": "6badc2036d1e947397e2b154eefad4e99c7a8003938bbaaab8ed508e67f5f890",
+      "instance_ids.npy": "6704d235e98a6583a8d99b6bbd874b42cde25cca6b3a33ae4084ba0af5070fe2"
+    },
+    "external_02": {
+      "ct.npy": "7e743d8a79493f1c40cce9416e81be37058b05bdf8b6c9c68a0f7c5ca53205ad",
+      "m7.npy": "809ed1cca4dc5b00e8b0279acfe53f580d8834d889e43f150d9daca211dde90b",
+      "ref_xyz.npy": "8b41b381f3e49927f261dd1ec60df2c3a42d866227139c40fc6b8fcbe6c7d132",
+      "triangles.npy": "bf6ea13831628d9f173e9b3300f7aa05d66db8c9ec353b88aa29785dc135e823",
+      "instance_ids.npy": "ab9fd136aeabc585ff77365032b1ef3a426a902768cf729c6a13a5a81ff404d6"
+    },
+    "external_03": {
+      "ct.npy": "df04e4b5a255a4c124d82ac5727264797da043a6572a7d00afdbd884a275321b",
+      "m7.npy": "2f559c1200f010f878ea4ac7c6c8bd16d78a32ae562c6fabae708e6c32a035de",
+      "ref_xyz.npy": "ebe60f047f1d8f6a11295a02fc5faeb5762c1583743e9eb5054660a2cd3dc309",
+      "triangles.npy": "798126fe0ab5b7377203e6f04a13bdbaf4bd0d76afe14229675cac975c8c1afa",
+      "instance_ids.npy": "8705758a0843f6b718b1e04e8b1886cd1a94902db1e004c4b7f7cf1a91bc28fe"
+    },
+    "external_04": {
+      "ct.npy": "863545078b5b626c9b28b15a6d59ca32f43ce8c206788bce0d8706fb045a8c4d",
+      "m7.npy": "c6fe43c716b4402ddb935d27d5ea22588cfd78dc279792959d310b59f1c1bb02",
+      "ref_xyz.npy": "1c8954c5a87febed4218df721af0351d5a58846ebc37b7a657e3a7ce9049df42",
+      "triangles.npy": "2c9a873f3b90476f8e3e1285de247ddccddce48d9cae014ae962eba7f9aafcbf",
+      "instance_ids.npy": "3bd7a766675188c9300f7478a19b41dcb86c42bd04e8757aeceaff7a28d0f1dc"
+    },
+    "external_05": {
+      "ct.npy": "a2b0ef0412b11c90429ba5c6f329acf0ffe643c90c405de9ace1a23202861a03",
+      "m7.npy": "efd29cbd26a5a577cd4bd745bf46ec1c50cad2b16e29beca7d095c53651e7b09",
+      "ref_xyz.npy": "e74e3212428b74025bd3f56728934d8ae6aaa1d814616c236475024654c97938",
+      "triangles.npy": "8078b912c5474c9e67acae45a82c0e152c02ccb6d2da4edadc21e1d8a3da7cde",
+      "instance_ids.npy": "f95a652e130092892e4290f929ffa9407c10209ea33589dd42aa2754ba1e2988"
+    },
+    "external_06": {
+      "ct.npy": "4c115638501e507d85e520443820635faa793a4def8697f4f14842583064072a",
+      "m7.npy": "c2bfe954c430c11cdf6915d9c461e433db31fd87b3d4d15b87ee4f8ffbcf37d4",
+      "ref_xyz.npy": "c02ca21278b8d9adddfec886e133ee0c2fe587c4bdcf2dead381294ceeba6f92",
+      "triangles.npy": "88a7a3121acf1760796a92cfb40e8217556443f0248d76b9f0c9009c6a931a88",
+      "instance_ids.npy": "d0eabba992a78c10b8861703b859bf188790c2da60d83723f36e3ba78a2c1818"
+    },
+    "external_07": {
+      "ct.npy": "70cc41c2911dfd497f31ba65ca4cc20856c43e0ce1483fdeea2fca110e046cc0",
+      "m7.npy": "f141b39de45db7dad7a55314a7da11de4964ae3d0c116050ebc4fede7f1a5be2",
+      "ref_xyz.npy": "4648b04425fa5401b31be0e1dd796704149bf44e9045447ddb0c3d8d10592156",
+      "triangles.npy": "4c3dd0cc5d54e6d76ff39c720673d1078571894e730e3387254200ee42eea4e8",
+      "instance_ids.npy": "dfc4f81ef1b2b9b317f4ea8cf075db724bad82eff6990b5057b37093768398e4"
+    },
+    "external_08": {
+      "ct.npy": "ed1fdcdfe7cb28ceb2d710cf182fadb77a11cbf7d3df015245a2a135d6e3f8c2",
+      "m7.npy": "00799df2b2e3128f6ffb8efb15dbafcbf19b669daf33f974fb08748480977354",
+      "ref_xyz.npy": "fa6ec3e1bfbbb38197c976408bfb3c43fb920703cd80fec24f58e3d67b81f85e",
+      "triangles.npy": "2d16a54a0d25e7ac47c68a3ee39697d46e28f94399b34189e6c05a8a75adb9cd",
+      "instance_ids.npy": "06fff612842192d82ea64be2942341e148684cf413084e181bc5aa15d2d1ece5"
+    },
+    "external_09": {
+      "ct.npy": "b88ee03b4bda10fc53f3832b302b05d2bc672646b51e52a0e24638873f5d90f2",
+      "m7.npy": "13b076f6ff488524870a7fd3c096e3514a2150698a91ba4e66c8768b8d8c5a47",
+      "ref_xyz.npy": "64efb4889d71e3c4251f3bc0de0658e2d9bec69faefa84f301cffaf88c6b074a",
+      "triangles.npy": "b4d2164b8dbb99ccfca3622b9be8f3348fcaebe060e0acc4e62b7b0634583e77",
+      "instance_ids.npy": "390b6d88e287fabfe209718bb4888ff0a1a6bc60b2d23364adbeef9b9f3ec3d4"
+    },
+    "external_10": {
+      "ct.npy": "57229243296f9a4c2c22a0d82cea65417663f3658e3f2d44d7dca126ead18606",
+      "m7.npy": "3b3cd233aba3b54789533400773251c62855fe8cc07aafc73af03e825b1a2597",
+      "ref_xyz.npy": "62f1492befbca073d27c8aa37d16cdd40d8f289504ea00c73baab8a5ce839b05",
+      "triangles.npy": "d9e9c75808f2effecc7202a528fbcff396ce3458ff77a85d098bac2cd450285e",
+      "instance_ids.npy": "c5463bb3439cfe8c8a7a0206fb6df94bb16a150979bc0f0326ffedd3932ee3f4"
+    },
+    "external_11": {
+      "ct.npy": "9f508b1e1b997220448eade888586d85d625cf39a47b52decae13e3584950665",
+      "m7.npy": "9f18a2d95c1b424b120eacbe4923dbdd081b182433e22bae6d60af861a97c9e8",
+      "ref_xyz.npy": "cbb4f7c72acc2d8b9bf16818dccd0ef3b6ec2d7a3c2e99a5b32221915ce6d6b6",
+      "triangles.npy": "20bac57ca0dc096ff76e50eedeb4db208873f73b61783e1ca0b5bb433c9a503b",
+      "instance_ids.npy": "8c105152af50fcca81d9b15844a9c1fd9c37c0d4cb5c94972eea582b313dc13e"
+    },
+    "external_12": {
+      "ct.npy": "998f044914ea0608337701d6e95a4224d387da6248ed27433dd1e7878718718f",
+      "m7.npy": "0394da5fcb142bcdfce008d2389b8f42a401cfdb60ed06e4f19958e3a76aa81c",
+      "ref_xyz.npy": "a6e416e7736dd284af6abd5aded9557176d75053c391cedfff6cd8e982a57821",
+      "triangles.npy": "ea96666d0aecef9c08004a37abd0ada87ba951a3b237b56b4abca1214fe35f35",
+      "instance_ids.npy": "ebc998410f9a1f4b7faca22a5368ca8871431e832dd80d222395b35076dec0fc"
+    },
+    "external_13": {
+      "ct.npy": "88005d1e21f1485b3ead0af0825df3316e495706422753d24f376f3fbf706b31",
+      "m7.npy": "14df2c3f621f1c0494a06baa0b8107e512fdf5547b5da6459e2de3d5604434d9",
+      "ref_xyz.npy": "8f06a286fc059590bb524c226441b30e8d327386aeb8208ffb64d49cfc38a3cf",
+      "triangles.npy": "961f2e406c68a4d9a5e1060c56fdc54682659a7c8a35d966c8613cf540b3c141",
+      "instance_ids.npy": "9f2a24f05fc3b7b1e6edfa166e0a37d81b10aad7eee00182951806af482901c2"
+    },
+    "external_14": {
+      "ct.npy": "5b3dcd836a6bff37cc1df6ccbad1288db2c295769bf7c03d616d2719192dda9a",
+      "m7.npy": "ffe546589cfbb9c6f8462a6c7eaf5e03d980d54dac3d9cb15a01afe9ac853e15",
+      "ref_xyz.npy": "850568374c4301c82426f46ac0a2c062aa27611d4658f512b6ed7aa9003bc2d9",
+      "triangles.npy": "fe65bd10c147707395ee3b5fa1378f07efccd1cf553ffa7b25c3adf7a6604124",
+      "instance_ids.npy": "08e41121d88fa6ebc0bd02bebdcb04cade2a0503afdea0bd37927608d623f37f"
+    },
+    "external_15": {
+      "ct.npy": "ed621330464ee9d031c12af6b5fb535a47b1a1e2fe2ef3b306057dd60a48233e",
+      "m7.npy": "8787b70190deaf2581bf10555ced9b49fb3ca53350291703bc4dba1d39efc59e",
+      "ref_xyz.npy": "08ef0712a20b5ab45f79556458e54841a6a82e65903df21f2f81e4ae34e50fdb",
+      "triangles.npy": "1c0fd288c3ecc780d16c2343bbbbfe00d8ac7728cc4d3a1a67de97286b93329a",
+      "instance_ids.npy": "8091d1167332560085b7a1f4f273959ec8891360ce199adbab5842c97a440e56"
+    },
+    "external_16": {
+      "ct.npy": "4a458522a50de0c87f97f20460d09448a1ed5c33283be29f0bd4bc934dd7b3f4",
+      "m7.npy": "1d37292f842d873d18474b467b0e2fb1e2470ea5b96c729ba1c60d3a770d8a36",
+      "ref_xyz.npy": "2f4da4e4938d9ee1f4560d31ec837826fcab2c7df972e006c0e9b87b9a26702d",
+      "triangles.npy": "4766ca3bd99b95c557cbd353253d9cbfec42196b1264fcb6b74e7ecf438d7c99",
+      "instance_ids.npy": "08ed0d13bd8bca53b5d7d9672c26990c1d89dd4c3c07503112df380383407648"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "cases": {
+    "east": {
+      "exported_faces": 6041,
+      "qualifying_faces": 4889,
+      "native_area_cm2": 0.33866693619209,
+      "bracketed_native_area_cm2": 0.2741190238207962,
+      "largest_bracketed_component_cm2": 0.26644446204484035,
+      "components": 4,
+      "source_mesh_axis_sha256": {
+        "x": "4fbec7da8d7c895d55f3ea74e8696fa5dd04e5a73720aaa1321de452d95bd5da",
+        "y": "2c2a25e34ca96a8b1a5135950c8608bb25f990300da4838c8e9dedec24465c7c",
+        "z": "2b63bdfd4639210d8f7d23cd22116f74da75e4e590b50d9766b4394f4414d3cb"
+      },
+      "also_bracketed_and_stock_agreement_cm2": 0.17964511294690738
+    },
+    "north": {
+      "exported_faces": 4095,
+      "qualifying_faces": 3699,
+      "native_area_cm2": 0.22950846316030782,
+      "bracketed_native_area_cm2": 0.2073086614685828,
+      "largest_bracketed_component_cm2": 0.2073086614685829,
+      "components": 1,
+      "source_mesh_axis_sha256": {
+        "x": "f5ba39e237ab75019217b857f9189f7d9ac66cbf29c8edb4c2575276a69f7b99",
+        "y": "2f044590a0ae875786c8af92f970a87c34a27dc7c576efc8d509177b1073b1ac",
+        "z": "9a9bc66ada16d0bc8f45d83ed66e5135b649c1e6af010e94c8a7d0388727104c"
+      }
+    },
+    "south": {
+      "exported_faces": 7162,
+      "qualifying_faces": 2456,
+      "native_area_cm2": 0.40148610581814026,
+      "bracketed_native_area_cm2": 0.13769046807830082,
+      "largest_bracketed_component_cm2": 0.10787730485731435,
+      "components": 3,
+      "source_mesh_axis_sha256": {
+        "x": "5dacfde4e44f80f90bb7f3981366e71045281117908af2e317136bb2e2e4dd04",
+        "y": "d24c67232f928c6eef138fff1c0a343cb3f6ecaf02c34fd398db8fb98e5486f1",
+        "z": "5d9de79f98a40001721a0e1f659ed4ef91fbe073d4e49fa0bcf565c5bf664d5b"
+      }
+    },
+    "south_2": {
+      "exported_faces": 5898,
+      "qualifying_faces": 3360,
+      "native_area_cm2": 0.33063882025330654,
+      "bracketed_native_area_cm2": 0.1883521018149307,
+      "largest_bracketed_component_cm2": 0.18149461813454826,
+      "components": 2,
+      "source_mesh_axis_sha256": {
+        "x": "5e639d02439f5cb5985058c8eb3542a1471992c8280ed6812826c35734171d88",
+        "y": "6ec738ddf7c082fe79ac7549ba76f1449f886fd1330d6ffa24426cfcaae646d0",
+        "z": "44bbc7ca7081ee6188a9b11454254dd7a633ae2b5d8a2c0ad30f7261a6e26413"
+      }
+    },
+    "south_3": {
+      "exported_faces": 190,
+      "qualifying_faces": 0,
+      "native_area_cm2": 0.010649242282605088,
+      "bracketed_native_area_cm2": 0.0,
+      "largest_bracketed_component_cm2": 0.0,
+      "components": 0,
+      "source_mesh_axis_sha256": {
+        "x": "fcbec40f48f34af715754f84f9df040b24467cc25f4e011cb2401624c2694c97",
+        "y": "314c02cb96f3e116a2c7b6a2c7cdd0b3ff5e65163736346a9bda3e70dcfd1f61",
+        "z": "920b374de2077364605a5ead797c015e0d27306617da36d42c87bc56c9962595"
+      }
+    },
+    "west": {
+      "exported_faces": 472,
+      "qualifying_faces": 0,
+      "native_area_cm2": 0.02646847915677862,
+      "bracketed_native_area_cm2": 0.0,
+      "largest_bracketed_component_cm2": 0.0,
+      "components": 0,
+      "source_mesh_axis_sha256": {
+        "x": "1b9f0eb3dce5b59f8c8322de92bddff13f6740b2e8f1bca9a3238af0c3a36263",
+        "y": "4d7d585fe551ca3b34a3f7fd4403e65d018c9d2d77a27ea00c195ade6259b9f8",
+        "z": "24b759fb896216d31c13632f1cab3366dbef54cc5d955b4285b6a2e8dcf6b001"
+      }
+    },
+    "west_2": {
+      "exported_faces": 188,
+      "qualifying_faces": 101,
+      "native_area_cm2": 0.01054335596411382,
+      "bracketed_native_area_cm2": 0.005659421982492095,
+      "largest_bracketed_component_cm2": 0.005659421982492096,
+      "components": 1,
+      "source_mesh_axis_sha256": {
+        "x": "972f6f89503108c4933097230f236d6d5e5cffd84610d018e1c1180a1909d567",
+        "y": "59fcccab2ec2d67a28733f83ced041bb66ca5dd74a49ac5554b459d21bb7c706",
+        "z": "30bd22cdbdf177f43304daa704b5d951575ee85438e615bb84181e04f11d52ac"
+      }
+    }
+  },
+  "total_cm2": 0.8131296771651026,
+  "total_original_cm2": 1.3479614028273421,
+  "fraction": 0.6032291988921695,
+  "number_of_full_cells_by_direction": {
+    "east": 1313,
+    "west": 33,
+    "north": 1004,
+    "south": 1723
+  },
+  "scientific_scope": "All four corners of every 8-by-32-voxel reference cell touched by the bounding rectangle of an accepted flattened source quad are independently carried across the old-to-new boundary by unique stored organizer curves. Each original curve starts in the old area and agrees within 3 Y voxels at its sampled new coordinate. Shared M7 source, interpolated interior interval, no manual new winding label."
+}

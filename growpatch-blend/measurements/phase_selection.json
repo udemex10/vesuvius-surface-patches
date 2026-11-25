@@ -1,0 +1,15 @@
+{
+  "chosen": {
+    "method": "two_route_phase",
+    "threshold": 0.0,
+    "dev_gate": true
+  },
+  "stock_preset": "oriented8",
+  "dev_budget": 0.06796141986607077,
+  "source_hashes": {
+    "scripts/growbench_phase_compare.py": "6635c6aad3af249de5d48c5fabae1c0c341ba18ef85533b5d9ca45a94e6d15f7",
+    "research/growpatch-seed-offset-protocol.md": "f43b1cd131e63fd793f1016c8d81d3deedf9ddfa85286f8e956cf99c3c59701e",
+    "results/growbench/comparison/selection.json": "a3722b18849d74122adc01e00bef617100cea6ab1c101de8332b061d1087f102"
+  },
+  "prediction_lock": "47f4df4ad6836023d012be1132478473be21ad2598bfefe094cfb2678b9558f5"
+}

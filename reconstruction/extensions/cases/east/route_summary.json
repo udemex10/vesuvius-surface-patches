@@ -1,0 +1,14 @@
+{
+  "original_seed_mesh": "PHerc0125_y3310",
+  "old_x_max": 4040,
+  "new_x_min": 4056,
+  "n_independent_anchor_routes": 13,
+  "n_valid_tiles": 144,
+  "new_native_connected_area_cm2": 0.437922724567202,
+  "new_native_total_consensus_area_cm2": 0.4385599673766043,
+  "max_x": 5096,
+  "new_valid_quads": 115542,
+  "threshold_vox": 3,
+  "grid_spacing_vox": 2,
+  "interpretation": "Conditional agreement of independently seeded routes through the same M7 model; not independent human verification of physical winding identity."
+}

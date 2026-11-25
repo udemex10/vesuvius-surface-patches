@@ -1,0 +1,246 @@
+{
+  "pool_lock": "fb0eb798fbc9c820840a73ff8b26dc3b59bd761fe83c5658f8957c27d17c61e0",
+  "sites": [
+    {
+      "name": "band-seed9532475-20260729-174608-742.tifxyz",
+      "source": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHercParis4/representations/spiral/20260411134726-spiral-dataset-20261019084150/verified_patches/band-seed9532475-20260729-174608-742.tifxyz/",
+      "members": [
+        "band-seed7966372-20260729-181032-556.tifxyz",
+        "band-seed9532475-20260729-174608-742.tifxyz"
+      ],
+      "hashes": {
+        "x.tif": "fb9039deaee8b0809309ed176bebbd88eee1658bac81a0e962d432c7817114ff",
+        "y.tif": "11eda2b8753c628b03b11745bff5b0faea92459f0fd582fd56d50c094c6ab620",
+        "z.tif": "98fa76a44e97456d8f866c8f63ce18f0d1b56096932052b640a21de23611b3dc",
+        "meta.json": "a26f6c1b089ad537120a1bd9b3ab5bbff0be5281219ee01ecb5cc9d74cced421"
+      },
+      "source_tool": "merge_overlapping_patches",
+      "projected_disk_coverage": 1.0,
+      "multivalued_fraction": 0.0,
+      "reference_knot_ij": [
+        49,
+        18
+      ],
+      "id": "pressure_01",
+      "score": {
+        "id": "pool_02",
+        "eligible_seed": true,
+        "paired": 169,
+        "gaps": 0,
+        "profiles": 169,
+        "score": 0.65
+      },
+      "pool_index": 1
+    },
+    {
+      "name": "band-seed10531175-20260729-180852-183.tifxyz",
+      "source": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHercParis4/representations/spiral/20260411134726-spiral-dataset-20261019084150/verified_patches/band-seed10531175-20260729-180852-183.tifxyz/",
+      "members": [
+        "band-seed10531175-20260729-180852-183.tifxyz"
+      ],
+      "hashes": {
+        "x.tif": "1da56ac144fde00a59d50e0c42e3aeae448b20f9e9b0f31b2f67c9a1049dbdaf",
+        "y.tif": "a675d820b80695c1583fa1b96ee5aeb82e56a4d8dbe66786d4dc9e4a23f264d8",
+        "z.tif": "86cac1e6f463bb988e298a447e0944dadf2e3f45ba72e2dd16d3c9ea2af5c58d",
+        "meta.json": "fabb4cd1201e5cffe1f9bd997c68cc0da9a495a42c9721fbdd9f5e9845989fd6"
+      },
+      "source_tool": "merge_overlapping_patches",
+      "projected_disk_coverage": 1.0,
+      "multivalued_fraction": 0.0,
+      "reference_knot_ij": [
+        44,
+        23
+      ],
+      "id": "pressure_02",
+      "score": {
+        "id": "pool_03",
+        "eligible_seed": true,
+        "paired": 169,
+        "gaps": 0,
+        "profiles": 169,
+        "score": 0.65
+      },
+      "pool_index": 2
+    },
+    {
+      "name": "band-seed3205246-20260729-164700-543.tifxyz",
+      "source": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHercParis4/representations/spiral/20260411134726-spiral-dataset-20261019084150/verified_patches/band-seed3205246-20260729-164700-543.tifxyz/",
+      "members": [
+        "band-seed3205246-20260729-164700-543.tifxyz"
+      ],
+      "hashes": {
+        "x.tif": "f447d8d71dbf6c1e52353aca94a3bcacdb58525885900155a963090998d31d0b",
+        "y.tif": "48a9ed35bb8d44cd7a488125d9ba91b94a5578653bc1e9335bcf180ebd5dcbb4",
+        "z.tif": "e4a457136114b618cb1aad5cfbffcd6cc278a9dea5481f6e0744934d018882de",
+        "meta.json": "e0c7cfed224cd8ba1d58117cacd624f00783db1ad5d9a26f34bc1d998a7378c2"
+      },
+      "source_tool": "merge_overlapping_patches",
+      "projected_disk_coverage": 1.0,
+      "multivalued_fraction": 0.0,
+      "reference_knot_ij": [
+        44,
+        15
+      ],
+      "id": "pressure_03",
+      "score": {
+        "id": "pool_06",
+        "eligible_seed": true,
+        "paired": 169,
+        "gaps": 0,
+        "profiles": 169,
+        "score": 0.65
+      },
+      "pool_index": 5
+    },
+    {
+      "name": "band-seed6909967-20260729-184609-511.tifxyz",
+      "source": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHercParis4/representations/spiral/20260411134726-spiral-dataset-20261019084150/verified_patches/band-seed6909967-20260729-184609-511.tifxyz/",
+      "members": [
+        "band-seed6909967-20260729-184609-511.tifxyz"
+      ],
+      "hashes": {
+        "x.tif": "b45bd851c13163e2a62f5d5cc41b702e5b7ce967f91f38cf3edd6703342e9dc7",
+        "y.tif": "4805888f666eb4ed6977fa3c89665efc7226c81565176ffec22d26b7862582ac",
+        "z.tif": "0a76648bfc26d23ff2010ede0d44a735a60489a16ce380c55e0f35a5a28765ae",
+        "meta.json": "e8ed2bd3be71bc9a86840f3a22f74885b95e0e328a65d3b093b7714acd0e6d16"
+      },
+      "source_tool": "merge_overlapping_patches",
+      "projected_disk_coverage": 0.9657569163817221,
+      "multivalued_fraction": 0.0,
+      "reference_knot_ij": [
+        8,
+        25
+      ],
+      "id": "pressure_04",
+      "score": {
+        "id": "pool_09",
+        "eligible_seed": true,
+        "paired": 169,
+        "gaps": 0,
+        "profiles": 169,
+        "score": 0.65
+      },
+      "pool_index": 8
+    },
+    {
+      "name": "band-seed2880999-20260729-172119-780.tifxyz",
+      "source": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHercParis4/representations/spiral/20260411134726-spiral-dataset-20261019084150/verified_patches/band-seed2880999-20260729-172119-780.tifxyz/",
+      "members": [
+        "band-seed2880999-20260729-172119-780.tifxyz"
+      ],
+      "hashes": {
+        "x.tif": "2b1ab8aeb7dc94c7275b003fa7cd984eb2bcf9c2125579db7e795bd0fe33d835",
+        "y.tif": "0b524703fd9aa046345708fbcbeaca0b342aa138ccca98e9c4d6517a7990d619",
+        "z.tif": "dc5a59def61c71d36bcf4a27f7fe0592249ecaae7224501b940b98f371406c7a",
+        "meta.json": "cd54da3644c3897fa7b4a924cc92d0bd345fb3fc64c008f82f28bdc9222c06e2"
+      },
+      "source_tool": "merge_overlapping_patches",
+      "projected_disk_coverage": 1.0,
+      "multivalued_fraction": 0.0,
+      "reference_knot_ij": [
+        22,
+        49
+      ],
+      "id": "pressure_05",
+      "score": {
+        "id": "pool_10",
+        "eligible_seed": true,
+        "paired": 169,
+        "gaps": 0,
+        "profiles": 169,
+        "score": 0.65
+      },
+      "pool_index": 9
+    },
+    {
+      "name": "band-seed13886081-20260729-224051-190.tifxyz",
+      "source": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHercParis4/representations/spiral/20260411134726-spiral-dataset-20261019084150/verified_patches/band-seed13886081-20260729-224051-190.tifxyz/",
+      "members": [
+        "band-seed13886081-20260729-224051-190.tifxyz"
+      ],
+      "hashes": {
+        "x.tif": "ddd741133127e5525378542d8736080a534ced3bb66885a107b85dc8ea8f3a99",
+        "y.tif": "b4caf34390a0761c3fe85855553fee85e2d6e0f5f577b33992324bcbfde7649a",
+        "z.tif": "35407d680ea8dc859dcbefa9d65bb64f9886dcc3b0b237c4647f0f5cb7028895",
+        "meta.json": "86b0eb3e0e30dd6e5a074816e92611ee409937ba0cd0693a71cb72a291509f86"
+      },
+      "source_tool": "merge_overlapping_patches",
+      "projected_disk_coverage": 0.999365947659601,
+      "multivalued_fraction": 0.0,
+      "reference_knot_ij": [
+        16,
+        17
+      ],
+      "id": "pressure_06",
+      "score": {
+        "id": "pool_13",
+        "eligible_seed": true,
+        "paired": 169,
+        "gaps": 0,
+        "profiles": 169,
+        "score": 0.65
+      },
+      "pool_index": 12
+    },
+    {
+      "name": "band-seed6650672-20260729-235414-469.tifxyz",
+      "source": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHercParis4/representations/spiral/20260411134726-spiral-dataset-20261019084150/verified_patches/band-seed6650672-20260729-235414-469.tifxyz/",
+      "members": [
+        "band-seed6650672-20260729-235414-469.tifxyz"
+      ],
+      "hashes": {
+        "x.tif": "74a98a116fba8217dd49cada2c53571bfce77f8380f6e2b8e1cdbb21b6f456e0",
+        "y.tif": "f123276befe2b918ffd0775fe21f6b84435f01feb8fa2ecb8ba38f4bdaa85bd8",
+        "z.tif": "d7c920ea6422b3d9cc4776ae630e7f008fa77df0bfc924cc88d3ee92d9c0a73b",
+        "meta.json": "dd84877473590bd2205a97dd2f3037297216fc482a827ae90e4cace354aaf59b"
+      },
+      "source_tool": "merge_overlapping_patches",
+      "projected_disk_coverage": 0.9981350010568327,
+      "multivalued_fraction": 0.0,
+      "reference_knot_ij": [
+        19,
+        14
+      ],
+      "id": "pressure_07",
+      "score": {
+        "id": "pool_15",
+        "eligible_seed": true,
+        "paired": 169,
+        "gaps": 0,
+        "profiles": 169,
+        "score": 0.65
+      },
+      "pool_index": 14
+    },
+    {
+      "name": "band-seed7546702-20260729-171008-652.tifxyz",
+      "source": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHercParis4/representations/spiral/20260411134726-spiral-dataset-20261019084150/verified_patches/band-seed7546702-20260729-171008-652.tifxyz/",
+      "members": [
+        "band-seed7546702-20260729-171008-652.tifxyz"
+      ],
+      "hashes": {
+        "x.tif": "3c9f42565bee235d0919efc9ee0c9ec3a4f9c47d4d5d3fca8870370933239958",
+        "y.tif": "6bc6d1b805cc49c952760e135fa0a0624a1fb73088ae88e890e08714c38e4ac6",
+        "z.tif": "a563d5590c05e24ca1aebda4e79341bba03fb7f0106fb8fce9ca09821b70dc1d",
+        "meta.json": "c5a204b1ceffba479152a95df99b71f27d0dbe423d333ec4338e55e57f186db5"
+      },
+      "source_tool": "merge_overlapping_patches",
+      "projected_disk_coverage": 0.8947276775164488,
+      "multivalued_fraction": 0.0,
+      "reference_knot_ij": [
+        25,
+        27
+      ],
+      "id": "pressure_08",
+      "score": {
+        "id": "pool_18",
+        "eligible_seed": true,
+        "paired": 169,
+        "gaps": 0,
+        "profiles": 169,
+        "score": 0.65
+      },
+      "pool_index": 17
+    }
+  ]
+}

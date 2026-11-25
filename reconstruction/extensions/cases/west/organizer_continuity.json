@@ -1,0 +1,291 @@
+{
+  "direction": "west",
+  "planes_checked": 31,
+  "planes_with_new_consensus": 9,
+  "planes_with_unique_old_anchor": 3,
+  "planes_reaching_new": 3,
+  "new_consensus_nodes": 277,
+  "new_nodes_on_single_original_polyline": 56,
+  "within_three_voxels": 56,
+  "within_six_voxels": 56,
+  "median_abs_y_error_vox": 0.4478027343750455,
+  "control_within_three_by_offset": {
+    "-9": 0,
+    "-5": 0,
+    "0": 56,
+    "5": 1,
+    "9": 0
+  },
+  "method": "One direction-consistent continuous organizer curve must uniquely match the old qualified surface across an interior 128-voxel band. No new coordinates enter curve choice. Reversals of more than 8 voxels or segment gaps greater than 32 voxels terminate continuation. Source polyline segments have ordinary lengths around 20 voxels in the old band. Agreement is measured on newly fitted grid points 8 voxels apart along fixed planes, separated by 32 voxels.",
+  "readout": "Both representations originate in the organizer M7. A single crossing contour can be absent or switch layers. The denominator only includes the subset joined by the same stored polyline.",
+  "records": [
+    {
+      "plane": 9987,
+      "axis": "xy",
+      "new_consensus_nodes": 0
+    },
+    {
+      "plane": 10019,
+      "axis": "xy",
+      "new_consensus_nodes": 0
+    },
+    {
+      "plane": 10051,
+      "axis": "xy",
+      "new_consensus_nodes": 0
+    },
+    {
+      "plane": 10083,
+      "axis": "xy",
+      "new_consensus_nodes": 0
+    },
+    {
+      "plane": 10115,
+      "axis": "xy",
+      "new_consensus_nodes": 0
+    },
+    {
+      "plane": 10147,
+      "axis": "xy",
+      "new_consensus_nodes": 0
+    },
+    {
+      "plane": 10179,
+      "axis": "xy",
+      "new_consensus_nodes": 0
+    },
+    {
+      "plane": 10211,
+      "axis": "xy",
+      "new_consensus_nodes": 0
+    },
+    {
+      "plane": 10243,
+      "axis": "xy",
+      "new_consensus_nodes": 0
+    },
+    {
+      "plane": 10275,
+      "axis": "xy",
+      "new_consensus_nodes": 1,
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/representations/predictions/surfaces/20250821151825-surface-20260413222639-surface-m7-L0-th0.2.normal-grids/xy/010275.grid",
+      "sha256": "6400bef1d195e3a0f29d5809402917090ef0df60030388eedb2e2270ef38acdf",
+      "old_anchor_matches": 0
+    },
+    {
+      "plane": 10307,
+      "axis": "xy",
+      "new_consensus_nodes": 51,
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/representations/predictions/surfaces/20250821151825-surface-20260413222639-surface-m7-L0-th0.2.normal-grids/xy/010307.grid",
+      "sha256": "f21cbe9908d2e00c7e870c42041ecf374dbfea0333c7621e56e97cb6c5e03371",
+      "old_anchor_matches": 0
+    },
+    {
+      "plane": 10339,
+      "axis": "xy",
+      "new_consensus_nodes": 49,
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/representations/predictions/surfaces/20250821151825-surface-20260413222639-surface-m7-L0-th0.2.normal-grids/xy/010339.grid",
+      "sha256": "9adc53ab2d29d5107189ac3fb58ae84bc1f5d1c7b7b7c6bbf4aee3bedd8fde17",
+      "old_anchor_matches": 0
+    },
+    {
+      "plane": 10371,
+      "axis": "xy",
+      "new_consensus_nodes": 51,
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/representations/predictions/surfaces/20250821151825-surface-20260413222639-surface-m7-L0-th0.2.normal-grids/xy/010371.grid",
+      "sha256": "94bd4bdf0e50c8136da3078ad15f545b01af99cb552cab634aeafbf17f2c5c84",
+      "old_anchor_matches": 0
+    },
+    {
+      "plane": 10403,
+      "axis": "xy",
+      "new_consensus_nodes": 47,
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/representations/predictions/surfaces/20250821151825-surface-20260413222639-surface-m7-L0-th0.2.normal-grids/xy/010403.grid",
+      "sha256": "eb4c6ea5e71d55bbe2cebffbe35489339ab31e56395d5ffaac0a2a626a91e557",
+      "old_anchor_matches": 0
+    },
+    {
+      "plane": 10435,
+      "axis": "xy",
+      "new_consensus_nodes": 0
+    },
+    {
+      "plane": 10467,
+      "axis": "xy",
+      "new_consensus_nodes": 0
+    },
+    {
+      "plane": 10499,
+      "axis": "xy",
+      "new_consensus_nodes": 0
+    },
+    {
+      "plane": 10531,
+      "axis": "xy",
+      "new_consensus_nodes": 20,
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/representations/predictions/surfaces/20250821151825-surface-20260413222639-surface-m7-L0-th0.2.normal-grids/xy/010531.grid",
+      "sha256": "869be980ac1823bcca44033a2aa6975b5b9ed034a83c85e518482c14e5d6179f",
+      "old_anchor_matches": 0
+    },
+    {
+      "plane": 10563,
+      "axis": "xy",
+      "new_consensus_nodes": 21,
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/representations/predictions/surfaces/20250821151825-surface-20260413222639-surface-m7-L0-th0.2.normal-grids/xy/010563.grid",
+      "sha256": "469d70c30992ed65222b85eb1d6f97cc885ac17c90d08b4598aa15c82b884d7e",
+      "old_anchor_matches": 1,
+      "polyline": 688,
+      "forward": false,
+      "entry_vertex": 119,
+      "old_anchor_median_y_error": 0.278602395605958,
+      "outward_reach_vox": 478,
+      "new_tested": 21,
+      "within_3_vox": 21,
+      "within_6_vox": 21,
+      "signed_differences": [
+        0.558203125000091,
+        0.9606445312501819,
+        0.8633300781248181,
+        0.770654296874909,
+        1.102783203125,
+        0.00014648437490905053,
+        -1.057812500000182,
+        -1.022265624999818,
+        -0.12753906250009095,
+        1.037353515625,
+        0.41713867187490905,
+        0.6731445312498181,
+        0.4425781250001819,
+        0.42919921875,
+        0.45849609375,
+        0.6613281250001819,
+        0.529199218749909,
+        0.43125000000009095,
+        0.1216308593748181,
+        0.6044921875,
+        -0.8763020833334849
+      ]
+    },
+    {
+      "plane": 10595,
+      "axis": "xy",
+      "new_consensus_nodes": 21,
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/representations/predictions/surfaces/20250821151825-surface-20260413222639-surface-m7-L0-th0.2.normal-grids/xy/010595.grid",
+      "sha256": "810c1572cb2cdab944ede35f95fa9c1acd616fa8a26f57e70d30af66d4eaa5cc",
+      "old_anchor_matches": 1,
+      "polyline": 796,
+      "forward": false,
+      "entry_vertex": 10,
+      "old_anchor_median_y_error": 0.19742482956007734,
+      "outward_reach_vox": 498,
+      "new_tested": 21,
+      "within_3_vox": 21,
+      "within_6_vox": 21,
+      "signed_differences": [
+        -0.584228515625,
+        -0.0888671875,
+        -0.0625,
+        -0.2355468750001819,
+        0.3195312500001819,
+        0.45302734374990905,
+        -0.02392578125,
+        0.33652343750009095,
+        -0.17128906249990905,
+        -0.05576171875009095,
+        -0.46616210937509095,
+        -0.39501953125,
+        -0.24575195312490905,
+        0.1532714843751819,
+        0.0925781249998181,
+        -0.43613281250009095,
+        -0.071533203125,
+        -0.25380859374990905,
+        0.1242187500001819,
+        -0.4999511718751819,
+        -0.4231445312498181
+      ]
+    },
+    {
+      "plane": 10627,
+      "axis": "xy",
+      "new_consensus_nodes": 16,
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0125/representations/predictions/surfaces/20250821151825-surface-20260413222639-surface-m7-L0-th0.2.normal-grids/xy/010627.grid",
+      "sha256": "d49285e599574ecb9b0019b5473a65b6e50413767c92528d1ff31afd561a0be6",
+      "old_anchor_matches": 1,
+      "polyline": 788,
+      "forward": true,
+      "entry_vertex": 110,
+      "old_anchor_median_y_error": 0.16374470390383067,
+      "outward_reach_vox": 122,
+      "new_tested": 14,
+      "within_3_vox": 14,
+      "within_6_vox": 14,
+      "signed_differences": [
+        0.2291992187501819,
+        -0.5712890625,
+        -1.246777343750182,
+        -0.1867187500001819,
+        0.7614257812501819,
+        0.7538574218751819,
+        0.521728515625,
+        -0.2414062500001819,
+        -1.337304687499909,
+        -1.470800781250091,
+        -1.07080078125,
+        -2.832763671875,
+        -0.4404296875,
+        -0.5286132812498181
+      ]
+    },
+    {
+      "plane": 10659,
+      "axis": "xy",
+      "new_consensus_nodes": 0
+    },
+    {
+      "plane": 10691,
+      "axis": "xy",
+      "new_consensus_nodes": 0
+    },
+    {
+      "plane": 10723,
+      "axis": "xy",
+      "new_consensus_nodes": 0
+    },
+    {
+      "plane": 10755,
+      "axis": "xy",
+      "new_consensus_nodes": 0
+    },
+    {
+      "plane": 10787,
+      "axis": "xy",
+      "new_consensus_nodes": 0
+    },
+    {
+      "plane": 10819,
+      "axis": "xy",
+      "new_consensus_nodes": 0
+    },
+    {
+      "plane": 10851,
+      "axis": "xy",
+      "new_consensus_nodes": 0
+    },
+    {
+      "plane": 10883,
+      "axis": "xy",
+      "new_consensus_nodes": 0
+    },
+    {
+      "plane": 10915,
+      "axis": "xy",
+      "new_consensus_nodes": 0
+    },
+    {
+      "plane": 10947,
+      "axis": "xy",
+      "new_consensus_nodes": 0
+    }
+  ]
+}
