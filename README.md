@@ -25,7 +25,7 @@ The Vesuvius Challenge's 2026 list of open problems names holes, merges and shee
 
 ## See it for yourself
 
-**[Open the interactive explorer](https://uekanem.com/vesuvius-surface-patches/)** and slide through all 16 test regions. For each one you can see the scan, the hand-drawn sheet labels, where official GrowPatch put the surface, and where the tiled blend moved it. You can also see exactly which parts the scorer counted. To run it on your own machine, run `python -m http.server -d docs` and open `http://localhost:8000`.
+**[Open the interactive explorer](https://vesuvius-surface-patches.github.io/)** and slide through all 16 test regions. For each one you can see the scan, the hand-drawn sheet labels, where official GrowPatch put the surface, and where the tiled blend moved it. You can also see exactly which parts the scorer counted. To run it on your own machine, run `python -m http.server -d docs` and open `http://localhost:8000`.
 
 ![A slice moving through test region external_06, showing the hand-labeled sheets, official GrowPatch and the tiled blend](figures/explorer_section_sweep.gif)
 
@@ -113,7 +113,7 @@ These are the same 16 held-out regions as above. The inner 96-voxel disc was the
 
 ![The scan read along each surface in three test regions, switching between official GrowPatch and the tiled blend](figures/explorer_surface_blink.gif)
 
-*The scan's brightness read along each surface, seen from above, switching between official GrowPatch and the tiled blend once a second. Bright, fibrous texture is papyrus. Dark patches are likely gaps between sheets. From left to right, they rank 13th, 8th and 4th of 16 by gain at cutoff 128 (largest gain first), a spread from below-average to above-average gains rather than the best cases. The [explorer](https://uekanem.com/vesuvius-surface-patches/) shows all 16.*
+*The scan's brightness read along each surface, seen from above, switching between official GrowPatch and the tiled blend once a second. Bright, fibrous texture is papyrus. Dark patches are likely gaps between sheets. From left to right, they rank 13th, 8th and 4th of 16 by gain at cutoff 128 (largest gain first), a spread from below-average to above-average gains rather than the best cases. The [explorer](https://vesuvius-surface-patches.github.io/) shows all 16.*
 
 **Fresh cubes.** The pre-registered draw of unused labeled cubes, with no cube or target ID shared with earlier cohorts, found only 4 that qualified. That is short of the 8 required, so they are descriptive only. Official GrowPatch was run on them at all three cutoffs. Within 128 voxels the locked tiled blend gained +7.9%, +17.4% and +79.8% (6.03 → 6.51, 7.24 → 8.51 and 2.72 → 4.89 mm²). It was better in 11 of the 12 region-cutoff pairs and tied in the 12th ([results](evidence/tiled/fresh_manual_fresh.json)).
 
@@ -169,7 +169,7 @@ The frozen four-scroll detector [`TequilaYuen/vesuvius-ink-9um-cross-scroll`](ht
 | [`examples/pherc125-blend-demo/`](examples/pherc125-blend-demo) | Official GrowPatch mesh on PHerc. 125, fetch script, expected single-seed and whole-mesh outputs |
 | [`reconstruction/`](reconstruction) | The ten meshes, source manifests, CT render and rebuild code, ink-reader example. Checksummed (`SHA256SUMS`) |
 | [`evidence/`](evidence) | Per-region held-out results for all three cutoffs, whole-mesh tiling results (development, held-out, fresh, ray transitions, lock), the failed stricter attempt (`evidence/safe/`), longer official GrowPatch run on the east extension, community-winding agreement masks |
-| [`docs/`](docs) | The interactive explorer: a static page for GitHub Pages, plus the images and traces it shows. `tools/explorer_meshes.py` and `tools/build_explorer.py` rebuild it from the project's data folder, and stop if the regenerated meshes or the counted areas differ from the held-out results file |
+| [`docs/`](docs) | The interactive explorer, published at https://vesuvius-surface-patches.github.io/, plus the images and traces it shows. `tools/explorer_meshes.py` and `tools/build_explorer.py` rebuild it from the project's data folder, and stop if the regenerated meshes or the counted areas differ from the held-out results file |
 | [`figures/`](figures) · [`tools/`](tools) | Figures in this README and the scripts that make them |
 
 ## Credits and terms
